@@ -1,0 +1,24 @@
+name: Credentialed smoke tests
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    env:
+      INFERENCESAVER_API_KEY: ${{ secrets.INFERENCESAVER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run sync-models
+      - run: npm run example:openai
+      - run: npm run example:anthropic
+      - run: npm run example:ai-sdk

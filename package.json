@@ -1,0 +1,27 @@
+{
+  "name": "inferencesaver-ai-gateway-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Credential-safe InferenceSaver integration starter",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "sync-models": "tsx src/sync-models.ts",
+    "example:openai": "tsx src/examples-openai.ts",
+    "example:anthropic": "tsx src/examples-anthropic.ts",
+    "example:ai-sdk": "tsx src/examples-ai-sdk.ts",
+    "smoke": "tsx src/smoke.ts",
+    "test": "tsx --test test/**/*.test.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "latest",
+    "@anthropic-ai/sdk": "latest",
+    "ai": "latest",
+    "openai": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">InferenceSaver AI Gateway</title>
+  <desc id="desc">A restrained header showing the InferenceSaver gateway connecting application code to model providers.</desc>
+  <rect width="1280" height="360" fill="#101418"/>
+  <rect x="0" y="0" width="12" height="360" fill="#f6c344"/>
+  <path d="M760 68h420M760 120h330M760 172h380M760 224h290M760 276h350" stroke="#26313a" stroke-width="2"/>
+  <circle cx="820" cy="68" r="6" fill="#5fcf9f"/>
+  <circle cx="940" cy="172" r="6" fill="#f6c344"/>
+  <circle cx="1090" cy="276" r="6" fill="#62a8ff"/>
+  <path d="M700 180h66m0 0-18-18m18 18-18 18" stroke="#f6c344" stroke-width="5" fill="none" stroke-linecap="square"/>
+  <rect x="70" y="72" width="52" height="52" fill="#f6c344"/>
+  <path d="M83 89h26v6H83zm0 12h19v6H83z" fill="#101418"/>
+  <text x="70" y="169" fill="#f7f8f8" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">InferenceSaver</text>
+  <text x="70" y="218" fill="#b8c1c7" font-family="Arial, Helvetica, sans-serif" font-size="25">One key. Account-scoped model discovery.</text>
+  <text x="70" y="258" fill="#b8c1c7" font-family="Arial, Helvetica, sans-serif" font-size="25">OpenAI-compatible and Anthropic endpoints.</text>
+</svg>

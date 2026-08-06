@@ -1,0 +1,35 @@
+name: Refresh account model catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Refresh normalized catalog
+        run: npm run sync-models
+        env:
+          INFERENCESAVER_API_KEY: ${{ secrets.INFERENCESAVER_API_KEY }}
+      - name: Verify generated scope
+        run: npm test
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/refresh-model-catalog
+          delete-branch: true
+          commit-message: "chore: refresh account model catalog"
+          title: "chore: refresh account model catalog"
+          body: "Automated refresh from authenticated /v1/models. Raw responses and credentials are not persisted."
+          add-paths: data/models.json
