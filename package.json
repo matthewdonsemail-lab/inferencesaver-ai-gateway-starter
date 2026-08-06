@@ -14,14 +14,14 @@
     "test": "tsx --test test/**/*.test.ts"
   },
   "dependencies": {
-    "@ai-sdk/openai-compatible": "latest",
-    "@anthropic-ai/sdk": "latest",
-    "ai": "latest",
-    "openai": "latest",
-    "zod": "latest"
+    "@ai-sdk/openai-compatible": "3.0.25",
+    "@anthropic-ai/sdk": "0.67.0",
+    "ai": "7.0.55",
+    "openai": "6.16.0",
+    "zod": "4.3.6"
   },
   "devDependencies": {
-    "tsx": "latest",
-    "typescript": "latest"
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
   }
 }

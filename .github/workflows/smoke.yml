@@ -11,11 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       INFERENCESAVER_API_KEY: ${{ secrets.INFERENCESAVER_API_KEY }}
+      INFERENCESAVER_OPENAI_MODEL: ${{ vars.INFERENCESAVER_OPENAI_MODEL }}
+      INFERENCESAVER_ANTHROPIC_MODEL: ${{ vars.INFERENCESAVER_ANTHROPIC_MODEL }}
+      INFERENCESAVER_AI_SDK_MODEL: ${{ vars.INFERENCESAVER_AI_SDK_MODEL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run sync-models

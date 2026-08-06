@@ -11,4 +11,4 @@ const client = new Anthropic({
 });
 ```
 
-Run `npm run sync-models` first, then `npm run example:anthropic`. Availability depends on the models enabled for the key. This starter demonstrates the Messages endpoint only and does not claim full Anthropic API compatibility.
+Run `npm run sync-models`, set `INFERENCESAVER_ANTHROPIC_MODEL` to a model independently verified for Messages, then run `npm run example:anthropic`. The example verifies that the ID is in the account-scoped catalog. Availability depends on the models enabled for the key; this starter does not infer compatibility from model names or claim full Anthropic API compatibility.

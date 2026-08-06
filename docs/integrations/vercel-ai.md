@@ -12,4 +12,4 @@ const inferencesaver = createOpenAICompatible({
 });
 ```
 
-Run `npm run sync-models` first, then `npm run example:ai-sdk`. This example exercises text generation through chat completions; it does not claim support for every AI SDK feature.
+Run `npm run sync-models`, set `INFERENCESAVER_AI_SDK_MODEL` to a model independently verified for chat completions, then run `npm run example:ai-sdk`. The example verifies that the ID is in the account-scoped catalog. It exercises text generation through chat completions and does not claim support for every AI SDK feature.

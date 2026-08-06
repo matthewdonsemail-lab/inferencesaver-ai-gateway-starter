@@ -16,18 +16,22 @@ This starter does not claim full OpenAI or Anthropic compatibility, stable model
 
 ## Quick start
 
-Requirements: Node.js 20+ and an InferenceSaver API key.
+Requirements: Node.js 22+ and an InferenceSaver API key.
 
 ```bash
 cp .env.example .env
 npm install
 npm run sync-models
+# Set each variable only after verifying that model supports that endpoint.
+# INFERENCESAVER_OPENAI_MODEL=...
+# INFERENCESAVER_ANTHROPIC_MODEL=...
+# INFERENCESAVER_AI_SDK_MODEL=...
 npm run example:openai
 npm run example:anthropic
 npm run example:ai-sdk
 ```
 
-The examples select a model from the authenticated catalog. They fail clearly when the catalog is empty or no model supports the requested endpoint. Set `INFERENCESAVER_API_KEY` in your shell or `.env`; never commit `.env`.
+The catalog does not expose endpoint capabilities. Each example therefore requires an independently verified model ID through `INFERENCESAVER_OPENAI_MODEL`, `INFERENCESAVER_ANTHROPIC_MODEL`, or `INFERENCESAVER_AI_SDK_MODEL`, and rejects IDs absent from the authenticated catalog. Set credentials and model IDs in your shell or `.env`; never commit `.env`.
 
 ## Model catalog
 

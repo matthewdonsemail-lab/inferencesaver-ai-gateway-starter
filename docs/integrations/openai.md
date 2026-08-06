@@ -11,4 +11,4 @@ const client = new OpenAI({
 });
 ```
 
-Run `npm run sync-models` first, then `npm run example:openai`. The example selects the first deterministic account-scoped model and sends a minimal `POST /v1/chat/completions` request. It logs status metadata and request ID only, not response content.
+Run `npm run sync-models`, set `INFERENCESAVER_OPENAI_MODEL` to a model independently verified for chat completions, then run `npm run example:openai`. The example verifies that the ID is in the account-scoped catalog and sends a minimal `POST /v1/chat/completions` request. It logs model and request ID metadata only, not response content.
