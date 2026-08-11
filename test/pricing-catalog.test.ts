@@ -62,3 +62,29 @@ test("mergeCatalogs sorts by id", () => {
   const merged = mergeCatalogs([{ id: "z" }], [{ id: "a", label: "A" }]);
   assert.deepEqual(merged.map((m) => m.id), ["a", "z"]);
 });
+
+
+test("normalizes a bare-array public catalog payload (live shape)", () => {
+  const records = normalizePricingModels([
+    {
+      rawName: "veo-3.1",
+      label: "Veo 3.1",
+      provider: "google",
+      tier: "Standard",
+      capability: "video",
+      supportedEndpoints: ["video_generation"],
+      contextWindow: 200000,
+      maxOutputTokens: 16384,
+      inputPricePerMillionUsd: 1.2,
+      outputPricePerMillionUsd: 1.2,
+      savingsPercent: 70,
+      enableGroups: ["default"],
+      pricingVersion: "abc",
+      api_key: "should-not-leak"
+    }
+  ]);
+  assert.equal(records.length, 1);
+  assert.equal(records[0].id, "veo-3.1");
+  assert.equal(records[0].inputPricePerMillionUsd, 1.2);
+  assert.ok(!("api_key" in records[0]), "secret fields dropped");
+});

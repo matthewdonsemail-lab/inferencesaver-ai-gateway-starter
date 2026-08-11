@@ -43,10 +43,21 @@ function extractId(item: Record<string, unknown>): string | undefined {
 }
 
 export function normalizePricingModels(payload: unknown): PricingRecord[] {
-  if (!payload || typeof payload !== "object" || !Array.isArray((payload as { data?: unknown }).data)) {
-    throw new Error("Unexpected pricing response: expected an object with a data array");
+  // The public catalog returns a bare array; keep the { data: [...] }
+  // envelope (OpenAI-style) accepted for future/alternate endpoints.
+  let items: unknown[];
+  if (Array.isArray(payload)) {
+    items = payload;
+  } else if (
+    payload &&
+    typeof payload === "object" &&
+    Array.isArray((payload as { data?: unknown }).data)
+  ) {
+    items = (payload as { data: unknown[] }).data;
+  } else {
+    throw new Error("Unexpected pricing response: expected a data array");
   }
-  return (payload as { data: unknown[] }).data.map((item, index) => {
+  return items.map((item, index) => {
     if (!item || typeof item !== "object") {
       throw new Error(`Unexpected pricing item at index ${index}: expected an object`);
     }
@@ -98,8 +109,13 @@ export function normalizePricingModels(payload: unknown): PricingRecord[] {
 
 export const DEFAULT_PRICING_URL = "https://inferencesaver.com/api/public/models";
 
+const BROWSER_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
+
 export async function fetchPricingCatalog(url = process.env.INFERENCESAVER_PRICING_URL ?? DEFAULT_PRICING_URL) {
-  const response = await fetch(url, { headers: { Accept: "application/json" } });
+  const response = await fetch(url, {
+    headers: { Accept: "application/json", "User-Agent": BROWSER_UA },
+  });
   if (!response.ok) throw new Error(`pricing catalog failed with HTTP ${response.status}`);
   return normalizePricingModels(await response.json());
 }
