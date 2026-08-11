@@ -5,7 +5,14 @@ export type ModelRecord = {
   object?: string;
   created?: number;
   owned_by?: string;
+  supported_endpoint_types?: string[];
 };
+
+function normalizeEndpointTypes(value: unknown): string[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const types = value.filter((t): t is string => typeof t === "string");
+  return types.length > 0 ? types : undefined;
+}
 
 export function normalizeModels(payload: unknown): ModelRecord[] {
   if (!payload || typeof payload !== "object" || !Array.isArray((payload as { data?: unknown }).data)) {
@@ -16,11 +23,13 @@ export function normalizeModels(payload: unknown): ModelRecord[] {
       throw new Error(`Unexpected /v1/models item at index ${index}: missing id`);
     }
     const value = item as Record<string, unknown>;
+    const supportedEndpointTypes = normalizeEndpointTypes(value.supported_endpoint_types);
     return {
       id: value.id as string,
       ...(typeof value.object === "string" ? { object: value.object } : {}),
       ...(typeof value.created === "number" ? { created: value.created } : {}),
-      ...(typeof value.owned_by === "string" ? { owned_by: value.owned_by } : {})
+      ...(typeof value.owned_by === "string" ? { owned_by: value.owned_by } : {}),
+      ...(supportedEndpointTypes ? { supported_endpoint_types: supportedEndpointTypes } : {})
     };
   }).sort((a, b) => a.id.localeCompare(b.id));
 }

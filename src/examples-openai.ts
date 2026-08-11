@@ -3,7 +3,7 @@ import { requireConfiguredModel } from "./select-model.js";
 
 const apiKey = process.env.INFERENCESAVER_API_KEY;
 if (!apiKey) throw new Error("INFERENCESAVER_API_KEY is required");
-const model = await requireConfiguredModel("INFERENCESAVER_OPENAI_MODEL");
+const model = await requireConfiguredModel("INFERENCESAVER_OPENAI_MODEL", "openai");
 const client = new OpenAI({ apiKey, baseURL: "https://api.inferencesaver.com/v1" });
 const response = await client.chat.completions.create({
   model,

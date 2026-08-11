@@ -5,211 +5,330 @@
       "id": "agnes-2.0-flash",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "agnes-image-2.1-flash",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "agnes-video-v2.0",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai-video"
+      ]
     },
     {
       "id": "claude-fable-5",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-haiku-4-5-20251001",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "vertex-ai"
+      "owned_by": "vertex-ai",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-opus-4-6",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "vertex-ai"
+      "owned_by": "vertex-ai",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-opus-4-7",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-opus-4-8",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-opus-5",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-sonnet-4-6",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "vertex-ai"
+      "owned_by": "vertex-ai",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "claude-sonnet-5",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "deepseek-v4-flash",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gemini-3.1-pro-preview",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "vertex-ai"
+      "owned_by": "vertex-ai",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ]
     },
     {
       "id": "gemini-3.5-flash",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ]
     },
     {
       "id": "glm-5.2",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.4",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "codex"
+      "owned_by": "codex",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.4-mini",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.5",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.5-openai-compact",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.6-luna",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.6-sol",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-5.6-terra",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "gpt-image-2",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "grok-4.5",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai",
+        "openai-response"
+      ]
     },
     {
       "id": "grok-imagine-video",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "xai"
+      "owned_by": "xai",
+      "supported_endpoint_types": [
+        "openai-video"
+      ]
     },
     {
       "id": "Hunyuan-MT",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "kimi-k3",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "anthropic",
+        "openai"
+      ]
     },
     {
       "id": "mimo-v2.5-tts",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "music-2.6",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "music-2.6-free",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "music-cover",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "music-cover-free",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
     },
     {
       "id": "Nano-Banana",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ]
     },
     {
       "id": "nano-banana-2",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ]
     },
     {
       "id": "veo-3.1",
       "object": "model",
       "created": 1626777600,
-      "owned_by": "custom"
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai-video"
+      ]
     }
   ]
 }

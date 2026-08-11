@@ -31,11 +31,11 @@ npm run example:anthropic
 npm run example:ai-sdk
 ```
 
-The catalog does not expose endpoint capabilities. Each example therefore requires an independently verified model ID through `INFERENCESAVER_OPENAI_MODEL`, `INFERENCESAVER_ANTHROPIC_MODEL`, or `INFERENCESAVER_AI_SDK_MODEL`, and rejects IDs absent from the authenticated catalog. Set credentials and model IDs in your shell or `.env`; never commit `.env`.
+The catalog exposes each model's `supported_endpoint_types` (e.g. `openai`, `anthropic`, `gemini`, `openai-video`) as a capability signal from the upstream account catalog. Each example still requires an independently verified model ID through `INFERENCESAVER_OPENAI_MODEL`, `INFERENCESAVER_ANTHROPIC_MODEL`, or `INFERENCESAVER_AI_SDK_MODEL`; `requireConfiguredModel` rejects IDs absent from the authenticated catalog, and — when the catalog entry lists `supported_endpoint_types` — also rejects a configured model that doesn't support the endpoint the example is about to call. Set credentials and model IDs in your shell or `.env`; never commit `.env`.
 
 ## Model catalog
 
-`npm run sync-models` calls the authenticated `/v1/models` endpoint and commits only the normalized fields `id`, `object`, `created`, and `owned_by` when present. The raw response stays in process memory and is never written to disk or logged. The generated `data/models.json` is account/key-scoped and should not be treated as a universal catalog.
+`npm run sync-models` calls the authenticated `/v1/models` endpoint and commits the normalized fields `id`, `object`, `created`, `owned_by`, and `supported_endpoint_types` when present. The raw response stays in process memory and is never written to disk or logged. The generated `data/models.json` is account/key-scoped and should not be treated as a universal catalog. `supported_endpoint_types` reflects only which request shape the gateway routes a model through (chat vs. video vs. Anthropic-native, etc.) as reported upstream — it is not a full capability description (context window, streaming, tool use, and similar remain untested by this starter).
 
 ## Integrations
 
