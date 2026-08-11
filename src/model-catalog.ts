@@ -1,4 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
+import type { PricingRecord } from "./pricing-catalog.js";
+
 
 export type ModelRecord = {
   id: string;
@@ -52,4 +54,27 @@ if (import.meta.url === `file://${process.argv[1]?.replaceAll("\\\\", "/")}`) {
   const models = await fetchModels();
   await writeCatalog(models);
   console.log(`Wrote ${models.length} normalized models to data/models.json`);
+}
+
+
+
+export type MergedModelRecord = ModelRecord & PricingRecord & { available_to_key: boolean };
+
+export function mergeCatalogs(
+  authModels: ModelRecord[],
+  pricingModels: PricingRecord[],
+): MergedModelRecord[] {
+  const pricingById = new Map<string, PricingRecord>();
+  for (const record of pricingModels) pricingById.set(record.id, record);
+
+  const byId = new Map<string, MergedModelRecord>();
+  for (const model of authModels) {
+    byId.set(model.id, { ...model, ...(pricingById.get(model.id) ?? {}), available_to_key: true });
+  }
+  for (const record of pricingModels) {
+    if (!byId.has(record.id)) {
+      byId.set(record.id, { id: record.id, ...record, available_to_key: false });
+    }
+  }
+  return Array.from(byId.values()).sort((a, b) => a.id.localeCompare(b.id));
 }

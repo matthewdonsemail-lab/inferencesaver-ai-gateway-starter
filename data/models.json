@@ -2,32 +2,35 @@
   "object": "list",
   "data": [
     {
-      "id": "Hunyuan-MT",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai"
-      ]
-    },
-    {
-      "id": "Nano-Banana",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "gemini",
-        "openai"
-      ]
-    },
-    {
       "id": "agnes-2.0-flash",
       "object": "model",
       "created": 1626777600,
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Agnes 2.0 Flash",
+      "provider": "other",
+      "family": "Agnes",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "agnes-2.5-flash",
@@ -36,7 +39,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Agnes 2.5 Flash",
+      "provider": "other",
+      "family": "Agnes",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "agnes-image-2.1-flash",
@@ -45,7 +70,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Agnes Image 2.1 Flash",
+      "provider": "other",
+      "family": "Agnes",
+      "tier": "Fast",
+      "capability": "image",
+      "supportedEndpoints": [
+        "image_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f",
+      "available_to_key": true
     },
     {
       "id": "agnes-video-v2.0",
@@ -54,7 +101,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai-video"
-      ]
+      ],
+      "label": "Agnes Video V2.0",
+      "provider": "other",
+      "family": "Agnes",
+      "tier": "Standard",
+      "capability": "video",
+      "supportedEndpoints": [
+        "video_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-fable-5",
@@ -64,7 +133,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Claude Fable 5",
+      "provider": "anthropic",
+      "family": "Claude",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 10,
+      "outputPricePerMillionUsd": 50,
+      "originalInputPricePerMillionUsd": 20,
+      "originalOutputPricePerMillionUsd": 100,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 1,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-haiku-4-5-20251001",
@@ -74,7 +165,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Haiku 4.5.20251001",
+      "provider": "anthropic",
+      "family": "Haiku",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 8192,
+      "inputPricePerMillionUsd": 1,
+      "outputPricePerMillionUsd": 5,
+      "originalInputPricePerMillionUsd": 2,
+      "originalOutputPricePerMillionUsd": 10,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.1,
+      "cacheWritePricePerMillionUsd": 1.25,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-opus-4-6",
@@ -84,7 +197,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Opus 4.6",
+      "provider": "anthropic",
+      "family": "Opus",
+      "tier": "Flagship",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 25,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 50,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 6.25,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-opus-4-7",
@@ -94,7 +229,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Opus 4.7",
+      "provider": "anthropic",
+      "family": "Opus",
+      "tier": "Flagship",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 25,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 50,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 6.25,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-opus-4-8",
@@ -104,7 +261,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Opus 4.8",
+      "provider": "anthropic",
+      "family": "Opus",
+      "tier": "Flagship",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 25,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 50,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 6.25,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-opus-5",
@@ -114,7 +293,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Opus 5",
+      "provider": "anthropic",
+      "family": "Opus",
+      "tier": "Flagship",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 25,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 50,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-sonnet-4-6",
@@ -124,7 +325,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Sonnet 4.6",
+      "provider": "anthropic",
+      "family": "Sonnet",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 400000,
+      "maxOutputTokens": 64000,
+      "inputPricePerMillionUsd": 3,
+      "outputPricePerMillionUsd": 15,
+      "originalInputPricePerMillionUsd": 6,
+      "originalOutputPricePerMillionUsd": 30,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.30000000000000004,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "claude-sonnet-5",
@@ -134,7 +357,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Sonnet 5",
+      "provider": "anthropic",
+      "family": "Sonnet",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 400000,
+      "maxOutputTokens": 64000,
+      "inputPricePerMillionUsd": 2,
+      "outputPricePerMillionUsd": 10,
+      "originalInputPricePerMillionUsd": 4,
+      "originalOutputPricePerMillionUsd": 20,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.2,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "deepseek-v4-flash",
@@ -143,7 +388,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Deepseek V4 Flash",
+      "provider": "deepseek",
+      "family": "V4",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 128000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.25,
+      "outputPricePerMillionUsd": 0.5,
+      "originalInputPricePerMillionUsd": 0.5,
+      "originalOutputPricePerMillionUsd": 1,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.05,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gemini-3.1-pro-preview",
@@ -153,7 +420,29 @@
       "supported_endpoint_types": [
         "gemini",
         "openai"
-      ]
+      ],
+      "label": "Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "family": "Gemini",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 1000000,
+      "maxOutputTokens": 65536,
+      "inputPricePerMillionUsd": 2,
+      "outputPricePerMillionUsd": 12,
+      "originalInputPricePerMillionUsd": 4,
+      "originalOutputPricePerMillionUsd": 24,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.2,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gemini-3.5-flash",
@@ -163,7 +452,29 @@
       "supported_endpoint_types": [
         "gemini",
         "openai"
-      ]
+      ],
+      "label": "Gemini 3.5 Flash",
+      "provider": "google",
+      "family": "Gemini",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 1000000,
+      "maxOutputTokens": 65536,
+      "inputPricePerMillionUsd": 1.5,
+      "outputPricePerMillionUsd": 9,
+      "originalInputPricePerMillionUsd": 3,
+      "originalOutputPricePerMillionUsd": 18,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.15000000000000002,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "glm-5.2",
@@ -172,7 +483,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Glm 5.2",
+      "provider": "zhipu",
+      "family": "Glm",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 1.4,
+      "outputPricePerMillionUsd": 4.3999999999998,
+      "originalInputPricePerMillionUsd": 2.8,
+      "originalOutputPricePerMillionUsd": 8.7999999999996,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.2599999999996,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.4",
@@ -181,7 +514,29 @@
       "owned_by": "codex",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.4",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 272000,
+      "maxOutputTokens": 128000,
+      "inputPricePerMillionUsd": 2.5,
+      "outputPricePerMillionUsd": 15,
+      "originalInputPricePerMillionUsd": 5,
+      "originalOutputPricePerMillionUsd": 30,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.25,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.4-mini",
@@ -190,7 +545,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.4 Mini",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Fast",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 272000,
+      "maxOutputTokens": 65536,
+      "inputPricePerMillionUsd": 0.75,
+      "outputPricePerMillionUsd": 4.5,
+      "originalInputPricePerMillionUsd": 1.5,
+      "originalOutputPricePerMillionUsd": 9,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.07500000000000001,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.5",
@@ -199,7 +576,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.5",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 400000,
+      "maxOutputTokens": 128000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 40,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 80,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.5-openai-compact",
@@ -208,7 +607,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.5 Openai Compact",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Efficient",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 400000,
+      "maxOutputTokens": 65536,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 40,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 80,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.6-luna",
@@ -217,7 +638,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.6 Luna",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 272000,
+      "maxOutputTokens": 128000,
+      "inputPricePerMillionUsd": 1,
+      "outputPricePerMillionUsd": 8,
+      "originalInputPricePerMillionUsd": 2,
+      "originalOutputPricePerMillionUsd": 16,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.1,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.6-sol",
@@ -226,7 +669,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.6 Sol",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 272000,
+      "maxOutputTokens": 128000,
+      "inputPricePerMillionUsd": 5,
+      "outputPricePerMillionUsd": 40,
+      "originalInputPricePerMillionUsd": 10,
+      "originalOutputPricePerMillionUsd": 80,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-5.6-terra",
@@ -235,7 +700,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt 5.6 Terra",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Powerful",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 272000,
+      "maxOutputTokens": 128000,
+      "inputPricePerMillionUsd": 2.5,
+      "outputPricePerMillionUsd": 20,
+      "originalInputPricePerMillionUsd": 5,
+      "originalOutputPricePerMillionUsd": 40,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.25,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "gpt-image-2",
@@ -244,7 +731,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Gpt Image 2",
+      "provider": "openai",
+      "family": "Gpt",
+      "tier": "Standard",
+      "capability": "image",
+      "supportedEndpoints": [
+        "image_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.4,
+      "outputPricePerMillionUsd": 0.4,
+      "originalInputPricePerMillionUsd": 0.8,
+      "originalOutputPricePerMillionUsd": 0.8,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "grok-4.5",
@@ -254,7 +763,29 @@
       "supported_endpoint_types": [
         "openai",
         "openai-response"
-      ]
+      ],
+      "label": "Grok 4.5",
+      "provider": "xai",
+      "family": "Grok",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 2,
+      "outputPricePerMillionUsd": 6,
+      "originalInputPricePerMillionUsd": 4,
+      "originalOutputPricePerMillionUsd": 12,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.5,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "grok-imagine-video",
@@ -263,7 +794,60 @@
       "owned_by": "xai",
       "supported_endpoint_types": [
         "openai-video"
-      ]
+      ],
+      "label": "Grok Imagine Video",
+      "provider": "xai",
+      "family": "Grok",
+      "tier": "Standard",
+      "capability": "video",
+      "supportedEndpoints": [
+        "video_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 1,
+      "outputPricePerMillionUsd": 1,
+      "originalInputPricePerMillionUsd": 2,
+      "originalOutputPricePerMillionUsd": 2,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
+    },
+    {
+      "id": "Hunyuan-MT",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ],
+      "label": "Hunyuan MT",
+      "provider": "other",
+      "family": "Hunyuan",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.02,
+      "outputPricePerMillionUsd": 0.04,
+      "originalInputPricePerMillionUsd": 0.04,
+      "originalOutputPricePerMillionUsd": 0.08,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.002,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "kimi-k3",
@@ -273,7 +857,29 @@
       "supported_endpoint_types": [
         "anthropic",
         "openai"
-      ]
+      ],
+      "label": "Kimi K3",
+      "provider": "moonshot",
+      "family": "Kimi",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 3.5,
+      "outputPricePerMillionUsd": 17.5,
+      "originalInputPricePerMillionUsd": 7,
+      "originalOutputPricePerMillionUsd": 35,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0.35000000000000003,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "mimo-v2.5-tts",
@@ -282,7 +888,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Mimo V2.5 Tts",
+      "provider": "other",
+      "family": "Mimo",
+      "tier": "Standard",
+      "capability": "audio",
+      "supportedEndpoints": [
+        "audio_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "music-2.6",
@@ -291,7 +919,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Music 2.6",
+      "provider": "other",
+      "family": "Music",
+      "tier": "Standard",
+      "capability": "audio",
+      "supportedEndpoints": [
+        "audio_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.3,
+      "outputPricePerMillionUsd": 0.3,
+      "originalInputPricePerMillionUsd": 0.6,
+      "originalOutputPricePerMillionUsd": 0.6,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "music-2.6-free",
@@ -300,7 +950,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Music 2.6 Free",
+      "provider": "other",
+      "family": "Music",
+      "tier": "Standard",
+      "capability": "audio",
+      "supportedEndpoints": [
+        "audio_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.3,
+      "outputPricePerMillionUsd": 0.3,
+      "originalInputPricePerMillionUsd": 0.6,
+      "originalOutputPricePerMillionUsd": 0.6,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "music-cover",
@@ -309,7 +981,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Music Cover",
+      "provider": "other",
+      "family": "Music",
+      "tier": "Standard",
+      "capability": "audio",
+      "supportedEndpoints": [
+        "audio_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.3,
+      "outputPricePerMillionUsd": 0.3,
+      "originalInputPricePerMillionUsd": 0.6,
+      "originalOutputPricePerMillionUsd": 0.6,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "music-cover-free",
@@ -318,7 +1012,61 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai"
-      ]
+      ],
+      "label": "Music Cover Free",
+      "provider": "other",
+      "family": "Music",
+      "tier": "Standard",
+      "capability": "audio",
+      "supportedEndpoints": [
+        "audio_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.3,
+      "outputPricePerMillionUsd": 0.3,
+      "originalInputPricePerMillionUsd": 0.6,
+      "originalOutputPricePerMillionUsd": 0.6,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
+    },
+    {
+      "id": "Nano-Banana",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ],
+      "label": "Nano Banana",
+      "provider": "other",
+      "family": "Nano",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.1,
+      "outputPricePerMillionUsd": 0.1,
+      "originalInputPricePerMillionUsd": 0.2,
+      "originalOutputPricePerMillionUsd": 0.2,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "nano-banana-2",
@@ -328,7 +1076,29 @@
       "supported_endpoint_types": [
         "gemini",
         "openai"
-      ]
+      ],
+      "label": "Nano Banana 2",
+      "provider": "other",
+      "family": "Nano",
+      "tier": "Standard",
+      "capability": "chat",
+      "supportedEndpoints": [
+        "chat"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0.16,
+      "outputPricePerMillionUsd": 0.16,
+      "originalInputPricePerMillionUsd": 0.32,
+      "originalOutputPricePerMillionUsd": 0.32,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     },
     {
       "id": "veo-3.1",
@@ -337,7 +1107,29 @@
       "owned_by": "custom",
       "supported_endpoint_types": [
         "openai-video"
-      ]
+      ],
+      "label": "Veo 3.1",
+      "provider": "other",
+      "family": "Veo",
+      "tier": "Standard",
+      "capability": "video",
+      "supportedEndpoints": [
+        "video_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 1.2,
+      "outputPricePerMillionUsd": 1.2,
+      "originalInputPricePerMillionUsd": 2.4,
+      "originalOutputPricePerMillionUsd": 2.4,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
     }
   ]
 }

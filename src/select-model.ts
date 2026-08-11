@@ -8,10 +8,17 @@ export async function requireConfiguredModel(
 ) {
   const configuredId = process.env[variableName];
   if (!configuredId) throw new Error(`${variableName} is required; set it to an independently verified model for this endpoint`);
-  const catalog = JSON.parse(await readFile(path, "utf8")) as { data?: ModelRecord[] };
+  const catalog = JSON.parse(await readFile(path, "utf8")) as {
+    data?: Array<ModelRecord & { available_to_key?: boolean }>;
+  };
   const model = catalog.data?.find((m) => m.id === configuredId);
   if (!model) {
     throw new Error(`${variableName} does not name a model in the authenticated data/models.json catalog`);
+  }
+  if (model.available_to_key === false) {
+    throw new Error(
+      `${variableName}=${configuredId} exists in the pricing catalog but is not available to the configured INFERENCESAVER_API_KEY`
+    );
   }
   if (
     expectedEndpointType &&
