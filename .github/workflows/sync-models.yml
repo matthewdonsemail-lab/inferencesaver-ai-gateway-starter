@@ -3,7 +3,8 @@ name: Refresh account model catalog
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 6 * * 1"
+    # 5x per day: 01:00, 06:00, 11:00, 16:00, 21:00 UTC
+    - cron: "0 1,6,11,16,21 * * *"
 
 permissions:
   contents: write
