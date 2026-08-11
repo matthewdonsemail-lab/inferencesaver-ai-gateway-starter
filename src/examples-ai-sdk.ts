@@ -4,7 +4,7 @@ import { requireConfiguredModel } from "./select-model.js";
 
 const apiKey = process.env.INFERENCESAVER_API_KEY;
 if (!apiKey) throw new Error("INFERENCESAVER_API_KEY is required");
-const model = await requireConfiguredModel("INFERENCESAVER_AI_SDK_MODEL");
+const model = await requireConfiguredModel("INFERENCESAVER_AI_SDK_MODEL", "openai");
 const inferencesaver = createOpenAICompatible({
   name: "inferencesaver",
   apiKey,

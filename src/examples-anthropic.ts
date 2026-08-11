@@ -3,7 +3,7 @@ import { requireConfiguredModel } from "./select-model.js";
 
 const apiKey = process.env.INFERENCESAVER_API_KEY;
 if (!apiKey) throw new Error("INFERENCESAVER_API_KEY is required");
-const model = await requireConfiguredModel("INFERENCESAVER_ANTHROPIC_MODEL");
+const model = await requireConfiguredModel("INFERENCESAVER_ANTHROPIC_MODEL", "anthropic");
 const client = new Anthropic({ apiKey, baseURL: "https://api.inferencesaver.com" });
 const response = await client.messages.create({
   model,
