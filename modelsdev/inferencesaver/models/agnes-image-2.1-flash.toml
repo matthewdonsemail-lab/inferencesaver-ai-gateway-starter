@@ -1,0 +1,20 @@
+name = "Agnes Image 2.1 Flash"
+description = "Image generation model served by InferenceSaver over an OpenAI-compatible API."
+attachment = false
+reasoning = false
+tool_call = true
+release_date = "2026-08-11"
+last_updated = "2026-08-11"
+open_weights = false
+
+[cost]
+input = 0
+output = 0
+
+[limit]
+context = 200000
+output = 16384
+
+[modalities]
+input = ["text"]
+output = ["image"]

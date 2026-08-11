@@ -1,0 +1,11 @@
+base_model = "anthropic/claude-fable-5"
+reasoning_options = [{ type = "toggle" }, { type = "budget_tokens", min = 1_024, max = 63_999 }]
+
+[cost]
+input = 10
+output = 50
+cache_read = 1
+
+[limit]
+context = 200000
+output = 16384

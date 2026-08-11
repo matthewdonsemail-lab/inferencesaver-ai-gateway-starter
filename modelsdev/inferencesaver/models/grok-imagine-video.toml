@@ -1,0 +1,9 @@
+base_model = "xai/grok-imagine-video-1.5"
+
+[cost]
+input = 1
+output = 1
+
+[limit]
+context = 200000
+output = 16384

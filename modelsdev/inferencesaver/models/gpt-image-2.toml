@@ -1,0 +1,9 @@
+base_model = "openai/gpt-image-2"
+
+[cost]
+input = 0.4
+output = 0.4
+
+[limit]
+context = 200000
+output = 16384

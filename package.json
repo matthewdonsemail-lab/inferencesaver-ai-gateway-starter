@@ -11,7 +11,8 @@
     "example:anthropic": "tsx src/examples-anthropic.ts",
     "example:ai-sdk": "tsx src/examples-ai-sdk.ts",
     "smoke": "tsx src/smoke.ts",
-    "test": "tsx --test test/**/*.test.ts"
+    "test": "tsx --test test/**/*.test.ts",
+    "modelsdev:export": "tsx src/modelsdev-export.ts"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "3.0.25",

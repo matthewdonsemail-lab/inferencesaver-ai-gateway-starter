@@ -1,0 +1,11 @@
+base_model = "zhipuai/glm-5.2"
+reasoning_options = [{ type = "toggle" }, { type = "effort", values = ["low", "medium", "high"] }]
+
+[cost]
+input = 1.4
+output = 4.3999999999998
+cache_read = 0.2599999999996
+
+[limit]
+context = 200000
+output = 16384
