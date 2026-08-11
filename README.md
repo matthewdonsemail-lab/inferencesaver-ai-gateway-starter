@@ -42,6 +42,33 @@ The catalog exposes each model's `supported_endpoint_types` (e.g. `openai`, `ant
 
 The merge is keyed by model `id` and each entry carries `available_to_key: true|false` so a restricted key still sees the full pricing universe while `requireConfiguredModel` (and any client) can tell exactly which models the configured key can actually call. Raw responses stay in process memory and are never written to disk or logged. `supported_endpoint_types` reflects only which request shape the gateway routes a model through (chat vs. video vs. Anthropic-native, etc.) as reported upstream; pricing and context-window fields come from the public pricing catalog and may trail the live gateway.
 
+## models.dev submission
+
+`npm run modelsdev:export` turns the merged `data/models.json` into a
+submission tree compatible with the [models.dev](https://models.dev) open
+registry (`anomalyco/models.dev`):
+
+```text
+modelsdev/
+  REVIEW.md                         # facts to verify before PR
+  inferencesaver/
+    provider.toml                   # npm, api, env, doc
+    logo.svg                        # placeholder - replace with official mark
+    models/<id>.toml                # one file per catalog model
+```
+
+- Models whose lab counterpart already exists in models.dev are emitted as
+  `base_model` overrides (cost, limits, reasoning_options only).
+- InferenceSaver-unique models (agnes-*, music-*, Nano-Banana, ...) get full
+  inline definitions with all schema-required fields.
+- The output is validated against models.dev's own `bun validate` (36/36
+  models pass as of the last sync).
+
+To submit: copy `modelsdev/inferencesaver/` into a fork of
+`anomalyco/models.dev`, address `REVIEW.md`, add the official logo, and open
+the PR. The weekly sync plus `npm run modelsdev:export` keeps the submission
+current with the live gateway catalog.
+
 ## Integrations
 
 - [OpenAI SDK and compatible clients](docs/integrations/openai.md)
