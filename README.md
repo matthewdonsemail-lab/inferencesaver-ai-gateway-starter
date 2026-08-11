@@ -35,7 +35,12 @@ The catalog exposes each model's `supported_endpoint_types` (e.g. `openai`, `ant
 
 ## Model catalog
 
-`npm run sync-models` calls the authenticated `/v1/models` endpoint and commits the normalized fields `id`, `object`, `created`, `owned_by`, and `supported_endpoint_types` when present. The raw response stays in process memory and is never written to disk or logged. The generated `data/models.json` is account/key-scoped and should not be treated as a universal catalog. `supported_endpoint_types` reflects only which request shape the gateway routes a model through (chat vs. video vs. Anthropic-native, etc.) as reported upstream — it is not a full capability description (context window, streaming, tool use, and similar remain untested by this starter).
+`npm run sync-models` builds one merged, human-readable catalog and commits it as `data/models.json`:
+
+1. **Authenticated `/v1/models`** (requires `INFERENCESAVER_API_KEY`) — the account-scoped availability list with the gateway's capability signal `supported_endpoint_types` (`openai`, `anthropic`, `gemini`, `openai-video`, `openai-response`).
+2. **Public pricing catalog** (`https://inferencesaver.com/api/public/models`, overridable with `INFERENCESAVER_PRICING_URL`, no auth) — per-model pricing metadata: `label`, `provider`, `family`, `tier`, `capability`, `supportedEndpoints`, `contextWindow`, `maxOutputTokens`, `inputPricePerMillionUsd`, `outputPricePerMillionUsd`, original list prices, `savingsPercent`, cache read/write prices, and `pricingVersion`.
+
+The merge is keyed by model `id` and each entry carries `available_to_key: true|false` so a restricted key still sees the full pricing universe while `requireConfiguredModel` (and any client) can tell exactly which models the configured key can actually call. Raw responses stay in process memory and are never written to disk or logged. `supported_endpoint_types` reflects only which request shape the gateway routes a model through (chat vs. video vs. Anthropic-native, etc.) as reported upstream; pricing and context-window fields come from the public pricing catalog and may trail the live gateway.
 
 ## Integrations
 

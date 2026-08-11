@@ -31,5 +31,5 @@ jobs:
           delete-branch: true
           commit-message: "chore: refresh account model catalog"
           title: "chore: refresh account model catalog"
-          body: "Automated refresh from authenticated /v1/models. Raw responses and credentials are not persisted."
+          body: "Automated refresh: authenticated /v1/models (account availability + supported_endpoint_types) merged with the public pricing catalog (per-M pricing, context window, savings). Raw responses and credentials are not persisted."
           add-paths: data/models.json
