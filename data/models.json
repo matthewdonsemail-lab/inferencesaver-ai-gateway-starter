@@ -2,7 +2,35 @@
   "object": "list",
   "data": [
     {
+      "id": "Hunyuan-MT",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
+    },
+    {
+      "id": "Nano-Banana",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "gemini",
+        "openai"
+      ]
+    },
+    {
       "id": "agnes-2.0-flash",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ]
+    },
+    {
+      "id": "agnes-2.5-flash",
       "object": "model",
       "created": 1626777600,
       "owned_by": "custom",
@@ -238,15 +266,6 @@
       ]
     },
     {
-      "id": "Hunyuan-MT",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai"
-      ]
-    },
-    {
       "id": "kimi-k3",
       "object": "model",
       "created": 1626777600,
@@ -298,16 +317,6 @@
       "created": 1626777600,
       "owned_by": "custom",
       "supported_endpoint_types": [
-        "openai"
-      ]
-    },
-    {
-      "id": "Nano-Banana",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "gemini",
         "openai"
       ]
     },
