@@ -91,7 +91,7 @@
       "enableGroups": [
         "default"
       ],
-      "pricingVersion": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f",
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
       "available_to_key": true
     },
     {
@@ -399,12 +399,12 @@
       ],
       "contextWindow": 128000,
       "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 0.25,
-      "outputPricePerMillionUsd": 0.5,
-      "originalInputPricePerMillionUsd": 0.5,
-      "originalOutputPricePerMillionUsd": 1,
+      "inputPricePerMillionUsd": 0.02,
+      "outputPricePerMillionUsd": 0.02,
+      "originalInputPricePerMillionUsd": 0.04,
+      "originalOutputPricePerMillionUsd": 0.04,
       "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.05,
+      "cacheReadPricePerMillionUsd": 0.02,
       "cacheWritePricePerMillionUsd": 0,
       "enableGroups": [
         "default"
@@ -494,12 +494,12 @@
       ],
       "contextWindow": 200000,
       "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 1.4,
-      "outputPricePerMillionUsd": 4.3999999999998,
-      "originalInputPricePerMillionUsd": 2.8,
-      "originalOutputPricePerMillionUsd": 8.7999999999996,
+      "inputPricePerMillionUsd": 0.02,
+      "outputPricePerMillionUsd": 0.02,
+      "originalInputPricePerMillionUsd": 0.04,
+      "originalOutputPricePerMillionUsd": 0.04,
       "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.2599999999996,
+      "cacheReadPricePerMillionUsd": 0.02,
       "cacheWritePricePerMillionUsd": 0,
       "enableGroups": [
         "default"
@@ -909,7 +909,7 @@
       "enableGroups": [
         "default"
       ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "pricingVersion": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f",
       "available_to_key": true
     },
     {
