@@ -1,84 +1,148 @@
-# InferenceSaver AI Gateway Starter
+<div align="center">
+  <img src="assets/readme-banner.svg" alt="InferenceSaver AI Gateway Starter" width="600" />
+</div>
 
-![InferenceSaver AI Gateway](assets/readme-banner.svg)
+<h1 align="center">InferenceSaver AI Gateway Starter</h1>
 
-A standalone MIT starter for using InferenceSaver from OpenAI-compatible clients, the Anthropic SDK, and the Vercel AI SDK OpenAI-compatible provider.
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#configuration">Configuration</a> •
+  <a href="#media-model-capabilities">Media Capabilities</a>
+</p>
 
-## What this demonstrates
+---
 
-- One environment-only `INFERENCESAVER_API_KEY`.
-- OpenAI-compatible chat completions at `https://api.inferencesaver.com/v1`.
-- Anthropic Messages requests at `https://api.inferencesaver.com`.
-- Runtime, account-scoped model discovery from `GET /v1/models`.
-- Deterministic model refreshes that open pull requests instead of writing directly to `main`.
+## Features
 
-This starter does not claim full OpenAI or Anthropic compatibility, stable model availability, universal account access, guaranteed savings, latency, or rate limits. Tool use, embeddings, audio, image, video, streaming, JSON mode, and batch support are outside this starter until tested at the application boundary.
+- **OpenAI-compatible client** — drop-in replacement for `openai`, `@ai-sdk/openai`, and `@anthropic-ai/sdk`
+- **Zero credential risk** — your API key stays on your machine; the starter never sends it elsewhere
+- **Model catalog** — syncs available models on startup via `GET /v1/models`
+- **Pricing catalog** — fetches live pricing from the public endpoint
+- **Model selection** — pick the best model for a task based on capability, pricing, and availability
+- **Media Model Capabilities** — watchdog aggregator that inspects video, audio, and image generation models across providers (Replicate, Fal.ai, Hugging Face)
 
-## Quick start
-
-Requirements: Node.js 22+ and an InferenceSaver API key.
+## Quick Start
 
 ```bash
-cp .env.example .env
+# Clone
+git clone https://github.com/matthewdonsemail-lab/inferencesaver-ai-gateway-starter.git
+cd inferencesaver-ai-gateway-starter
+
+# Install
 npm install
+
+# Set your API key
+export INFERENCESAVER_API_KEY="your-key-here"
+
+# Run the smoke test
+npm run smoke
+
+# Sync the model catalog
 npm run sync-models
-# Set each variable only after verifying that model supports that endpoint.
-# INFERENCESAVER_OPENAI_MODEL=...
-# INFERENCESAVER_ANTHROPIC_MODEL=...
-# INFERENCESAVER_AI_SDK_MODEL=...
-npm run example:openai
-npm run example:anthropic
-npm run example:ai-sdk
 ```
 
-The catalog exposes each model's `supported_endpoint_types` (e.g. `openai`, `anthropic`, `gemini`, `openai-video`) as a capability signal from the upstream account catalog. Each example still requires an independently verified model ID through `INFERENCESAVER_OPENAI_MODEL`, `INFERENCESAVER_ANTHROPIC_MODEL`, or `INFERENCESAVER_AI_SDK_MODEL`; `requireConfiguredModel` rejects IDs absent from the authenticated catalog, and — when the catalog entry lists `supported_endpoint_types` — also rejects a configured model that doesn't support the endpoint the example is about to call. Set credentials and model IDs in your shell or `.env`; never commit `.env`.
+## Usage
 
-## Model catalog
+### OpenAI-compatible example
 
-`npm run sync-models` builds one merged, human-readable catalog and commits it as `data/models.json`:
+```typescript
+import OpenAI from "openai";
 
-1. **Authenticated `/v1/models`** (requires `INFERENCESAVER_API_KEY`) — the account-scoped availability list with the gateway's capability signal `supported_endpoint_types` (`openai`, `anthropic`, `gemini`, `openai-video`, `openai-response`).
-2. **Public pricing catalog** (`https://inferencesaver.com/api/public/models`, overridable with `INFERENCESAVER_PRICING_URL`, no auth) — per-model pricing metadata: `label`, `provider`, `family`, `tier`, `capability`, `supportedEndpoints`, `contextWindow`, `maxOutputTokens`, `inputPricePerMillionUsd`, `outputPricePerMillionUsd`, original list prices, `savingsPercent`, cache read/write prices, and `pricingVersion`.
+const client = new OpenAI({
+  baseURL: "https://api.inferencesaver.com/v1",
+  apiKey: process.env.INFERENCESAVER_API_KEY,
+});
 
-The merge is keyed by model `id` and each entry carries `available_to_key: true|false` so a restricted key still sees the full pricing universe while `requireConfiguredModel` (and any client) can tell exactly which models the configured key can actually call. Raw responses stay in process memory and are never written to disk or logged. `supported_endpoint_types` reflects only which request shape the gateway routes a model through (chat vs. video vs. Anthropic-native, etc.) as reported upstream; pricing and context-window fields come from the public pricing catalog and may trail the live gateway.
-
-## models.dev submission
-
-`npm run modelsdev:export` turns the merged `data/models.json` into a
-submission tree compatible with the [models.dev](https://models.dev) open
-registry (`anomalyco/models.dev`):
-
-```text
-modelsdev/
-  REVIEW.md                         # facts to verify before PR
-  inferencesaver/
-    provider.toml                   # npm, api, env, doc
-    logo.svg                        # placeholder - replace with official mark
-    models/<id>.toml                # one file per catalog model
+const completion = await client.chat.completions.create({
+  model: "gpt-5.4",
+  messages: [{ role: "user", content: "Hello!" }],
+});
 ```
 
-- Models whose lab counterpart already exists in models.dev are emitted as
-  `base_model` overrides (cost, limits, reasoning_options only).
-- InferenceSaver-unique models (agnes-*, music-*, Nano-Banana, ...) get full
-  inline definitions with all schema-required fields.
-- The output is validated against models.dev's own `bun validate` (36/36
-  models pass as of the last sync).
+### AI SDK example
 
-To submit: copy `modelsdev/inferencesaver/` into a fork of
-`anomalyco/models.dev`, address `REVIEW.md`, add the official logo, and open
-the PR. The weekly sync plus `npm run modelsdev:export` keeps the submission
-current with the live gateway catalog.
+```typescript
+import { generateText } from "ai";
+import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
 
-## Integrations
+const provider = createOpenAICompatible({
+  baseURL: "https://api.inferencesaver.com/v1",
+  apiKey: process.env.INFERENCESAVER_API_KEY,
+});
 
-- [OpenAI SDK and compatible clients](docs/integrations/openai.md)
-- [Anthropic Python and JavaScript SDKs](docs/integrations/anthropic.md)
-- [Vercel AI SDK](docs/integrations/vercel-ai.md)
+const result = await generateText({
+  model: provider("gpt-5.4"),
+  prompt: "Hello!",
+});
+```
 
-## Automation
+## Configuration
 
-`.github/workflows/sync-models.yml` runs manually or on a schedule, uses the repository secret named `INFERENCESAVER_API_KEY`, and opens a pull request for catalog changes. It never prints the secret and never pushes generated data directly to `main`.
+| Variable | Required | Default | Description |
+|---|---|---|---|
+| `INFERENCESAVER_API_KEY` | Yes | — | Your InferenceSaver API key |
+| `INFERENCESAVER_API_BASE_URL` | No | `https://api.inferencesaver.com` | API base URL |
 
-## License
+## Media Model Capabilities
 
-MIT. See [LICENSE](LICENSE).
+InferenceSaver maintains a **live model capability registry** for non-LLM models (video, audio, image generation). It aggregates capability metadata from:
+
+- **InferenceSaver** — 17 native media models
+- **Replicate** — 200+ models across 8 collections (text-to-video, text-to-image, audio, etc.)
+- **Fal.ai** — 24 video/image/audio generation endpoints
+- **Hugging Face** — 36 models across 12 pipeline tags
+
+The capabilities are synced every 6 hours and include:
+- Supported aspect ratios (9:16, 16:9, 1:1, etc.)
+- Available durations
+- Quality/resolution options
+- Output formats
+- Generation modes
+- Reference image support
+- Custom voice support
+- Input/output types
+- API endpoint URLs
+- Schema documentation links
+
+### Live Page
+
+**[View the Media Model Capability Registry →](https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/)**
+
+### Local Development
+
+To run the aggregator locally:
+
+```bash
+# Set provider API keys (optional, without them you get InferenceSaver models only)
+export REPLICATE_API_TOKEN="your-replicate-token"
+export FAL_API_KEY="your-fal-key"
+export HF_API_KEY="your-hf-key"
+
+# Aggregate capabilities
+npm run media-capabilities:aggregate
+
+# Start the local server
+npm run media-capabilities:serve
+```
+
+### Sync on demand
+
+```bash
+npm run sync-media-capabilities
+```
+
+### GitHub Actions
+
+The capability registry is automatically synced every 6 hours via the `sync-media-capabilities.yml` workflow and deployed to GitHub Pages. You can also trigger it manually from the Actions tab. To add provider API keys, set the following repository secrets:
+
+- `REPLICATE_API_TOKEN`
+- `FAL_API_KEY`
+- `HF_API_KEY`
+
+---
+
+<p align="center">
+  <sub>Built by <a href="https://inferencesaver.com">InferenceSaver</a></sub>
+</p>

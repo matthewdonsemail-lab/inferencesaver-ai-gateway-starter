@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InferenceSaver — Media Model Capabilities</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <style>
+    body { background: #0a0a0f; color: #e2e8f0; font-family: system-ui, -apple-system, sans-serif; }
+    .card { background: #1a1a2e; border: 1px solid #2a2a4a; border-radius: 12px; transition: border-color 0.2s; }
+    .card:hover { border-color: #4a4a6a; }
+    .badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 999px; font-weight: 500; }
+    .badge-video { background: #1e3a5f; color: #93c5fd; }
+    .badge-audio { background: #3b1f3b; color: #d8b4fe; }
+    .badge-image { background: #1f3b1f; color: #86efac; }
+    .badge-replicate { background: #1e293b; color: #94a3b8; }
+    .badge-fala { background: #1c1917; color: #fdba74; }
+    .badge-huggingface { background: #1a1a2e; color: #a78bfa; }
+    .badge-inferencesaver { background: #0f172a; color: #38bdf8; }
+    .stat-card { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: 1px solid #2a2a4a; border-radius: 12px; }
+    .filter-btn { transition: all 0.2s; }
+    .filter-btn:hover { transform: translateY(-1px); }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0a0a0f; }
+    ::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 3px; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    .loading { animation: pulse 2s infinite; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <div id="app" class="p-4 md:p-8 max-w-7xl mx-auto">
+    <!-- Header -->
+    <header class="mb-8">
+      <div class="flex items-center gap-3 mb-2">
+        <span class="text-3xl">🎬</span>
+        <h1 class="text-2xl md:text-3xl font-bold text-white">Media Model Capabilities</h1>
+      </div>
+      <p class="text-gray-400 text-sm md:text-base">Non-LLM model registry — video, audio, and image generation models from InferenceSaver, Replicate, Fal.ai, and Hugging Face</p>
+      <div id="last-updated" class="text-xs text-gray-600 mt-1"></div>
+    </header>
+
+    <!-- Stats -->
+    <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8"></div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-2 mb-6">
+      <button onclick="loadData()" class="filter-btn px-4 py-2 bg-blue-600/80 rounded-lg text-white hover:bg-blue-600 text-sm font-medium" id="filter-all">All</button>
+      <button onclick="loadData('video')" class="filter-btn px-4 py-2 bg-blue-600/30 rounded-lg text-white hover:bg-blue-600/60 text-sm font-medium" id="filter-video">🎥 Video</button>
+      <button onclick="loadData('audio')" class="filter-btn px-4 py-2 bg-purple-600/30 rounded-lg text-white hover:bg-purple-600/60 text-sm font-medium" id="filter-audio">🎵 Audio</button>
+      <button onclick="loadData('image')" class="filter-btn px-4 py-2 bg-green-600/30 rounded-lg text-white hover:bg-green-600/60 text-sm font-medium" id="filter-image">🖼️ Image</button>
+      <div class="flex-1"></div>
+      <div class="relative">
+        <input id="search" type="text" placeholder="Search models..." oninput="filterModels()" class="w-full md:w-64 px-3 py-2 bg-[#1a1a2e] border border-[#2a2a4a] rounded-lg text-white text-sm placeholder-gray-500 focus:outline-none focus:border-blue-500">
+      </div>
+    </div>
+
+    <!-- Provider filter pills -->
+    <div class="flex flex-wrap gap-2 mb-6">
+      <button onclick="setProvider('all')" class="filter-btn px-3 py-1.5 bg-gray-700/50 rounded-full text-white hover:bg-gray-700 text-xs" id="prov-all">All Providers</button>
+      <button onclick="setProvider('inferencesaver')" class="filter-btn px-3 py-1.5 bg-blue-900/50 rounded-full text-white hover:bg-blue-900/80 text-xs" id="prov-inferencesaver">InferenceSaver</button>
+      <button onclick="setProvider('replicate')" class="filter-btn px-3 py-1.5 bg-gray-600/50 rounded-full text-white hover:bg-gray-600/80 text-xs" id="prov-replicate">Replicate</button>
+      <button onclick="setProvider('fala')" class="filter-btn px-3 py-1.5 bg-amber-900/50 rounded-full text-white hover:bg-amber-900/80 text-xs" id="prov-fala">Fal.ai</button>
+      <button onclick="setProvider('huggingface')" class="filter-btn px-3 py-1.5 bg-purple-900/50 rounded-full text-white hover:bg-purple-900/80 text-xs" id="prov-huggingface">Hugging Face</button>
+    </div>
+
+    <!-- Model count -->
+    <div id="model-count" class="text-sm text-gray-500 mb-4"></div>
+
+    <!-- Model cards -->
+    <div id="models" class="grid gap-3"></div>
+  </div>
+
+  <script>
+    const API = "media-capabilities.json";
+    let allData = [];
+    let currentModality = null;
+    let currentProvider = "all";
+    let searchQuery = "";
+
+    async function loadData(modality) {
+      currentModality = modality || null;
+      
+      // Update active filter button
+      document.querySelectorAll("[id^='filter-']").forEach(b => {
+        b.className = b.className.replace(/bg-\w+-\d+\/\d+/g, 'bg-\w+-\d+\/\d+');
+      });
+      document.getElementById("models").innerHTML = '<div class="text-center text-gray-500 py-20 loading">Loading capabilities...</div>';
+
+      try {
+        const res = await fetch(API);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        allData = data.capabilities || [];
+        
+        // Update last updated
+        if (data.generatedAt) {
+          document.getElementById("last-updated").textContent = "Last synced: " + new Date(data.generatedAt).toLocaleString();
+        }
+        
+        renderStats(data);
+        applyFilters();
+      } catch (e) {
+        document.getElementById("models").innerHTML = 
+          '<div class="text-center py-20"><p class="text-xl text-gray-400 mb-2">Could not load capability data</p><p class="text-sm text-gray-600">' + 
+          e.message + '</p><p class="text-sm text-gray-600 mt-4">Make sure the data file exists at data/media-capabilities.json</p></div>';
+      }
+    }
+
+    function renderStats(data) {
+      const caps = data.capabilities || [];
+      const total = caps.length;
+      const byModality = { video: 0, audio: 0, image: 0 };
+      caps.forEach(c => { if (byModality[c.modality] !== undefined) byModality[c.modality]++; });
+      
+      const byProvider = {};
+      caps.forEach(c => { byProvider[c.provider] = (byProvider[c.provider] || 0) + 1; });
+
+      document.getElementById("stats").innerHTML = [
+        '<div class="stat-card p-4 text-center"><div class="text-2xl md:text-3xl font-bold text-white">' + total + '</div><div class="text-xs text-gray-400 mt-1">Total Models</div></div>',
+        '<div class="stat-card p-4 text-center"><div class="text-2xl md:text-3xl font-bold text-blue-400">' + (byModality.video || 0) + '</div><div class="text-xs text-gray-400 mt-1">Video</div></div>',
+        '<div class="stat-card p-4 text-center"><div class="text-2xl md:text-3xl font-bold text-purple-400">' + (byModality.audio || 0) + '</div><div class="text-xs text-gray-400 mt-1">Audio</div></div>',
+        '<div class="stat-card p-4 text-center"><div class="text-2xl md:text-3xl font-bold text-green-400">' + (byModality.image || 0) + '</div><div class="text-xs text-gray-400 mt-1">Image</div></div>',
+      ].join("");
+    }
+
+    function setProvider(provider) {
+      currentProvider = provider;
+      document.querySelectorAll("[id^='prov-']").forEach(b => {
+        b.className = b.className.replace(/bg-\w+-\d+\/\d+/g, 'bg-gray-700/50');
+      });
+      const el = document.getElementById("prov-" + provider);
+      if (el) {
+        if (provider === 'all') el.className = 'filter-btn px-3 py-1.5 bg-gray-700/50 rounded-full text-white hover:bg-gray-700 text-xs';
+        else if (provider === 'inferencesaver') el.className = 'filter-btn px-3 py-1.5 bg-blue-900/50 rounded-full text-white hover:bg-blue-900/80 text-xs';
+        else if (provider === 'replicate') el.className = 'filter-btn px-3 py-1.5 bg-gray-600/50 rounded-full text-white hover:bg-gray-600/80 text-xs';
+        else if (provider === 'fala') el.className = 'filter-btn px-3 py-1.5 bg-amber-900/50 rounded-full text-white hover:bg-amber-900/80 text-xs';
+        else if (provider === 'huggingface') el.className = 'filter-btn px-3 py-1.5 bg-purple-900/50 rounded-full text-white hover:bg-purple-900/80 text-xs';
+      }
+      applyFilters();
+    }
+
+    function filterModels() {
+      searchQuery = document.getElementById("search").value.toLowerCase();
+      applyFilters();
+    }
+
+    function applyFilters() {
+      let filtered = allData;
+      
+      if (currentModality) {
+        filtered = filtered.filter(m => m.modality === currentModality);
+      }
+      if (currentProvider !== "all") {
+        filtered = filtered.filter(m => m.provider === currentProvider);
+      }
+      if (searchQuery) {
+        filtered = filtered.filter(m => 
+          (m.name || "").toLowerCase().includes(searchQuery) ||
+          (m.id || "").toLowerCase().includes(searchQuery) ||
+          (m.provider || "").toLowerCase().includes(searchQuery) ||
+          (m.capability || "").toLowerCase().includes(searchQuery)
+        );
+      }
+
+      document.getElementById("model-count").textContent = filtered.length + " models" + (currentModality ? " (" + currentModality + ")" : "");
+
+      if (filtered.length === 0) {
+        document.getElementById("models").innerHTML = '<div class="text-center text-gray-500 py-20">No models match your filters</div>';
+        return;
+      }
+
+      document.getElementById("models").innerHTML = filtered.map(m => {
+        const modality = m.modality || "unknown";
+        const provider = m.provider || "unknown";
+        const caps = [
+          m.aspectRatios ? '<span class="text-gray-400">Aspect Ratios:</span> <span class="text-gray-200">' + m.aspectRatios.join(", ") + '</span>' : null,
+          m.durationOptions ? '<span class="text-gray-400">Durations:</span> <span class="text-gray-200">' + m.durationOptions.map(d => d + "s").join(", ") + '</span>' : null,
+          m.maxDurationSeconds ? '<span class="text-gray-400">Max Duration:</span> <span class="text-gray-200">' + m.maxDurationSeconds + "s</span>" : null,
+          m.qualityOptions ? '<span class="text-gray-400">Qualities:</span> <span class="text-gray-200">' + m.qualityOptions.join(", ") + '</span>' : null,
+          m.outputFormats ? '<span class="text-gray-400">Formats:</span> <span class="text-gray-200">' + m.outputFormats.join(", ") + '</span>' : null,
+          m.generationModes ? '<span class="text-gray-400">Modes:</span> <span class="text-gray-200">' + m.generationModes.join(", ") + '</span>' : null,
+          m.supportsReferenceImages ? '<span class="text-green-400">✓ Reference Images</span>' : null,
+          m.supportsCustomVoice ? '<span class="text-purple-400">✓ Custom Voice</span>' : null,
+          m.inputTypes ? '<span class="text-gray-400">Inputs:</span> <span class="text-gray-200">' + m.inputTypes.join(", ") + '</span>' : null,
+          m.outputTypes ? '<span class="text-gray-400">Outputs:</span> <span class="text-gray-200">' + m.outputTypes.join(", ") + '</span>' : null,
+        ].filter(Boolean);
+
+        return '<div class="card p-4 md:p-5">' +
+          '<div class="flex items-start justify-between mb-3">' +
+          '<div class="min-w-0 flex-1">' +
+          '<h3 class="text-base md:text-lg font-semibold text-white truncate">' + (m.name || m.id) + '</h3>' +
+          '<p class="text-xs text-gray-500 mt-0.5 truncate">' + m.id + '</p>' +
+          '</div>' +
+          '<div class="flex gap-1.5 ml-2 shrink-0">' +
+          '<span class="badge badge-' + modality + '">' + modality + '</span>' +
+          '<span class="badge badge-' + provider + '">' + provider + '</span>' +
+          '</div>' +
+          '</div>' +
+          (caps.length ? '<div class="flex flex-wrap gap-x-3 gap-y-1 text-xs mb-3">' + caps.map(c => '<span>' + c + '</span>').join("") + '</div>' : '') +
+          '<div class="flex flex-wrap gap-x-4 gap-y-0.5 text-xs text-gray-600">' +
+          (m.capability ? '<span>Capability: <span class="text-gray-400">' + m.capability + '</span></span>' : '') +
+          (m.endpointUrl ? '<span>Endpoint: <a href="' + m.endpointUrl + '" class="text-blue-400 hover:underline" target="_blank" rel="noopener">' + m.endpointUrl.replace(/^https?:\/\//, '').slice(0,40) + '…</a></span>' : '') +
+          (m.schemaUrl ? '<span><a href="' + m.schemaUrl + '" class="text-blue-400 hover:underline" target="_blank" rel="noopener">Schema ↗</a></span>' : '') +
+          '</div>' +
+          '</div>';
+      }).join("");
+    }
+
+    // Load on page load
+    loadData();
+  </script>
+</body>
+</html>
