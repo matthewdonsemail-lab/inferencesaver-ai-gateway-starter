@@ -17,6 +17,15 @@ export type PricingRecord = {
   cacheWritePricePerMillionUsd?: number;
   enableGroups?: string[];
   pricingVersion?: string | null;
+  /** Per-generation fuel cost for Media Studio surfaces. When set, this
+   *  overrides the API per-token pricing for media studio generation. */
+  mediaStudioCost?: number;
+  /** Surface-specific Media Studio capability (e.g. "image_generation",
+   *  "video_generation", "audio_generation"). */
+  mediaStudioCapability?: string;
+  /** Per-model Media Studio generation controls (aspect ratios, durations,
+   *  qualities, output formats, etc.). */
+  mediaStudioControls?: Record<string, unknown>;
 };
 
 function optionalNumber(value: unknown): number | undefined {
@@ -36,6 +45,10 @@ function optionalStringArray(value: unknown): string[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const items = value.filter((v): v is string => typeof v === "string" && v.length > 0);
   return items.length > 0 ? items : undefined;
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return Boolean(value) && typeof value === "object" && !Array.isArray(value);
 }
 
 function extractId(item: Record<string, unknown>): string | undefined {
@@ -103,6 +116,13 @@ export function normalizePricingModels(payload: unknown): PricingRecord[] {
         : value.pricingVersion === null
           ? { pricingVersion: null }
           : {}),
+      ...(optionalNumber(value.mediaStudioCost) !== undefined
+        ? { mediaStudioCost: optionalNumber(value.mediaStudioCost) }
+        : {}),
+      ...(optionalString(value.mediaStudioCapability)
+        ? { mediaStudioCapability: optionalString(value.mediaStudioCapability) }
+        : {}),
+      ...(isRecord(value.mediaStudioControls) ? { mediaStudioControls: value.mediaStudioControls } : {}),
     };
   });
 }
