@@ -9,6 +9,7 @@
     "sync-models": "tsx src/sync-models.ts",
     "sync-media-capabilities": "tsx src/media-capabilities/sync.ts",
     "media-capabilities:aggregate": "tsx src/media-capabilities/aggregator.ts",
+    "media-capabilities:validate": "tsx src/media-capabilities/validate.ts",
     "media-capabilities:serve": "tsx src/media-capabilities/server.ts",
     "example:openai": "tsx src/examples-openai.ts",
     "example:anthropic": "tsx src/examples-anthropic.ts",

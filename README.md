@@ -143,6 +143,42 @@ The capability registry is automatically synced every 6 hours via the `sync-medi
 
 ---
 
+## Submitting Model Capabilities
+
+We welcome contributions from model providers. To add or update models in the registry:
+
+1. **Fork the repository** and create a new branch
+2. **Edit `data/media-capabilities.json`** — add your model entry following the schema in `src/media-capabilities/schema.ts`
+3. **Run the validator**:
+   ```bash
+   npm run media-capabilities:validate
+   ```
+4. **Open a pull request** — the PR Checker workflow will automatically:
+   - Validate the schema and data format
+   - Check provider API connectivity (if API keys are configured)
+   - Comment the validation results on the PR
+   - Create a check with pass/fail status
+
+### What the PR Checker validates
+
+| Check | Description |
+|---|---|
+| Schema | Required fields exist (`id`, `provider`, `modelId`, `modality`, `capability`) |
+| Modality | Must be one of `video`, `audio`, `image` |
+| Capability | Must be one of `video_generation`, `image_generation`, `audio_generation`, `audio_transcription`, `motion_control` |
+| Aspect ratios | Validated against common formats (`1:1`, `9:16`, `16:9`, `4:5`, `3:4`, `21:9`, `auto`) |
+| Durations | Must be numeric, 1–3600s |
+| Quality options | Validated against standard patterns (`480p`, `720p`, `standard`, `hd`, `pro`, etc.) |
+| Consistency | Image models should have `aspectRatios`; audio models should have `outputFormats` |
+| Duplicates | Duplicate `(provider, id)` pairs are flagged |
+| API connectivity | Replicate, Fal.ai, and Hugging Face endpoints are tested (if secrets are set) |
+
+### PR template
+
+When submitting, use the [model submission template](.github/ISSUE_TEMPLATE/model-submission.md) to ensure all required information is included.
+
+---
+
 <p align="center">
   <sub>Built by <a href="https://inferencesaver.com">InferenceSaver</a></sub>
 </p>

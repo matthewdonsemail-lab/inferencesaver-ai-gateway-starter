@@ -1,0 +1,117 @@
+name: PR Checker — Model capability validation
+
+on:
+  pull_request:
+    paths:
+      - "data/media-capabilities.json"
+      - "src/media-capabilities/**"
+    types: [opened, synchronize, reopened]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      checks: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate schema
+        id: validate
+        run: |
+          npx tsx src/media-capabilities/validate.ts data/media-capabilities.json > /tmp/validation.txt 2>&1
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+          echo "output<<EOF" >> $GITHUB_OUTPUT
+          cat /tmp/validation.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Test provider API connectivity
+        id: api-check
+        continue-on-error: true
+        env:
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          FAL_API_KEY: ${{ secrets.FAL_API_KEY }}
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
+        run: |
+          echo "### Provider API Connectivity" > /tmp/api_check.md
+          
+          # Check Replicate
+          if [ -n "$REPLICATE_API_TOKEN" ]; then
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://api.replicate.com/v1/collections/text-to-video" \
+              -H "Authorization: Bearer $REPLICATE_API_TOKEN" --max-time 10)
+            echo "- Replicate: HTTP $HTTP_CODE" >> /tmp/api_check.md
+          else
+            echo "- Replicate: No API key configured" >> /tmp/api_check.md
+          fi
+
+          # Check HuggingFace
+          if [ -n "$HF_API_KEY" ]; then
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "https://huggingface.co/api/models?pipeline_tag=text-to-video&limit=1" \
+              -H "Authorization: Bearer $HF_API_KEY" --max-time 10)
+            echo "- HuggingFace: HTTP $HTTP_CODE" >> /tmp/api_check.md
+          else
+            echo "- HuggingFace: No API key configured" >> /tmp/api_check.md
+          fi
+
+          echo "api_check_output<<EOF" >> $GITHUB_OUTPUT
+          cat /tmp/api_check.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Comment PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const validationOutput = `${{ steps.validate.outputs.output }}`;
+            const apiCheck = `${{ steps.api-check.outputs.api_check_output }}`;
+            const exitCode = ${{ steps.validate.outputs.exit_code }};
+            const passed = exitCode === 0;
+
+            const body = `## 🔍 PR Checker — Model Capability Validation
+
+            **Status:** ${passed ? "✅ Passed" : "❌ Failed"}
+
+            ### Schema Validation
+            \`\`\`
+            ${validationOutput}
+            \`\`\`
+
+            ${apiCheck ? `### Provider API Connectivity
+            ${apiCheck}
+            ` : ""}
+
+            ---
+            _This check was automatically run by the PR Checker workflow._
+            `;
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+
+            // Set the check status
+            await github.rest.checks.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: "Model Capability Validation",
+              head_sha: context.sha,
+              status: "completed",
+              conclusion: passed ? "success" : "failure",
+              output: {
+                title: "Model Capability Validation",
+                summary: `${passed ? "All validations passed" : "Validation failed"}`,
+                text: validationOutput
+              }
+            });
