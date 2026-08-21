@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-08-21T14:05:25.741Z",
+  "generatedAt": "2026-08-21T14:26:38.367Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-video-v2.0",
@@ -444,6 +444,5508 @@
       "supportsCustomVoice": true,
       "endpointUrl": "https://api.inferencesaver.com/v1/audio/speech",
       "source": "inferencesaver"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-i2v",
+      "name": "wan-2.7-i2v",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-i2v",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-i2v/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-i2v/predictions/versions/b2d9c361e32024e17b7080c0bd351775be2a8cf732e04a4feb11c8653a40b1c1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:39.178Z"
+    },
+    {
+      "id": "replicate/google/veo-3-fast",
+      "name": "veo-3-fast",
+      "provider": "replicate",
+      "modelId": "google/veo-3-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3-fast/predictions/versions/368d4063e21ecf73746b8e6d27989837d97ba07b5eca43a4e5488c852e10c2ec",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:39.436Z"
+    },
+    {
+      "id": "replicate/google/veo-3",
+      "name": "veo-3",
+      "provider": "replicate",
+      "modelId": "google/veo-3",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3/predictions/versions/5e80c73750ffc5dfbe5cee2d694c6ed3da7706660d9132613e6736443b365464",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:39.703Z"
+    },
+    {
+      "id": "replicate/open-mmlab/pia",
+      "name": "pia",
+      "provider": "replicate",
+      "modelId": "open-mmlab/pia",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/open-mmlab/pia/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/open-mmlab/pia/predictions/versions/7a673cec329e8f9c51a96791030103467e04aad905cc0319ad6501eb2d54e91b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:39.949Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-r2v",
+      "name": "wan-2.7-r2v",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-r2v",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-r2v/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-r2v/predictions/versions/00f2bfc4cadaa306f7d52b705c06aee00a53457f6a5aa5bd72a67e4e08627a41",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:40.218Z"
+    },
+    {
+      "id": "replicate/veed/fabric-1.0",
+      "name": "fabric-1.0",
+      "provider": "replicate",
+      "modelId": "veed/fabric-1.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/veed/fabric-1.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/veed/fabric-1.0/predictions/versions/21b8969754f69b351c76ca49e4f1b10a88b162433a36cbcc9849ff64bbee6283",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:40.463Z"
+    },
+    {
+      "id": "replicate/fofr/tooncrafter",
+      "name": "tooncrafter",
+      "provider": "replicate",
+      "modelId": "fofr/tooncrafter",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/tooncrafter/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/tooncrafter/predictions/versions/0486ff07368e816ec3d5c69b9581e7a09b55817f567a0d74caad9395c9295c77",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:40.690Z"
+    },
+    {
+      "id": "replicate/minimax/hailuo-2.3",
+      "name": "hailuo-2.3",
+      "provider": "replicate",
+      "modelId": "minimax/hailuo-2.3",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3/predictions/versions/23a02633b5a44780345a59d4d43f8bd510efa239c56f08f29639ff24fa6615e1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:40.977Z"
+    },
+    {
+      "id": "replicate/lightricks/ltx-video",
+      "name": "ltx-video",
+      "provider": "replicate",
+      "modelId": "lightricks/ltx-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video/predictions/versions/8c47da666861d081eeb4d1261853087de23923a268a69b63febdf5dc1dee08e4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:41.211Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-2.0",
+      "name": "seedance-2.0",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-2.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0/predictions/versions/a6dcbae88b153e75fcccabacfb0eb430ab5be0a7ae27b316fc6f983658b349bc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:41.491Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.5-i2v-fast",
+      "name": "wan-2.5-i2v-fast",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.5-i2v-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v-fast/predictions/versions/66226b38d223f8ac7a81aa33b8519759e300c2f9818a215e32900827ad6d2db5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:41.761Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.5-i2v",
+      "name": "wan-2.5-i2v",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.5-i2v",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v/predictions/versions/1b29bbbbfdbc25bba2294de3acd2b58b82e5b623f183880cdb37d76133d80f00",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:42.133Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v2.5-turbo-pro",
+      "name": "kling-v2.5-turbo-pro",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v2.5-turbo-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.5-turbo-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.5-turbo-pro/predictions/versions/a3ccc39250a72749ced345996ec06d96d1d032b1a1369f45f3b9f654324036b5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:42.398Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-1-pro-fast",
+      "name": "seedance-1-pro-fast",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-1-pro-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro-fast/predictions/versions/155d6d446da5e7cd4a2ef72725461ba8687bdf63a2a1fb7bb574f25af24dc7b5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:42.466Z"
+    },
+    {
+      "id": "replicate/alibaba/happyhorse-1.0",
+      "name": "happyhorse-1.0",
+      "provider": "replicate",
+      "modelId": "alibaba/happyhorse-1.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.0/predictions/versions/d867e39d045d6449a05b8dd3bc10ea3acca69b99aebc34b831809c09cd523527",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:42.744Z"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
+      "name": "wan-2.1-i2v-720p",
+      "provider": "replicate",
+      "modelId": "wavespeedai/wan-2.1-i2v-720p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-720p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-720p/predictions/versions/1f0a7fa066689a087b597a314f60ef74d1a720fa1fb9a7083487c4b01db3395f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:43.010Z"
+    },
+    {
+      "id": "replicate/minimax/hailuo-2.3-fast",
+      "name": "hailuo-2.3-fast",
+      "provider": "replicate",
+      "modelId": "minimax/hailuo-2.3-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3-fast/predictions/versions/c92f075dfd04541f1c1913a9689f778ecf76bfec3dd9fdfe19903a86e07f2cdc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:43.270Z"
+    },
+    {
+      "id": "replicate/prunaai/p-video-animate",
+      "name": "p-video-animate",
+      "provider": "replicate",
+      "modelId": "prunaai/p-video-animate",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-animate/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video-animate/predictions/versions/bb85a3375c583d53293a184296791cbaa837f73bcc30ed2b16154e539eb11af0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:43.550Z"
+    },
+    {
+      "id": "replicate/luma/ray-3.2",
+      "name": "ray-3.2",
+      "provider": "replicate",
+      "modelId": "luma/ray-3.2",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-3.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-3.2/predictions/versions/6e0a55010a0a28e18fca6fca8774b6791dde643648f6ac3e98209f5a96ca3c6c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:43.782Z"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
+      "name": "wan-2.1-i2v-480p",
+      "provider": "replicate",
+      "modelId": "wavespeedai/wan-2.1-i2v-480p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-480p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-480p/predictions/versions/e2870aa4965fd9ddfd87c16a3c8ab952c18e745e63f3f3b123c2dc8b538ad2b5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:44.046Z"
+    },
+    {
+      "id": "replicate/alibaba/happyhorse-1.1",
+      "name": "happyhorse-1.1",
+      "provider": "replicate",
+      "modelId": "alibaba/happyhorse-1.1",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.1/predictions/versions/57e8eee02a055de60a4dee9ba0d36ac7c8ea4a5714575e8d58dcfae3c150f7b3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:44.297Z"
+    },
+    {
+      "id": "replicate/lightricks/ltx-video-0.9.7",
+      "name": "ltx-video-0.9.7",
+      "provider": "replicate",
+      "modelId": "lightricks/ltx-video-0.9.7",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7/predictions/versions/b1a80c6dbce390c23bb52aecebc0e09d445ac12136dd4dc539350c76030fc815",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:44.610Z"
+    },
+    {
+      "id": "replicate/google/veo-3.1",
+      "name": "veo-3.1",
+      "provider": "replicate",
+      "modelId": "google/veo-3.1",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3.1/predictions/versions/9c6ca0c25d89ac6102278405a0673fd929b7793856870d2718e3a84a5aa4ad4d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:44.890Z"
+    },
+    {
+      "id": "replicate/google/veo-3.1-fast",
+      "name": "veo-3.1-fast",
+      "provider": "replicate",
+      "modelId": "google/veo-3.1-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3.1-fast/predictions/versions/ba987aceebef53bebfede32973f842fe3aa2301bf2585878181e7a7677052e36",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:45.164Z"
+    },
+    {
+      "id": "replicate/prunaai/p-video",
+      "name": "p-video",
+      "provider": "replicate",
+      "modelId": "prunaai/p-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video/predictions/versions/4420187a2059aa9ec6836c7da161eb11dce9afda5310e29e1d9f65efa9fd58ad",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:45.443Z"
+    },
+    {
+      "id": "replicate/prunaai/p-video-avatar",
+      "name": "p-video-avatar",
+      "provider": "replicate",
+      "modelId": "prunaai/p-video-avatar",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-avatar/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video-avatar/predictions/versions/65f66cc96b70bede7a8e0d6851e7438a56073afe98329056d775a4744c3629e9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:45.723Z"
+    },
+    {
+      "id": "replicate/lightricks/ltx-video-0.9.7-distilled",
+      "name": "ltx-video-0.9.7-distilled",
+      "provider": "replicate",
+      "modelId": "lightricks/ltx-video-0.9.7-distilled",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7-distilled/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7-distilled/predictions/versions/e7f2778ec419047c564a6620b2d9bf7d6c64673411bf2ae13e628ee2b2c0b5b1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:45.956Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-2.0-fast",
+      "name": "seedance-2.0-fast",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-2.0-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0-fast/predictions/versions/8a876cb913d631d9a4d47b3f777df7326d5571f37c49ed020fdcf4103240b158",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:46.217Z"
+    },
+    {
+      "id": "replicate/google/veo-2",
+      "name": "veo-2",
+      "provider": "replicate",
+      "modelId": "google/veo-2",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/veo-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-2/predictions/versions/af8ebddc406d877a89d631dbbcba24b31692e0f9819639299b1d5def12dd7c95",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:46.497Z"
+    },
+    {
+      "id": "replicate/leonardoai/motion-2.0",
+      "name": "motion-2.0",
+      "provider": "replicate",
+      "modelId": "leonardoai/motion-2.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/motion-2.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/leonardoai/motion-2.0/predictions/versions/0cd08fd133f6bfffec01dcb8e21488169f8ce9676dd825a45e99b7c5476d7b40",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:46.762Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v1.6-standard",
+      "name": "kling-v1.6-standard",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v1.6-standard",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-standard/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-standard/predictions/versions/e6f571e8d6990da3c96abf8d3082894024d652822f0ca3cd244acece84a1cc3e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:47.022Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v1.6-pro",
+      "name": "kling-v1.6-pro",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v1.6-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-pro/predictions/versions/974c9c5bc69f8f9c178ddea80d8936ba46c48081ad6b6ccca8843d44010c0642",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:47.308Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v2.0",
+      "name": "kling-v2.0",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v2.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.0/predictions/versions/52b5e4c10d12e89be0b8f8e9462412cecc5d041f4201a8d8b05dc7e29a70f938",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:47.590Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v2.1",
+      "name": "kling-v2.1",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v2.1",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1/predictions/versions/daad218feb714b03e2a1ac445986aebb9d05243cd00da2af17be2e4049f48f69",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:47.855Z"
+    },
+    {
+      "id": "replicate/minimax/video-01-live",
+      "name": "video-01-live",
+      "provider": "replicate",
+      "modelId": "minimax/video-01-live",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-live/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01-live/predictions/versions/7574e16b8f1ad52c6332ecb264c0f132e555f46c222255a738131ec1bb614092",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:48.123Z"
+    },
+    {
+      "id": "replicate/minimax/video-01-director",
+      "name": "video-01-director",
+      "provider": "replicate",
+      "modelId": "minimax/video-01-director",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-director/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01-director/predictions/versions/377cde553c72d2a8a034a2824a43b63b9472247d670dbb14d8c917abb2d39b64",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:48.434Z"
+    },
+    {
+      "id": "replicate/minimax/video-01",
+      "name": "video-01",
+      "provider": "replicate",
+      "modelId": "minimax/video-01",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01/predictions/versions/5aa835260ff7f40f4069c41185f72036accf99e29957bb4a3b3a911f3b6c1912",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:48.703Z"
+    },
+    {
+      "id": "replicate/runwayml/gen-4.5",
+      "name": "gen-4.5",
+      "provider": "replicate",
+      "modelId": "runwayml/gen-4.5",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/runwayml/gen-4.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/runwayml/gen-4.5/predictions/versions/2e10d5ae08888b39ed31c828003f4a5ddc89a7cdec3bc7a9926661e0d22cb034",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:48.977Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v2.1-master",
+      "name": "kling-v2.1-master",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v2.1-master",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1-master/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1-master/predictions/versions/6a190b5a360fcfd057b6e702f9cdc7352a8e3f08dba0ded31cd1988991bf14a2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:49.238Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v3-video",
+      "name": "kling-v3-video",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v3-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-video/predictions/versions/cadb27bd609b3432e7989ce823fb107570335cd165d83f3bddd26da045944ed3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:49.507Z"
+    },
+    {
+      "id": "replicate/pixverse/pixverse-v4",
+      "name": "pixverse-v4",
+      "provider": "replicate",
+      "modelId": "pixverse/pixverse-v4",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4/predictions/versions/5d3d7389baa4d420ce9aaa270a8b251b3923e778dee4c51e35f8e09d815c6b36",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:49.768Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v3-omni-video",
+      "name": "kling-v3-omni-video",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v3-omni-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-omni-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-omni-video/predictions/versions/460d4f46adf3c29abbcd8f42cf5434570da6b50a39ec4593f2006486b1dd3fba",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:50.039Z"
+    },
+    {
+      "id": "replicate/vidu/q3-pro",
+      "name": "q3-pro",
+      "provider": "replicate",
+      "modelId": "vidu/q3-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/vidu/q3-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/vidu/q3-pro/predictions/versions/1a8e2767ffcf46d64a4d97727f187ccc2cadc59db844db7167327e01a2a79390",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:50.360Z"
+    },
+    {
+      "id": "replicate/xai/grok-imagine-video",
+      "name": "grok-imagine-video",
+      "provider": "replicate",
+      "modelId": "xai/grok-imagine-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video/predictions/versions/ec05ebf490fb5db7e17e73c456e80cb1242d4df8ade9bd7300c66ea2108288bc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:50.621Z"
+    },
+    {
+      "id": "replicate/luma/ray-flash-2-540p",
+      "name": "ray-flash-2-540p",
+      "provider": "replicate",
+      "modelId": "luma/ray-flash-2-540p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-540p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-540p/predictions/versions/ab7a8dbfe56fe6712c7a64f684930372677a31a3470d260f4786928395c1c5cc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:50.911Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-1.5-pro",
+      "name": "seedance-1.5-pro",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-1.5-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1.5-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1.5-pro/predictions/versions/78c1986fecf4df185593bbf148a0ed5b4b18b7e0e0f34cc3e32c68cdfa9536ba",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:51.202Z"
+    },
+    {
+      "id": "replicate/luma/ray-flash-2-720p",
+      "name": "ray-flash-2-720p",
+      "provider": "replicate",
+      "modelId": "luma/ray-flash-2-720p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-720p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-720p/predictions/versions/4de59b4688ad158409be13c0c0c37ddfcf21824b2acf326505b03bcf679acab5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:51.488Z"
+    },
+    {
+      "id": "replicate/luma/ray-2-720p",
+      "name": "ray-2-720p",
+      "provider": "replicate",
+      "modelId": "luma/ray-2-720p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-2-720p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-2-720p/predictions/versions/3ca2bc3597e124149bcae1f9c239790a58ba0f1aa72e1c8747192d2b44284dc4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:51.745Z"
+    },
+    {
+      "id": "replicate/luma/ray-2-540p",
+      "name": "ray-2-540p",
+      "provider": "replicate",
+      "modelId": "luma/ray-2-540p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-2-540p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-2-540p/predictions/versions/838565ddabd524ed2b1ab8011d811956b954b8f3716c7a15853fd326e826b6c7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:52.003Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-1-lite",
+      "name": "seedance-1-lite",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-1-lite",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-lite/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-lite/predictions/versions/6e47dd83529ee0599c68f274f225635080e4fd218360a85e2a3a78396d388b73",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:52.252Z"
+    },
+    {
+      "id": "replicate/bytedance/seedance-1-pro",
+      "name": "seedance-1-pro",
+      "provider": "replicate",
+      "modelId": "bytedance/seedance-1-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro/predictions/versions/a5fd550893da3b6f67997812759065652454ddaca10e96b83b59cbae1814cb36",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:52.622Z"
+    },
+    {
+      "id": "replicate/minimax/hailuo-02",
+      "name": "hailuo-02",
+      "provider": "replicate",
+      "modelId": "minimax/hailuo-02",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-02/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-02/predictions/versions/baaadb886e09b1e711387e270d841930e8253f08775bc6cb176580658f0f2fd9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:52.901Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.2-i2v-a14b",
+      "name": "wan-2.2-i2v-a14b",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.2-i2v-a14b",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-a14b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-a14b/predictions/versions/2c62e0842338726c74ad99a3c469255ce3f4c1f66ee000c265451b87754ac0c9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:53.164Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.2-i2v-fast",
+      "name": "wan-2.2-i2v-fast",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.2-i2v-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-fast/predictions/versions/4eaf2b01d3bf70d8a2e00b219efeb7cb415855ad18b7dacdc4cae664a73a6eea",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:53.419Z"
+    },
+    {
+      "id": "replicate/luma/modify-video",
+      "name": "modify-video",
+      "provider": "replicate",
+      "modelId": "luma/modify-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/modify-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/modify-video/predictions/versions/de2d85dcc392377a811cf6cda8f2b2b862548954363551b9cf27383ba04aed94",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:53.701Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2a",
+      "name": "ideogram-v2a",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions/versions/8b85e4363b03c25f1d248d0f7e3e118503f2b33773a51bab414603bd52f6112d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:55.648Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
+      "name": "ideogram-v2a-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions/versions/0afb968f42d1f96ab92f9c8d669c0e819fa36ccc74f02a7cd057595c9e42da01",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:56.110Z"
+    },
+    {
+      "id": "replicate/minimax/image-01",
+      "name": "image-01",
+      "provider": "replicate",
+      "modelId": "minimax/image-01",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions/versions/928f3bd6ac899108d0ab8cf7f91dfa39a03eda0175e94c9b4cd075776dececf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:56.385Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-3",
+      "name": "seedream-3",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions/versions/ed344813bc9f4996be6de4febd8b9c14c7849ad7b21ab047572e3620ee374ee7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:56.686Z"
+    },
+    {
+      "id": "replicate/luma/photon",
+      "name": "photon",
+      "provider": "replicate",
+      "modelId": "luma/photon",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon/predictions/versions/fe142c037cf359764f2058c3a42ef0dc750d908311d02868cbc7769fe800b648",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:56.927Z"
+    },
+    {
+      "id": "replicate/luma/photon-flash",
+      "name": "photon-flash",
+      "provider": "replicate",
+      "modelId": "luma/photon-flash",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions/versions/8cee7d47f81d8f4f77c1aec44ffb3d1ce09d36388db637ceaa8a6cbcf30b63e1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:57.189Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-full",
+      "name": "hidream-l1-full",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-full",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions/versions/03d58532fd29e39fd2ed80e86c3da1cebec28ef2734081cf1366710d30388f42",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:57.407Z"
+    },
+    {
+      "id": "replicate/google/imagen-4-fast",
+      "name": "imagen-4-fast",
+      "provider": "replicate",
+      "modelId": "google/imagen-4-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions/versions/efb61e33cffb69a1725083f675a44793929553f479918d01d6ce6e00efbee0d7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:57.672Z"
+    },
+    {
+      "id": "replicate/google/imagen-4-ultra",
+      "name": "imagen-4-ultra",
+      "provider": "replicate",
+      "modelId": "google/imagen-4-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions/versions/94d9d5a0e8bf7691286756bf150fa0c81e1bc3d6e2cddfc7084781f54e0199b5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:57.933Z"
+    },
+    {
+      "id": "replicate/nvidia/sana-sprint-1.6b",
+      "name": "sana-sprint-1.6b",
+      "provider": "replicate",
+      "modelId": "nvidia/sana-sprint-1.6b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions/versions/038aee6907b53a5c148780983e39a50ce7cd0747b4e2642e78387f48cf36039a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:58.189Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-dev",
+      "name": "hidream-l1-dev",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions/versions/4dfcd146c0def4812455415f55556f6bc84025dcb15193cf1977f01bd384d191",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:58.417Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-fast",
+      "name": "hidream-l1-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions/versions/a25bf35ce22aa4b948977b8e745cf666bc2b63032fc61cf039c745449a8cbe63",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:58.690Z"
+    },
+    {
+      "id": "replicate/prunaai/flux-fast",
+      "name": "flux-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/flux-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions/versions/4f22c6cd75e0f95f12f55d1616a4d163e9166087ed4979f5cecc40418a522703",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:58.980Z"
+    },
+    {
+      "id": "replicate/prunaai/sdxl-lightning",
+      "name": "sdxl-lightning",
+      "provider": "replicate",
+      "modelId": "prunaai/sdxl-lightning",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions/versions/123d4264aec4d1c81d8bf142e0d90d6fd4c346f1a869406019f6d1653882d7c3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:59.200Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-quality",
+      "name": "ideogram-v3-quality",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-quality",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions/versions/6dafa89a04b1547f0d1c1680b8dcd41ebb2f82c4e2f0c8a92d4bf5ea5250150b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:59.469Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-balanced",
+      "name": "ideogram-v3-balanced",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-balanced",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions/versions/41f9f0d4bf6c470dd0f5085dadc6c14ffb8ed4ce1f6bffbbc10b03ecf5b053fb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:25:59.744Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev-lora",
+      "name": "flux-dev-lora",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions/versions/ae0d7d645446924cf1871e3ca8796e8318f72465d2b5af9323a835df93bf0917",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:00.087Z"
+    },
+    {
+      "id": "replicate/bria/image-3.2",
+      "name": "image-3.2",
+      "provider": "replicate",
+      "modelId": "bria/image-3.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions/versions/cd4f78ccda1eb0983e504cfa1e58cfbd8edc8999ea9da87e1ac2ee541c205450",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:00.371Z"
+    },
+    {
+      "id": "replicate/google/imagen-4",
+      "name": "imagen-4",
+      "provider": "replicate",
+      "modelId": "google/imagen-4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions/versions/19335492dbe879d4b5983bff2149f597db8314ccc7fe374e6313af7c2b52792f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:00.629Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-pro",
+      "name": "flux-kontext-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions/versions/897a70f5a7dbd8a0611413b3b98cf417b45f266bd595c571a22947619d9ae462",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:00.691Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-max",
+      "name": "flux-kontext-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions/versions/8389ed8e4b16016c44fcdcc3ad142cf1e182e0a1ecaf0347b3e5254303f2beac",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:00.959Z"
+    },
+    {
+      "id": "replicate/prunaai/wan-2.2-image",
+      "name": "wan-2.2-image",
+      "provider": "replicate",
+      "modelId": "prunaai/wan-2.2-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions/versions/16e15e913fcc71c1a5defb335ea84739f99731fa1ee17995117c7d9adc6d176c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:01.258Z"
+    },
+    {
+      "id": "replicate/google/nano-banana",
+      "name": "nano-banana",
+      "provider": "replicate",
+      "modelId": "google/nano-banana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions/versions/5bdc2c7cd642ae33611d8c33f79615f98ff02509ab8db9d8ec1cc6c36d378fba",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:01.592Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image",
+      "name": "wan-2.7-image",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions/versions/2e9f097d4acc02be2d0d86ea8034402c9913488309db62dd8b7dbca3f810326c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:01.849Z"
+    },
+    {
+      "id": "replicate/google/imagen-3",
+      "name": "imagen-3",
+      "provider": "replicate",
+      "modelId": "google/imagen-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions/versions/dd38058a6e74c700dcd05db62896386817f3af627bbe71f869f9a43f02773fd4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:02.110Z"
+    },
+    {
+      "id": "replicate/google/imagen-3-fast",
+      "name": "imagen-3-fast",
+      "provider": "replicate",
+      "modelId": "google/imagen-3-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions/versions/2d1d7f7965a9b0b37ea8eb77f156e905631d27f0f56a234de98385703b5c380e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:02.372Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-klein-4b",
+      "name": "flux-2-klein-4b",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-klein-4b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions/versions/8e9c42d77b10a2a41af823ac4500f7545be6ebc4e745830fc3f3de10de200542",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:02.645Z"
+    },
+    {
+      "id": "replicate/bria/fibo",
+      "name": "fibo",
+      "provider": "replicate",
+      "modelId": "bria/fibo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions/versions/11d5854315b5c315a9e9335bb816e693eea668e47e347ca69e2ea1eac16acd6b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:02.916Z"
+    },
+    {
+      "id": "replicate/tencent/hunyuan-image-3",
+      "name": "hunyuan-image-3",
+      "provider": "replicate",
+      "modelId": "tencent/hunyuan-image-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions/versions/080dbbefcd1504ca5aeebaa2815fd51467d5bb793d2b1fb4eb4eb32ac22a3377",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:03.195Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4",
+      "name": "seedream-4",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions/versions/cf7d431991436f19d1c8dad83fe463c729c816d7a21056c5105e75c84a0aa7e9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:03.444Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-pro",
+      "name": "nano-banana-pro",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions/versions/93f55bfdbdfd4a62e16bf861729bcfa9e8fd9b0325fb218cbc4dd138ecc87cc7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:03.505Z"
+    },
+    {
+      "id": "replicate/prunaai/z-image-turbo",
+      "name": "z-image-turbo",
+      "provider": "replicate",
+      "modelId": "prunaai/z-image-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions/versions/e2e4026056d5b1a80fa5f9f2fa27cd3b868eab220ba99402c5321362de0ee92a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:03.775Z"
+    },
+    {
+      "id": "replicate/leonardoai/lucid-origin",
+      "name": "lucid-origin",
+      "provider": "replicate",
+      "modelId": "leonardoai/lucid-origin",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions/versions/b772951ed6ca66c93626bd27b2a0480fe392295126f39cb9e47cf6404a37def0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:04.028Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4.5",
+      "name": "seedream-4.5",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions/versions/9fe3b8282dcb9d9063b05e33210a1432801f7c5a6641db944baefcec4886761a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:04.089Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image-pro",
+      "name": "wan-2.7-image-pro",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions/versions/d880bad3fb109170221d7c233c4665bab6ba83d01936f3c9b1389de6ed2a82ed",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:04.345Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4",
+      "name": "recraft-v4",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions/versions/a8bc7377c37baeea1e01568f88b6abfb38939135071a38ca4267c8f82c3cbbf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:04.621Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro",
+      "name": "recraft-v4-pro",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions/versions/da14602f43a83d1a85654e8cbce5afc0d4cca59b41c0c13f73be8ca84d54d6b6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:04.892Z"
+    },
+    {
+      "id": "replicate/xai/grok-imagine-image",
+      "name": "grok-imagine-image",
+      "provider": "replicate",
+      "modelId": "xai/grok-imagine-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions/versions/3032db31147241f86351f0d7ab1ffd5150dcb482bcb873580f15d8cb8970a812",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:05.127Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-5-lite",
+      "name": "seedream-5-lite",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-5-lite",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions/versions/eeb2857d94c49a5bcbc9d6c6057416e1d3b1a2735a16e08e4def9bf7ee22ec71",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:05.405Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-2",
+      "name": "gpt-image-2",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions/versions/225c978a7f938acc350564c4548ddc2476bfb33364bec6b5422227f55ce56bd3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:05.655Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-svg",
+      "name": "recraft-v4-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions/versions/93cbef8f201b974654d36b1247314072205583f6ff489a1582126f34f2f93635",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:05.913Z"
+    },
+    {
+      "id": "replicate/sourceful/riverflow-2.0-pro",
+      "name": "riverflow-2.0-pro",
+      "provider": "replicate",
+      "modelId": "sourceful/riverflow-2.0-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions/versions/d46bdf05d249002bbf46683d9d1372860c309f8ceb41ad4fca8cce1180b91d8f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:06.190Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro-svg",
+      "name": "recraft-v4-pro-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions/versions/b31f9d3b20f09d3029aee2d983641c36e7cbc2118d2c9d2fcb7a4f248b6e3538",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:06.449Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image-lora",
+      "name": "p-image-lora",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions/versions/f69aaba63b0b2c22d2313c6219365a7344d6d51907c477f78986ee2de2e5d1a2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:06.695Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-1.5",
+      "name": "gpt-image-1.5",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-1.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions/versions/118f53498ea7319519229b2d5bd0d4a69e3d77eb60d6292d5db38125534dc1ca",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:06.959Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2",
+      "name": "kandinsky-2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions/versions/3c6374e7a9a17e01afe306a5218cc67de55b19ea536466d6ea2602cfecea40a9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:07.198Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-pro",
+      "name": "flux-2-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions/versions/ccb5e33141097816e6fab8c895e702fe4c619e4e07500885b71214e9f6382a5c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:07.267Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-flex",
+      "name": "flux-2-flex",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-flex",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions/versions/dbeea265fe7b67a03086ed29ddc54b55cc5387aeba8d84f9e80adbf5698a0f67",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:07.520Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-turbo",
+      "name": "ideogram-v3-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions/versions/d9b3748f95c0fe3e71f010f8cc5d80e8f5252acd0e74b1c294ee889eea52a47b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:07.808Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-2",
+      "name": "nano-banana-2",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions/versions/d1be8b5fc0931a253d417e12a484ac01ee9ccbc6daffd4792151377d5e5ff55f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:08.070Z"
+    },
+    {
+      "id": "replicate/lucataco/ssd-1b",
+      "name": "ssd-1b",
+      "provider": "replicate",
+      "modelId": "lucataco/ssd-1b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions/versions/b19e3639452c59ce8295b82aba70a231404cb062f2eb580ea894b31e8ce5bbb6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:08.305Z"
+    },
+    {
+      "id": "replicate/comfyui/any-comfyui-workflow",
+      "name": "any-comfyui-workflow",
+      "provider": "replicate",
+      "modelId": "comfyui/any-comfyui-workflow",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions/versions/16d0a881fbfc066f0471a3519a347db456fe8cbcbd53abb435a50a74efaeb427",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:08.562Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev",
+      "name": "flux-dev",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions/versions/6e4a938f85952bdabcc15aa329178c4d681c52bf25a0342403287dc26944661d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:08.814Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2-turbo",
+      "name": "ideogram-v2-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions/versions/7cef9d520d672bb802588ad0d13151bc51aee9a408c270aebf25d6530045dd29",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:09.073Z"
+    },
+    {
+      "id": "replicate/qwen/qwen-image",
+      "name": "qwen-image",
+      "provider": "replicate",
+      "modelId": "qwen/qwen-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions/versions/0bba9e70f78437359725e0989ead45ca8b09e6c12a070dfe9a09e6856b43a44d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:09.344Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image",
+      "name": "p-image",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions/versions/10b739c5e107d9684e9e7eca6f443ab0861bd526af50a03cf42d6210b36684b7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:09.611Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.3",
+      "name": "proteus-v0.3",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions/versions/b28b79d725c8548b173b6a19ff9bffd16b9b80df5b18b8dc5cb9e1ee471bfa48",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:09.850Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2.2",
+      "name": "kandinsky-2.2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions/versions/ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:10.068Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-emoji",
+      "name": "sdxl-emoji",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-emoji",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions/versions/dee76b5afde21b0f01ed7925f0665b7e879c50ee718c5f78a9d38e04d523cc5e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:10.335Z"
+    },
+    {
+      "id": "replicate/bytedance/sdxl-lightning-4step",
+      "name": "sdxl-lightning-4step",
+      "provider": "replicate",
+      "modelId": "bytedance/sdxl-lightning-4step",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions/versions/6f7a773af6fc3e8de9d5a3c00be77c17308914bf67772726aff83496ba1e3bbe",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:10.400Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2",
+      "name": "ideogram-v2",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions/versions/3e6071946ab5319b3bcc37a4d00083e743dfdff5be386df6a2ff1f212fc7365b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:10.665Z"
+    },
+    {
+      "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "name": "realvisxl-v3-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions/versions/90a4a3604cd637cb9f1a2bdae1cfa9ed869362ca028814cdce310a78e27daade",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:10.739Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-pro",
+      "name": "flux-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions/versions/ce4035b99fc7bac18bc2f0384632858f126f6b4d96c88603a898a76b8e0c4ac2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:11.016Z"
+    },
+    {
+      "id": "replicate/tstramer/material-diffusion",
+      "name": "material-diffusion",
+      "provider": "replicate",
+      "modelId": "tstramer/material-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions/versions/a42692c54c0f407f803a0a8a9066160976baedb77c91171a01730f9b0d7beeff",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:11.242Z"
+    },
+    {
+      "id": "replicate/fermatresearch/sdxl-controlnet-lora",
+      "name": "sdxl-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fermatresearch/sdxl-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions/versions/3bb13fe1c33c35987b33792b01b71ed6529d03f165d1c2416375859f09ca9fef",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:11.477Z"
+    },
+    {
+      "id": "replicate/lucataco/realistic-vision-v5.1",
+      "name": "realistic-vision-v5.1",
+      "provider": "replicate",
+      "modelId": "lucataco/realistic-vision-v5.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:11.698Z"
+    },
+    {
+      "id": "replicate/stability-ai/sdxl",
+      "name": "sdxl",
+      "provider": "replicate",
+      "modelId": "stability-ai/sdxl",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:11.785Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large",
+      "name": "stable-diffusion-3.5-large",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions/versions/2fdf9488b53c1e0fd3aef7b477def1c00d1856a38466733711f9c769942598f5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:12.035Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+      "name": "flux-1.1-pro-ultra",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-1.1-pro-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions/versions/551f15a1f56b90795ed34e94f11efb17196a5145bf2ae58fbf2d7e7d8bb42aaf",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:12.292Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-max",
+      "name": "flux-2-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions/versions/9c23b0aaa98765a9676dbdda58b9c9915627751300747bad54cb1c11b135d3ca",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:12.541Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion",
+      "name": "stable-diffusion",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions/versions/ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:12.759Z"
+    },
+    {
+      "id": "replicate/fofr/sticker-maker",
+      "name": "sticker-maker",
+      "provider": "replicate",
+      "modelId": "fofr/sticker-maker",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions/versions/4acb778eb059772225ec213948f0660867b2e03f277448f18cf1800b96a65a1a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:12.821Z"
+    },
+    {
+      "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
+      "name": "playground-v2.5-1024px-aesthetic",
+      "provider": "replicate",
+      "modelId": "playgroundai/playground-v2.5-1024px-aesthetic",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions/versions/a45f82a1382bed5c7aeb861dac7c7d191b0fdf74d8d57c4a0e6ed7d4d0bf7d24",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:13.055Z"
+    },
+    {
+      "id": "replicate/jagilley/controlnet-scribble",
+      "name": "controlnet-scribble",
+      "provider": "replicate",
+      "modelId": "jagilley/controlnet-scribble",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions/versions/435061a1b5a4c1e26740464bf786efdfa9cb3a3ac488595a2de23e143fdb0117",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:13.295Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-multi-controlnet-lora",
+      "name": "sdxl-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions/versions/89eb212b3d1366a83e949c12a4b45dfe6b6b313b594cb8268e864931ac9ffb16",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:13.570Z"
+    },
+    {
+      "id": "replicate/fofr/latent-consistency-model",
+      "name": "latent-consistency-model",
+      "provider": "replicate",
+      "modelId": "fofr/latent-consistency-model",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions/versions/683d19dc312f7a9f0428b04429a9ccefd28dbf7785fef083ad5cf991b65f406f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:13.807Z"
+    },
+    {
+      "id": "replicate/lucataco/dreamshaper-xl-turbo",
+      "name": "dreamshaper-xl-turbo",
+      "provider": "replicate",
+      "modelId": "lucataco/dreamshaper-xl-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions/versions/0a1710e0187b01a255302738ca0158ff02a22f4638679533e111082f9dd1b615",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:14.049Z"
+    },
+    {
+      "id": "replicate/lucataco/open-dalle-v1.1",
+      "name": "open-dalle-v1.1",
+      "provider": "replicate",
+      "modelId": "lucataco/open-dalle-v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions/versions/1c7d4c8dec39c7306df7794b28419078cb9d18b9213ab1c21fdc46a1deca0144",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:14.279Z"
+    },
+    {
+      "id": "replicate/adirik/realvisxl-v3.0-turbo",
+      "name": "realvisxl-v3.0-turbo",
+      "provider": "replicate",
+      "modelId": "adirik/realvisxl-v3.0-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions/versions/3dc73c805b11b4b01a60555e532fd3ab3f0e60d26f6584d9b8ba7e1b95858243",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:14.531Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.2",
+      "name": "proteus-v0.2",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions/versions/06775cd262843edbde5abab958abdbb65a0a6b58ca301c9fd78fa55c775fc019",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:14.792Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
+      "name": "stable-diffusion-3.5-medium",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions/versions/1323a3a68cbf2b58c708f38fba9557e39d68a77cb287a8d7372ba0443f6f0767",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:15.067Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-schnell",
+      "name": "flux-schnell",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions/versions/c846a69991daf4c0e5d016514849d14ee5b2e6846ce6b9d6f21369e564cfe51e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:15.328Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
+      "name": "stable-diffusion-3.5-large-turbo",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions/versions/6ce89263555dde3393564e799f1310ee247c5339c3c665250b5dd5d26b7bcc3d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:15.584Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3",
+      "name": "recraft-v3",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions/versions/9507e61ddace8b3a238371b17a61be203747c5081ea6070fecd3c40d27318922",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:15.851Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3-svg",
+      "name": "recraft-v3-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions/versions/df041379628fa1d16bd406409930775b0904dc2bc0f3e3f38ecd2a4389e9329d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:16.096Z"
+    },
+    {
+      "id": "replicate/nvidia/sana",
+      "name": "sana",
+      "provider": "replicate",
+      "modelId": "nvidia/sana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions/versions/c6b5d2b7459910fec94432e9e1203c3cdce92d6db20f714f1355747990b52fa6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:16.164Z"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-t2v-480p",
+      "name": "wan-2.1-t2v-480p",
+      "provider": "replicate",
+      "modelId": "wavespeedai/wan-2.1-t2v-480p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-480p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-480p/predictions/versions/7677a619127ea34d1ed873fb5b77448e4b9889fbd83809b44a2c459ace99192a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:17.901Z"
+    },
+    {
+      "id": "replicate/wavespeedai/hunyuan-video-fast",
+      "name": "hunyuan-video-fast",
+      "provider": "replicate",
+      "modelId": "wavespeedai/hunyuan-video-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/hunyuan-video-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/hunyuan-video-fast/predictions/versions/",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:17.901Z"
+    },
+    {
+      "id": "replicate/meta/sam-2-video",
+      "name": "sam-2-video",
+      "provider": "replicate",
+      "modelId": "meta/sam-2-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/meta/sam-2-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/meta/sam-2-video/predictions/versions/33432afdfc06a10da6b4018932893d39b0159f838b6d11dd1236dff85cc5ec1d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:17.978Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.1-1.3b",
+      "name": "wan-2.1-1.3b",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.1-1.3b",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.1-1.3b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.1-1.3b/predictions/versions/121bbb762bf449889f090d36e3598c72c50c7a8cc2ce250433bc521a562aae61",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:18.251Z"
+    },
+    {
+      "id": "replicate/andreasjansson/tile-morph",
+      "name": "tile-morph",
+      "provider": "replicate",
+      "modelId": "andreasjansson/tile-morph",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/tile-morph/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/andreasjansson/tile-morph/predictions/versions/cbf059cce30a22d821a3c86309ae3b037dcd505dd2eba47f8ea6eba20adced85",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:18.497Z"
+    },
+    {
+      "id": "replicate/fofr/video-morpher",
+      "name": "video-morpher",
+      "provider": "replicate",
+      "modelId": "fofr/video-morpher",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/video-morpher/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/video-morpher/predictions/versions/e70e975067d2b5dbe9e2d9022833d27230a1bdeb3f4af6fe6bb49a548a3039a7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:18.746Z"
+    },
+    {
+      "id": "replicate/zsxkib/hunyuan-video2video",
+      "name": "hunyuan-video2video",
+      "provider": "replicate",
+      "modelId": "zsxkib/hunyuan-video2video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/hunyuan-video2video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/hunyuan-video2video/predictions/versions/d550f226f28b1030c2fedd2947f39f19b4b0233b50364904538caaf037fb18d3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:18.991Z"
+    },
+    {
+      "id": "replicate/pixverse/pixverse-v4.5",
+      "name": "pixverse-v4.5",
+      "provider": "replicate",
+      "modelId": "pixverse/pixverse-v4.5",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4.5/predictions/versions/5a31b090decb67bde4291ca5d2a69d7908720c0a1262a4b5d72022518a9b5a3c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:19.277Z"
+    },
+    {
+      "id": "replicate/wavespeedai/wan-2.1-t2v-720p",
+      "name": "wan-2.1-t2v-720p",
+      "provider": "replicate",
+      "modelId": "wavespeedai/wan-2.1-t2v-720p",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-720p/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-720p/predictions/versions/f5576aa30f5d363b6cfa6ff8193de59a32c0f8bee3c73cdf17df92844a8b5570",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:19.538Z"
+    },
+    {
+      "id": "replicate/pixverse/pixverse-v5.6",
+      "name": "pixverse-v5.6",
+      "provider": "replicate",
+      "modelId": "pixverse/pixverse-v5.6",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5.6/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5.6/predictions/versions/716a21c01b88914165473824a15be03188a54c5830fac57d64de93919fcae0e9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:19.807Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.2-t2v-fast",
+      "name": "wan-2.2-t2v-fast",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.2-t2v-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-t2v-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-t2v-fast/predictions/versions/c483b1f7b892065bc58ebadb6381abf557f6b1f517d2ff0febb3fb635cf49b4d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:20.071Z"
+    },
+    {
+      "id": "replicate/fofr/not-real",
+      "name": "not-real",
+      "provider": "replicate",
+      "modelId": "fofr/not-real",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/not-real/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/not-real/predictions/versions/19b3a157a2bee49509ea771214bdc645dbaae3b8dd0d71d99bbf802c69fbbe2b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:20.290Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.5-t2v-fast",
+      "name": "wan-2.5-t2v-fast",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.5-t2v-fast",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v-fast/predictions/versions/1ffaab95d8f67adf487548468b03e795ad0410089c655c560e492add1b7beaf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:20.594Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-v2.6",
+      "name": "kling-v2.6",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-v2.6",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.6/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.6/predictions/versions/b13f36d030496dd78d2986ba8b2b22a44222b3f58c15fb63ef7d6b4aa3a53319",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:20.885Z"
+    },
+    {
+      "id": "replicate/pixverse/pixverse-v6",
+      "name": "pixverse-v6",
+      "provider": "replicate",
+      "modelId": "pixverse/pixverse-v6",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6/predictions/versions/1f6e2dbe1aec42acbb902f4c51785a57d4e0c0bb5e9fb3b430cedddd4a2cbc11",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:21.130Z"
+    },
+    {
+      "id": "replicate/openai/sora-2",
+      "name": "sora-2",
+      "provider": "replicate",
+      "modelId": "openai/sora-2",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/sora-2/predictions/versions/763a9321f615f4867b1d7a2d53666200da21f71da358b12c9b25e0127edae014",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:21.392Z"
+    },
+    {
+      "id": "replicate/openai/sora-2-pro",
+      "name": "sora-2-pro",
+      "provider": "replicate",
+      "modelId": "openai/sora-2-pro",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/sora-2-pro/predictions/versions/ccf1a58e3ec72e86d01ab19ef240009409f26a9a0470cc246a1728e54b0a6b8f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:21.654Z"
+    },
+    {
+      "id": "replicate/pixverse/pixverse-v5",
+      "name": "pixverse-v5",
+      "provider": "replicate",
+      "modelId": "pixverse/pixverse-v5",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5/predictions/versions/450181c56fcbf920d8d5ba9d7c5653537a009b626652c1a0a909924a785e3389",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:21.921Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.5-t2v",
+      "name": "wan-2.5-t2v",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.5-t2v",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v/predictions/versions/4e22e64c604706aa4ac1929a7ae146ea033f39bb228e896da79d91b7a39e8d32",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:22.226Z"
+    },
+    {
+      "id": "replicate/xai/grok-imagine-video-1.5",
+      "name": "grok-imagine-video-1.5",
+      "provider": "replicate",
+      "modelId": "xai/grok-imagine-video-1.5",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video-1.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video-1.5/predictions/versions/2378f08d20dc10fc2be0ae2b62d88c7b7c686d57ccaaf7350237e45ce4e1ad26",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:22.483Z"
+    },
+    {
+      "id": "replicate/kwaivgi/kling-o1",
+      "name": "kling-o1",
+      "provider": "replicate",
+      "modelId": "kwaivgi/kling-o1",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-o1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-o1/predictions/versions/6d5f2d4becc7f734d190d17f13f776229c359cafc1c1898d78945e8d87c57538",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:22.750Z"
+    },
+    {
+      "id": "replicate/bytedance/dreamactor-m2.0",
+      "name": "dreamactor-m2.0",
+      "provider": "replicate",
+      "modelId": "bytedance/dreamactor-m2.0",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/dreamactor-m2.0/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/dreamactor-m2.0/predictions/versions/b23bf8e6d5f31dd67ad219fac057fd43d3ac38fc58343025ab557be74a9450ca",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:22.813Z"
+    },
+    {
+      "id": "replicate/lucataco/hotshot-xl",
+      "name": "hotshot-xl",
+      "provider": "replicate",
+      "modelId": "lucataco/hotshot-xl",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/hotshot-xl/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/hotshot-xl/predictions/versions/78b3a6257e16e4b241245d65c8b2b81ea2e1ff7ed4c55306b511509ddbfd327a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:23.072Z"
+    },
+    {
+      "id": "replicate/arielreplicate/deoldify_video",
+      "name": "deoldify_video",
+      "provider": "replicate",
+      "modelId": "arielreplicate/deoldify_video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/deoldify_video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/deoldify_video/predictions/versions/8f1189b476fcb54cfbe1d07d97b025c571a2ce4e9a7a9558640c78647576e16f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:23.305Z"
+    },
+    {
+      "id": "replicate/cjwbw/text2video-zero",
+      "name": "text2video-zero",
+      "provider": "replicate",
+      "modelId": "cjwbw/text2video-zero",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/text2video-zero/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/text2video-zero/predictions/versions/e671ffe4e976c0ec813f15a9836ebcfd08857ac2669af6917e3c2549307f9fae",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:23.617Z"
+    },
+    {
+      "id": "replicate/zsxkib/pyramid-flow",
+      "name": "pyramid-flow",
+      "provider": "replicate",
+      "modelId": "zsxkib/pyramid-flow",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/pyramid-flow/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/pyramid-flow/predictions/versions/8e221e66498a52bb3a928a4b49d85379c99ca60fec41511265deec35d547c1fb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:23.864Z"
+    },
+    {
+      "id": "replicate/anotherjesse/zeroscope-v2-xl",
+      "name": "zeroscope-v2-xl",
+      "provider": "replicate",
+      "modelId": "anotherjesse/zeroscope-v2-xl",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/anotherjesse/zeroscope-v2-xl/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/anotherjesse/zeroscope-v2-xl/predictions/versions/9f747673945c62801b13b84701c783929c0ee784e4748ec062204894dda1a351",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:24.116Z"
+    },
+    {
+      "id": "replicate/deforum/deforum_stable_diffusion",
+      "name": "deforum_stable_diffusion",
+      "provider": "replicate",
+      "modelId": "deforum/deforum_stable_diffusion",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/deforum/deforum_stable_diffusion/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/deforum/deforum_stable_diffusion/predictions/versions/e22e77495f2fb83c34d5fae2ad8ab63c0a87b6b573b6208e1535b23b89ea66d6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:24.347Z"
+    },
+    {
+      "id": "replicate/ali-vilab/i2vgen-xl",
+      "name": "i2vgen-xl",
+      "provider": "replicate",
+      "modelId": "ali-vilab/i2vgen-xl",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ali-vilab/i2vgen-xl/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ali-vilab/i2vgen-xl/predictions/versions/5821a338d00033abaaba89080a17eb8783d9a17ed710a6b4246a18e0900ccad4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:24.588Z"
+    },
+    {
+      "id": "replicate/andreasjansson/stable-diffusion-animation",
+      "name": "stable-diffusion-animation",
+      "provider": "replicate",
+      "modelId": "andreasjansson/stable-diffusion-animation",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/stable-diffusion-animation/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/andreasjansson/stable-diffusion-animation/predictions/versions/ca1f5e306e5721e19c473e0d094e6603f0456fe759c10715fcd6c1b79242d4a5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:24.808Z"
+    },
+    {
+      "id": "replicate/zsxkib/animatediff-prompt-travel",
+      "name": "animatediff-prompt-travel",
+      "provider": "replicate",
+      "modelId": "zsxkib/animatediff-prompt-travel",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-prompt-travel/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-prompt-travel/predictions/versions/1b8a8f2725c03b1ff4a0b960079899131c384149d1feba45e4ef43653deb3b5f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:25.106Z"
+    },
+    {
+      "id": "replicate/cjwbw/controlvideo",
+      "name": "controlvideo",
+      "provider": "replicate",
+      "modelId": "cjwbw/controlvideo",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/controlvideo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/controlvideo/predictions/versions/91710b3f53c9c1cb958e7bf0ea982d21b666f6a3ff28c1670ee0c08355ced925",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:25.363Z"
+    },
+    {
+      "id": "replicate/cjwbw/damo-text-to-video",
+      "name": "damo-text-to-video",
+      "provider": "replicate",
+      "modelId": "cjwbw/damo-text-to-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/damo-text-to-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/damo-text-to-video/predictions/versions/1e205ea73084bd17a0a3b43396e49ba0d6bc2e754e9283b2df49fad2dcf95755",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:25.598Z"
+    },
+    {
+      "id": "replicate/lucataco/animate-diff",
+      "name": "animate-diff",
+      "provider": "replicate",
+      "modelId": "lucataco/animate-diff",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/animate-diff/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/animate-diff/predictions/versions/beecf59c4aee8d81bf04f0381033dfa10dc16e845b4ae00d281e2fa377e48a9f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:25.820Z"
+    },
+    {
+      "id": "replicate/zsxkib/animatediff-illusions",
+      "name": "animatediff-illusions",
+      "provider": "replicate",
+      "modelId": "zsxkib/animatediff-illusions",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-illusions/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-illusions/predictions/versions/b3ccb0101402aafd04bfea042950be606223e2abedbad93cf848bfffa072bb61",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:26.089Z"
+    },
+    {
+      "id": "replicate/arielreplicate/stable_diffusion_infinite_zoom",
+      "name": "stable_diffusion_infinite_zoom",
+      "provider": "replicate",
+      "modelId": "arielreplicate/stable_diffusion_infinite_zoom",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/stable_diffusion_infinite_zoom/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/stable_diffusion_infinite_zoom/predictions/versions/a2527c5074fc0cf9fa6015a40d75d080d1ddf7082fabe142f1ccd882c18fce61",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:26.325Z"
+    },
+    {
+      "id": "replicate/arielreplicate/robust_video_matting",
+      "name": "robust_video_matting",
+      "provider": "replicate",
+      "modelId": "arielreplicate/robust_video_matting",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/robust_video_matting/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/robust_video_matting/predictions/versions/73d2128a371922d5d1abf0712a1d974be0e4e2358cc1218e4e34714767232bac",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:26.387Z"
+    },
+    {
+      "id": "replicate/genmoai/mochi-1",
+      "name": "mochi-1",
+      "provider": "replicate",
+      "modelId": "genmoai/mochi-1",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/genmoai/mochi-1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/genmoai/mochi-1/predictions/versions/1944af04d098ef69bed7f9d335d102e652203f268ec4aaa2d836f6217217e460",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:26.636Z"
+    },
+    {
+      "id": "replicate/pollinations/real-basicvsr-video-superresolution",
+      "name": "real-basicvsr-video-superresolution",
+      "provider": "replicate",
+      "modelId": "pollinations/real-basicvsr-video-superresolution",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/pollinations/real-basicvsr-video-superresolution/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/pollinations/real-basicvsr-video-superresolution/predictions/versions/005b4db1d719c1672c522b220db3bc899a81889986b5adc7a01b4f4cfb34e4a7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:26.876Z"
+    },
+    {
+      "id": "replicate/cjwbw/videocrafter",
+      "name": "videocrafter",
+      "provider": "replicate",
+      "modelId": "cjwbw/videocrafter",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/videocrafter/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/videocrafter/predictions/versions/02edcff3e9d2d11dcc27e530773d988df25462b1ee93ed0257b6f246de4797c8",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:27.113Z"
+    },
+    {
+      "id": "replicate/zsxkib/animate-diff",
+      "name": "animate-diff",
+      "provider": "replicate",
+      "modelId": "zsxkib/animate-diff",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animate-diff/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animate-diff/predictions/versions/269a616c8b0c2bbc12fc15fd51bb202b11e94ff0f7786c026aa905305c4ed9fb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:27.365Z"
+    },
+    {
+      "id": "replicate/tencent/hunyuan-video",
+      "name": "hunyuan-video",
+      "provider": "replicate",
+      "modelId": "tencent/hunyuan-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-video/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-video/predictions/versions/6c9132aee14409cd6568d030453f1ba50f5f3412b844fe67f78a9eb62d55664f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:27.602Z"
+    },
+    {
+      "id": "replicate/cuuupid/cogvideox-5b",
+      "name": "cogvideox-5b",
+      "provider": "replicate",
+      "modelId": "cuuupid/cogvideox-5b",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cuuupid/cogvideox-5b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cuuupid/cogvideox-5b/predictions/versions/5b14e2c2c648efecc8d36c6353576552f8a124e690587212f8e8bb17ecda3d8c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:27.827Z"
+    },
+    {
+      "id": "replicate/minimax/voice-cloning",
+      "name": "voice-cloning",
+      "provider": "replicate",
+      "modelId": "minimax/voice-cloning",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/voice-cloning/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/voice-cloning/predictions/versions/fff8a670880f066d3742838515a88f7f0a3ae40a4f2e06dae0f7f70ba63582d7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:29.192Z"
+    },
+    {
+      "id": "replicate/resemble-ai/chatterbox-pro",
+      "name": "chatterbox-pro",
+      "provider": "replicate",
+      "modelId": "resemble-ai/chatterbox-pro",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-pro/predictions/versions/301e12652e84fbba1524e5f2758a9a92c6bd205792304f53c057b7f9ab091342",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:29.462Z"
+    },
+    {
+      "id": "replicate/chenxwh/openvoice",
+      "name": "openvoice",
+      "provider": "replicate",
+      "modelId": "chenxwh/openvoice",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/chenxwh/openvoice/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/chenxwh/openvoice/predictions/versions/d548923c9d7fc9330a3b7c7f9e2f91b2ee90c83311a351dfcd32af353799223d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:29.716Z"
+    },
+    {
+      "id": "replicate/fermatresearch/spanish-f5-tts",
+      "name": "spanish-f5-tts",
+      "provider": "replicate",
+      "modelId": "fermatresearch/spanish-f5-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/spanish-f5-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fermatresearch/spanish-f5-tts/predictions/versions/f26405b801a0b0945679fb3adf9bbca7ab8559c7fd9cf7cd2a68067c3aab83f7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:29.970Z"
+    },
+    {
+      "id": "replicate/x-lance/f5-tts",
+      "name": "f5-tts",
+      "provider": "replicate",
+      "modelId": "x-lance/f5-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/x-lance/f5-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/x-lance/f5-tts/predictions/versions/87faf6dd7a692dd82043f662e76369cab126a2cf1937e25a9d41e0b834fd230e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:30.216Z"
+    },
+    {
+      "id": "replicate/platform-kit/mars5-tts",
+      "name": "mars5-tts",
+      "provider": "replicate",
+      "modelId": "platform-kit/mars5-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/platform-kit/mars5-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/platform-kit/mars5-tts/predictions/versions/6aed0f11f3ba7b13d59ab3228355e7b1ea943479673cc57e10e99ba766536811",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:30.457Z"
+    },
+    {
+      "id": "replicate/lucataco/pheme",
+      "name": "pheme",
+      "provider": "replicate",
+      "modelId": "lucataco/pheme",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/pheme/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/pheme/predictions/versions/f307b9d2b9966608aec791d4a741dc3806f95d9eb92300fdcefeb9aecd4594cd",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:30.686Z"
+    },
+    {
+      "id": "replicate/awerks/neon-tts",
+      "name": "neon-tts",
+      "provider": "replicate",
+      "modelId": "awerks/neon-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/awerks/neon-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/awerks/neon-tts/predictions/versions/139606fe1536f85a9f07d87982400b8140c9a9673733d47913af96738894128f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:30.901Z"
+    },
+    {
+      "id": "replicate/cjwbw/parler-tts",
+      "name": "parler-tts",
+      "provider": "replicate",
+      "modelId": "cjwbw/parler-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/parler-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/parler-tts/predictions/versions/bf38249a8cc143b97b5108570d1c81b8321881dd91fe7837877e7dfa3a0fad27",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:31.133Z"
+    },
+    {
+      "id": "replicate/cjwbw/voicecraft",
+      "name": "voicecraft",
+      "provider": "replicate",
+      "modelId": "cjwbw/voicecraft",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/voicecraft/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/voicecraft/predictions/versions/db97f6312d4c4d20e500e47fd95d8f14b00d8d28e046834faffb7999d83b6b30",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:31.390Z"
+    },
+    {
+      "id": "replicate/camenduru/metavoice",
+      "name": "metavoice",
+      "provider": "replicate",
+      "modelId": "camenduru/metavoice",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/camenduru/metavoice/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/camenduru/metavoice/predictions/versions/713109ece68b60131018e86585221826650aba6d11ffd4e314f50c7598014358",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:31.622Z"
+    },
+    {
+      "id": "replicate/zsxkib/dia",
+      "name": "dia",
+      "provider": "replicate",
+      "modelId": "zsxkib/dia",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/dia/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/dia/predictions/versions/2119e338ca5c0dacd3def83158d6c80d431f2ac1024146d8cca9220b74385599",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:31.850Z"
+    },
+    {
+      "id": "replicate/adirik/styletts2",
+      "name": "styletts2",
+      "provider": "replicate",
+      "modelId": "adirik/styletts2",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/adirik/styletts2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/adirik/styletts2/predictions/versions/989cb5ea6d2401314eb30685740cb9f6fd1c9001b8940659b406f952837ab5ac",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:32.082Z"
+    },
+    {
+      "id": "replicate/lucataco/csm-1b",
+      "name": "csm-1b",
+      "provider": "replicate",
+      "modelId": "lucataco/csm-1b",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/csm-1b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/csm-1b/predictions/versions/3e59b10a9894c54ae5f2fc0347e3a2f5c82f0574407e53a7d9f76ec7c502ad03",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:32.314Z"
+    },
+    {
+      "id": "replicate/inworld/realtime-tts-2",
+      "name": "realtime-tts-2",
+      "provider": "replicate",
+      "modelId": "inworld/realtime-tts-2",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-2/predictions/versions/ff2e08e7e058fa4d45e2179da92a390e2d7803f879542136c3deb7d6c809181b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:32.604Z"
+    },
+    {
+      "id": "replicate/lucataco/orpheus-3b-0.1-ft",
+      "name": "orpheus-3b-0.1-ft",
+      "provider": "replicate",
+      "modelId": "lucataco/orpheus-3b-0.1-ft",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/orpheus-3b-0.1-ft/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/orpheus-3b-0.1-ft/predictions/versions/79f2a473e6a9720716a473d9b2f2951437dbf91dc02ccb7079fb3d89b881207f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:32.851Z"
+    },
+    {
+      "id": "replicate/jaaari/kokoro-82m",
+      "name": "kokoro-82m",
+      "provider": "replicate",
+      "modelId": "jaaari/kokoro-82m",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/jaaari/kokoro-82m/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/jaaari/kokoro-82m/predictions/versions/f559560eb822dc509045f3921a1921234918b91739db4bf3daab2169b71c7a13",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:32.920Z"
+    },
+    {
+      "id": "replicate/minimax/speech-02-turbo",
+      "name": "speech-02-turbo",
+      "provider": "replicate",
+      "modelId": "minimax/speech-02-turbo",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-02-turbo/predictions/versions/f39649380c14fcc2263e2cc4f27d112629b72e95d7c5a8e5eb23bd90444fd34c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:33.197Z"
+    },
+    {
+      "id": "replicate/minimax/speech-02-hd",
+      "name": "speech-02-hd",
+      "provider": "replicate",
+      "modelId": "minimax/speech-02-hd",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-hd/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-02-hd/predictions/versions/b2c687e53557eee08b35b59620f88750671e97b9a91f351ea6797ac838a0773d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:33.464Z"
+    },
+    {
+      "id": "replicate/resemble-ai/chatterbox-multilingual",
+      "name": "chatterbox-multilingual",
+      "provider": "replicate",
+      "modelId": "resemble-ai/chatterbox-multilingual",
+      "modality": "video",
+      "capability": "motion_control",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-multilingual/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-multilingual/predictions/versions/9cfba4c265e685f840612be835424f8c33bdee685d7466ece7684b0d9d4c0b1c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:33.529Z"
+    },
+    {
+      "id": "replicate/resemble-ai/chatterbox-turbo",
+      "name": "chatterbox-turbo",
+      "provider": "replicate",
+      "modelId": "resemble-ai/chatterbox-turbo",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-turbo/predictions/versions/95c87b883ff3e842a1643044dff67f9d204f70a80228f24ff64bffe4a4b917d4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:33.795Z"
+    },
+    {
+      "id": "replicate/resemble-ai/chatterbox",
+      "name": "chatterbox",
+      "provider": "replicate",
+      "modelId": "resemble-ai/chatterbox",
+      "modality": "video",
+      "capability": "motion_control",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox/predictions/versions/1b8422bc49635c20d0a84e387ed20879c0dd09254ecdb4e75dc4bec10ff94e97",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:34.064Z"
+    },
+    {
+      "id": "replicate/minimax/speech-2.8-turbo",
+      "name": "speech-2.8-turbo",
+      "provider": "replicate",
+      "modelId": "minimax/speech-2.8-turbo",
+      "modality": "video",
+      "capability": "motion_control",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-turbo/predictions/versions/5525c705c8fa70fd49fcb12b231c6d0e872437c82620bc4d51e64c0c5017ecfe",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:34.355Z"
+    },
+    {
+      "id": "replicate/inworld/realtime-tts-1.5-mini",
+      "name": "realtime-tts-1.5-mini",
+      "provider": "replicate",
+      "modelId": "inworld/realtime-tts-1.5-mini",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-mini/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-mini/predictions/versions/787e87b8a178054348a86663750877f97187237604ad294931b6447c3d3f680c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:34.640Z"
+    },
+    {
+      "id": "replicate/inworld/realtime-tts-1.5-max",
+      "name": "realtime-tts-1.5-max",
+      "provider": "replicate",
+      "modelId": "inworld/realtime-tts-1.5-max",
+      "modality": "video",
+      "capability": "motion_control",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-max/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-max/predictions/versions/4a2e51066a48d694207736b7598590ac44a8c780d3ee50147951c5ddf3e52e1d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:34.910Z"
+    },
+    {
+      "id": "replicate/elevenlabs/v3",
+      "name": "v3",
+      "provider": "replicate",
+      "modelId": "elevenlabs/v3",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/elevenlabs/v3/predictions/versions/7611845fe3de62dc322513b8bdc81b785cb730417a015093f6356f2a89fa3e73",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:35.186Z"
+    },
+    {
+      "id": "replicate/elevenlabs/turbo-v2.5",
+      "name": "turbo-v2.5",
+      "provider": "replicate",
+      "modelId": "elevenlabs/turbo-v2.5",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/turbo-v2.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/elevenlabs/turbo-v2.5/predictions/versions/bdab64445fa0fb0ade1c2ae20d00f3024104afe3ff8b4572fc487de30fb24bf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:35.446Z"
+    },
+    {
+      "id": "replicate/elevenlabs/flash-v2.5",
+      "name": "flash-v2.5",
+      "provider": "replicate",
+      "modelId": "elevenlabs/flash-v2.5",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/flash-v2.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/elevenlabs/flash-v2.5/predictions/versions/c9f3ebca6f2a684a2a3487271f640c389597d45c6c474db6b03fb9da0a26a47d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:35.744Z"
+    },
+    {
+      "id": "replicate/elevenlabs/v2-multilingual",
+      "name": "v2-multilingual",
+      "provider": "replicate",
+      "modelId": "elevenlabs/v2-multilingual",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v2-multilingual/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/elevenlabs/v2-multilingual/predictions/versions/cc1c55e63c927e79a35f5807accbf172051f2b21effe1db532cf8c907cc68d57",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:36.001Z"
+    },
+    {
+      "id": "replicate/qwen/qwen3-tts",
+      "name": "qwen3-tts",
+      "provider": "replicate",
+      "modelId": "qwen/qwen3-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen3-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/qwen/qwen3-tts/predictions/versions/d490a561cf1171a8dc3d96d1e57efffea7dd34607148bb641f3d9de4e38c472e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:36.273Z"
+    },
+    {
+      "id": "replicate/minimax/speech-2.8-hd",
+      "name": "speech-2.8-hd",
+      "provider": "replicate",
+      "modelId": "minimax/speech-2.8-hd",
+      "modality": "video",
+      "capability": "motion_control",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-hd/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-hd/predictions/versions/0e4b9c04c2cc34e0d36468f6efc05c4e71835e9acbf1c249a0d8a1a903384c9b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:36.551Z"
+    },
+    {
+      "id": "replicate/minimax/speech-2.6-turbo",
+      "name": "speech-2.6-turbo",
+      "provider": "replicate",
+      "modelId": "minimax/speech-2.6-turbo",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-turbo/predictions/versions/cd406b35dce2a36340963cfd8f8a89cf90af9fba90d1de0800ab49c21de06e7d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:36.801Z"
+    },
+    {
+      "id": "replicate/minimax/speech-2.6-hd",
+      "name": "speech-2.6-hd",
+      "provider": "replicate",
+      "modelId": "minimax/speech-2.6-hd",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-hd/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-hd/predictions/versions/f8d19a70bcf8809cdaa7abfe82e4d73840a21dc0697717f1462a8a31b1c1da13",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.066Z"
+    },
+    {
+      "id": "replicate/afiaka87/tortoise-tts",
+      "name": "tortoise-tts",
+      "provider": "replicate",
+      "modelId": "afiaka87/tortoise-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/afiaka87/tortoise-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/afiaka87/tortoise-tts/predictions/versions/e9658de4b325863c4fcdc12d94bb7c9b54cbfe351b7ca1b36860008172b91c71",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.306Z"
+    },
+    {
+      "id": "replicate/suno-ai/bark",
+      "name": "bark",
+      "provider": "replicate",
+      "modelId": "suno-ai/bark",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/suno-ai/bark/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/suno-ai/bark/predictions/versions/b76242b40d67c76ab6742e987628a2a9ac019e11d56ab96c4e91ce03b79b2787",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.580Z"
+    },
+    {
+      "id": "replicate/cjwbw/seamless_communication",
+      "name": "seamless_communication",
+      "provider": "replicate",
+      "modelId": "cjwbw/seamless_communication",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/seamless_communication/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/seamless_communication/predictions/versions/668a4fec05a887143e5fe8d45df25ec4c794dd43169b9a11562309b2d45873b0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.813Z"
+    },
+    {
+      "id": "replicate/zsxkib/realistic-voice-cloning",
+      "name": "realistic-voice-cloning",
+      "provider": "replicate",
+      "modelId": "zsxkib/realistic-voice-cloning",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/realistic-voice-cloning/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/realistic-voice-cloning/predictions/versions/0a9c7c558af4c0f20667c1bd1260ce32a2879944a0b9e44e1398660c077b1550",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.887Z"
+    },
+    {
+      "id": "replicate/lucataco/xtts-v2",
+      "name": "xtts-v2",
+      "provider": "replicate",
+      "modelId": "lucataco/xtts-v2",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/xtts-v2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/xtts-v2/predictions/versions/684bc3855b37866c0c65add2ff39c78f3dea3f4ff103a436465326e0f438d55e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:37.954Z"
+    },
+    {
+      "id": "replicate/google/gemini-3.1-flash-tts",
+      "name": "gemini-3.1-flash-tts",
+      "provider": "replicate",
+      "modelId": "google/gemini-3.1-flash-tts",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text",
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/gemini-3.1-flash-tts/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/gemini-3.1-flash-tts/predictions/versions/e165f56d71b9186f64153d2c71036f69284e767b5c770abdbe08531d4d84c6ef",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T14:26:38.221Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro",
+      "name": "Flux Pro",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4",
+        "21:9"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1",
+      "name": "Flux Pro v1.1",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1-ultra",
+      "name": "Flux Pro Ultra",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-dev",
+      "name": "Flux Dev",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-dev",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-schnell",
+      "name": "Flux Schnell",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-v3-medium",
+      "name": "SD3 Medium",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-v3-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-xl",
+      "name": "SDXL",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-xl",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram",
+      "name": "Ideogram",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram/v2",
+      "name": "Ideogram v2",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram/v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/recraft-v3",
+      "name": "Recraft v3",
+      "provider": "fala",
+      "modelId": "fal-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/minimax-video",
+      "name": "MiniMax Video",
+      "provider": "fala",
+      "modelId": "fal-ai/minimax-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/minimax-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/minimax-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/cogvideox-5b",
+      "name": "CogVideoX 5B",
+      "provider": "fala",
+      "modelId": "fal-ai/cogvideox-5b",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/cogvideox-5b",
+      "schemaUrl": "https://fal.ai/models/fal-ai/cogvideox-5b",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/hunyuan-video",
+      "name": "Hunyuan Video",
+      "provider": "fala",
+      "modelId": "fal-ai/hunyuan-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/hunyuan-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/hunyuan-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/kling-video",
+      "name": "Kling Video",
+      "provider": "fala",
+      "modelId": "fal-ai/kling-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5"
+      ],
+      "qualityOptions": [
+        "standard",
+        "pro"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/kling-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/kling-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/kling-video/v1.5",
+      "name": "Kling Video v1.5",
+      "provider": "fala",
+      "modelId": "fal-ai/kling-video/v1.5",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "qualityOptions": [
+        "standard",
+        "pro"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/kling-video/v1.5",
+      "schemaUrl": "https://fal.ai/models/fal-ai/kling-video/v1.5",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/veo-3",
+      "name": "Veo 3",
+      "provider": "fala",
+      "modelId": "fal-ai/veo-3",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "9:16"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/veo-3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/veo-3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/luma-sorcerer",
+      "name": "Luma Sorcerer",
+      "provider": "fala",
+      "modelId": "fal-ai/luma-sorcerer",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/luma-sorcerer",
+      "schemaUrl": "https://fal.ai/models/fal-ai/luma-sorcerer",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/runway-gen3",
+      "name": "Runway Gen3",
+      "provider": "fala",
+      "modelId": "fal-ai/runway-gen3",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/runway-gen3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/runway-gen3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-video-diffusion",
+      "name": "SVD",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-video-diffusion",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-video-diffusion",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-video-diffusion",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/playht-text-to-speech",
+      "name": "PlayHT TTS",
+      "provider": "fala",
+      "modelId": "fal-ai/playht-text-to-speech",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/playht-text-to-speech",
+      "schemaUrl": "https://fal.ai/models/fal-ai/playht-text-to-speech",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/fish-speech",
+      "name": "Fish Speech",
+      "provider": "fala",
+      "modelId": "fal-ai/fish-speech",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "supportsReferenceImages": true,
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/fish-speech",
+      "schemaUrl": "https://fal.ai/models/fal-ai/fish-speech",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/whisper",
+      "name": "Whisper",
+      "provider": "fala",
+      "modelId": "fal-ai/whisper",
+      "modality": "audio",
+      "capability": "audio_transcription",
+      "outputFormats": [
+        "text",
+        "json",
+        "srt",
+        "vtt"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/whisper",
+      "schemaUrl": "https://fal.ai/models/fal-ai/whisper",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/musicgen",
+      "name": "MusicGen",
+      "provider": "fala",
+      "modelId": "fal-ai/musicgen",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/musicgen",
+      "schemaUrl": "https://fal.ai/models/fal-ai/musicgen",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "fala/fal-ai/suno-music",
+      "name": "Suno Music",
+      "provider": "fala",
+      "modelId": "fal-ai/suno-music",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/suno-music",
+      "schemaUrl": "https://fal.ai/models/fal-ai/suno-music",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T14:25:37.527Z"
+    },
+    {
+      "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "provider": "huggingface",
+      "modelId": "stabilityai/stable-diffusion-xl-base-1.0",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:37.739Z"
+    },
+    {
+      "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "provider": "huggingface",
+      "modelId": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:37.823Z"
+    },
+    {
+      "id": "huggingface/stabilityai/sdxl-turbo",
+      "name": "stabilityai/sdxl-turbo",
+      "provider": "huggingface",
+      "modelId": "stabilityai/sdxl-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:37.895Z"
+    },
+    {
+      "id": "huggingface/black-forest-labs/FLUX.2-dev",
+      "name": "black-forest-labs/FLUX.2-dev",
+      "provider": "huggingface",
+      "modelId": "black-forest-labs/FLUX.2-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.054Z"
+    },
+    {
+      "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
+      "name": "black-forest-labs/FLUX.2-klein-4B",
+      "provider": "huggingface",
+      "modelId": "black-forest-labs/FLUX.2-klein-4B",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.137Z"
+    },
+    {
+      "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
+      "name": "Qwen/Qwen-Image-Edit-2509",
+      "provider": "huggingface",
+      "modelId": "Qwen/Qwen-Image-Edit-2509",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.210Z"
+    },
+    {
+      "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "name": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "provider": "huggingface",
+      "modelId": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.355Z"
+    },
+    {
+      "id": "huggingface/Lightricks/LTX-2.3",
+      "name": "Lightricks/LTX-2.3",
+      "provider": "huggingface",
+      "modelId": "Lightricks/LTX-2.3",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.3",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.428Z"
+    },
+    {
+      "id": "huggingface/Lightricks/LTX-2.3-fp8",
+      "name": "Lightricks/LTX-2.3-fp8",
+      "provider": "huggingface",
+      "modelId": "Lightricks/LTX-2.3-fp8",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.505Z"
+    },
+    {
+      "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
+      "name": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "provider": "huggingface",
+      "modelId": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.655Z"
+    },
+    {
+      "id": "huggingface/SulphurAI/Sulphur-2-base",
+      "name": "SulphurAI/Sulphur-2-base",
+      "provider": "huggingface",
+      "modelId": "SulphurAI/Sulphur-2-base",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.732Z"
+    },
+    {
+      "id": "huggingface/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "name": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "provider": "huggingface",
+      "modelId": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.806Z"
+    },
+    {
+      "id": "huggingface/numz/SeedVR2_comfyUI",
+      "name": "numz/SeedVR2_comfyUI",
+      "provider": "huggingface",
+      "modelId": "numz/SeedVR2_comfyUI",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "video",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/numz/SeedVR2_comfyUI",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:38.949Z"
+    },
+    {
+      "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
+      "name": "ByteDance-Seed/SeedVR2-3B",
+      "provider": "huggingface",
+      "modelId": "ByteDance-Seed/SeedVR2-3B",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "video",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/ByteDance-Seed/SeedVR2-3B",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.031Z"
+    },
+    {
+      "id": "huggingface/AInVFX/SeedVR2_comfyUI",
+      "name": "AInVFX/SeedVR2_comfyUI",
+      "provider": "huggingface",
+      "modelId": "AInVFX/SeedVR2_comfyUI",
+      "modality": "video",
+      "capability": "video_generation",
+      "inputTypes": [
+        "video",
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "schemaUrl": "https://huggingface.co/AInVFX/SeedVR2_comfyUI",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.111Z"
+    },
+    {
+      "id": "huggingface/hexgrad/Kokoro-82M",
+      "name": "hexgrad/Kokoro-82M",
+      "provider": "huggingface",
+      "modelId": "hexgrad/Kokoro-82M",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.267Z"
+    },
+    {
+      "id": "huggingface/coqui/XTTS-v2",
+      "name": "coqui/XTTS-v2",
+      "provider": "huggingface",
+      "modelId": "coqui/XTTS-v2",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/coqui/XTTS-v2",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.340Z"
+    },
+    {
+      "id": "huggingface/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "name": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "provider": "huggingface",
+      "modelId": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.414Z"
+    },
+    {
+      "id": "huggingface/facebook/musicgen-medium",
+      "name": "facebook/musicgen-medium",
+      "provider": "huggingface",
+      "modelId": "facebook/musicgen-medium",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/facebook/musicgen-medium",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.567Z"
+    },
+    {
+      "id": "huggingface/facebook/musicgen-small",
+      "name": "facebook/musicgen-small",
+      "provider": "huggingface",
+      "modelId": "facebook/musicgen-small",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/facebook/musicgen-small",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.642Z"
+    },
+    {
+      "id": "huggingface/facebook/musicgen-large",
+      "name": "facebook/musicgen-large",
+      "provider": "huggingface",
+      "modelId": "facebook/musicgen-large",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/facebook/musicgen-large",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.720Z"
+    },
+    {
+      "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
+      "name": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "provider": "huggingface",
+      "modelId": "nvidia/bigvgan_v2_22khz_80band_256x",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.868Z"
+    },
+    {
+      "id": "huggingface/nvidia/bigvgan_v2_44khz_128band_512x",
+      "name": "nvidia/bigvgan_v2_44khz_128band_512x",
+      "provider": "huggingface",
+      "modelId": "nvidia/bigvgan_v2_44khz_128band_512x",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:39.942Z"
+    },
+    {
+      "id": "huggingface/nvidia/personaplex-7b-v1",
+      "name": "nvidia/personaplex-7b-v1",
+      "provider": "huggingface",
+      "modelId": "nvidia/personaplex-7b-v1",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/nvidia/personaplex-7b-v1",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.019Z"
+    },
+    {
+      "id": "huggingface/argmaxinc/whisperkit-coreml",
+      "name": "argmaxinc/whisperkit-coreml",
+      "provider": "huggingface",
+      "modelId": "argmaxinc/whisperkit-coreml",
+      "modality": "audio",
+      "capability": "audio_transcription",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/argmaxinc/whisperkit-coreml",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.191Z"
+    },
+    {
+      "id": "huggingface/pyannote/speaker-diarization-3.1",
+      "name": "pyannote/speaker-diarization-3.1",
+      "provider": "huggingface",
+      "modelId": "pyannote/speaker-diarization-3.1",
+      "modality": "audio",
+      "capability": "audio_transcription",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.267Z"
+    },
+    {
+      "id": "huggingface/openai/whisper-large-v3-turbo",
+      "name": "openai/whisper-large-v3-turbo",
+      "provider": "huggingface",
+      "modelId": "openai/whisper-large-v3-turbo",
+      "modality": "audio",
+      "capability": "audio_transcription",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "schemaUrl": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.351Z"
+    },
+    {
+      "id": "huggingface/CIDAS/clipseg-rd64-refined",
+      "name": "CIDAS/clipseg-rd64-refined",
+      "provider": "huggingface",
+      "modelId": "CIDAS/clipseg-rd64-refined",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.506Z"
+    },
+    {
+      "id": "huggingface/ZhengPeng7/BiRefNet",
+      "name": "ZhengPeng7/BiRefNet",
+      "provider": "huggingface",
+      "modelId": "ZhengPeng7/BiRefNet",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.586Z"
+    },
+    {
+      "id": "huggingface/briaai/RMBG-2.0",
+      "name": "briaai/RMBG-2.0",
+      "provider": "huggingface",
+      "modelId": "briaai/RMBG-2.0",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/briaai/RMBG-2.0",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.660Z"
+    },
+    {
+      "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "provider": "huggingface",
+      "modelId": "timm/mobilenetv3_small_100.lamb_in1k",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.817Z"
+    },
+    {
+      "id": "huggingface/google/vit-base-patch16-224",
+      "name": "google/vit-base-patch16-224",
+      "provider": "huggingface",
+      "modelId": "google/vit-base-patch16-224",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.897Z"
+    },
+    {
+      "id": "huggingface/Falconsai/nsfw_image_detection",
+      "name": "Falconsai/nsfw_image_detection",
+      "provider": "huggingface",
+      "modelId": "Falconsai/nsfw_image_detection",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/Falconsai/nsfw_image_detection",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:40.978Z"
+    },
+    {
+      "id": "huggingface/laion/clap-htsat-fused",
+      "name": "laion/clap-htsat-fused",
+      "provider": "huggingface",
+      "modelId": "laion/clap-htsat-fused",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:41.133Z"
+    },
+    {
+      "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
+      "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+      "provider": "huggingface",
+      "modelId": "MIT/ast-finetuned-audioset-10-10-0.4593",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:41.206Z"
+    },
+    {
+      "id": "huggingface/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "name": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "provider": "huggingface",
+      "modelId": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T14:25:41.276Z"
     }
   ]
 }
