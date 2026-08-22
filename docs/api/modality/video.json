@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-08-21T11:00:41.514Z",
+  "generatedAt": "2026-08-22T12:46:25.032Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-video-v2.0",
@@ -237,10 +237,15 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 15,
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-i2v/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-i2v/predictions/versions/b2d9c361e32024e17b7080c0bd351775be2a8cf732e04a4feb11c8653a40b1c1",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-i2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:47.136Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.608Z"
     },
     {
       "id": "replicate/google/veo-3-fast",
@@ -256,10 +261,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3-fast/predictions/versions/368d4063e21ecf73746b8e6d27989837d97ba07b5eca43a4e5488c852e10c2ec",
+      "schemaUrl": "https://replicate.com/google/veo-3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:47.343Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/google/veo-3",
@@ -275,10 +293,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3/predictions/versions/5e80c73750ffc5dfbe5cee2d694c6ed3da7706660d9132613e6736443b365464",
+      "schemaUrl": "https://replicate.com/google/veo-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:47.549Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/open-mmlab/pia",
@@ -294,10 +325,11 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 24,
       "endpointUrl": "https://api.replicate.com/v1/models/open-mmlab/pia/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/open-mmlab/pia/predictions/versions/7a673cec329e8f9c51a96791030103467e04aad905cc0319ad6501eb2d54e91b",
+      "schemaUrl": "https://replicate.com/open-mmlab/pia",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:47.757Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-r2v",
@@ -313,10 +345,22 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 10,
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-r2v/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-r2v/predictions/versions/00f2bfc4cadaa306f7d52b705c06aee00a53457f6a5aa5bd72a67e4e08627a41",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-r2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:47.958Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/veed/fabric-1.0",
@@ -332,10 +376,14 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480p",
+        "720p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/veed/fabric-1.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/veed/fabric-1.0/predictions/versions/21b8969754f69b351c76ca49e4f1b10a88b162433a36cbcc9849ff64bbee6283",
+      "schemaUrl": "https://replicate.com/veed/fabric-1.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:48.154Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/fofr/tooncrafter",
@@ -352,9 +400,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/tooncrafter/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/tooncrafter/predictions/versions/0486ff07368e816ec3d5c69b9581e7a09b55817f567a0d74caad9395c9295c77",
+      "schemaUrl": "https://replicate.com/fofr/tooncrafter",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:48.365Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/minimax/hailuo-2.3",
@@ -370,10 +418,18 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "6",
+        "10"
+      ],
+      "qualityOptions": [
+        "768p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3/predictions/versions/23a02633b5a44780345a59d4d43f8bd510efa239c56f08f29639ff24fa6615e1",
+      "schemaUrl": "https://replicate.com/minimax/hailuo-2.3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:48.585Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/lightricks/ltx-video",
@@ -389,10 +445,37 @@
       "outputTypes": [
         "video"
       ],
+      "generationModes": [
+        "0.9.1",
+        "0.9"
+      ],
+      "durationOptions": [
+        "97",
+        "129",
+        "161",
+        "193",
+        "225",
+        "257"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "1:2",
+        "2:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video/predictions/versions/8c47da666861d081eeb4d1261853087de23923a268a69b63febdf5dc1dee08e4",
+      "schemaUrl": "https://replicate.com/lightricks/ltx-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:48.803Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/bytedance/seedance-2.0",
@@ -408,10 +491,26 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 15,
+      "qualityOptions": [
+        "480p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0/predictions/versions/a6dcbae88b153e75fcccabacfb0eb430ab5be0a7ae27b316fc6f983658b349bc",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:49.159Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-i2v-fast",
@@ -427,10 +526,18 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v-fast/predictions/versions/66226b38d223f8ac7a81aa33b8519759e300c2f9818a215e32900827ad6d2db5",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.5-i2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:49.367Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-i2v",
@@ -446,10 +553,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "qualityOptions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v/predictions/versions/1b29bbbbfdbc25bba2294de3acd2b58b82e5b623f183880cdb37d76133d80f00",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.5-i2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:49.580Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.5-turbo-pro",
@@ -465,10 +581,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.5-turbo-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.5-turbo-pro/predictions/versions/a3ccc39250a72749ced345996ec06d96d1d032b1a1369f45f3b9f654324036b5",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.5-turbo-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:49.784Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-pro-fast",
@@ -484,10 +609,25 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 12,
+      "qualityOptions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro-fast/predictions/versions/155d6d446da5e7cd4a2ef72725461ba8687bdf63a2a1fb7bb574f25af24dc7b5",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-1-pro-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:49.998Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.609Z"
     },
     {
       "id": "replicate/alibaba/happyhorse-1.0",
@@ -503,10 +643,36 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.0/predictions/versions/d867e39d045d6449a05b8dd3bc10ea3acca69b99aebc34b831809c09cd523527",
+      "schemaUrl": "https://replicate.com/alibaba/happyhorse-1.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:50.205Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
@@ -522,10 +688,24 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "generationModes": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-720p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-720p/predictions/versions/1f0a7fa066689a087b597a314f60ef74d1a720fa1fb9a7083487c4b01db3395f",
+      "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-i2v-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:50.417Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/minimax/hailuo-2.3-fast",
@@ -541,10 +721,18 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "6",
+        "10"
+      ],
+      "qualityOptions": [
+        "768p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3-fast/predictions/versions/c92f075dfd04541f1c1913a9689f778ecf76bfec3dd9fdfe19903a86e07f2cdc",
+      "schemaUrl": "https://replicate.com/minimax/hailuo-2.3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:50.622Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/prunaai/p-video-animate",
@@ -560,10 +748,14 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-animate/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video-animate/predictions/versions/bb85a3375c583d53293a184296791cbaa837f73bcc30ed2b16154e539eb11af0",
+      "schemaUrl": "https://replicate.com/prunaai/p-video-animate",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:50.832Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/luma/ray-3.2",
@@ -579,10 +771,27 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "qualityOptions": [
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "9:16",
+        "3:4",
+        "1:1",
+        "4:3",
+        "16:9",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-3.2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-3.2/predictions/versions/6e0a55010a0a28e18fca6fca8774b6791dde643648f6ac3e98209f5a96ca3c6c",
+      "schemaUrl": "https://replicate.com/luma/ray-3.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:51.035Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
@@ -598,10 +807,24 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "generationModes": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-480p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-480p/predictions/versions/e2870aa4965fd9ddfd87c16a3c8ab952c18e745e63f3f3b123c2dc8b538ad2b5",
+      "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-i2v-480p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:51.249Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/alibaba/happyhorse-1.1",
@@ -617,10 +840,36 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.1/predictions/versions/57e8eee02a055de60a4dee9ba0d36ac7c8ea4a5714575e8d58dcfae3c150f7b3",
+      "schemaUrl": "https://replicate.com/alibaba/happyhorse-1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:51.446Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/lightricks/ltx-video-0.9.7",
@@ -637,9 +886,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7/predictions/versions/b1a80c6dbce390c23bb52aecebc0e09d445ac12136dd4dc539350c76030fc815",
+      "schemaUrl": "https://replicate.com/lightricks/ltx-video-0.9.7",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:51.669Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/google/veo-3.1",
@@ -655,10 +904,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3.1/predictions/versions/9c6ca0c25d89ac6102278405a0673fd929b7793856870d2718e3a84a5aa4ad4d",
+      "schemaUrl": "https://replicate.com/google/veo-3.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:51.879Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/google/veo-3.1-fast",
@@ -674,10 +936,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-3.1-fast/predictions/versions/ba987aceebef53bebfede32973f842fe3aa2301bf2585878181e7a7677052e36",
+      "schemaUrl": "https://replicate.com/google/veo-3.1-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:52.086Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/prunaai/p-video",
@@ -693,10 +968,24 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 20,
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video/predictions/versions/4420187a2059aa9ec6836c7da161eb11dce9afda5310e29e1d9f65efa9fd58ad",
+      "schemaUrl": "https://replicate.com/prunaai/p-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:52.434Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/prunaai/p-video-avatar",
@@ -712,10 +1001,14 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "720p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-avatar/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-video-avatar/predictions/versions/65f66cc96b70bede7a8e0d6851e7438a56073afe98329056d775a4744c3629e9",
+      "schemaUrl": "https://replicate.com/prunaai/p-video-avatar",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:52.644Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/lightricks/ltx-video-0.9.7-distilled",
@@ -731,10 +1024,19 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480",
+        "720"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7-distilled/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7-distilled/predictions/versions/e7f2778ec419047c564a6620b2d9bf7d6c64673411bf2ae13e628ee2b2c0b5b1",
+      "schemaUrl": "https://replicate.com/lightricks/ltx-video-0.9.7-distilled",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:52.854Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/bytedance/seedance-2.0-fast",
@@ -750,10 +1052,24 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 15,
+      "qualityOptions": [
+        "480p",
+        "720p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0-fast/predictions/versions/8a876cb913d631d9a4d47b3f777df7326d5571f37c49ed020fdcf4103240b158",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-2.0-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:53.059Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/google/veo-2",
@@ -769,10 +1085,20 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/veo-2/predictions/versions/af8ebddc406d877a89d631dbbcba24b31692e0f9819639299b1d5def12dd7c95",
+      "schemaUrl": "https://replicate.com/google/veo-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:53.262Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/leonardoai/motion-2.0",
@@ -788,10 +1114,16 @@
       "outputTypes": [
         "video"
       ],
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "2:3",
+        "4:5"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/motion-2.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/leonardoai/motion-2.0/predictions/versions/0cd08fd133f6bfffec01dcb8e21488169f8ce9676dd825a45e99b7c5476d7b40",
+      "schemaUrl": "https://replicate.com/leonardoai/motion-2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:53.467Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v1.6-standard",
@@ -807,10 +1139,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-standard/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-standard/predictions/versions/e6f571e8d6990da3c96abf8d3082894024d652822f0ca3cd244acece84a1cc3e",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v1.6-standard",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:53.668Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v1.6-pro",
@@ -826,10 +1167,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v1.6-pro/predictions/versions/974c9c5bc69f8f9c178ddea80d8936ba46c48081ad6b6ccca8843d44010c0642",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v1.6-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:53.868Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.0",
@@ -845,10 +1195,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.0/predictions/versions/52b5e4c10d12e89be0b8f8e9462412cecc5d041f4201a8d8b05dc7e29a70f938",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:54.071Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.1",
@@ -864,10 +1223,22 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "standard",
+        "pro"
+      ],
+      "generationModes": [
+        "standard",
+        "pro"
+      ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1/predictions/versions/daad218feb714b03e2a1ac445986aebb9d05243cd00da2af17be2e4049f48f69",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:54.271Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/minimax/video-01-live",
@@ -884,9 +1255,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-live/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01-live/predictions/versions/7574e16b8f1ad52c6332ecb264c0f132e555f46c222255a738131ec1bb614092",
+      "schemaUrl": "https://replicate.com/minimax/video-01-live",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:54.469Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/minimax/video-01-director",
@@ -903,9 +1274,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-director/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01-director/predictions/versions/377cde553c72d2a8a034a2824a43b63b9472247d670dbb14d8c917abb2d39b64",
+      "schemaUrl": "https://replicate.com/minimax/video-01-director",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:54.807Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/minimax/video-01",
@@ -922,9 +1293,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/video-01/predictions/versions/5aa835260ff7f40f4069c41185f72036accf99e29957bb4a3b3a911f3b6c1912",
+      "schemaUrl": "https://replicate.com/minimax/video-01",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:55.191Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/runwayml/gen-4.5",
@@ -940,10 +1311,22 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/runwayml/gen-4.5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/runwayml/gen-4.5/predictions/versions/2e10d5ae08888b39ed31c828003f4a5ddc89a7cdec3bc7a9926661e0d22cb034",
+      "schemaUrl": "https://replicate.com/runwayml/gen-4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:55.391Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.1-master",
@@ -959,10 +1342,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1-master/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1-master/predictions/versions/6a190b5a360fcfd057b6e702f9cdc7352a8e3f08dba0ded31cd1988991bf14a2",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.1-master",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:55.591Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v3-video",
@@ -978,10 +1370,26 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "standard",
+        "pro",
+        "4k"
+      ],
+      "generationModes": [
+        "standard",
+        "pro",
+        "4k"
+      ],
+      "maxDurationSeconds": 15,
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-video/predictions/versions/cadb27bd609b3432e7989ce823fb107570335cd165d83f3bddd26da045944ed3",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v3-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:55.795Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.610Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v4",
@@ -997,10 +1405,27 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "normal",
+        "smooth"
+      ],
+      "durationOptions": [
+        "5",
+        "8"
+      ],
+      "generationModes": [
+        "normal",
+        "smooth"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4/predictions/versions/5d3d7389baa4d420ce9aaa270a8b251b3923e778dee4c51e35f8e09d815c6b36",
+      "schemaUrl": "https://replicate.com/pixverse/pixverse-v4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:56.000Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v3-omni-video",
@@ -1016,10 +1441,26 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "standard",
+        "pro",
+        "4k"
+      ],
+      "generationModes": [
+        "standard",
+        "pro",
+        "4k"
+      ],
+      "maxDurationSeconds": 15,
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-omni-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-omni-video/predictions/versions/460d4f46adf3c29abbcd8f42cf5434570da6b50a39ec4593f2006486b1dd3fba",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v3-omni-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:56.199Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/vidu/q3-pro",
@@ -1035,10 +1476,23 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 16,
+      "qualityOptions": [
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "3:4",
+        "4:3",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/vidu/q3-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/vidu/q3-pro/predictions/versions/1a8e2767ffcf46d64a4d97727f187ccc2cadc59db844db7167327e01a2a79390",
+      "schemaUrl": "https://replicate.com/vidu/q3-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:56.399Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/xai/grok-imagine-video",
@@ -1054,10 +1508,25 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 15,
+      "qualityOptions": [
+        "720p",
+        "480p"
+      ],
+      "aspectRatios": [
+        "auto",
+        "16:9",
+        "4:3",
+        "1:1",
+        "9:16",
+        "3:4",
+        "3:2",
+        "2:3"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video/predictions/versions/ec05ebf490fb5db7e17e73c456e80cb1242d4df8ade9bd7300c66ea2108288bc",
+      "schemaUrl": "https://replicate.com/xai/grok-imagine-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:56.595Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/luma/ray-flash-2-540p",
@@ -1073,10 +1542,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "9"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-540p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-540p/predictions/versions/ab7a8dbfe56fe6712c7a64f684930372677a31a3470d260f4786928395c1c5cc",
+      "schemaUrl": "https://replicate.com/luma/ray-flash-2-540p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:56.801Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/bytedance/seedance-1.5-pro",
@@ -1092,10 +1574,20 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 12,
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1.5-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1.5-pro/predictions/versions/78c1986fecf4df185593bbf148a0ed5b4b18b7e0e0f34cc3e32c68cdfa9536ba",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-1.5-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:57.006Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/luma/ray-flash-2-720p",
@@ -1111,10 +1603,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "9"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-720p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-flash-2-720p/predictions/versions/4de59b4688ad158409be13c0c0c37ddfcf21824b2acf326505b03bcf679acab5",
+      "schemaUrl": "https://replicate.com/luma/ray-flash-2-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:57.207Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/luma/ray-2-720p",
@@ -1130,10 +1635,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "9"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-2-720p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-2-720p/predictions/versions/3ca2bc3597e124149bcae1f9c239790a58ba0f1aa72e1c8747192d2b44284dc4",
+      "schemaUrl": "https://replicate.com/luma/ray-2-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:57.405Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/luma/ray-2-540p",
@@ -1149,10 +1667,23 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "9"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-2-540p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/ray-2-540p/predictions/versions/838565ddabd524ed2b1ab8011d811956b954b8f3716c7a15853fd326e826b6c7",
+      "schemaUrl": "https://replicate.com/luma/ray-2-540p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:57.607Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-lite",
@@ -1168,10 +1699,25 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 12,
+      "qualityOptions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-lite/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-lite/predictions/versions/6e47dd83529ee0599c68f274f225635080e4fd218360a85e2a3a78396d388b73",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-1-lite",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:57.813Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-pro",
@@ -1187,10 +1733,25 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 12,
+      "qualityOptions": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro/predictions/versions/a5fd550893da3b6f67997812759065652454ddaca10e96b83b59cbae1814cb36",
+      "schemaUrl": "https://replicate.com/bytedance/seedance-1-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:58.019Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/minimax/hailuo-02",
@@ -1206,10 +1767,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "6",
+        "10"
+      ],
+      "qualityOptions": [
+        "512p",
+        "768p",
+        "1080p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-02/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/hailuo-02/predictions/versions/baaadb886e09b1e711387e270d841930e8253f08775bc6cb176580658f0f2fd9",
+      "schemaUrl": "https://replicate.com/minimax/hailuo-02",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:58.222Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-i2v-a14b",
@@ -1225,10 +1795,14 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480p",
+        "720p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-a14b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-a14b/predictions/versions/2c62e0842338726c74ad99a3c469255ce3f4c1f66ee000c265451b87754ac0c9",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.2-i2v-a14b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:58.424Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-i2v-fast",
@@ -1244,10 +1818,14 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480p",
+        "720p"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-fast/predictions/versions/4eaf2b01d3bf70d8a2e00b219efeb7cb415855ad18b7dacdc4cae664a73a6eea",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.2-i2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:58.628Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/luma/modify-video",
@@ -1263,10 +1841,32 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "adhere_1",
+        "adhere_2",
+        "adhere_3",
+        "flex_1",
+        "flex_2",
+        "flex_3",
+        "reimagine_1",
+        "reimagine_2",
+        "reimagine_3"
+      ],
+      "generationModes": [
+        "adhere_1",
+        "adhere_2",
+        "adhere_3",
+        "flex_1",
+        "flex_2",
+        "flex_3",
+        "reimagine_1",
+        "reimagine_2",
+        "reimagine_3"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/modify-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/modify-video/predictions/versions/de2d85dcc392377a811cf6cda8f2b2b862548954363551b9cf27383ba04aed94",
+      "schemaUrl": "https://replicate.com/luma/modify-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T10:59:58.828Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.611Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-t2v-480p",
@@ -1282,10 +1882,24 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "generationModes": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-480p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-480p/predictions/versions/7677a619127ea34d1ed873fb5b77448e4b9889fbd83809b44a2c459ace99192a",
+      "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-t2v-480p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:21.937Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wavespeedai/hunyuan-video-fast",
@@ -1302,9 +1916,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/hunyuan-video-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/hunyuan-video-fast/predictions/versions/",
+      "schemaUrl": "https://replicate.com/wavespeedai/hunyuan-video-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:21.937Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/meta/sam-2-video",
@@ -1320,10 +1934,15 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/meta/sam-2-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/meta/sam-2-video/predictions/versions/33432afdfc06a10da6b4018932893d39b0159f838b6d11dd1236dff85cc5ec1d",
+      "schemaUrl": "https://replicate.com/meta/sam-2-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:22.149Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wan-video/wan-2.1-1.3b",
@@ -1339,10 +1958,17 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.1-1.3b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.1-1.3b/predictions/versions/121bbb762bf449889f090d36e3598c72c50c7a8cc2ce250433bc521a562aae61",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.1-1.3b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:22.360Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/andreasjansson/tile-morph",
@@ -1359,9 +1985,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/tile-morph/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/andreasjansson/tile-morph/predictions/versions/cbf059cce30a22d821a3c86309ae3b037dcd505dd2eba47f8ea6eba20adced85",
+      "schemaUrl": "https://replicate.com/andreasjansson/tile-morph",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:22.573Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/fofr/video-morpher",
@@ -1377,10 +2003,31 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "small",
+        "medium",
+        "upscaled",
+        "upscaled-and-interpolated"
+      ],
+      "generationModes": [
+        "small",
+        "medium",
+        "upscaled",
+        "upscaled-and-interpolated"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/video-morpher/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/video-morpher/predictions/versions/e70e975067d2b5dbe9e2d9022833d27230a1bdeb3f4af6fe6bb49a548a3039a7",
+      "schemaUrl": "https://replicate.com/fofr/video-morpher",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:22.785Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/zsxkib/hunyuan-video2video",
@@ -1397,9 +2044,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/hunyuan-video2video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/hunyuan-video2video/predictions/versions/d550f226f28b1030c2fedd2947f39f19b4b0233b50364904538caaf037fb18d3",
+      "schemaUrl": "https://replicate.com/zsxkib/hunyuan-video2video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:23.012Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v4.5",
@@ -1415,10 +2062,27 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "normal",
+        "smooth"
+      ],
+      "durationOptions": [
+        "5",
+        "8"
+      ],
+      "generationModes": [
+        "normal",
+        "smooth"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4.5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4.5/predictions/versions/5a31b090decb67bde4291ca5d2a69d7908720c0a1262a4b5d72022518a9b5a3c",
+      "schemaUrl": "https://replicate.com/pixverse/pixverse-v4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:23.230Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-t2v-720p",
@@ -1434,10 +2098,24 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "generationModes": [
+        "Off",
+        "Balanced",
+        "Fast"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-720p/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-720p/predictions/versions/f5576aa30f5d363b6cfa6ff8193de59a32c0f8bee3c73cdf17df92844a8b5570",
+      "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-t2v-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:23.446Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v5.6",
@@ -1453,10 +2131,26 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "360p",
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "durationOptions": [
+        "5",
+        "8",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5.6/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5.6/predictions/versions/716a21c01b88914165473824a15be03188a54c5830fac57d64de93919fcae0e9",
+      "schemaUrl": "https://replicate.com/pixverse/pixverse-v5.6",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:23.660Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-t2v-fast",
@@ -1472,10 +2166,18 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "480p",
+        "720p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-t2v-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-t2v-fast/predictions/versions/c483b1f7b892065bc58ebadb6381abf557f6b1f517d2ff0febb3fb635cf49b4d",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.2-t2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:23.885Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/fofr/not-real",
@@ -1491,10 +2193,19 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "1080p",
+        "720p",
+        "480p"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/not-real/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/not-real/predictions/versions/19b3a157a2bee49509ea771214bdc645dbaae3b8dd0d71d99bbf802c69fbbe2b",
+      "schemaUrl": "https://replicate.com/fofr/not-real",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:24.241Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-t2v-fast",
@@ -1510,10 +2221,14 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v-fast/predictions/versions/1ffaab95d8f67adf487548468b03e795ad0410089c655c560e492add1b7beaf0",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.5-t2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:24.947Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.6",
@@ -1529,10 +2244,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.6/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.6/predictions/versions/b13f36d030496dd78d2986ba8b2b22a44222b3f58c15fb63ef7d6b4aa3a53319",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.6",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:25.155Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v6",
@@ -1548,10 +2272,27 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "360p",
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "durationOptions": [
+        "5",
+        "8",
+        "10",
+        "15"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6/predictions/versions/1f6e2dbe1aec42acbb902f4c51785a57d4e0c0bb5e9fb3b430cedddd4a2cbc11",
+      "schemaUrl": "https://replicate.com/pixverse/pixverse-v6",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:25.369Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/openai/sora-2",
@@ -1567,10 +2308,15 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "8",
+        "12"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/openai/sora-2/predictions/versions/763a9321f615f4867b1d7a2d53666200da21f71da358b12c9b25e0127edae014",
+      "schemaUrl": "https://replicate.com/openai/sora-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:25.580Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/openai/sora-2-pro",
@@ -1586,10 +2332,19 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "4",
+        "8",
+        "12"
+      ],
+      "qualityOptions": [
+        "standard",
+        "high"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/openai/sora-2-pro/predictions/versions/ccf1a58e3ec72e86d01ab19ef240009409f26a9a0470cc246a1728e54b0a6b8f",
+      "schemaUrl": "https://replicate.com/openai/sora-2-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:25.791Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v5",
@@ -1605,10 +2360,25 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "360p",
+        "540p",
+        "720p",
+        "1080p"
+      ],
+      "durationOptions": [
+        "5",
+        "8"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5/predictions/versions/450181c56fcbf920d8d5ba9d7c5653537a009b626652c1a0a909924a785e3389",
+      "schemaUrl": "https://replicate.com/pixverse/pixverse-v5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:26.002Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-t2v",
@@ -1624,10 +2394,14 @@
       "outputTypes": [
         "video"
       ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v/predictions/versions/4e22e64c604706aa4ac1929a7ae146ea033f39bb228e896da79d91b7a39e8d32",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.5-t2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:26.213Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/xai/grok-imagine-video-1.5",
@@ -1643,10 +2417,25 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 15,
+      "qualityOptions": [
+        "720p",
+        "480p"
+      ],
+      "aspectRatios": [
+        "auto",
+        "16:9",
+        "4:3",
+        "1:1",
+        "9:16",
+        "3:4",
+        "3:2",
+        "2:3"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video-1.5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video-1.5/predictions/versions/2378f08d20dc10fc2be0ae2b62d88c7b7c686d57ccaaf7350237e45ce4e1ad26",
+      "schemaUrl": "https://replicate.com/xai/grok-imagine-video-1.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:26.417Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/kwaivgi/kling-o1",
@@ -1662,10 +2451,33 @@
       "outputTypes": [
         "video"
       ],
+      "qualityOptions": [
+        "std",
+        "pro"
+      ],
+      "generationModes": [
+        "std",
+        "pro"
+      ],
+      "durationOptions": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-o1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-o1/predictions/versions/6d5f2d4becc7f734d190d17f13f776229c359cafc1c1898d78945e8d87c57538",
+      "schemaUrl": "https://replicate.com/kwaivgi/kling-o1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:26.632Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/bytedance/dreamactor-m2.0",
@@ -1682,9 +2494,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/dreamactor-m2.0/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/dreamactor-m2.0/predictions/versions/b23bf8e6d5f31dd67ad219fac057fd43d3ac38fc58343025ab557be74a9450ca",
+      "schemaUrl": "https://replicate.com/bytedance/dreamactor-m2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:26.846Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/lucataco/hotshot-xl",
@@ -1701,9 +2513,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/hotshot-xl/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/hotshot-xl/predictions/versions/78b3a6257e16e4b241245d65c8b2b81ea2e1ff7ed4c55306b511509ddbfd327a",
+      "schemaUrl": "https://replicate.com/lucataco/hotshot-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:27.055Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/arielreplicate/deoldify_video",
@@ -1720,9 +2532,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/deoldify_video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/deoldify_video/predictions/versions/8f1189b476fcb54cfbe1d07d97b025c571a2ce4e9a7a9558640c78647576e16f",
+      "schemaUrl": "https://replicate.com/arielreplicate/deoldify_video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:27.260Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/cjwbw/text2video-zero",
@@ -1739,9 +2551,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/text2video-zero/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/text2video-zero/predictions/versions/e671ffe4e976c0ec813f15a9836ebcfd08857ac2669af6917e3c2549307f9fae",
+      "schemaUrl": "https://replicate.com/cjwbw/text2video-zero",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:27.472Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/zsxkib/pyramid-flow",
@@ -1757,10 +2569,11 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 10,
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/pyramid-flow/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/pyramid-flow/predictions/versions/8e221e66498a52bb3a928a4b49d85379c99ca60fec41511265deec35d547c1fb",
+      "schemaUrl": "https://replicate.com/zsxkib/pyramid-flow",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:27.680Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/anotherjesse/zeroscope-v2-xl",
@@ -1776,10 +2589,16 @@
       "outputTypes": [
         "video"
       ],
+      "generationModes": [
+        "xl",
+        "576w",
+        "potat1",
+        "animov-512x"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/anotherjesse/zeroscope-v2-xl/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/anotherjesse/zeroscope-v2-xl/predictions/versions/9f747673945c62801b13b84701c783929c0ee784e4748ec062204894dda1a351",
+      "schemaUrl": "https://replicate.com/anotherjesse/zeroscope-v2-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:27.898Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.137Z"
     },
     {
       "id": "replicate/deforum/deforum_stable_diffusion",
@@ -1796,9 +2615,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/deforum/deforum_stable_diffusion/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/deforum/deforum_stable_diffusion/predictions/versions/e22e77495f2fb83c34d5fae2ad8ab63c0a87b6b573b6208e1535b23b89ea66d6",
+      "schemaUrl": "https://replicate.com/deforum/deforum_stable_diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:28.105Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/ali-vilab/i2vgen-xl",
@@ -1815,9 +2634,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/ali-vilab/i2vgen-xl/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ali-vilab/i2vgen-xl/predictions/versions/5821a338d00033abaaba89080a17eb8783d9a17ed710a6b4246a18e0900ccad4",
+      "schemaUrl": "https://replicate.com/ali-vilab/i2vgen-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:28.319Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/andreasjansson/stable-diffusion-animation",
@@ -1833,10 +2652,14 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "gif",
+        "mp4"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/stable-diffusion-animation/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/andreasjansson/stable-diffusion-animation/predictions/versions/ca1f5e306e5721e19c473e0d094e6603f0456fe759c10715fcd6c1b79242d4a5",
+      "schemaUrl": "https://replicate.com/andreasjansson/stable-diffusion-animation",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:28.526Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/zsxkib/animatediff-prompt-travel",
@@ -1852,10 +2675,22 @@
       "outputTypes": [
         "video"
       ],
+      "generationModes": [
+        "realisticVisionV20_v20",
+        "lyriel_v16",
+        "majicmixRealistic_v5Preview",
+        "rcnzCartoon3d_v10",
+        "toonyou_beta3",
+        "CUSTOM"
+      ],
+      "outputFormats": [
+        "mp4",
+        "gif"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-prompt-travel/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-prompt-travel/predictions/versions/1b8a8f2725c03b1ff4a0b960079899131c384149d1feba45e4ef43653deb3b5f",
+      "schemaUrl": "https://replicate.com/zsxkib/animatediff-prompt-travel",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:28.746Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/cjwbw/controlvideo",
@@ -1872,9 +2707,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/controlvideo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/controlvideo/predictions/versions/91710b3f53c9c1cb958e7bf0ea982d21b666f6a3ff28c1670ee0c08355ced925",
+      "schemaUrl": "https://replicate.com/cjwbw/controlvideo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:28.960Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/cjwbw/damo-text-to-video",
@@ -1891,9 +2726,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/damo-text-to-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/damo-text-to-video/predictions/versions/1e205ea73084bd17a0a3b43396e49ba0d6bc2e754e9283b2df49fad2dcf95755",
+      "schemaUrl": "https://replicate.com/cjwbw/damo-text-to-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:29.169Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/lucataco/animate-diff",
@@ -1910,9 +2745,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/animate-diff/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/animate-diff/predictions/versions/beecf59c4aee8d81bf04f0381033dfa10dc16e845b4ae00d281e2fa377e48a9f",
+      "schemaUrl": "https://replicate.com/lucataco/animate-diff",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:29.381Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/zsxkib/animatediff-illusions",
@@ -1928,10 +2763,22 @@
       "outputTypes": [
         "video"
       ],
+      "generationModes": [
+        "realisticVisionV40_v20Novae",
+        "lyriel_v16",
+        "majicmixRealistic_v5Preview",
+        "rcnzCartoon3d_v10",
+        "toonyou_beta3",
+        "CUSTOM"
+      ],
+      "outputFormats": [
+        "mp4",
+        "gif"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-illusions/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-illusions/predictions/versions/b3ccb0101402aafd04bfea042950be606223e2abedbad93cf848bfffa072bb61",
+      "schemaUrl": "https://replicate.com/zsxkib/animatediff-illusions",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:29.604Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/arielreplicate/stable_diffusion_infinite_zoom",
@@ -1947,10 +2794,14 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp4",
+        "gif"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/stable_diffusion_infinite_zoom/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/stable_diffusion_infinite_zoom/predictions/versions/a2527c5074fc0cf9fa6015a40d75d080d1ddf7082fabe142f1ccd882c18fce61",
+      "schemaUrl": "https://replicate.com/arielreplicate/stable_diffusion_infinite_zoom",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:29.812Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/arielreplicate/robust_video_matting",
@@ -1967,9 +2818,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/robust_video_matting/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/arielreplicate/robust_video_matting/predictions/versions/73d2128a371922d5d1abf0712a1d974be0e4e2358cc1218e4e34714767232bac",
+      "schemaUrl": "https://replicate.com/arielreplicate/robust_video_matting",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:30.013Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/genmoai/mochi-1",
@@ -1986,9 +2837,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/genmoai/mochi-1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/genmoai/mochi-1/predictions/versions/1944af04d098ef69bed7f9d335d102e652203f268ec4aaa2d836f6217217e460",
+      "schemaUrl": "https://replicate.com/genmoai/mochi-1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:30.221Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/pollinations/real-basicvsr-video-superresolution",
@@ -2005,9 +2856,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/pollinations/real-basicvsr-video-superresolution/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/pollinations/real-basicvsr-video-superresolution/predictions/versions/005b4db1d719c1672c522b220db3bc899a81889986b5adc7a01b4f4cfb34e4a7",
+      "schemaUrl": "https://replicate.com/pollinations/real-basicvsr-video-superresolution",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:30.428Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/cjwbw/videocrafter",
@@ -2024,9 +2875,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/videocrafter/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/cjwbw/videocrafter/predictions/versions/02edcff3e9d2d11dcc27e530773d988df25462b1ee93ed0257b6f246de4797c8",
+      "schemaUrl": "https://replicate.com/cjwbw/videocrafter",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:30.636Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/zsxkib/animate-diff",
@@ -2042,10 +2893,21 @@
       "outputTypes": [
         "video"
       ],
+      "generationModes": [
+        "realisticVisionV20_v20",
+        "lyriel_v16",
+        "majicmixRealistic_v5Preview",
+        "rcnzCartoon3d_v10",
+        "toonyou_beta3"
+      ],
+      "outputFormats": [
+        "mp4",
+        "gif"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animate-diff/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/zsxkib/animate-diff/predictions/versions/269a616c8b0c2bbc12fc15fd51bb202b11e94ff0f7786c026aa905305c4ed9fb",
+      "schemaUrl": "https://replicate.com/zsxkib/animate-diff",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:30.854Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/tencent/hunyuan-video",
@@ -2061,10 +2923,11 @@
       "outputTypes": [
         "video"
       ],
+      "maxDurationSeconds": 200,
       "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-video/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-video/predictions/versions/6c9132aee14409cd6568d030453f1ba50f5f3412b844fe67f78a9eb62d55664f",
+      "schemaUrl": "https://replicate.com/tencent/hunyuan-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:31.070Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/cuuupid/cogvideox-5b",
@@ -2081,9 +2944,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/cuuupid/cogvideox-5b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/cuuupid/cogvideox-5b/predictions/versions/5b14e2c2c648efecc8d36c6353576552f8a124e690587212f8e8bb17ecda3d8c",
+      "schemaUrl": "https://replicate.com/cuuupid/cogvideox-5b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:31.278Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.138Z"
     },
     {
       "id": "replicate/minimax/speech-02-turbo",
@@ -2099,10 +2962,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "flac",
+        "pcm"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-02-turbo/predictions/versions/f39649380c14fcc2263e2cc4f27d112629b72e95d7c5a8e5eb23bd90444fd34c",
+      "schemaUrl": "https://replicate.com/minimax/speech-02-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:36.760Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/minimax/speech-02-hd",
@@ -2118,10 +2987,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "flac",
+        "pcm"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-hd/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-02-hd/predictions/versions/b2c687e53557eee08b35b59620f88750671e97b9a91f351ea6797ac838a0773d",
+      "schemaUrl": "https://replicate.com/minimax/speech-02-hd",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:36.970Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox-multilingual",
@@ -2138,9 +3013,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-multilingual/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-multilingual/predictions/versions/9cfba4c265e685f840612be835424f8c33bdee685d7466ece7684b0d9d4c0b1c",
+      "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-multilingual",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:37.180Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox",
@@ -2157,9 +3032,9 @@
         "video"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox/predictions/versions/1b8422bc49635c20d0a84e387ed20879c0dd09254ecdb4e75dc4bec10ff94e97",
+      "schemaUrl": "https://replicate.com/resemble-ai/chatterbox",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:37.595Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/minimax/speech-2.8-turbo",
@@ -2175,10 +3050,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "flac",
+        "pcm"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-turbo/predictions/versions/5525c705c8fa70fd49fcb12b231c6d0e872437c82620bc4d51e64c0c5017ecfe",
+      "schemaUrl": "https://replicate.com/minimax/speech-2.8-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:37.805Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/inworld/realtime-tts-1.5-max",
@@ -2194,10 +3075,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "ogg_opus",
+        "flac"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-max/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-max/predictions/versions/4a2e51066a48d694207736b7598590ac44a8c780d3ee50147951c5ddf3e52e1d",
+      "schemaUrl": "https://replicate.com/inworld/realtime-tts-1.5-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:38.229Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/minimax/speech-2.8-hd",
@@ -2213,10 +3100,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "flac",
+        "pcm"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-hd/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-hd/predictions/versions/0e4b9c04c2cc34e0d36468f6efc05c4e71835e9acbf1c249a0d8a1a903384c9b",
+      "schemaUrl": "https://replicate.com/minimax/speech-2.8-hd",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:39.515Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "replicate/minimax/speech-2.6-turbo",
@@ -2232,10 +3125,16 @@
       "outputTypes": [
         "video"
       ],
+      "outputFormats": [
+        "mp3",
+        "wav",
+        "flac",
+        "pcm"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-turbo/predictions/versions/cd406b35dce2a36340963cfd8f8a89cf90af9fba90d1de0800ab49c21de06e7d",
+      "schemaUrl": "https://replicate.com/minimax/speech-2.6-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:39.726Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.883Z"
     },
     {
       "id": "fala/fal-ai/minimax-video",
@@ -2265,7 +3164,7 @@
       "endpointUrl": "https://fal.run/fal-ai/minimax-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/minimax-video",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/cogvideox-5b",
@@ -2295,7 +3194,7 @@
       "endpointUrl": "https://fal.run/fal-ai/cogvideox-5b",
       "schemaUrl": "https://fal.ai/models/fal-ai/cogvideox-5b",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/hunyuan-video",
@@ -2325,7 +3224,7 @@
       "endpointUrl": "https://fal.run/fal-ai/hunyuan-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/hunyuan-video",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/kling-video",
@@ -2357,7 +3256,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/kling-video/v1.5",
@@ -2390,7 +3289,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video/v1.5",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video/v1.5",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/veo-3",
@@ -2420,7 +3319,7 @@
       "endpointUrl": "https://fal.run/fal-ai/veo-3",
       "schemaUrl": "https://fal.ai/models/fal-ai/veo-3",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/luma-sorcerer",
@@ -2445,7 +3344,7 @@
       "endpointUrl": "https://fal.run/fal-ai/luma-sorcerer",
       "schemaUrl": "https://fal.ai/models/fal-ai/luma-sorcerer",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/runway-gen3",
@@ -2470,7 +3369,7 @@
       "endpointUrl": "https://fal.run/fal-ai/runway-gen3",
       "schemaUrl": "https://fal.ai/models/fal-ai/runway-gen3",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/stable-video-diffusion",
@@ -2495,7 +3394,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-video-diffusion",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-video-diffusion",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
@@ -2513,7 +3412,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:47.270Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.112Z"
     },
     {
       "id": "huggingface/Lightricks/LTX-2.3",
@@ -2531,7 +3430,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.3",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:47.541Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.193Z"
     },
     {
       "id": "huggingface/Lightricks/LTX-2.3-fp8",
@@ -2549,7 +3448,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:47.806Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.270Z"
     },
     {
       "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
@@ -2566,7 +3465,7 @@
       ],
       "schemaUrl": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:48.345Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.436Z"
     },
     {
       "id": "huggingface/SulphurAI/Sulphur-2-base",
@@ -2583,7 +3482,7 @@
       ],
       "schemaUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:48.641Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.516Z"
     },
     {
       "id": "huggingface/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
@@ -2600,7 +3499,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:48.913Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.592Z"
     },
     {
       "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2618,7 +3517,7 @@
       ],
       "schemaUrl": "https://huggingface.co/numz/SeedVR2_comfyUI",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:49.444Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.747Z"
     },
     {
       "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
@@ -2636,7 +3535,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ByteDance-Seed/SeedVR2-3B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:49.714Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.824Z"
     },
     {
       "id": "huggingface/AInVFX/SeedVR2_comfyUI",
@@ -2654,7 +3553,7 @@
       ],
       "schemaUrl": "https://huggingface.co/AInVFX/SeedVR2_comfyUI",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:49.983Z"
+      "lastSyncedAt": "2026-08-22T12:46:21.902Z"
     }
   ],
   "count": 132

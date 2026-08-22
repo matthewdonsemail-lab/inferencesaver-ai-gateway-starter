@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-08-21T11:00:41.514Z",
+  "generatedAt": "2026-08-22T12:46:25.032Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-image-2.1-flash",
@@ -97,10 +97,375 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions/versions/8b85e4363b03c25f1d248d0f7e3e118503f2b33773a51bab414603bd52f6112d",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:00.639Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
@@ -116,10 +481,375 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions/versions/0afb968f42d1f96ab92f9c8d669c0e819fa36ccc74f02a7cd057595c9e42da01",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:00.844Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/minimax/image-01",
@@ -135,10 +865,20 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "4:3",
+        "3:2",
+        "2:3",
+        "3:4",
+        "9:16",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions/versions/928f3bd6ac899108d0ab8cf7f91dfa39a03eda0175e94c9b4cd075776dececf0",
+      "schemaUrl": "https://replicate.com/minimax/image-01",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:01.042Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/bytedance/seedream-3",
@@ -154,10 +894,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "16:9",
+        "9:16",
+        "2:3",
+        "3:2",
+        "21:9",
+        "custom"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions/versions/ed344813bc9f4996be6de4febd8b9c14c7849ad7b21ab047572e3620ee374ee7",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:01.249Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/luma/photon",
@@ -173,10 +924,19 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon/predictions/versions/fe142c037cf359764f2058c3a42ef0dc750d908311d02868cbc7769fe800b648",
+      "schemaUrl": "https://replicate.com/luma/photon",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:01.449Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/luma/photon-flash",
@@ -192,10 +952,19 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions/versions/8cee7d47f81d8f4f77c1aec44ffb3d1ce09d36388db637ceaa8a6cbcf30b63e1",
+      "schemaUrl": "https://replicate.com/luma/photon-flash",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:01.654Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.932Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-full",
@@ -211,10 +980,27 @@
       "outputTypes": [
         "image"
       ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions/versions/03d58532fd29e39fd2ed80e86c3da1cebec28ef2734081cf1366710d30388f42",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-full",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:01.856Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/imagen-4-fast",
@@ -230,10 +1016,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions/versions/efb61e33cffb69a1725083f675a44793929553f479918d01d6ce6e00efbee0d7",
+      "schemaUrl": "https://replicate.com/google/imagen-4-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:02.056Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/imagen-4-ultra",
@@ -249,10 +1046,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions/versions/94d9d5a0e8bf7691286756bf150fa0c81e1bc3d6e2cddfc7084781f54e0199b5",
+      "schemaUrl": "https://replicate.com/google/imagen-4-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:02.261Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/nvidia/sana-sprint-1.6b",
@@ -268,10 +1076,16 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "maxDurationSeconds": 1.5,
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions/versions/038aee6907b53a5c148780983e39a50ce7cd0747b4e2642e78387f48cf36039a",
+      "schemaUrl": "https://replicate.com/nvidia/sana-sprint-1.6b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:02.463Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-dev",
@@ -287,10 +1101,27 @@
       "outputTypes": [
         "image"
       ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions/versions/4dfcd146c0def4812455415f55556f6bc84025dcb15193cf1977f01bd384d191",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:02.665Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-fast",
@@ -306,10 +1137,27 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions/versions/a25bf35ce22aa4b948977b8e745cf666bc2b63032fc61cf039c745449a8cbe63",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:02.875Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/prunaai/flux-fast",
@@ -325,10 +1173,40 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (default)",
+        "Extra Juiced 🔥 (more speed)",
+        "Blink of an eye 👁️"
+      ],
+      "generationModes": [
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (default)",
+        "Extra Juiced 🔥 (more speed)",
+        "Blink of an eye 👁️"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions/versions/4f22c6cd75e0f95f12f55d1616a4d163e9166087ed4979f5cecc40418a522703",
+      "schemaUrl": "https://replicate.com/prunaai/flux-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:03.088Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/prunaai/sdxl-lightning",
@@ -344,10 +1222,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions/versions/123d4264aec4d1c81d8bf142e0d90d6fd4c346f1a869406019f6d1653882d7c3",
+      "schemaUrl": "https://replicate.com/prunaai/sdxl-lightning",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:03.300Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-quality",
@@ -363,10 +1246,382 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions/versions/6dafa89a04b1547f0d1c1680b8dcd41ebb2f82c4e2f0c8a92d4bf5ea5250150b",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-quality",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:03.516Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-balanced",
@@ -382,10 +1637,382 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions/versions/41f9f0d4bf6c470dd0f5085dadc6c14ffb8ed4ce1f6bffbbc10b03ecf5b053fb",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-balanced",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:03.735Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev-lora",
@@ -401,10 +2028,28 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions/versions/ae0d7d645446924cf1871e3ca8796e8318f72465d2b5af9323a835df93bf0917",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:03.948Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/bria/image-3.2",
@@ -420,10 +2065,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions/versions/cd4f78ccda1eb0983e504cfa1e58cfbd8edc8999ea9da87e1ac2ee541c205450",
+      "schemaUrl": "https://replicate.com/bria/image-3.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:04.151Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/imagen-4",
@@ -439,10 +2095,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions/versions/19335492dbe879d4b5983bff2149f597db8314ccc7fe374e6313af7c2b52792f",
+      "schemaUrl": "https://replicate.com/google/imagen-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:04.353Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-pro",
@@ -458,10 +2125,29 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions/versions/897a70f5a7dbd8a0611413b3b98cf417b45f266bd595c571a22947619d9ae462",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:04.553Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-max",
@@ -477,10 +2163,29 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions/versions/8389ed8e4b16016c44fcdcc3ad142cf1e182e0a1ecaf0347b3e5254303f2beac",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:04.757Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/prunaai/wan-2.2-image",
@@ -496,10 +2201,23 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "21:9"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions/versions/16e15e913fcc71c1a5defb335ea84739f99731fa1ee17995117c7d9adc6d176c",
+      "schemaUrl": "https://replicate.com/prunaai/wan-2.2-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:04.959Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/nano-banana",
@@ -515,10 +2233,26 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions/versions/5bdc2c7cd642ae33611d8c33f79615f98ff02509ab8db9d8ec1cc6c36d378fba",
+      "schemaUrl": "https://replicate.com/google/nano-banana",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:05.161Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image",
@@ -535,9 +2269,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions/versions/2e9f097d4acc02be2d0d86ea8034402c9913488309db62dd8b7dbca3f810326c",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:05.366Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/imagen-3",
@@ -553,10 +2287,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions/versions/dd38058a6e74c700dcd05db62896386817f3af627bbe71f869f9a43f02773fd4",
+      "schemaUrl": "https://replicate.com/google/imagen-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:05.565Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/google/imagen-3-fast",
@@ -572,10 +2317,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions/versions/2d1d7f7965a9b0b37ea8eb77f156e905631d27f0f56a234de98385703b5c380e",
+      "schemaUrl": "https://replicate.com/google/imagen-3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:05.924Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-klein-4b",
@@ -591,10 +2347,28 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "5:4",
+        "4:5",
+        "21:9",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions/versions/8e9c42d77b10a2a41af823ac4500f7545be6ebc4e745830fc3f3de10de200542",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-klein-4b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:06.146Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/bria/fibo",
@@ -610,10 +2384,21 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions/versions/11d5854315b5c315a9e9335bb816e693eea668e47e347ca69e2ea1eac16acd6b",
+      "schemaUrl": "https://replicate.com/bria/fibo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:06.368Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.933Z"
     },
     {
       "id": "replicate/tencent/hunyuan-image-3",
@@ -629,10 +2414,28 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions/versions/080dbbefcd1504ca5aeebaa2815fd51467d5bb793d2b1fb4eb4eb32ac22a3377",
+      "schemaUrl": "https://replicate.com/tencent/hunyuan-image-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:06.574Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/bytedance/seedream-4",
@@ -648,10 +2451,13 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "auto"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions/versions/cf7d431991436f19d1c8dad83fe463c729c816d7a21056c5105e75c84a0aa7e9",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:06.786Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/google/nano-banana-pro",
@@ -667,10 +2473,31 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions/versions/93f55bfdbdfd4a62e16bf861729bcfa9e8fd9b0325fb218cbc4dd138ecc87cc7",
+      "schemaUrl": "https://replicate.com/google/nano-banana-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:06.990Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/prunaai/z-image-turbo",
@@ -686,10 +2513,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions/versions/e2e4026056d5b1a80fa5f9f2fa27cd3b868eab220ba99402c5321362de0ee92a",
+      "schemaUrl": "https://replicate.com/prunaai/z-image-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:07.204Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/leonardoai/lucid-origin",
@@ -705,10 +2537,25 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:1",
+        "1:2",
+        "3:1",
+        "1:3"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions/versions/b772951ed6ca66c93626bd27b2a0480fe392295126f39cb9e47cf6404a37def0",
+      "schemaUrl": "https://replicate.com/leonardoai/lucid-origin",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:07.414Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/bytedance/seedream-4.5",
@@ -724,10 +2571,13 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "auto"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions/versions/9fe3b8282dcb9d9063b05e33210a1432801f7c5a6641db944baefcec4886761a",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:07.620Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image-pro",
@@ -744,9 +2594,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions/versions/d880bad3fb109170221d7c233c4665bab6ba83d01936f3c9b1389de6ed2a82ed",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:07.824Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4",
@@ -762,10 +2612,84 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "14:10",
+        "10:14",
+        "4:5",
+        "5:4",
+        "6:10"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1536
+        },
+        {
+          "width": 1280,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 1280
+        },
+        {
+          "width": 1216,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1344
+        },
+        {
+          "width": 1280,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1280
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1344
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions/versions/a8bc7377c37baeea1e01568f88b6abfb38939135071a38ca4267c8f82c3cbbf0",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:08.034Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro",
@@ -781,10 +2705,84 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "4:5",
+        "5:4",
+        "6:10",
+        "14:10",
+        "10:14"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 3072,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 3072
+        },
+        {
+          "width": 2560,
+          "height": 1664
+        },
+        {
+          "width": 1664,
+          "height": 2560
+        },
+        {
+          "width": 2432,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2432
+        },
+        {
+          "width": 2304,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2304
+        },
+        {
+          "width": 1664,
+          "height": 2688
+        },
+        {
+          "width": 2560,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2560
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions/versions/da14602f43a83d1a85654e8cbce5afc0d4cca59b41c0c13f73be8ca84d54d6b6",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:08.247Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/xai/grok-imagine-image",
@@ -800,10 +2798,24 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "2:1",
+        "1:2",
+        "20:9",
+        "9:20",
+        "auto"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions/versions/3032db31147241f86351f0d7ab1ffd5150dcb482bcb873580f15d8cb8970a812",
+      "schemaUrl": "https://replicate.com/xai/grok-imagine-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:08.454Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/bytedance/seedream-5-lite",
@@ -819,10 +2831,17 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "auto"
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions/versions/eeb2857d94c49a5bcbc9d6c6057416e1d3b1a2735a16e08e4def9bf7ee22ec71",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-5-lite",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:08.660Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/openai/gpt-image-2",
@@ -838,10 +2857,73 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "auto"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "auto"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "width": 2160,
+          "height": 3840
+        }
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions/versions/225c978a7f938acc350564c4548ddc2476bfb33364bec6b5422227f55ce56bd3",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:08.868Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-svg",
@@ -857,10 +2939,84 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "14:10",
+        "10:14",
+        "4:5",
+        "5:4",
+        "6:10"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1536
+        },
+        {
+          "width": 1280,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 1280
+        },
+        {
+          "width": 1216,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1344
+        },
+        {
+          "width": 1280,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1280
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1344
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions/versions/93cbef8f201b974654d36b1247314072205583f6ff489a1582126f34f2f93635",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:09.073Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/sourceful/riverflow-2.0-pro",
@@ -876,10 +3032,32 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "auto",
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16"
+      ],
+      "outputFormats": [
+        "webp",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions/versions/d46bdf05d249002bbf46683d9d1372860c309f8ceb41ad4fca8cce1180b91d8f",
+      "schemaUrl": "https://replicate.com/sourceful/riverflow-2.0-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:09.293Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro-svg",
@@ -895,10 +3073,84 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "4:5",
+        "5:4",
+        "6:10",
+        "14:10",
+        "10:14"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 3072,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 3072
+        },
+        {
+          "width": 2560,
+          "height": 1664
+        },
+        {
+          "width": 1664,
+          "height": 2560
+        },
+        {
+          "width": 2432,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2432
+        },
+        {
+          "width": 2304,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2304
+        },
+        {
+          "width": 1664,
+          "height": 2688
+        },
+        {
+          "width": 2560,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2560
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions/versions/b31f9d3b20f09d3029aee2d983641c36e7cbc2118d2c9d2fcb7a4f248b6e3538",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:09.499Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/prunaai/p-image-lora",
@@ -914,10 +3166,20 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "custom"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions/versions/f69aaba63b0b2c22d2313c6219365a7344d6d51907c477f78986ee2de2e5d1a2",
+      "schemaUrl": "https://replicate.com/prunaai/p-image-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:09.716Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/openai/gpt-image-1.5",
@@ -933,10 +3195,26 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "auto"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3"
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions/versions/118f53498ea7319519229b2d5bd0d4a69e3d77eb60d6292d5db38125534dc1ca",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-1.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:09.931Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2",
@@ -952,10 +3230,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions/versions/3c6374e7a9a17e01afe306a5218cc67de55b19ea536466d6ea2602cfecea40a9",
+      "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:10.143Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-pro",
@@ -971,10 +3254,34 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions/versions/ccb5e33141097816e6fab8c895e702fe4c619e4e07500885b71214e9f6382a5c",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:10.362Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-flex",
@@ -990,10 +3297,34 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions/versions/dbeea265fe7b67a03086ed29ddc54b55cc5387aeba8d84f9e80adbf5698a0f67",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-flex",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:10.575Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.934Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-turbo",
@@ -1009,10 +3340,382 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions/versions/d9b3748f95c0fe3e71f010f8cc5d80e8f5252acd0e74b1c294ee889eea52a47b",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:10.800Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/google/nano-banana-2",
@@ -1028,10 +3731,35 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "1:4",
+        "1:8",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:1",
+        "4:3",
+        "4:5",
+        "5:4",
+        "8:1",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions/versions/d1be8b5fc0931a253d417e12a484ac01ee9ccbc6daffd4792151377d5e5ff55f",
+      "schemaUrl": "https://replicate.com/google/nano-banana-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:10.996Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/lucataco/ssd-1b",
@@ -1048,9 +3776,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions/versions/b19e3639452c59ce8295b82aba70a231404cb062f2eb580ea894b31e8ce5bbb6",
+      "schemaUrl": "https://replicate.com/lucataco/ssd-1b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:11.204Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/comfyui/any-comfyui-workflow",
@@ -1066,10 +3794,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions/versions/16d0a881fbfc066f0471a3519a347db456fe8cbcbd53abb435a50a74efaeb427",
+      "schemaUrl": "https://replicate.com/comfyui/any-comfyui-workflow",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:11.413Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev",
@@ -1085,10 +3818,28 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions/versions/6e4a938f85952bdabcc15aa329178c4d681c52bf25a0342403287dc26944661d",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:11.628Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2-turbo",
@@ -1104,10 +3855,375 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions/versions/7cef9d520d672bb802588ad0d13151bc51aee9a408c270aebf25d6530045dd29",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:11.832Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/qwen/qwen-image",
@@ -1123,10 +4239,24 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions/versions/0bba9e70f78437359725e0989ead45ca8b09e6c12a070dfe9a09e6856b43a44d",
+      "schemaUrl": "https://replicate.com/qwen/qwen-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:12.039Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/prunaai/p-image",
@@ -1142,10 +4272,20 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "custom"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions/versions/10b739c5e107d9684e9e7eca6f443ab0861bd526af50a03cf42d6210b36684b7",
+      "schemaUrl": "https://replicate.com/prunaai/p-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:12.240Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.3",
@@ -1162,9 +4302,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions/versions/b28b79d725c8548b173b6a19ff9bffd16b9b80df5b18b8dc5cb9e1ee471bfa48",
+      "schemaUrl": "https://replicate.com/datacte/proteus-v0.3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:12.445Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2.2",
@@ -1180,10 +4320,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "webp",
+        "jpeg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions/versions/ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+      "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:12.648Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/fofr/sdxl-emoji",
@@ -1200,9 +4345,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions/versions/dee76b5afde21b0f01ed7925f0665b7e879c50ee718c5f78a9d38e04d523cc5e",
+      "schemaUrl": "https://replicate.com/fofr/sdxl-emoji",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:12.858Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/bytedance/sdxl-lightning-4step",
@@ -1219,9 +4364,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions/versions/6f7a773af6fc3e8de9d5a3c00be77c17308914bf67772726aff83496ba1e3bbe",
+      "schemaUrl": "https://replicate.com/bytedance/sdxl-lightning-4step",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:13.061Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2",
@@ -1237,10 +4382,375 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions/versions/3e6071946ab5319b3bcc37a4d00083e743dfdff5be386df6a2ff1f212fc7365b",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:13.266Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
@@ -1257,9 +4767,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions/versions/90a4a3604cd637cb9f1a2bdae1cfa9ed869362ca028814cdce310a78e27daade",
+      "schemaUrl": "https://replicate.com/sdxl-based/realvisxl-v3-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:13.490Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-pro",
@@ -1275,10 +4785,27 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions/versions/ce4035b99fc7bac18bc2f0384632858f126f6b4d96c88603a898a76b8e0c4ac2",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:13.696Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/tstramer/material-diffusion",
@@ -1295,9 +4822,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions/versions/a42692c54c0f407f803a0a8a9066160976baedb77c91171a01730f9b0d7beeff",
+      "schemaUrl": "https://replicate.com/tstramer/material-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:13.897Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/fermatresearch/sdxl-controlnet-lora",
@@ -1314,9 +4841,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions/versions/3bb13fe1c33c35987b33792b01b71ed6529d03f165d1c2416375859f09ca9fef",
+      "schemaUrl": "https://replicate.com/fermatresearch/sdxl-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:14.103Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/lucataco/realistic-vision-v5.1",
@@ -1333,9 +4860,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb",
+      "schemaUrl": "https://replicate.com/lucataco/realistic-vision-v5.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:14.307Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/stability-ai/sdxl",
@@ -1352,9 +4879,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+      "schemaUrl": "https://replicate.com/stability-ai/sdxl",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:14.531Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large",
@@ -1370,10 +4897,26 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions/versions/2fdf9488b53c1e0fd3aef7b477def1c00d1856a38466733711f9c769942598f5",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:14.731Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
@@ -1389,10 +4932,27 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions/versions/551f15a1f56b90795ed34e94f11efb17196a5145bf2ae58fbf2d7e7d8bb42aaf",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:14.934Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-max",
@@ -1408,10 +4968,34 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions/versions/9c23b0aaa98765a9676dbdda58b9c9915627751300747bad54cb1c11b135d3ca",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:15.146Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion",
@@ -1428,9 +5012,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions/versions/ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:15.349Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/fofr/sticker-maker",
@@ -1446,10 +5030,15 @@
       "outputTypes": [
         "image"
       ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions/versions/4acb778eb059772225ec213948f0660867b2e03f277448f18cf1800b96a65a1a",
+      "schemaUrl": "https://replicate.com/fofr/sticker-maker",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:15.560Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
@@ -1466,9 +5055,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions/versions/a45f82a1382bed5c7aeb861dac7c7d191b0fdf74d8d57c4a0e6ed7d4d0bf7d24",
+      "schemaUrl": "https://replicate.com/playgroundai/playground-v2.5-1024px-aesthetic",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:15.768Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/jagilley/controlnet-scribble",
@@ -1484,10 +5073,15 @@
       "outputTypes": [
         "image"
       ],
+      "qualityOptions": [
+        "256",
+        "512",
+        "768"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions/versions/435061a1b5a4c1e26740464bf786efdfa9cb3a3ac488595a2de23e143fdb0117",
+      "schemaUrl": "https://replicate.com/jagilley/controlnet-scribble",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:16.425Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.935Z"
     },
     {
       "id": "replicate/fofr/sdxl-multi-controlnet-lora",
@@ -1504,9 +5098,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions/versions/89eb212b3d1366a83e949c12a4b45dfe6b6b313b594cb8268e864931ac9ffb16",
+      "schemaUrl": "https://replicate.com/fofr/sdxl-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:16.798Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/fofr/latent-consistency-model",
@@ -1523,9 +5117,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions/versions/683d19dc312f7a9f0428b04429a9ccefd28dbf7785fef083ad5cf991b65f406f",
+      "schemaUrl": "https://replicate.com/fofr/latent-consistency-model",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:17.015Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/lucataco/dreamshaper-xl-turbo",
@@ -1542,9 +5136,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions/versions/0a1710e0187b01a255302738ca0158ff02a22f4638679533e111082f9dd1b615",
+      "schemaUrl": "https://replicate.com/lucataco/dreamshaper-xl-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:17.224Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/lucataco/open-dalle-v1.1",
@@ -1561,9 +5155,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions/versions/1c7d4c8dec39c7306df7794b28419078cb9d18b9213ab1c21fdc46a1deca0144",
+      "schemaUrl": "https://replicate.com/lucataco/open-dalle-v1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:17.438Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/adirik/realvisxl-v3.0-turbo",
@@ -1580,9 +5174,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions/versions/3dc73c805b11b4b01a60555e532fd3ab3f0e60d26f6584d9b8ba7e1b95858243",
+      "schemaUrl": "https://replicate.com/adirik/realvisxl-v3.0-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:17.654Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.2",
@@ -1599,9 +5193,9 @@
         "image"
       ],
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions/versions/06775cd262843edbde5abab958abdbb65a0a6b58ca301c9fd78fa55c775fc019",
+      "schemaUrl": "https://replicate.com/datacte/proteus-v0.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:17.860Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
@@ -1617,10 +5211,26 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions/versions/1323a3a68cbf2b58c708f38fba9557e39d68a77cb287a8d7372ba0443f6f0767",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-medium",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:18.071Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-schnell",
@@ -1636,10 +5246,28 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions/versions/c846a69991daf4c0e5d016514849d14ee5b2e6846ce6b9d6f21369e564cfe51e",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-schnell",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:18.274Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
@@ -1655,10 +5283,26 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions/versions/6ce89263555dde3393564e799f1310ee247c5339c3c665250b5dd5d26b7bcc3d",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:18.487Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3",
@@ -1674,10 +5318,89 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "7:5",
+        "5:7",
+        "4:5",
+        "5:4",
+        "3:5",
+        "5:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1365,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1365
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1820,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1820
+        },
+        {
+          "width": 1024,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1024
+        },
+        {
+          "width": 1434,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1434
+        },
+        {
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1707
+        },
+        {
+          "width": 1707,
+          "height": 1024
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions/versions/9507e61ddace8b3a238371b17a61be203747c5081ea6070fecd3c40d27318922",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:18.686Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3-svg",
@@ -1693,10 +5416,89 @@
       "outputTypes": [
         "image"
       ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "7:5",
+        "5:7",
+        "4:5",
+        "5:4",
+        "3:5",
+        "5:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1365,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1365
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1820,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1820
+        },
+        {
+          "width": 1024,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1024
+        },
+        {
+          "width": 1434,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1434
+        },
+        {
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1707
+        },
+        {
+          "width": 1707,
+          "height": 1024
+        }
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions/versions/df041379628fa1d16bd406409930775b0904dc2bc0f3e3f38ecd2a4389e9329d",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:18.895Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "replicate/nvidia/sana",
@@ -1712,10 +5514,17 @@
       "outputTypes": [
         "image"
       ],
+      "generationModes": [
+        "1600M-1024px",
+        "1600M-1024px-multilang",
+        "1600M-512px",
+        "600M-1024px-multilang",
+        "600M-512px-multilang"
+      ],
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
-      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions/versions/c6b5d2b7459910fec94432e9e1203c3cdce92d6db20f714f1355747990b52fa6",
+      "schemaUrl": "https://replicate.com/nvidia/sana",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-21T11:00:19.096Z"
+      "lastSyncedAt": "2026-08-22T12:46:22.936Z"
     },
     {
       "id": "fala/fal-ai/flux-pro",
@@ -1742,7 +5551,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1",
@@ -1768,7 +5577,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1-ultra",
@@ -1794,7 +5603,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/flux-dev",
@@ -1820,7 +5629,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-dev",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/flux-schnell",
@@ -1846,7 +5655,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-v3-medium",
@@ -1872,7 +5681,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-xl",
@@ -1898,7 +5707,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/ideogram",
@@ -1924,7 +5733,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/ideogram/v2",
@@ -1950,7 +5759,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "fala/fal-ai/recraft-v3",
@@ -1976,7 +5785,7 @@
       "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
       "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
       "source": "fala",
-      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.268Z"
     },
     {
       "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
@@ -1993,7 +5802,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:45.094Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.475Z"
     },
     {
       "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
@@ -2010,7 +5819,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:45.373Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.554Z"
     },
     {
       "id": "huggingface/stabilityai/sdxl-turbo",
@@ -2027,7 +5836,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/sdxl-turbo",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:45.647Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.632Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-dev",
@@ -2045,7 +5854,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:46.183Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.795Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
@@ -2063,7 +5872,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:46.459Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.874Z"
     },
     {
       "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
@@ -2081,7 +5890,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:46.734Z"
+      "lastSyncedAt": "2026-08-22T12:46:20.954Z"
     },
     {
       "id": "huggingface/CIDAS/clipseg-rd64-refined",
@@ -2098,7 +5907,7 @@
       ],
       "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:54.987Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.397Z"
     },
     {
       "id": "huggingface/ZhengPeng7/BiRefNet",
@@ -2115,7 +5924,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:55.264Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.479Z"
     },
     {
       "id": "huggingface/briaai/RMBG-2.0",
@@ -2132,7 +5941,7 @@
       ],
       "schemaUrl": "https://huggingface.co/briaai/RMBG-2.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:55.530Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.559Z"
     },
     {
       "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
@@ -2149,7 +5958,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:56.078Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.731Z"
     },
     {
       "id": "huggingface/google/vit-base-patch16-224",
@@ -2166,7 +5975,7 @@
       ],
       "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:56.347Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.808Z"
     },
     {
       "id": "huggingface/Falconsai/nsfw_image_detection",
@@ -2183,7 +5992,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Falconsai/nsfw_image_detection",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:56.620Z"
+      "lastSyncedAt": "2026-08-22T12:46:23.889Z"
     },
     {
       "id": "huggingface/laion/clap-htsat-fused",
@@ -2200,7 +6009,7 @@
       ],
       "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:57.170Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.048Z"
     },
     {
       "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
@@ -2217,7 +6026,7 @@
       ],
       "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:57.439Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.126Z"
     },
     {
       "id": "huggingface/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
@@ -2234,7 +6043,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-21T10:59:57.709Z"
+      "lastSyncedAt": "2026-08-22T12:46:24.203Z"
     }
   ],
   "count": 114

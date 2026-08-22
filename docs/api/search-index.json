@@ -141,7 +141,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.7-i2v replicate/wan-video/wan-2.7-i2v replicate video_generation video   "
+    "tokens": "wan-2.7-i2v replicate/wan-video/wan-2.7-i2v replicate video_generation video  720p 1080p "
   },
   {
     "id": "replicate/google/veo-3-fast",
@@ -149,7 +149,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "veo-3-fast replicate/google/veo-3-fast replicate video_generation video   "
+    "tokens": "veo-3-fast replicate/google/veo-3-fast replicate video_generation video 16:9 9:16 720p 1080p "
   },
   {
     "id": "replicate/google/veo-3",
@@ -157,7 +157,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "veo-3 replicate/google/veo-3 replicate video_generation video   "
+    "tokens": "veo-3 replicate/google/veo-3 replicate video_generation video 16:9 9:16 720p 1080p "
   },
   {
     "id": "replicate/open-mmlab/pia",
@@ -173,7 +173,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.7-r2v replicate/wan-video/wan-2.7-r2v replicate video_generation video   "
+    "tokens": "wan-2.7-r2v replicate/wan-video/wan-2.7-r2v replicate video_generation video 16:9 9:16 1:1 4:3 3:4 720p 1080p "
   },
   {
     "id": "replicate/veed/fabric-1.0",
@@ -181,7 +181,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "fabric-1.0 replicate/veed/fabric-1.0 replicate video_generation video   "
+    "tokens": "fabric-1.0 replicate/veed/fabric-1.0 replicate video_generation video  480p 720p "
   },
   {
     "id": "replicate/fofr/tooncrafter",
@@ -197,7 +197,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "hailuo-2.3 replicate/minimax/hailuo-2.3 replicate video_generation video   "
+    "tokens": "hailuo-2.3 replicate/minimax/hailuo-2.3 replicate video_generation video  768p 1080p "
   },
   {
     "id": "replicate/lightricks/ltx-video",
@@ -205,7 +205,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ltx-video replicate/lightricks/ltx-video replicate video_generation video   "
+    "tokens": "ltx-video replicate/lightricks/ltx-video replicate video_generation video 1:1 1:2 2:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/bytedance/seedance-2.0",
@@ -213,7 +213,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-2.0 replicate/bytedance/seedance-2.0 replicate video_generation video   "
+    "tokens": "seedance-2.0 replicate/bytedance/seedance-2.0 replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p 4k "
   },
   {
     "id": "replicate/wan-video/wan-2.5-i2v-fast",
@@ -221,7 +221,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.5-i2v-fast replicate/wan-video/wan-2.5-i2v-fast replicate video_generation video   "
+    "tokens": "wan-2.5-i2v-fast replicate/wan-video/wan-2.5-i2v-fast replicate video_generation video  720p 1080p "
   },
   {
     "id": "replicate/wan-video/wan-2.5-i2v",
@@ -229,7 +229,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.5-i2v replicate/wan-video/wan-2.5-i2v replicate video_generation video   "
+    "tokens": "wan-2.5-i2v replicate/wan-video/wan-2.5-i2v replicate video_generation video  480p 720p 1080p "
   },
   {
     "id": "replicate/kwaivgi/kling-v2.5-turbo-pro",
@@ -237,7 +237,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v2.5-turbo-pro replicate/kwaivgi/kling-v2.5-turbo-pro replicate video_generation video   "
+    "tokens": "kling-v2.5-turbo-pro replicate/kwaivgi/kling-v2.5-turbo-pro replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/bytedance/seedance-1-pro-fast",
@@ -245,7 +245,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-1-pro-fast replicate/bytedance/seedance-1-pro-fast replicate video_generation video   "
+    "tokens": "seedance-1-pro-fast replicate/bytedance/seedance-1-pro-fast replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p "
   },
   {
     "id": "replicate/alibaba/happyhorse-1.0",
@@ -253,7 +253,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "happyhorse-1.0 replicate/alibaba/happyhorse-1.0 replicate video_generation video   "
+    "tokens": "happyhorse-1.0 replicate/alibaba/happyhorse-1.0 replicate video_generation video 16:9 9:16 1:1 4:3 3:4 720p 1080p "
   },
   {
     "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
@@ -261,7 +261,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.1-i2v-720p replicate/wavespeedai/wan-2.1-i2v-720p replicate video_generation video   "
+    "tokens": "wan-2.1-i2v-720p replicate/wavespeedai/wan-2.1-i2v-720p replicate video_generation video 16:9 9:16 off balanced fast "
   },
   {
     "id": "replicate/minimax/hailuo-2.3-fast",
@@ -269,7 +269,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "hailuo-2.3-fast replicate/minimax/hailuo-2.3-fast replicate video_generation video   "
+    "tokens": "hailuo-2.3-fast replicate/minimax/hailuo-2.3-fast replicate video_generation video  768p 1080p "
   },
   {
     "id": "replicate/prunaai/p-video-animate",
@@ -277,7 +277,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "p-video-animate replicate/prunaai/p-video-animate replicate video_generation video   "
+    "tokens": "p-video-animate replicate/prunaai/p-video-animate replicate video_generation video  720p 1080p "
   },
   {
     "id": "replicate/luma/ray-3.2",
@@ -285,7 +285,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ray-3.2 replicate/luma/ray-3.2 replicate video_generation video   "
+    "tokens": "ray-3.2 replicate/luma/ray-3.2 replicate video_generation video 9:16 3:4 1:1 4:3 16:9 21:9 540p 720p 1080p "
   },
   {
     "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
@@ -293,7 +293,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.1-i2v-480p replicate/wavespeedai/wan-2.1-i2v-480p replicate video_generation video   "
+    "tokens": "wan-2.1-i2v-480p replicate/wavespeedai/wan-2.1-i2v-480p replicate video_generation video 16:9 9:16 off balanced fast "
   },
   {
     "id": "replicate/alibaba/happyhorse-1.1",
@@ -301,7 +301,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "happyhorse-1.1 replicate/alibaba/happyhorse-1.1 replicate video_generation video   "
+    "tokens": "happyhorse-1.1 replicate/alibaba/happyhorse-1.1 replicate video_generation video 16:9 9:16 1:1 4:3 3:4 720p 1080p "
   },
   {
     "id": "replicate/lightricks/ltx-video-0.9.7",
@@ -317,7 +317,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "veo-3.1 replicate/google/veo-3.1 replicate video_generation video   "
+    "tokens": "veo-3.1 replicate/google/veo-3.1 replicate video_generation video 16:9 9:16 720p 1080p "
   },
   {
     "id": "replicate/google/veo-3.1-fast",
@@ -325,7 +325,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "veo-3.1-fast replicate/google/veo-3.1-fast replicate video_generation video   "
+    "tokens": "veo-3.1-fast replicate/google/veo-3.1-fast replicate video_generation video 16:9 9:16 720p 1080p "
   },
   {
     "id": "replicate/prunaai/p-video",
@@ -333,7 +333,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "p-video replicate/prunaai/p-video replicate video_generation video   "
+    "tokens": "p-video replicate/prunaai/p-video replicate video_generation video 16:9 9:16 4:3 3:4 3:2 2:3 1:1 720p 1080p "
   },
   {
     "id": "replicate/prunaai/p-video-avatar",
@@ -341,7 +341,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "p-video-avatar replicate/prunaai/p-video-avatar replicate video_generation video   "
+    "tokens": "p-video-avatar replicate/prunaai/p-video-avatar replicate video_generation video  720p 1080p "
   },
   {
     "id": "replicate/lightricks/ltx-video-0.9.7-distilled",
@@ -349,7 +349,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ltx-video-0.9.7-distilled replicate/lightricks/ltx-video-0.9.7-distilled replicate video_generation video   "
+    "tokens": "ltx-video-0.9.7-distilled replicate/lightricks/ltx-video-0.9.7-distilled replicate video_generation video 16:9 1:1 9:16 480 720 "
   },
   {
     "id": "replicate/bytedance/seedance-2.0-fast",
@@ -357,7 +357,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-2.0-fast replicate/bytedance/seedance-2.0-fast replicate video_generation video   "
+    "tokens": "seedance-2.0-fast replicate/bytedance/seedance-2.0-fast replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p "
   },
   {
     "id": "replicate/google/veo-2",
@@ -365,7 +365,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "veo-2 replicate/google/veo-2 replicate video_generation video   "
+    "tokens": "veo-2 replicate/google/veo-2 replicate video_generation video 16:9 9:16  "
   },
   {
     "id": "replicate/leonardoai/motion-2.0",
@@ -373,7 +373,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "motion-2.0 replicate/leonardoai/motion-2.0 replicate video_generation video   "
+    "tokens": "motion-2.0 replicate/leonardoai/motion-2.0 replicate video_generation video 9:16 16:9 2:3 4:5  "
   },
   {
     "id": "replicate/kwaivgi/kling-v1.6-standard",
@@ -381,7 +381,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v1.6-standard replicate/kwaivgi/kling-v1.6-standard replicate video_generation video   "
+    "tokens": "kling-v1.6-standard replicate/kwaivgi/kling-v1.6-standard replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/kwaivgi/kling-v1.6-pro",
@@ -389,7 +389,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v1.6-pro replicate/kwaivgi/kling-v1.6-pro replicate video_generation video   "
+    "tokens": "kling-v1.6-pro replicate/kwaivgi/kling-v1.6-pro replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/kwaivgi/kling-v2.0",
@@ -397,7 +397,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v2.0 replicate/kwaivgi/kling-v2.0 replicate video_generation video   "
+    "tokens": "kling-v2.0 replicate/kwaivgi/kling-v2.0 replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/kwaivgi/kling-v2.1",
@@ -405,7 +405,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v2.1 replicate/kwaivgi/kling-v2.1 replicate video_generation video   "
+    "tokens": "kling-v2.1 replicate/kwaivgi/kling-v2.1 replicate video_generation video  standard pro "
   },
   {
     "id": "replicate/minimax/video-01-live",
@@ -437,7 +437,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "gen-4.5 replicate/runwayml/gen-4.5 replicate video_generation video   "
+    "tokens": "gen-4.5 replicate/runwayml/gen-4.5 replicate video_generation video 16:9 9:16 4:3 3:4 1:1 21:9  "
   },
   {
     "id": "replicate/kwaivgi/kling-v2.1-master",
@@ -445,7 +445,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v2.1-master replicate/kwaivgi/kling-v2.1-master replicate video_generation video   "
+    "tokens": "kling-v2.1-master replicate/kwaivgi/kling-v2.1-master replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/kwaivgi/kling-v3-video",
@@ -453,7 +453,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v3-video replicate/kwaivgi/kling-v3-video replicate video_generation video   "
+    "tokens": "kling-v3-video replicate/kwaivgi/kling-v3-video replicate video_generation video 16:9 9:16 1:1 standard pro 4k "
   },
   {
     "id": "replicate/pixverse/pixverse-v4",
@@ -461,7 +461,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "pixverse-v4 replicate/pixverse/pixverse-v4 replicate video_generation video   "
+    "tokens": "pixverse-v4 replicate/pixverse/pixverse-v4 replicate video_generation video 16:9 9:16 1:1 normal smooth "
   },
   {
     "id": "replicate/kwaivgi/kling-v3-omni-video",
@@ -469,7 +469,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v3-omni-video replicate/kwaivgi/kling-v3-omni-video replicate video_generation video   "
+    "tokens": "kling-v3-omni-video replicate/kwaivgi/kling-v3-omni-video replicate video_generation video 16:9 9:16 1:1 standard pro 4k "
   },
   {
     "id": "replicate/vidu/q3-pro",
@@ -477,7 +477,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "q3-pro replicate/vidu/q3-pro replicate video_generation video   "
+    "tokens": "q3-pro replicate/vidu/q3-pro replicate video_generation video 16:9 9:16 3:4 4:3 1:1 540p 720p 1080p "
   },
   {
     "id": "replicate/xai/grok-imagine-video",
@@ -485,7 +485,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "grok-imagine-video replicate/xai/grok-imagine-video replicate video_generation video   "
+    "tokens": "grok-imagine-video replicate/xai/grok-imagine-video replicate video_generation video auto 16:9 4:3 1:1 9:16 3:4 3:2 2:3 720p 480p "
   },
   {
     "id": "replicate/luma/ray-flash-2-540p",
@@ -493,7 +493,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ray-flash-2-540p replicate/luma/ray-flash-2-540p replicate video_generation video   "
+    "tokens": "ray-flash-2-540p replicate/luma/ray-flash-2-540p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/bytedance/seedance-1.5-pro",
@@ -501,7 +501,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video   "
+    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21  "
   },
   {
     "id": "replicate/luma/ray-flash-2-720p",
@@ -509,7 +509,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ray-flash-2-720p replicate/luma/ray-flash-2-720p replicate video_generation video   "
+    "tokens": "ray-flash-2-720p replicate/luma/ray-flash-2-720p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/luma/ray-2-720p",
@@ -517,7 +517,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ray-2-720p replicate/luma/ray-2-720p replicate video_generation video   "
+    "tokens": "ray-2-720p replicate/luma/ray-2-720p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/luma/ray-2-540p",
@@ -525,7 +525,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ray-2-540p replicate/luma/ray-2-540p replicate video_generation video   "
+    "tokens": "ray-2-540p replicate/luma/ray-2-540p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/bytedance/seedance-1-lite",
@@ -533,7 +533,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-1-lite replicate/bytedance/seedance-1-lite replicate video_generation video   "
+    "tokens": "seedance-1-lite replicate/bytedance/seedance-1-lite replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p "
   },
   {
     "id": "replicate/bytedance/seedance-1-pro",
@@ -541,7 +541,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-1-pro replicate/bytedance/seedance-1-pro replicate video_generation video   "
+    "tokens": "seedance-1-pro replicate/bytedance/seedance-1-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p "
   },
   {
     "id": "replicate/minimax/hailuo-02",
@@ -549,7 +549,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "hailuo-02 replicate/minimax/hailuo-02 replicate video_generation video   "
+    "tokens": "hailuo-02 replicate/minimax/hailuo-02 replicate video_generation video  512p 768p 1080p "
   },
   {
     "id": "replicate/wan-video/wan-2.2-i2v-a14b",
@@ -557,7 +557,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.2-i2v-a14b replicate/wan-video/wan-2.2-i2v-a14b replicate video_generation video   "
+    "tokens": "wan-2.2-i2v-a14b replicate/wan-video/wan-2.2-i2v-a14b replicate video_generation video  480p 720p "
   },
   {
     "id": "replicate/wan-video/wan-2.2-i2v-fast",
@@ -565,7 +565,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.2-i2v-fast replicate/wan-video/wan-2.2-i2v-fast replicate video_generation video   "
+    "tokens": "wan-2.2-i2v-fast replicate/wan-video/wan-2.2-i2v-fast replicate video_generation video  480p 720p "
   },
   {
     "id": "replicate/luma/modify-video",
@@ -573,7 +573,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "modify-video replicate/luma/modify-video replicate video_generation video   "
+    "tokens": "modify-video replicate/luma/modify-video replicate video_generation video  adhere_1 adhere_2 adhere_3 flex_1 flex_2 flex_3 reimagine_1 reimagine_2 reimagine_3 "
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v2a",
@@ -581,7 +581,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v2a replicate/ideogram-ai/ideogram-v2a replicate image_generation image   "
+    "tokens": "ideogram-v2a replicate/ideogram-ai/ideogram-v2a replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 16:10 10:16 3:1 1:3 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
@@ -589,7 +589,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v2a-turbo replicate/ideogram-ai/ideogram-v2a-turbo replicate image_generation image   "
+    "tokens": "ideogram-v2a-turbo replicate/ideogram-ai/ideogram-v2a-turbo replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 16:10 10:16 3:1 1:3 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/minimax/image-01",
@@ -597,7 +597,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "image-01 replicate/minimax/image-01 replicate image_generation image   "
+    "tokens": "image-01 replicate/minimax/image-01 replicate image_generation image 1:1 16:9 4:3 3:2 2:3 3:4 9:16 21:9  "
   },
   {
     "id": "replicate/bytedance/seedream-3",
@@ -605,7 +605,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "seedream-3 replicate/bytedance/seedream-3 replicate image_generation image   "
+    "tokens": "seedream-3 replicate/bytedance/seedream-3 replicate image_generation image 1:1 3:4 4:3 16:9 9:16 2:3 3:2 21:9 custom  "
   },
   {
     "id": "replicate/luma/photon",
@@ -613,7 +613,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "photon replicate/luma/photon replicate image_generation image   "
+    "tokens": "photon replicate/luma/photon replicate image_generation image 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/luma/photon-flash",
@@ -621,7 +621,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "photon-flash replicate/luma/photon-flash replicate image_generation image   "
+    "tokens": "photon-flash replicate/luma/photon-flash replicate image_generation image 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/prunaai/hidream-l1-full",
@@ -629,7 +629,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "hidream-l1-full replicate/prunaai/hidream-l1-full replicate image_generation image   "
+    "tokens": "hidream-l1-full replicate/prunaai/hidream-l1-full replicate image_generation image  unsqueezed 🍋 (highest quality) lightly juiced 🍊 (more consistent) juiced 🔥 (more speed) extra juiced 🚀 (even more speed) png jpg webp"
   },
   {
     "id": "replicate/google/imagen-4-fast",
@@ -637,7 +637,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "imagen-4-fast replicate/google/imagen-4-fast replicate image_generation image   "
+    "tokens": "imagen-4-fast replicate/google/imagen-4-fast replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/google/imagen-4-ultra",
@@ -645,7 +645,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "imagen-4-ultra replicate/google/imagen-4-ultra replicate image_generation image   "
+    "tokens": "imagen-4-ultra replicate/google/imagen-4-ultra replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/nvidia/sana-sprint-1.6b",
@@ -653,7 +653,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "sana-sprint-1.6b replicate/nvidia/sana-sprint-1.6b replicate image_generation image   "
+    "tokens": "sana-sprint-1.6b replicate/nvidia/sana-sprint-1.6b replicate image_generation image   webp jpg png"
   },
   {
     "id": "replicate/prunaai/hidream-l1-dev",
@@ -661,7 +661,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "hidream-l1-dev replicate/prunaai/hidream-l1-dev replicate image_generation image   "
+    "tokens": "hidream-l1-dev replicate/prunaai/hidream-l1-dev replicate image_generation image  unsqueezed 🍋 (highest quality) lightly juiced 🍊 (more consistent) juiced 🔥 (more speed) extra juiced 🚀 (even more speed) png jpg webp"
   },
   {
     "id": "replicate/prunaai/hidream-l1-fast",
@@ -669,7 +669,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "hidream-l1-fast replicate/prunaai/hidream-l1-fast replicate image_generation image   "
+    "tokens": "hidream-l1-fast replicate/prunaai/hidream-l1-fast replicate image_generation image  unsqueezed 🍋 (highest quality) lightly juiced 🍊 (more consistent) juiced 🔥 (more speed) extra juiced 🚀 (even more speed) png jpg webp"
   },
   {
     "id": "replicate/prunaai/flux-fast",
@@ -677,7 +677,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-fast replicate/prunaai/flux-fast replicate image_generation image   "
+    "tokens": "flux-fast replicate/prunaai/flux-fast replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21 lightly juiced 🍊 (more consistent) juiced 🔥 (default) extra juiced 🔥 (more speed) blink of an eye 👁️ png jpg webp"
   },
   {
     "id": "replicate/prunaai/sdxl-lightning",
@@ -685,7 +685,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "sdxl-lightning replicate/prunaai/sdxl-lightning replicate image_generation image   "
+    "tokens": "sdxl-lightning replicate/prunaai/sdxl-lightning replicate image_generation image   png jpg webp"
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v3-quality",
@@ -693,7 +693,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v3-quality replicate/ideogram-ai/ideogram-v3-quality replicate image_generation image   "
+    "tokens": "ideogram-v3-quality replicate/ideogram-ai/ideogram-v3-quality replicate image_generation image 1:3 3:1 1:2 2:1 9:16 16:9 10:16 16:10 2:3 3:2 3:4 4:3 4:5 5:4 1:1 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 800x1280 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v3-balanced",
@@ -701,7 +701,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v3-balanced replicate/ideogram-ai/ideogram-v3-balanced replicate image_generation image   "
+    "tokens": "ideogram-v3-balanced replicate/ideogram-ai/ideogram-v3-balanced replicate image_generation image 1:3 3:1 1:2 2:1 9:16 16:9 10:16 16:10 2:3 3:2 3:4 4:3 4:5 5:4 1:1 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 800x1280 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/black-forest-labs/flux-dev-lora",
@@ -709,7 +709,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-dev-lora replicate/black-forest-labs/flux-dev-lora replicate image_generation image   "
+    "tokens": "flux-dev-lora replicate/black-forest-labs/flux-dev-lora replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/bria/image-3.2",
@@ -717,7 +717,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image   "
+    "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9  "
   },
   {
     "id": "replicate/google/imagen-4",
@@ -725,7 +725,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "imagen-4 replicate/google/imagen-4 replicate image_generation image   "
+    "tokens": "imagen-4 replicate/google/imagen-4 replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-kontext-pro",
@@ -733,7 +733,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-kontext-pro replicate/black-forest-labs/flux-kontext-pro replicate image_generation image   "
+    "tokens": "flux-kontext-pro replicate/black-forest-labs/flux-kontext-pro replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 4:5 5:4 21:9 9:21 2:1 1:2  jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-kontext-max",
@@ -741,7 +741,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-kontext-max replicate/black-forest-labs/flux-kontext-max replicate image_generation image   "
+    "tokens": "flux-kontext-max replicate/black-forest-labs/flux-kontext-max replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 4:5 5:4 21:9 9:21 2:1 1:2  jpg png"
   },
   {
     "id": "replicate/prunaai/wan-2.2-image",
@@ -749,7 +749,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "wan-2.2-image replicate/prunaai/wan-2.2-image replicate image_generation image   "
+    "tokens": "wan-2.2-image replicate/prunaai/wan-2.2-image replicate image_generation image 1:1 16:9 9:16 4:3 3:4 21:9  png jpg webp"
   },
   {
     "id": "replicate/google/nano-banana",
@@ -757,7 +757,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "nano-banana replicate/google/nano-banana replicate image_generation image   "
+    "tokens": "nano-banana replicate/google/nano-banana replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9  jpg png"
   },
   {
     "id": "replicate/wan-video/wan-2.7-image",
@@ -773,7 +773,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "imagen-3 replicate/google/imagen-3 replicate image_generation image   "
+    "tokens": "imagen-3 replicate/google/imagen-3 replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/google/imagen-3-fast",
@@ -781,7 +781,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "imagen-3-fast replicate/google/imagen-3-fast replicate image_generation image   "
+    "tokens": "imagen-3-fast replicate/google/imagen-3-fast replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-2-klein-4b",
@@ -789,7 +789,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-2-klein-4b replicate/black-forest-labs/flux-2-klein-4b replicate image_generation image   "
+    "tokens": "flux-2-klein-4b replicate/black-forest-labs/flux-2-klein-4b replicate image_generation image 1:1 16:9 9:16 3:2 2:3 4:3 3:4 5:4 4:5 21:9 9:21  webp jpg png"
   },
   {
     "id": "replicate/bria/fibo",
@@ -797,7 +797,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "fibo replicate/bria/fibo replicate image_generation image   "
+    "tokens": "fibo replicate/bria/fibo replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9  "
   },
   {
     "id": "replicate/tencent/hunyuan-image-3",
@@ -805,7 +805,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "hunyuan-image-3 replicate/tencent/hunyuan-image-3 replicate image_generation image   "
+    "tokens": "hunyuan-image-3 replicate/tencent/hunyuan-image-3 replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/bytedance/seedream-4",
@@ -813,7 +813,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "seedream-4 replicate/bytedance/seedream-4 replicate image_generation image   "
+    "tokens": "seedream-4 replicate/bytedance/seedream-4 replicate image_generation image auto  "
   },
   {
     "id": "replicate/google/nano-banana-pro",
@@ -821,7 +821,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image   "
+    "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9 1k 2k 4k jpg png"
   },
   {
     "id": "replicate/prunaai/z-image-turbo",
@@ -829,7 +829,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "z-image-turbo replicate/prunaai/z-image-turbo replicate image_generation image   "
+    "tokens": "z-image-turbo replicate/prunaai/z-image-turbo replicate image_generation image   png jpg webp"
   },
   {
     "id": "replicate/leonardoai/lucid-origin",
@@ -837,7 +837,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "lucid-origin replicate/leonardoai/lucid-origin replicate image_generation image   "
+    "tokens": "lucid-origin replicate/leonardoai/lucid-origin replicate image_generation image 1:1 16:9 9:16 3:2 2:3 4:5 5:4 3:4 4:3 2:1 1:2 3:1 1:3  "
   },
   {
     "id": "replicate/bytedance/seedream-4.5",
@@ -845,7 +845,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "seedream-4.5 replicate/bytedance/seedream-4.5 replicate image_generation image   "
+    "tokens": "seedream-4.5 replicate/bytedance/seedream-4.5 replicate image_generation image auto  "
   },
   {
     "id": "replicate/wan-video/wan-2.7-image-pro",
@@ -861,7 +861,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v4 replicate/recraft-ai/recraft-v4 replicate image_generation image   "
+    "tokens": "recraft-v4 replicate/recraft-ai/recraft-v4 replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 14:10 10:14 4:5 5:4 6:10  "
   },
   {
     "id": "replicate/recraft-ai/recraft-v4-pro",
@@ -869,7 +869,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v4-pro replicate/recraft-ai/recraft-v4-pro replicate image_generation image   "
+    "tokens": "recraft-v4-pro replicate/recraft-ai/recraft-v4-pro replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 4:5 5:4 6:10 14:10 10:14  "
   },
   {
     "id": "replicate/xai/grok-imagine-image",
@@ -877,7 +877,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "grok-imagine-image replicate/xai/grok-imagine-image replicate image_generation image   "
+    "tokens": "grok-imagine-image replicate/xai/grok-imagine-image replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 2:1 1:2 20:9 9:20 auto  "
   },
   {
     "id": "replicate/bytedance/seedream-5-lite",
@@ -885,7 +885,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "seedream-5-lite replicate/bytedance/seedream-5-lite replicate image_generation image   "
+    "tokens": "seedream-5-lite replicate/bytedance/seedream-5-lite replicate image_generation image auto  png jpeg"
   },
   {
     "id": "replicate/openai/gpt-image-2",
@@ -893,7 +893,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "gpt-image-2 replicate/openai/gpt-image-2 replicate image_generation image   "
+    "tokens": "gpt-image-2 replicate/openai/gpt-image-2 replicate image_generation image 1:1 3:2 2:3 4:3 3:4 16:9 9:16 auto low medium high auto png jpeg webp"
   },
   {
     "id": "replicate/recraft-ai/recraft-v4-svg",
@@ -901,7 +901,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v4-svg replicate/recraft-ai/recraft-v4-svg replicate image_generation image   "
+    "tokens": "recraft-v4-svg replicate/recraft-ai/recraft-v4-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 14:10 10:14 4:5 5:4 6:10  "
   },
   {
     "id": "replicate/sourceful/riverflow-2.0-pro",
@@ -909,7 +909,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "riverflow-2.0-pro replicate/sourceful/riverflow-2.0-pro replicate image_generation image   "
+    "tokens": "riverflow-2.0-pro replicate/sourceful/riverflow-2.0-pro replicate image_generation image auto 21:9 16:9 3:2 4:3 5:4 1:1 4:5 3:4 2:3 9:16 1k 2k 4k webp png"
   },
   {
     "id": "replicate/recraft-ai/recraft-v4-pro-svg",
@@ -917,7 +917,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v4-pro-svg replicate/recraft-ai/recraft-v4-pro-svg replicate image_generation image   "
+    "tokens": "recraft-v4-pro-svg replicate/recraft-ai/recraft-v4-pro-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 4:5 5:4 6:10 14:10 10:14  "
   },
   {
     "id": "replicate/prunaai/p-image-lora",
@@ -925,7 +925,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "p-image-lora replicate/prunaai/p-image-lora replicate image_generation image   "
+    "tokens": "p-image-lora replicate/prunaai/p-image-lora replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 custom  "
   },
   {
     "id": "replicate/openai/gpt-image-1.5",
@@ -933,7 +933,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "gpt-image-1.5 replicate/openai/gpt-image-1.5 replicate image_generation image   "
+    "tokens": "gpt-image-1.5 replicate/openai/gpt-image-1.5 replicate image_generation image 1:1 3:2 2:3 low medium high auto png jpeg webp"
   },
   {
     "id": "replicate/ai-forever/kandinsky-2",
@@ -941,7 +941,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "kandinsky-2 replicate/ai-forever/kandinsky-2 replicate image_generation image   "
+    "tokens": "kandinsky-2 replicate/ai-forever/kandinsky-2 replicate image_generation image   webp jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-2-pro",
@@ -949,7 +949,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-2-pro replicate/black-forest-labs/flux-2-pro replicate image_generation image   "
+    "tokens": "flux-2-pro replicate/black-forest-labs/flux-2-pro replicate image_generation image custom 1:1 16:9 3:2 2:3 4:5 5:4 9:16 3:4 4:3 match_input_image 0.5 mp 1 mp 2 mp 4 mp webp jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-2-flex",
@@ -957,7 +957,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-2-flex replicate/black-forest-labs/flux-2-flex replicate image_generation image   "
+    "tokens": "flux-2-flex replicate/black-forest-labs/flux-2-flex replicate image_generation image custom 1:1 16:9 3:2 2:3 4:5 5:4 9:16 3:4 4:3 match_input_image 0.5 mp 1 mp 2 mp 4 mp webp jpg png"
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v3-turbo",
@@ -965,7 +965,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v3-turbo replicate/ideogram-ai/ideogram-v3-turbo replicate image_generation image   "
+    "tokens": "ideogram-v3-turbo replicate/ideogram-ai/ideogram-v3-turbo replicate image_generation image 1:3 3:1 1:2 2:1 9:16 16:9 10:16 16:10 2:3 3:2 3:4 4:3 4:5 5:4 1:1 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 800x1280 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/google/nano-banana-2",
@@ -973,7 +973,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "nano-banana-2 replicate/google/nano-banana-2 replicate image_generation image   "
+    "tokens": "nano-banana-2 replicate/google/nano-banana-2 replicate image_generation image 1:1 1:4 1:8 2:3 3:2 3:4 4:1 4:3 4:5 5:4 8:1 9:16 16:9 21:9 1k 2k 4k jpg png"
   },
   {
     "id": "replicate/lucataco/ssd-1b",
@@ -989,7 +989,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "any-comfyui-workflow replicate/comfyui/any-comfyui-workflow replicate image_generation image   "
+    "tokens": "any-comfyui-workflow replicate/comfyui/any-comfyui-workflow replicate image_generation image   webp jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-dev",
@@ -997,7 +997,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-dev replicate/black-forest-labs/flux-dev replicate image_generation image   "
+    "tokens": "flux-dev replicate/black-forest-labs/flux-dev replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/ideogram-ai/ideogram-v2-turbo",
@@ -1005,7 +1005,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v2-turbo replicate/ideogram-ai/ideogram-v2-turbo replicate image_generation image   "
+    "tokens": "ideogram-v2-turbo replicate/ideogram-ai/ideogram-v2-turbo replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 16:10 10:16 3:1 1:3 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/qwen/qwen-image",
@@ -1013,7 +1013,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "qwen-image replicate/qwen/qwen-image replicate image_generation image   "
+    "tokens": "qwen-image replicate/qwen/qwen-image replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3  webp jpg png"
   },
   {
     "id": "replicate/prunaai/p-image",
@@ -1021,7 +1021,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "p-image replicate/prunaai/p-image replicate image_generation image   "
+    "tokens": "p-image replicate/prunaai/p-image replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 custom  "
   },
   {
     "id": "replicate/datacte/proteus-v0.3",
@@ -1037,7 +1037,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "kandinsky-2.2 replicate/ai-forever/kandinsky-2.2 replicate image_generation image   "
+    "tokens": "kandinsky-2.2 replicate/ai-forever/kandinsky-2.2 replicate image_generation image   webp jpeg png"
   },
   {
     "id": "replicate/fofr/sdxl-emoji",
@@ -1061,7 +1061,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "ideogram-v2 replicate/ideogram-ai/ideogram-v2 replicate image_generation image   "
+    "tokens": "ideogram-v2 replicate/ideogram-ai/ideogram-v2 replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 16:10 10:16 3:1 1:3 512x1536 576x1408 576x1472 576x1536 640x1344 640x1408 640x1472 640x1536 704x1152 704x1216 704x1280 704x1344 704x1408 704x1472 736x1312 768x1088 768x1216 768x1280 768x1344 832x960 832x1024 832x1088 832x1152 832x1216 832x1248 864x1152 896x960 896x1024 896x1088 896x1120 896x1152 960x832 960x896 960x1024 960x1088 1024x832 1024x896 1024x960 1024x1024 1088x768 1088x832 1088x896 1088x960 1120x896 1152x704 1152x832 1152x864 1152x896 1216x704 1216x768 1216x832 1248x832 1280x704 1280x768 1280x800 1312x736 1344x640 1344x704 1344x768 1408x576 1408x640 1408x704 1472x576 1472x640 1472x704 1536x512 1536x576 1536x640 "
   },
   {
     "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
@@ -1077,7 +1077,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-pro replicate/black-forest-labs/flux-pro replicate image_generation image   "
+    "tokens": "flux-pro replicate/black-forest-labs/flux-pro replicate image_generation image custom 1:1 16:9 3:2 2:3 4:5 5:4 9:16 3:4 4:3  webp jpg png"
   },
   {
     "id": "replicate/tstramer/material-diffusion",
@@ -1117,7 +1117,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stable-diffusion-3.5-large replicate/stability-ai/stable-diffusion-3.5-large replicate image_generation image   "
+    "tokens": "stable-diffusion-3.5-large replicate/stability-ai/stable-diffusion-3.5-large replicate image_generation image 16:9 1:1 21:9 2:3 3:2 4:5 5:4 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
@@ -1125,7 +1125,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-1.1-pro-ultra replicate/black-forest-labs/flux-1.1-pro-ultra replicate image_generation image   "
+    "tokens": "flux-1.1-pro-ultra replicate/black-forest-labs/flux-1.1-pro-ultra replicate image_generation image 21:9 16:9 3:2 4:3 5:4 1:1 4:5 3:4 2:3 9:16 9:21  jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-2-max",
@@ -1133,7 +1133,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-2-max replicate/black-forest-labs/flux-2-max replicate image_generation image   "
+    "tokens": "flux-2-max replicate/black-forest-labs/flux-2-max replicate image_generation image custom 1:1 16:9 3:2 2:3 4:5 5:4 9:16 3:4 4:3 match_input_image 0.5 mp 1 mp 2 mp 4 mp webp jpg png"
   },
   {
     "id": "replicate/stability-ai/stable-diffusion",
@@ -1149,7 +1149,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "sticker-maker replicate/fofr/sticker-maker replicate image_generation image   "
+    "tokens": "sticker-maker replicate/fofr/sticker-maker replicate image_generation image   webp jpg png"
   },
   {
     "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
@@ -1165,7 +1165,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "controlnet-scribble replicate/jagilley/controlnet-scribble replicate image_generation image   "
+    "tokens": "controlnet-scribble replicate/jagilley/controlnet-scribble replicate image_generation image  256 512 768 "
   },
   {
     "id": "replicate/fofr/sdxl-multi-controlnet-lora",
@@ -1221,7 +1221,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stable-diffusion-3.5-medium replicate/stability-ai/stable-diffusion-3.5-medium replicate image_generation image   "
+    "tokens": "stable-diffusion-3.5-medium replicate/stability-ai/stable-diffusion-3.5-medium replicate image_generation image 16:9 1:1 21:9 2:3 3:2 4:5 5:4 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-schnell",
@@ -1229,7 +1229,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "flux-schnell replicate/black-forest-labs/flux-schnell replicate image_generation image   "
+    "tokens": "flux-schnell replicate/black-forest-labs/flux-schnell replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
@@ -1237,7 +1237,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stable-diffusion-3.5-large-turbo replicate/stability-ai/stable-diffusion-3.5-large-turbo replicate image_generation image   "
+    "tokens": "stable-diffusion-3.5-large-turbo replicate/stability-ai/stable-diffusion-3.5-large-turbo replicate image_generation image 16:9 1:1 21:9 2:3 3:2 4:5 5:4 9:16 9:21  webp jpg png"
   },
   {
     "id": "replicate/recraft-ai/recraft-v3",
@@ -1245,7 +1245,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v3 replicate/recraft-ai/recraft-v3 replicate image_generation image   "
+    "tokens": "recraft-v3 replicate/recraft-ai/recraft-v3 replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 7:5 5:7 4:5 5:4 3:5 5:3  "
   },
   {
     "id": "replicate/recraft-ai/recraft-v3-svg",
@@ -1253,7 +1253,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "recraft-v3-svg replicate/recraft-ai/recraft-v3-svg replicate image_generation image   "
+    "tokens": "recraft-v3-svg replicate/recraft-ai/recraft-v3-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 7:5 5:7 4:5 5:4 3:5 5:3  "
   },
   {
     "id": "replicate/nvidia/sana",
@@ -1269,7 +1269,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.1-t2v-480p replicate/wavespeedai/wan-2.1-t2v-480p replicate video_generation video   "
+    "tokens": "wan-2.1-t2v-480p replicate/wavespeedai/wan-2.1-t2v-480p replicate video_generation video 16:9 9:16 off balanced fast "
   },
   {
     "id": "replicate/wavespeedai/hunyuan-video-fast",
@@ -1285,7 +1285,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "sam-2-video replicate/meta/sam-2-video replicate video_generation video   "
+    "tokens": "sam-2-video replicate/meta/sam-2-video replicate video_generation video   webp jpg png"
   },
   {
     "id": "replicate/wan-video/wan-2.1-1.3b",
@@ -1293,7 +1293,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.1-1.3b replicate/wan-video/wan-2.1-1.3b replicate video_generation video   "
+    "tokens": "wan-2.1-1.3b replicate/wan-video/wan-2.1-1.3b replicate video_generation video 16:9 9:16 480p "
   },
   {
     "id": "replicate/andreasjansson/tile-morph",
@@ -1309,7 +1309,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "video-morpher replicate/fofr/video-morpher replicate video_generation video   "
+    "tokens": "video-morpher replicate/fofr/video-morpher replicate video_generation video 16:9 4:3 3:2 1:1 2:3 3:4 9:16 small medium upscaled upscaled-and-interpolated "
   },
   {
     "id": "replicate/zsxkib/hunyuan-video2video",
@@ -1325,7 +1325,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "pixverse-v4.5 replicate/pixverse/pixverse-v4.5 replicate video_generation video   "
+    "tokens": "pixverse-v4.5 replicate/pixverse/pixverse-v4.5 replicate video_generation video 16:9 9:16 1:1 normal smooth "
   },
   {
     "id": "replicate/wavespeedai/wan-2.1-t2v-720p",
@@ -1333,7 +1333,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.1-t2v-720p replicate/wavespeedai/wan-2.1-t2v-720p replicate video_generation video   "
+    "tokens": "wan-2.1-t2v-720p replicate/wavespeedai/wan-2.1-t2v-720p replicate video_generation video 16:9 9:16 off balanced fast "
   },
   {
     "id": "replicate/pixverse/pixverse-v5.6",
@@ -1341,7 +1341,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "pixverse-v5.6 replicate/pixverse/pixverse-v5.6 replicate video_generation video   "
+    "tokens": "pixverse-v5.6 replicate/pixverse/pixverse-v5.6 replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
   },
   {
     "id": "replicate/wan-video/wan-2.2-t2v-fast",
@@ -1349,7 +1349,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-2.2-t2v-fast replicate/wan-video/wan-2.2-t2v-fast replicate video_generation video   "
+    "tokens": "wan-2.2-t2v-fast replicate/wan-video/wan-2.2-t2v-fast replicate video_generation video 16:9 9:16 480p 720p "
   },
   {
     "id": "replicate/fofr/not-real",
@@ -1357,7 +1357,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "not-real replicate/fofr/not-real replicate video_generation video   "
+    "tokens": "not-real replicate/fofr/not-real replicate video_generation video 16:9 9:16 1080p 720p 480p "
   },
   {
     "id": "replicate/wan-video/wan-2.5-t2v-fast",
@@ -1373,7 +1373,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-v2.6 replicate/kwaivgi/kling-v2.6 replicate video_generation video   "
+    "tokens": "kling-v2.6 replicate/kwaivgi/kling-v2.6 replicate video_generation video 16:9 9:16 1:1  "
   },
   {
     "id": "replicate/pixverse/pixverse-v6",
@@ -1381,7 +1381,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "pixverse-v6 replicate/pixverse/pixverse-v6 replicate video_generation video   "
+    "tokens": "pixverse-v6 replicate/pixverse/pixverse-v6 replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
   },
   {
     "id": "replicate/openai/sora-2",
@@ -1397,7 +1397,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "sora-2-pro replicate/openai/sora-2-pro replicate video_generation video   "
+    "tokens": "sora-2-pro replicate/openai/sora-2-pro replicate video_generation video  standard high "
   },
   {
     "id": "replicate/pixverse/pixverse-v5",
@@ -1405,7 +1405,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "pixverse-v5 replicate/pixverse/pixverse-v5 replicate video_generation video   "
+    "tokens": "pixverse-v5 replicate/pixverse/pixverse-v5 replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
   },
   {
     "id": "replicate/wan-video/wan-2.5-t2v",
@@ -1421,7 +1421,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "grok-imagine-video-1.5 replicate/xai/grok-imagine-video-1.5 replicate video_generation video   "
+    "tokens": "grok-imagine-video-1.5 replicate/xai/grok-imagine-video-1.5 replicate video_generation video auto 16:9 4:3 1:1 9:16 3:4 3:2 2:3 720p 480p "
   },
   {
     "id": "replicate/kwaivgi/kling-o1",
@@ -1429,7 +1429,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "kling-o1 replicate/kwaivgi/kling-o1 replicate video_generation video   "
+    "tokens": "kling-o1 replicate/kwaivgi/kling-o1 replicate video_generation video 16:9 9:16 1:1 std pro "
   },
   {
     "id": "replicate/bytedance/dreamactor-m2.0",
@@ -1501,7 +1501,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "stable-diffusion-animation replicate/andreasjansson/stable-diffusion-animation replicate video_generation video   "
+    "tokens": "stable-diffusion-animation replicate/andreasjansson/stable-diffusion-animation replicate video_generation video   gif mp4"
   },
   {
     "id": "replicate/zsxkib/animatediff-prompt-travel",
@@ -1509,7 +1509,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "animatediff-prompt-travel replicate/zsxkib/animatediff-prompt-travel replicate video_generation video   "
+    "tokens": "animatediff-prompt-travel replicate/zsxkib/animatediff-prompt-travel replicate video_generation video   mp4 gif"
   },
   {
     "id": "replicate/cjwbw/controlvideo",
@@ -1541,7 +1541,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "animatediff-illusions replicate/zsxkib/animatediff-illusions replicate video_generation video   "
+    "tokens": "animatediff-illusions replicate/zsxkib/animatediff-illusions replicate video_generation video   mp4 gif"
   },
   {
     "id": "replicate/arielreplicate/stable_diffusion_infinite_zoom",
@@ -1549,7 +1549,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "stable_diffusion_infinite_zoom replicate/arielreplicate/stable_diffusion_infinite_zoom replicate video_generation video   "
+    "tokens": "stable_diffusion_infinite_zoom replicate/arielreplicate/stable_diffusion_infinite_zoom replicate video_generation video   mp4 gif"
   },
   {
     "id": "replicate/arielreplicate/robust_video_matting",
@@ -1589,7 +1589,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "animate-diff replicate/zsxkib/animate-diff replicate video_generation video   "
+    "tokens": "animate-diff replicate/zsxkib/animate-diff replicate video_generation video   mp4 gif"
   },
   {
     "id": "replicate/tencent/hunyuan-video",
@@ -1725,7 +1725,7 @@
     "provider": "replicate",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "realtime-tts-2 replicate/inworld/realtime-tts-2 replicate audio_generation audio   "
+    "tokens": "realtime-tts-2 replicate/inworld/realtime-tts-2 replicate audio_generation audio   mp3 wav ogg_opus flac"
   },
   {
     "id": "replicate/lucataco/orpheus-3b-0.1-ft",
@@ -1749,7 +1749,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "speech-02-turbo replicate/minimax/speech-02-turbo replicate video_generation video   "
+    "tokens": "speech-02-turbo replicate/minimax/speech-02-turbo replicate video_generation video   mp3 wav flac pcm"
   },
   {
     "id": "replicate/minimax/speech-02-hd",
@@ -1757,7 +1757,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "speech-02-hd replicate/minimax/speech-02-hd replicate video_generation video   "
+    "tokens": "speech-02-hd replicate/minimax/speech-02-hd replicate video_generation video   mp3 wav flac pcm"
   },
   {
     "id": "replicate/resemble-ai/chatterbox-multilingual",
@@ -1789,7 +1789,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "motion_control",
-    "tokens": "speech-2.8-turbo replicate/minimax/speech-2.8-turbo replicate motion_control video   "
+    "tokens": "speech-2.8-turbo replicate/minimax/speech-2.8-turbo replicate motion_control video   mp3 wav flac pcm"
   },
   {
     "id": "replicate/inworld/realtime-tts-1.5-mini",
@@ -1797,7 +1797,7 @@
     "provider": "replicate",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "realtime-tts-1.5-mini replicate/inworld/realtime-tts-1.5-mini replicate audio_generation audio   "
+    "tokens": "realtime-tts-1.5-mini replicate/inworld/realtime-tts-1.5-mini replicate audio_generation audio   mp3 wav ogg_opus flac"
   },
   {
     "id": "replicate/inworld/realtime-tts-1.5-max",
@@ -1805,7 +1805,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "motion_control",
-    "tokens": "realtime-tts-1.5-max replicate/inworld/realtime-tts-1.5-max replicate motion_control video   "
+    "tokens": "realtime-tts-1.5-max replicate/inworld/realtime-tts-1.5-max replicate motion_control video   mp3 wav ogg_opus flac"
   },
   {
     "id": "replicate/elevenlabs/v3",
@@ -1845,7 +1845,7 @@
     "provider": "replicate",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "qwen3-tts replicate/qwen/qwen3-tts replicate audio_generation audio   "
+    "tokens": "qwen3-tts replicate/qwen/qwen3-tts replicate audio_generation audio  custom_voice voice_clone voice_design "
   },
   {
     "id": "replicate/minimax/speech-2.8-hd",
@@ -1853,7 +1853,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "motion_control",
-    "tokens": "speech-2.8-hd replicate/minimax/speech-2.8-hd replicate motion_control video   "
+    "tokens": "speech-2.8-hd replicate/minimax/speech-2.8-hd replicate motion_control video   mp3 wav flac pcm"
   },
   {
     "id": "replicate/minimax/speech-2.6-turbo",
@@ -1861,7 +1861,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "speech-2.6-turbo replicate/minimax/speech-2.6-turbo replicate video_generation video   "
+    "tokens": "speech-2.6-turbo replicate/minimax/speech-2.6-turbo replicate video_generation video   mp3 wav flac pcm"
   },
   {
     "id": "replicate/minimax/speech-2.6-hd",
@@ -1869,7 +1869,7 @@
     "provider": "replicate",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "speech-2.6-hd replicate/minimax/speech-2.6-hd replicate audio_generation audio   "
+    "tokens": "speech-2.6-hd replicate/minimax/speech-2.6-hd replicate audio_generation audio   mp3 wav flac pcm"
   },
   {
     "id": "replicate/afiaka87/tortoise-tts",
@@ -1901,7 +1901,7 @@
     "provider": "replicate",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "realistic-voice-cloning replicate/zsxkib/realistic-voice-cloning replicate audio_generation audio   "
+    "tokens": "realistic-voice-cloning replicate/zsxkib/realistic-voice-cloning replicate audio_generation audio   mp3 wav"
   },
   {
     "id": "replicate/lucataco/xtts-v2",
@@ -2320,12 +2320,12 @@
     "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
   },
   {
-    "id": "huggingface/openai/whisper-large-v3-turbo",
-    "name": "openai/whisper-large-v3-turbo",
+    "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+    "name": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_transcription",
-    "tokens": "openai/whisper-large-v3-turbo huggingface/openai/whisper-large-v3-turbo huggingface audio_transcription audio   "
+    "tokens": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface audio_transcription audio   "
   },
   {
     "id": "huggingface/CIDAS/clipseg-rd64-refined",
