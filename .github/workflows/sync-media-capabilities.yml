@@ -48,12 +48,16 @@ jobs:
       - name: Copy data to docs
         run: cp data/media-capabilities.json docs/media-capabilities.json
 
+      - name: Generate static API snapshots
+        run: |
+          npx tsx src/media-capabilities/generate-static-api.ts
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/media-capabilities.json data/media-capabilities.json
-          git diff --staged --quiet || git commit -m "chore: sync media capabilities [skip ci]"
+          git add docs/media-capabilities.json docs/api/ data/media-capabilities.json
+          git diff --staged --quiet || git commit -m "chore: sync media capabilities and API [skip ci]"
           git push
 
       - name: Setup Pages

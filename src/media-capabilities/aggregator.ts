@@ -326,7 +326,7 @@ export async function loadCatalog(
   }
 }
 
-if (import.meta.url === `file://${process.argv[1]?.replaceAll("\\\\", "/")}`) {
+if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/")}` || import.meta.url === `file:///${process.argv[1]?.replace(/\\/g, "/")}`) {
   const catalog = await aggregateCapabilities({
     replicateToken: process.env.REPLICATE_API_TOKEN,
     falApiKey: process.env.FAL_API_KEY,

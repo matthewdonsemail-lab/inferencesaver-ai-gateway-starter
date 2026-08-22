@@ -211,7 +211,7 @@ export async function validateCatalogFile(path: string): Promise<ValidationResul
   return validateCatalog(catalog);
 }
 
-if (import.meta.url === `file://${process.argv[1]?.replaceAll("\\\\", "/")}`) {
+if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/")}` || import.meta.url === `file:///${process.argv[1]?.replace(/\\/g, "/")}`) {
   const path = process.argv[2] ?? "data/media-capabilities.json";
   const result = await validateCatalogFile(path);
 

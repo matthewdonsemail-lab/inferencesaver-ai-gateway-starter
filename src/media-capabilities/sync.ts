@@ -31,7 +31,7 @@ export async function syncMediaCapabilities(): Promise<{ added: number; updated:
   return { added, updated, total: catalog.capabilities.length };
 }
 
-if (import.meta.url === `file://${process.argv[1]?.replaceAll("\\\\", "/")}`) {
+if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, "/")}` || import.meta.url === `file:///${process.argv[1]?.replace(/\\/g, "/")}`) {
   const result = await syncMediaCapabilities();
   console.log(
     `Media capability sync complete: ${result.total} total (${result.added} added, ${result.updated} updated)`,

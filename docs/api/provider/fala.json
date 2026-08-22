@@ -1,0 +1,651 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-08-21T11:00:41.514Z",
+  "capabilities": [
+    {
+      "id": "fala/fal-ai/flux-pro",
+      "name": "Flux Pro",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4",
+        "21:9"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1",
+      "name": "Flux Pro v1.1",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1-ultra",
+      "name": "Flux Pro Ultra",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-dev",
+      "name": "Flux Dev",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-dev",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-schnell",
+      "name": "Flux Schnell",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-v3-medium",
+      "name": "SD3 Medium",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-v3-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-xl",
+      "name": "SDXL",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-xl",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram",
+      "name": "Ideogram",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram/v2",
+      "name": "Ideogram v2",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram/v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/recraft-v3",
+      "name": "Recraft v3",
+      "provider": "fala",
+      "modelId": "fal-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/minimax-video",
+      "name": "MiniMax Video",
+      "provider": "fala",
+      "modelId": "fal-ai/minimax-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/minimax-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/minimax-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/cogvideox-5b",
+      "name": "CogVideoX 5B",
+      "provider": "fala",
+      "modelId": "fal-ai/cogvideox-5b",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "4",
+        "6",
+        "8"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/cogvideox-5b",
+      "schemaUrl": "https://fal.ai/models/fal-ai/cogvideox-5b",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/hunyuan-video",
+      "name": "Hunyuan Video",
+      "provider": "fala",
+      "modelId": "fal-ai/hunyuan-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/hunyuan-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/hunyuan-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/kling-video",
+      "name": "Kling Video",
+      "provider": "fala",
+      "modelId": "fal-ai/kling-video",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5"
+      ],
+      "qualityOptions": [
+        "standard",
+        "pro"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/kling-video",
+      "schemaUrl": "https://fal.ai/models/fal-ai/kling-video",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/kling-video/v1.5",
+      "name": "Kling Video v1.5",
+      "provider": "fala",
+      "modelId": "fal-ai/kling-video/v1.5",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "durationOptions": [
+        "5",
+        "10"
+      ],
+      "qualityOptions": [
+        "standard",
+        "pro"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/kling-video/v1.5",
+      "schemaUrl": "https://fal.ai/models/fal-ai/kling-video/v1.5",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/veo-3",
+      "name": "Veo 3",
+      "provider": "fala",
+      "modelId": "fal-ai/veo-3",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "9:16"
+      ],
+      "durationOptions": [
+        "5",
+        "10",
+        "15"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/veo-3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/veo-3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/luma-sorcerer",
+      "name": "Luma Sorcerer",
+      "provider": "fala",
+      "modelId": "fal-ai/luma-sorcerer",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/luma-sorcerer",
+      "schemaUrl": "https://fal.ai/models/fal-ai/luma-sorcerer",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/runway-gen3",
+      "name": "Runway Gen3",
+      "provider": "fala",
+      "modelId": "fal-ai/runway-gen3",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/runway-gen3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/runway-gen3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-video-diffusion",
+      "name": "SVD",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-video-diffusion",
+      "modality": "video",
+      "capability": "video_generation",
+      "aspectRatios": [
+        "9:16",
+        "16:9",
+        "1:1"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-video-diffusion",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-video-diffusion",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/playht-text-to-speech",
+      "name": "PlayHT TTS",
+      "provider": "fala",
+      "modelId": "fal-ai/playht-text-to-speech",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/playht-text-to-speech",
+      "schemaUrl": "https://fal.ai/models/fal-ai/playht-text-to-speech",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/fish-speech",
+      "name": "Fish Speech",
+      "provider": "fala",
+      "modelId": "fal-ai/fish-speech",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "supportsReferenceImages": true,
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/fish-speech",
+      "schemaUrl": "https://fal.ai/models/fal-ai/fish-speech",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/whisper",
+      "name": "Whisper",
+      "provider": "fala",
+      "modelId": "fal-ai/whisper",
+      "modality": "audio",
+      "capability": "audio_transcription",
+      "outputFormats": [
+        "text",
+        "json",
+        "srt",
+        "vtt"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/whisper",
+      "schemaUrl": "https://fal.ai/models/fal-ai/whisper",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/musicgen",
+      "name": "MusicGen",
+      "provider": "fala",
+      "modelId": "fal-ai/musicgen",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/musicgen",
+      "schemaUrl": "https://fal.ai/models/fal-ai/musicgen",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/suno-music",
+      "name": "Suno Music",
+      "provider": "fala",
+      "modelId": "fal-ai/suno-music",
+      "modality": "audio",
+      "capability": "audio_generation",
+      "outputFormats": [
+        "mp3",
+        "wav"
+      ],
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/suno-music",
+      "schemaUrl": "https://fal.ai/models/fal-ai/suno-music",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    }
+  ],
+  "count": 24
+}

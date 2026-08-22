@@ -179,6 +179,127 @@ When submitting, use the [model submission template](.github/ISSUE_TEMPLATE/mode
 
 ---
 
+---
+
+## API
+
+The media capability registry is available as a **REST API**. You can either run it locally or use the static API snapshots on GitHub Pages.
+
+### Live API Server
+
+```bash
+# Start the API server
+npm run media-capabilities:serve
+
+# It runs on http://localhost:3001
+```
+
+### Endpoints
+
+| Method | Path | Description |
+|---|---|---|
+| `GET` | `/` | Frontend page (models.dev-style UI) |
+| `GET` | `/api/media-capabilities` | List capabilities with optional filters |
+| `GET` | `/api/media-capabilities/stats` | Summary statistics |
+| `GET` | `/api/media-capabilities/providers` | Provider list with model counts |
+| `GET` | `/api/media-capabilities/{id}` | Single capability by URL-encoded ID |
+
+### Query Parameters (`/api/media-capabilities`)
+
+| Param | Type | Default | Description |
+|---|---|---|---|
+| `modality` | `video\|audio\|image` | — | Filter by modality |
+| `provider` | `replicate\|fala\|huggingface\|inferencesaver` | — | Filter by provider |
+| `capability` | `video_generation\|image_generation\|audio_generation\|audio_transcription\|motion_control` | — | Filter by capability type |
+| `q` | string | — | Search by name, ID, provider, or capability |
+| `limit` | number | `100` | Results per page (max 500) |
+| `offset` | number | `0` | Pagination offset |
+| `sort` | `name\|modality\|provider\|capability` | `name` | Sort field |
+| `order` | `asc\|desc` | `asc` | Sort order |
+| `fields` | comma-separated | all | Project specific fields only |
+
+### Examples
+
+```bash
+# Get all video generation models
+curl "http://localhost:3001/api/media-capabilities?modality=video"
+
+# Search for Replicate Flux models
+curl "http://localhost:3001/api/media-capabilities?q=flux&provider=replicate"
+
+# Get audio models with pagination
+curl "http://localhost:3001/api/media-capabilities?modality=audio&limit=10&offset=0"
+
+# Get only ID and name fields
+curl "http://localhost:3001/api/media-capabilities?fields=id,name,modality,provider"
+
+# Get a single model by ID
+curl "http://localhost:3001/api/media-capabilities/replicate%2Fblack-forest-labs%2FFLUX.1-pro"
+
+# Summary statistics
+curl "http://localhost:3001/api/media-capabilities/stats"
+
+# Provider list
+curl "http://localhost:3001/api/media-capabilities/providers"
+```
+
+### Static API (GitHub Pages)
+
+The same data is available as pre-computed static JSON on GitHub Pages — no server needed:
+
+```
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/media-capabilities.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/stats.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/providers.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/modality/video.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/modality/audio.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/modality/image.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/provider/replicate.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/provider/fala.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/provider/huggingface.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/provider/inferencesaver.json
+https://matthewdonsemail-lab.github.io/inferencesaver-ai-gateway-starter/api/search-index.json
+```
+
+These are updated every 6 hours via the sync workflow.
+
+### Response Shape
+
+```json
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-08-21T11:00:41.514Z",
+  "total": 300,
+  "count": 100,
+  "limit": 100,
+  "offset": 0,
+  "capabilities": [
+    {
+      "id": "replicate/black-forest-labs/FLUX.1-pro",
+      "name": "FLUX.1-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/FLUX.1-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": ["1:1", "9:16", "16:9", "4:5", "3:4", "21:9"],
+      "qualityOptions": ["standard", "pro"],
+      "outputFormats": ["png", "jpeg"],
+      "inputTypes": ["text"],
+      "outputTypes": ["image"],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/FLUX.1-pro/predictions",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T10:59:47.136Z"
+    }
+  ]
+}
+```
+
+### CORS
+
+All API endpoints return `Access-Control-Allow-Origin: *`, so you can call them from any browser application.
+
+---
+
 <p align="center">
   <sub>Built by <a href="https://inferencesaver.com">InferenceSaver</a></sub>
 </p>

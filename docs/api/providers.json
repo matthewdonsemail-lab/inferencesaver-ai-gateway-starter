@@ -1,0 +1,40 @@
+{
+  "providers": [
+    {
+      "name": "replicate",
+      "count": 223,
+      "modalities": {
+        "video": 106,
+        "image": 86,
+        "audio": 31
+      }
+    },
+    {
+      "name": "huggingface",
+      "count": 36,
+      "modalities": {
+        "image": 15,
+        "video": 9,
+        "audio": 12
+      }
+    },
+    {
+      "name": "fala",
+      "count": 24,
+      "modalities": {
+        "image": 10,
+        "video": 9,
+        "audio": 5
+      }
+    },
+    {
+      "name": "inferencesaver",
+      "count": 17,
+      "modalities": {
+        "video": 8,
+        "image": 3,
+        "audio": 6
+      }
+    }
+  ]
+}

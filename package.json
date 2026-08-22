@@ -2,7 +2,7 @@
   "name": "inferencesaver-ai-gateway-starter",
   "version": "0.1.0",
   "private": true,
-  "description": "Credential-safe InferenceSaver integration starter + media model capability aggregator",
+  "description": "Credential-safe InferenceSaver integration starter + media model capability aggregator + API",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -11,6 +11,8 @@
     "media-capabilities:aggregate": "tsx src/media-capabilities/aggregator.ts",
     "media-capabilities:validate": "tsx src/media-capabilities/validate.ts",
     "media-capabilities:serve": "tsx src/media-capabilities/server.ts",
+    "media-capabilities:generate-static-api": "tsx src/media-capabilities/generate-static-api.ts",
+    "media-capabilities:build": "npm run media-capabilities:aggregate && npm run media-capabilities:generate-static-api",
     "example:openai": "tsx src/examples-openai.ts",
     "example:anthropic": "tsx src/examples-anthropic.ts",
     "example:ai-sdk": "tsx src/examples-ai-sdk.ts",

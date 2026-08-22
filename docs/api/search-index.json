@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "inferencesaver/agnes-video-v2.0",
+    "name": "Agnes Video 2.0",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "agnes video 2.0 inferencesaver/agnes-video-v2.0 inferencesaver video_generation video 1:1 9:16 16:9 standard "
+  },
+  {
+    "id": "inferencesaver/agnes-image-2.1-flash",
+    "name": "Agnes Image 2.1 Flash",
+    "provider": "inferencesaver",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "agnes image 2.1 flash inferencesaver/agnes-image-2.1-flash inferencesaver image_generation image 1:1 9:16 16:9 standard "
+  },
+  {
+    "id": "inferencesaver/gpt-image-2",
+    "name": "GPT Image 2",
+    "provider": "inferencesaver",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "gpt image 2 inferencesaver/gpt-image-2 inferencesaver image_generation image auto 1:1 9:16 16:9 4:5 3:4 standard hd "
+  },
+  {
+    "id": "inferencesaver/mimo-v2.5-tts",
+    "name": "MiMo V2.5 TTS",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "mimo v2.5 tts inferencesaver/mimo-v2.5-tts inferencesaver audio_generation audio  standard mp3 wav"
+  },
+  {
+    "id": "inferencesaver/music-2.6-free",
+    "name": "Music 2.6 Free",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "music 2.6 free inferencesaver/music-2.6-free inferencesaver audio_generation audio   wav mp3"
+  },
+  {
+    "id": "inferencesaver/veo-3.1",
+    "name": "Veo 3.1",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo 3.1 inferencesaver/veo-3.1 inferencesaver video_generation video 16:9 1:1 9:16  "
+  },
+  {
+    "id": "inferencesaver/grok-imagine-video",
+    "name": "Grok Imagine Video",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "grok imagine video inferencesaver/grok-imagine-video inferencesaver video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "inferencesaver/agnes-image-2.0-flash",
+    "name": "Agnes Image 2.0 Flash",
+    "provider": "inferencesaver",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "agnes image 2.0 flash inferencesaver/agnes-image-2.0-flash inferencesaver image_generation image 1:1 9:16 16:9 standard "
+  },
+  {
+    "id": "inferencesaver/sora-2",
+    "name": "Sora 2",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sora 2 inferencesaver/sora-2 inferencesaver video_generation video 9:16 16:9  "
+  },
+  {
+    "id": "inferencesaver/kling-3.0",
+    "name": "Kling 3.0",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling 3.0 inferencesaver/kling-3.0 inferencesaver video_generation video 9:16 16:9 1:1 standard pro "
+  },
+  {
+    "id": "inferencesaver/kling-3-motion-control",
+    "name": "Kling 3 Motion Control",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "kling 3 motion control inferencesaver/kling-3-motion-control inferencesaver motion_control video  720p 1080p "
+  },
+  {
+    "id": "inferencesaver/seedance-1.0-fast",
+    "name": "Seedance 1.0 Fast",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance 1.0 fast inferencesaver/seedance-1.0-fast inferencesaver video_generation video 9:16 16:9 1:1 480p 720p "
+  },
+  {
+    "id": "inferencesaver/seedance-1.0-pro",
+    "name": "Seedance 1.0 Pro",
+    "provider": "inferencesaver",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance 1.0 pro inferencesaver/seedance-1.0-pro inferencesaver video_generation video 9:16 16:9 1:1 480p 720p "
+  },
+  {
+    "id": "inferencesaver/speech-2.5-hd-preview",
+    "name": "Speech 2.5 HD Preview",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "speech 2.5 hd preview inferencesaver/speech-2.5-hd-preview inferencesaver audio_generation audio  hd mp3 wav"
+  },
+  {
+    "id": "inferencesaver/whisper-large-v3",
+    "name": "Whisper Large V3",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "whisper large v3 inferencesaver/whisper-large-v3 inferencesaver audio_transcription audio  large-v3 text json"
+  },
+  {
+    "id": "inferencesaver/gpt-4o-mini-tts",
+    "name": "GPT-4o Mini TTS",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "gpt-4o mini tts inferencesaver/gpt-4o-mini-tts inferencesaver audio_generation audio  standard hd mp3 wav"
+  },
+  {
+    "id": "inferencesaver/gpt-4o-mini-tts-voice",
+    "name": "GPT-4o Mini TTS Voice",
+    "provider": "inferencesaver",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "gpt-4o mini tts voice inferencesaver/gpt-4o-mini-tts-voice inferencesaver audio_generation audio  standard hd mp3 wav"
+  },
+  {
+    "id": "replicate/wan-video/wan-2.7-i2v",
+    "name": "wan-2.7-i2v",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.7-i2v replicate/wan-video/wan-2.7-i2v replicate video_generation video   "
+  },
+  {
+    "id": "replicate/google/veo-3-fast",
+    "name": "veo-3-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo-3-fast replicate/google/veo-3-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/google/veo-3",
+    "name": "veo-3",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo-3 replicate/google/veo-3 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/open-mmlab/pia",
+    "name": "pia",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pia replicate/open-mmlab/pia replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.7-r2v",
+    "name": "wan-2.7-r2v",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.7-r2v replicate/wan-video/wan-2.7-r2v replicate video_generation video   "
+  },
+  {
+    "id": "replicate/veed/fabric-1.0",
+    "name": "fabric-1.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "fabric-1.0 replicate/veed/fabric-1.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/fofr/tooncrafter",
+    "name": "tooncrafter",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "tooncrafter replicate/fofr/tooncrafter replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/hailuo-2.3",
+    "name": "hailuo-2.3",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hailuo-2.3 replicate/minimax/hailuo-2.3 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/lightricks/ltx-video",
+    "name": "ltx-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ltx-video replicate/lightricks/ltx-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-2.0",
+    "name": "seedance-2.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-2.0 replicate/bytedance/seedance-2.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.5-i2v-fast",
+    "name": "wan-2.5-i2v-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.5-i2v-fast replicate/wan-video/wan-2.5-i2v-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.5-i2v",
+    "name": "wan-2.5-i2v",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.5-i2v replicate/wan-video/wan-2.5-i2v replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v2.5-turbo-pro",
+    "name": "kling-v2.5-turbo-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v2.5-turbo-pro replicate/kwaivgi/kling-v2.5-turbo-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-1-pro-fast",
+    "name": "seedance-1-pro-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-1-pro-fast replicate/bytedance/seedance-1-pro-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/alibaba/happyhorse-1.0",
+    "name": "happyhorse-1.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "happyhorse-1.0 replicate/alibaba/happyhorse-1.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
+    "name": "wan-2.1-i2v-720p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.1-i2v-720p replicate/wavespeedai/wan-2.1-i2v-720p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/hailuo-2.3-fast",
+    "name": "hailuo-2.3-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hailuo-2.3-fast replicate/minimax/hailuo-2.3-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/prunaai/p-video-animate",
+    "name": "p-video-animate",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "p-video-animate replicate/prunaai/p-video-animate replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/ray-3.2",
+    "name": "ray-3.2",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ray-3.2 replicate/luma/ray-3.2 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
+    "name": "wan-2.1-i2v-480p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.1-i2v-480p replicate/wavespeedai/wan-2.1-i2v-480p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/alibaba/happyhorse-1.1",
+    "name": "happyhorse-1.1",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "happyhorse-1.1 replicate/alibaba/happyhorse-1.1 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/lightricks/ltx-video-0.9.7",
+    "name": "ltx-video-0.9.7",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ltx-video-0.9.7 replicate/lightricks/ltx-video-0.9.7 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/google/veo-3.1",
+    "name": "veo-3.1",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo-3.1 replicate/google/veo-3.1 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/google/veo-3.1-fast",
+    "name": "veo-3.1-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo-3.1-fast replicate/google/veo-3.1-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/prunaai/p-video",
+    "name": "p-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "p-video replicate/prunaai/p-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/prunaai/p-video-avatar",
+    "name": "p-video-avatar",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "p-video-avatar replicate/prunaai/p-video-avatar replicate video_generation video   "
+  },
+  {
+    "id": "replicate/lightricks/ltx-video-0.9.7-distilled",
+    "name": "ltx-video-0.9.7-distilled",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ltx-video-0.9.7-distilled replicate/lightricks/ltx-video-0.9.7-distilled replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-2.0-fast",
+    "name": "seedance-2.0-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-2.0-fast replicate/bytedance/seedance-2.0-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/google/veo-2",
+    "name": "veo-2",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo-2 replicate/google/veo-2 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/leonardoai/motion-2.0",
+    "name": "motion-2.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "motion-2.0 replicate/leonardoai/motion-2.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v1.6-standard",
+    "name": "kling-v1.6-standard",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v1.6-standard replicate/kwaivgi/kling-v1.6-standard replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v1.6-pro",
+    "name": "kling-v1.6-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v1.6-pro replicate/kwaivgi/kling-v1.6-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v2.0",
+    "name": "kling-v2.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v2.0 replicate/kwaivgi/kling-v2.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v2.1",
+    "name": "kling-v2.1",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v2.1 replicate/kwaivgi/kling-v2.1 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/video-01-live",
+    "name": "video-01-live",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "video-01-live replicate/minimax/video-01-live replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/video-01-director",
+    "name": "video-01-director",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "video-01-director replicate/minimax/video-01-director replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/video-01",
+    "name": "video-01",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "video-01 replicate/minimax/video-01 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/runwayml/gen-4.5",
+    "name": "gen-4.5",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "gen-4.5 replicate/runwayml/gen-4.5 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v2.1-master",
+    "name": "kling-v2.1-master",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v2.1-master replicate/kwaivgi/kling-v2.1-master replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v3-video",
+    "name": "kling-v3-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v3-video replicate/kwaivgi/kling-v3-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pixverse/pixverse-v4",
+    "name": "pixverse-v4",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v4 replicate/pixverse/pixverse-v4 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v3-omni-video",
+    "name": "kling-v3-omni-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v3-omni-video replicate/kwaivgi/kling-v3-omni-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/vidu/q3-pro",
+    "name": "q3-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "q3-pro replicate/vidu/q3-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/xai/grok-imagine-video",
+    "name": "grok-imagine-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "grok-imagine-video replicate/xai/grok-imagine-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/ray-flash-2-540p",
+    "name": "ray-flash-2-540p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ray-flash-2-540p replicate/luma/ray-flash-2-540p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-1.5-pro",
+    "name": "seedance-1.5-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/ray-flash-2-720p",
+    "name": "ray-flash-2-720p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ray-flash-2-720p replicate/luma/ray-flash-2-720p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/ray-2-720p",
+    "name": "ray-2-720p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ray-2-720p replicate/luma/ray-2-720p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/ray-2-540p",
+    "name": "ray-2-540p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ray-2-540p replicate/luma/ray-2-540p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-1-lite",
+    "name": "seedance-1-lite",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-1-lite replicate/bytedance/seedance-1-lite replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/seedance-1-pro",
+    "name": "seedance-1-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "seedance-1-pro replicate/bytedance/seedance-1-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/hailuo-02",
+    "name": "hailuo-02",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hailuo-02 replicate/minimax/hailuo-02 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.2-i2v-a14b",
+    "name": "wan-2.2-i2v-a14b",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.2-i2v-a14b replicate/wan-video/wan-2.2-i2v-a14b replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.2-i2v-fast",
+    "name": "wan-2.2-i2v-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.2-i2v-fast replicate/wan-video/wan-2.2-i2v-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/luma/modify-video",
+    "name": "modify-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "modify-video replicate/luma/modify-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v2a",
+    "name": "ideogram-v2a",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v2a replicate/ideogram-ai/ideogram-v2a replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
+    "name": "ideogram-v2a-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v2a-turbo replicate/ideogram-ai/ideogram-v2a-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/minimax/image-01",
+    "name": "image-01",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "image-01 replicate/minimax/image-01 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bytedance/seedream-3",
+    "name": "seedream-3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "seedream-3 replicate/bytedance/seedream-3 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/luma/photon",
+    "name": "photon",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "photon replicate/luma/photon replicate image_generation image   "
+  },
+  {
+    "id": "replicate/luma/photon-flash",
+    "name": "photon-flash",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "photon-flash replicate/luma/photon-flash replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/hidream-l1-full",
+    "name": "hidream-l1-full",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "hidream-l1-full replicate/prunaai/hidream-l1-full replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/imagen-4-fast",
+    "name": "imagen-4-fast",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "imagen-4-fast replicate/google/imagen-4-fast replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/imagen-4-ultra",
+    "name": "imagen-4-ultra",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "imagen-4-ultra replicate/google/imagen-4-ultra replicate image_generation image   "
+  },
+  {
+    "id": "replicate/nvidia/sana-sprint-1.6b",
+    "name": "sana-sprint-1.6b",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sana-sprint-1.6b replicate/nvidia/sana-sprint-1.6b replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/hidream-l1-dev",
+    "name": "hidream-l1-dev",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "hidream-l1-dev replicate/prunaai/hidream-l1-dev replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/hidream-l1-fast",
+    "name": "hidream-l1-fast",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "hidream-l1-fast replicate/prunaai/hidream-l1-fast replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/flux-fast",
+    "name": "flux-fast",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-fast replicate/prunaai/flux-fast replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/sdxl-lightning",
+    "name": "sdxl-lightning",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl-lightning replicate/prunaai/sdxl-lightning replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v3-quality",
+    "name": "ideogram-v3-quality",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v3-quality replicate/ideogram-ai/ideogram-v3-quality replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v3-balanced",
+    "name": "ideogram-v3-balanced",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v3-balanced replicate/ideogram-ai/ideogram-v3-balanced replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-dev-lora",
+    "name": "flux-dev-lora",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-dev-lora replicate/black-forest-labs/flux-dev-lora replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bria/image-3.2",
+    "name": "image-3.2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/imagen-4",
+    "name": "imagen-4",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "imagen-4 replicate/google/imagen-4 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-kontext-pro",
+    "name": "flux-kontext-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-kontext-pro replicate/black-forest-labs/flux-kontext-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-kontext-max",
+    "name": "flux-kontext-max",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-kontext-max replicate/black-forest-labs/flux-kontext-max replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/wan-2.2-image",
+    "name": "wan-2.2-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "wan-2.2-image replicate/prunaai/wan-2.2-image replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/nano-banana",
+    "name": "nano-banana",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "nano-banana replicate/google/nano-banana replicate image_generation image   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.7-image",
+    "name": "wan-2.7-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "wan-2.7-image replicate/wan-video/wan-2.7-image replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/imagen-3",
+    "name": "imagen-3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "imagen-3 replicate/google/imagen-3 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/imagen-3-fast",
+    "name": "imagen-3-fast",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "imagen-3-fast replicate/google/imagen-3-fast replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-2-klein-4b",
+    "name": "flux-2-klein-4b",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-2-klein-4b replicate/black-forest-labs/flux-2-klein-4b replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bria/fibo",
+    "name": "fibo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "fibo replicate/bria/fibo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/tencent/hunyuan-image-3",
+    "name": "hunyuan-image-3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "hunyuan-image-3 replicate/tencent/hunyuan-image-3 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bytedance/seedream-4",
+    "name": "seedream-4",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "seedream-4 replicate/bytedance/seedream-4 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/nano-banana-pro",
+    "name": "nano-banana-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/z-image-turbo",
+    "name": "z-image-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "z-image-turbo replicate/prunaai/z-image-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/leonardoai/lucid-origin",
+    "name": "lucid-origin",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "lucid-origin replicate/leonardoai/lucid-origin replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bytedance/seedream-4.5",
+    "name": "seedream-4.5",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "seedream-4.5 replicate/bytedance/seedream-4.5 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.7-image-pro",
+    "name": "wan-2.7-image-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "wan-2.7-image-pro replicate/wan-video/wan-2.7-image-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v4",
+    "name": "recraft-v4",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v4 replicate/recraft-ai/recraft-v4 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v4-pro",
+    "name": "recraft-v4-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v4-pro replicate/recraft-ai/recraft-v4-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/xai/grok-imagine-image",
+    "name": "grok-imagine-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "grok-imagine-image replicate/xai/grok-imagine-image replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bytedance/seedream-5-lite",
+    "name": "seedream-5-lite",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "seedream-5-lite replicate/bytedance/seedream-5-lite replicate image_generation image   "
+  },
+  {
+    "id": "replicate/openai/gpt-image-2",
+    "name": "gpt-image-2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "gpt-image-2 replicate/openai/gpt-image-2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v4-svg",
+    "name": "recraft-v4-svg",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v4-svg replicate/recraft-ai/recraft-v4-svg replicate image_generation image   "
+  },
+  {
+    "id": "replicate/sourceful/riverflow-2.0-pro",
+    "name": "riverflow-2.0-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "riverflow-2.0-pro replicate/sourceful/riverflow-2.0-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v4-pro-svg",
+    "name": "recraft-v4-pro-svg",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v4-pro-svg replicate/recraft-ai/recraft-v4-pro-svg replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/p-image-lora",
+    "name": "p-image-lora",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "p-image-lora replicate/prunaai/p-image-lora replicate image_generation image   "
+  },
+  {
+    "id": "replicate/openai/gpt-image-1.5",
+    "name": "gpt-image-1.5",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "gpt-image-1.5 replicate/openai/gpt-image-1.5 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ai-forever/kandinsky-2",
+    "name": "kandinsky-2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "kandinsky-2 replicate/ai-forever/kandinsky-2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-2-pro",
+    "name": "flux-2-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-2-pro replicate/black-forest-labs/flux-2-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-2-flex",
+    "name": "flux-2-flex",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-2-flex replicate/black-forest-labs/flux-2-flex replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v3-turbo",
+    "name": "ideogram-v3-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v3-turbo replicate/ideogram-ai/ideogram-v3-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/google/nano-banana-2",
+    "name": "nano-banana-2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "nano-banana-2 replicate/google/nano-banana-2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/lucataco/ssd-1b",
+    "name": "ssd-1b",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ssd-1b replicate/lucataco/ssd-1b replicate image_generation image   "
+  },
+  {
+    "id": "replicate/comfyui/any-comfyui-workflow",
+    "name": "any-comfyui-workflow",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "any-comfyui-workflow replicate/comfyui/any-comfyui-workflow replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-dev",
+    "name": "flux-dev",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-dev replicate/black-forest-labs/flux-dev replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v2-turbo",
+    "name": "ideogram-v2-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v2-turbo replicate/ideogram-ai/ideogram-v2-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/qwen/qwen-image",
+    "name": "qwen-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "qwen-image replicate/qwen/qwen-image replicate image_generation image   "
+  },
+  {
+    "id": "replicate/prunaai/p-image",
+    "name": "p-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "p-image replicate/prunaai/p-image replicate image_generation image   "
+  },
+  {
+    "id": "replicate/datacte/proteus-v0.3",
+    "name": "proteus-v0.3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "proteus-v0.3 replicate/datacte/proteus-v0.3 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ai-forever/kandinsky-2.2",
+    "name": "kandinsky-2.2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "kandinsky-2.2 replicate/ai-forever/kandinsky-2.2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/fofr/sdxl-emoji",
+    "name": "sdxl-emoji",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl-emoji replicate/fofr/sdxl-emoji replicate image_generation image   "
+  },
+  {
+    "id": "replicate/bytedance/sdxl-lightning-4step",
+    "name": "sdxl-lightning-4step",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl-lightning-4step replicate/bytedance/sdxl-lightning-4step replicate image_generation image   "
+  },
+  {
+    "id": "replicate/ideogram-ai/ideogram-v2",
+    "name": "ideogram-v2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-v2 replicate/ideogram-ai/ideogram-v2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
+    "name": "realvisxl-v3-multi-controlnet-lora",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "realvisxl-v3-multi-controlnet-lora replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-pro",
+    "name": "flux-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-pro replicate/black-forest-labs/flux-pro replicate image_generation image   "
+  },
+  {
+    "id": "replicate/tstramer/material-diffusion",
+    "name": "material-diffusion",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "material-diffusion replicate/tstramer/material-diffusion replicate image_generation image   "
+  },
+  {
+    "id": "replicate/fermatresearch/sdxl-controlnet-lora",
+    "name": "sdxl-controlnet-lora",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl-controlnet-lora replicate/fermatresearch/sdxl-controlnet-lora replicate image_generation image   "
+  },
+  {
+    "id": "replicate/lucataco/realistic-vision-v5.1",
+    "name": "realistic-vision-v5.1",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "realistic-vision-v5.1 replicate/lucataco/realistic-vision-v5.1 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/stability-ai/sdxl",
+    "name": "sdxl",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl replicate/stability-ai/sdxl replicate image_generation image   "
+  },
+  {
+    "id": "replicate/stability-ai/stable-diffusion-3.5-large",
+    "name": "stable-diffusion-3.5-large",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion-3.5-large replicate/stability-ai/stable-diffusion-3.5-large replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+    "name": "flux-1.1-pro-ultra",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-1.1-pro-ultra replicate/black-forest-labs/flux-1.1-pro-ultra replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-2-max",
+    "name": "flux-2-max",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-2-max replicate/black-forest-labs/flux-2-max replicate image_generation image   "
+  },
+  {
+    "id": "replicate/stability-ai/stable-diffusion",
+    "name": "stable-diffusion",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion replicate/stability-ai/stable-diffusion replicate image_generation image   "
+  },
+  {
+    "id": "replicate/fofr/sticker-maker",
+    "name": "sticker-maker",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sticker-maker replicate/fofr/sticker-maker replicate image_generation image   "
+  },
+  {
+    "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
+    "name": "playground-v2.5-1024px-aesthetic",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "playground-v2.5-1024px-aesthetic replicate/playgroundai/playground-v2.5-1024px-aesthetic replicate image_generation image   "
+  },
+  {
+    "id": "replicate/jagilley/controlnet-scribble",
+    "name": "controlnet-scribble",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "controlnet-scribble replicate/jagilley/controlnet-scribble replicate image_generation image   "
+  },
+  {
+    "id": "replicate/fofr/sdxl-multi-controlnet-lora",
+    "name": "sdxl-multi-controlnet-lora",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl-multi-controlnet-lora replicate/fofr/sdxl-multi-controlnet-lora replicate image_generation image   "
+  },
+  {
+    "id": "replicate/fofr/latent-consistency-model",
+    "name": "latent-consistency-model",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "latent-consistency-model replicate/fofr/latent-consistency-model replicate image_generation image   "
+  },
+  {
+    "id": "replicate/lucataco/dreamshaper-xl-turbo",
+    "name": "dreamshaper-xl-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "dreamshaper-xl-turbo replicate/lucataco/dreamshaper-xl-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/lucataco/open-dalle-v1.1",
+    "name": "open-dalle-v1.1",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "open-dalle-v1.1 replicate/lucataco/open-dalle-v1.1 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/adirik/realvisxl-v3.0-turbo",
+    "name": "realvisxl-v3.0-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "realvisxl-v3.0-turbo replicate/adirik/realvisxl-v3.0-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/datacte/proteus-v0.2",
+    "name": "proteus-v0.2",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "proteus-v0.2 replicate/datacte/proteus-v0.2 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
+    "name": "stable-diffusion-3.5-medium",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion-3.5-medium replicate/stability-ai/stable-diffusion-3.5-medium replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-schnell",
+    "name": "flux-schnell",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-schnell replicate/black-forest-labs/flux-schnell replicate image_generation image   "
+  },
+  {
+    "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
+    "name": "stable-diffusion-3.5-large-turbo",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion-3.5-large-turbo replicate/stability-ai/stable-diffusion-3.5-large-turbo replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v3",
+    "name": "recraft-v3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v3 replicate/recraft-ai/recraft-v3 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v3-svg",
+    "name": "recraft-v3-svg",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v3-svg replicate/recraft-ai/recraft-v3-svg replicate image_generation image   "
+  },
+  {
+    "id": "replicate/nvidia/sana",
+    "name": "sana",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sana replicate/nvidia/sana replicate image_generation image   "
+  },
+  {
+    "id": "replicate/wavespeedai/wan-2.1-t2v-480p",
+    "name": "wan-2.1-t2v-480p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.1-t2v-480p replicate/wavespeedai/wan-2.1-t2v-480p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wavespeedai/hunyuan-video-fast",
+    "name": "hunyuan-video-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hunyuan-video-fast replicate/wavespeedai/hunyuan-video-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/meta/sam-2-video",
+    "name": "sam-2-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sam-2-video replicate/meta/sam-2-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.1-1.3b",
+    "name": "wan-2.1-1.3b",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.1-1.3b replicate/wan-video/wan-2.1-1.3b replicate video_generation video   "
+  },
+  {
+    "id": "replicate/andreasjansson/tile-morph",
+    "name": "tile-morph",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "tile-morph replicate/andreasjansson/tile-morph replicate video_generation video   "
+  },
+  {
+    "id": "replicate/fofr/video-morpher",
+    "name": "video-morpher",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "video-morpher replicate/fofr/video-morpher replicate video_generation video   "
+  },
+  {
+    "id": "replicate/zsxkib/hunyuan-video2video",
+    "name": "hunyuan-video2video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hunyuan-video2video replicate/zsxkib/hunyuan-video2video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pixverse/pixverse-v4.5",
+    "name": "pixverse-v4.5",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v4.5 replicate/pixverse/pixverse-v4.5 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wavespeedai/wan-2.1-t2v-720p",
+    "name": "wan-2.1-t2v-720p",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.1-t2v-720p replicate/wavespeedai/wan-2.1-t2v-720p replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pixverse/pixverse-v5.6",
+    "name": "pixverse-v5.6",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v5.6 replicate/pixverse/pixverse-v5.6 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.2-t2v-fast",
+    "name": "wan-2.2-t2v-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.2-t2v-fast replicate/wan-video/wan-2.2-t2v-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/fofr/not-real",
+    "name": "not-real",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "not-real replicate/fofr/not-real replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.5-t2v-fast",
+    "name": "wan-2.5-t2v-fast",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.5-t2v-fast replicate/wan-video/wan-2.5-t2v-fast replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v2.6",
+    "name": "kling-v2.6",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v2.6 replicate/kwaivgi/kling-v2.6 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pixverse/pixverse-v6",
+    "name": "pixverse-v6",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v6 replicate/pixverse/pixverse-v6 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/openai/sora-2",
+    "name": "sora-2",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sora-2 replicate/openai/sora-2 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/openai/sora-2-pro",
+    "name": "sora-2-pro",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sora-2-pro replicate/openai/sora-2-pro replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pixverse/pixverse-v5",
+    "name": "pixverse-v5",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v5 replicate/pixverse/pixverse-v5 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/wan-video/wan-2.5-t2v",
+    "name": "wan-2.5-t2v",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-2.5-t2v replicate/wan-video/wan-2.5-t2v replicate video_generation video   "
+  },
+  {
+    "id": "replicate/xai/grok-imagine-video-1.5",
+    "name": "grok-imagine-video-1.5",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "grok-imagine-video-1.5 replicate/xai/grok-imagine-video-1.5 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-o1",
+    "name": "kling-o1",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-o1 replicate/kwaivgi/kling-o1 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/bytedance/dreamactor-m2.0",
+    "name": "dreamactor-m2.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "dreamactor-m2.0 replicate/bytedance/dreamactor-m2.0 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/lucataco/hotshot-xl",
+    "name": "hotshot-xl",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hotshot-xl replicate/lucataco/hotshot-xl replicate video_generation video   "
+  },
+  {
+    "id": "replicate/arielreplicate/deoldify_video",
+    "name": "deoldify_video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "deoldify_video replicate/arielreplicate/deoldify_video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/cjwbw/text2video-zero",
+    "name": "text2video-zero",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "text2video-zero replicate/cjwbw/text2video-zero replicate video_generation video   "
+  },
+  {
+    "id": "replicate/zsxkib/pyramid-flow",
+    "name": "pyramid-flow",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pyramid-flow replicate/zsxkib/pyramid-flow replicate video_generation video   "
+  },
+  {
+    "id": "replicate/anotherjesse/zeroscope-v2-xl",
+    "name": "zeroscope-v2-xl",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "zeroscope-v2-xl replicate/anotherjesse/zeroscope-v2-xl replicate video_generation video   "
+  },
+  {
+    "id": "replicate/deforum/deforum_stable_diffusion",
+    "name": "deforum_stable_diffusion",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "deforum_stable_diffusion replicate/deforum/deforum_stable_diffusion replicate video_generation video   "
+  },
+  {
+    "id": "replicate/ali-vilab/i2vgen-xl",
+    "name": "i2vgen-xl",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "i2vgen-xl replicate/ali-vilab/i2vgen-xl replicate video_generation video   "
+  },
+  {
+    "id": "replicate/andreasjansson/stable-diffusion-animation",
+    "name": "stable-diffusion-animation",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "stable-diffusion-animation replicate/andreasjansson/stable-diffusion-animation replicate video_generation video   "
+  },
+  {
+    "id": "replicate/zsxkib/animatediff-prompt-travel",
+    "name": "animatediff-prompt-travel",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "animatediff-prompt-travel replicate/zsxkib/animatediff-prompt-travel replicate video_generation video   "
+  },
+  {
+    "id": "replicate/cjwbw/controlvideo",
+    "name": "controlvideo",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "controlvideo replicate/cjwbw/controlvideo replicate video_generation video   "
+  },
+  {
+    "id": "replicate/cjwbw/damo-text-to-video",
+    "name": "damo-text-to-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "damo-text-to-video replicate/cjwbw/damo-text-to-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/lucataco/animate-diff",
+    "name": "animate-diff",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "animate-diff replicate/lucataco/animate-diff replicate video_generation video   "
+  },
+  {
+    "id": "replicate/zsxkib/animatediff-illusions",
+    "name": "animatediff-illusions",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "animatediff-illusions replicate/zsxkib/animatediff-illusions replicate video_generation video   "
+  },
+  {
+    "id": "replicate/arielreplicate/stable_diffusion_infinite_zoom",
+    "name": "stable_diffusion_infinite_zoom",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "stable_diffusion_infinite_zoom replicate/arielreplicate/stable_diffusion_infinite_zoom replicate video_generation video   "
+  },
+  {
+    "id": "replicate/arielreplicate/robust_video_matting",
+    "name": "robust_video_matting",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "robust_video_matting replicate/arielreplicate/robust_video_matting replicate video_generation video   "
+  },
+  {
+    "id": "replicate/genmoai/mochi-1",
+    "name": "mochi-1",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "mochi-1 replicate/genmoai/mochi-1 replicate video_generation video   "
+  },
+  {
+    "id": "replicate/pollinations/real-basicvsr-video-superresolution",
+    "name": "real-basicvsr-video-superresolution",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "real-basicvsr-video-superresolution replicate/pollinations/real-basicvsr-video-superresolution replicate video_generation video   "
+  },
+  {
+    "id": "replicate/cjwbw/videocrafter",
+    "name": "videocrafter",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "videocrafter replicate/cjwbw/videocrafter replicate video_generation video   "
+  },
+  {
+    "id": "replicate/zsxkib/animate-diff",
+    "name": "animate-diff",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "animate-diff replicate/zsxkib/animate-diff replicate video_generation video   "
+  },
+  {
+    "id": "replicate/tencent/hunyuan-video",
+    "name": "hunyuan-video",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hunyuan-video replicate/tencent/hunyuan-video replicate video_generation video   "
+  },
+  {
+    "id": "replicate/cuuupid/cogvideox-5b",
+    "name": "cogvideox-5b",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "cogvideox-5b replicate/cuuupid/cogvideox-5b replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/voice-cloning",
+    "name": "voice-cloning",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "voice-cloning replicate/minimax/voice-cloning replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/resemble-ai/chatterbox-pro",
+    "name": "chatterbox-pro",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "chatterbox-pro replicate/resemble-ai/chatterbox-pro replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/chenxwh/openvoice",
+    "name": "openvoice",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "openvoice replicate/chenxwh/openvoice replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/fermatresearch/spanish-f5-tts",
+    "name": "spanish-f5-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "spanish-f5-tts replicate/fermatresearch/spanish-f5-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/x-lance/f5-tts",
+    "name": "f5-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "f5-tts replicate/x-lance/f5-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/platform-kit/mars5-tts",
+    "name": "mars5-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "mars5-tts replicate/platform-kit/mars5-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/lucataco/pheme",
+    "name": "pheme",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "pheme replicate/lucataco/pheme replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/awerks/neon-tts",
+    "name": "neon-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "neon-tts replicate/awerks/neon-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/cjwbw/parler-tts",
+    "name": "parler-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "parler-tts replicate/cjwbw/parler-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/cjwbw/voicecraft",
+    "name": "voicecraft",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "voicecraft replicate/cjwbw/voicecraft replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/camenduru/metavoice",
+    "name": "metavoice",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "metavoice replicate/camenduru/metavoice replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/zsxkib/dia",
+    "name": "dia",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "dia replicate/zsxkib/dia replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/adirik/styletts2",
+    "name": "styletts2",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "styletts2 replicate/adirik/styletts2 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/lucataco/csm-1b",
+    "name": "csm-1b",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "csm-1b replicate/lucataco/csm-1b replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/inworld/realtime-tts-2",
+    "name": "realtime-tts-2",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "realtime-tts-2 replicate/inworld/realtime-tts-2 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/lucataco/orpheus-3b-0.1-ft",
+    "name": "orpheus-3b-0.1-ft",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "orpheus-3b-0.1-ft replicate/lucataco/orpheus-3b-0.1-ft replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/jaaari/kokoro-82m",
+    "name": "kokoro-82m",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "kokoro-82m replicate/jaaari/kokoro-82m replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/minimax/speech-02-turbo",
+    "name": "speech-02-turbo",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "speech-02-turbo replicate/minimax/speech-02-turbo replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/speech-02-hd",
+    "name": "speech-02-hd",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "speech-02-hd replicate/minimax/speech-02-hd replicate video_generation video   "
+  },
+  {
+    "id": "replicate/resemble-ai/chatterbox-multilingual",
+    "name": "chatterbox-multilingual",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "chatterbox-multilingual replicate/resemble-ai/chatterbox-multilingual replicate motion_control video   "
+  },
+  {
+    "id": "replicate/resemble-ai/chatterbox-turbo",
+    "name": "chatterbox-turbo",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "chatterbox-turbo replicate/resemble-ai/chatterbox-turbo replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/resemble-ai/chatterbox",
+    "name": "chatterbox",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "chatterbox replicate/resemble-ai/chatterbox replicate motion_control video   "
+  },
+  {
+    "id": "replicate/minimax/speech-2.8-turbo",
+    "name": "speech-2.8-turbo",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "speech-2.8-turbo replicate/minimax/speech-2.8-turbo replicate motion_control video   "
+  },
+  {
+    "id": "replicate/inworld/realtime-tts-1.5-mini",
+    "name": "realtime-tts-1.5-mini",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "realtime-tts-1.5-mini replicate/inworld/realtime-tts-1.5-mini replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/inworld/realtime-tts-1.5-max",
+    "name": "realtime-tts-1.5-max",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "realtime-tts-1.5-max replicate/inworld/realtime-tts-1.5-max replicate motion_control video   "
+  },
+  {
+    "id": "replicate/elevenlabs/v3",
+    "name": "v3",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "v3 replicate/elevenlabs/v3 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/elevenlabs/turbo-v2.5",
+    "name": "turbo-v2.5",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "turbo-v2.5 replicate/elevenlabs/turbo-v2.5 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/elevenlabs/flash-v2.5",
+    "name": "flash-v2.5",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "flash-v2.5 replicate/elevenlabs/flash-v2.5 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/elevenlabs/v2-multilingual",
+    "name": "v2-multilingual",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "v2-multilingual replicate/elevenlabs/v2-multilingual replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/qwen/qwen3-tts",
+    "name": "qwen3-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "qwen3-tts replicate/qwen/qwen3-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/minimax/speech-2.8-hd",
+    "name": "speech-2.8-hd",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "motion_control",
+    "tokens": "speech-2.8-hd replicate/minimax/speech-2.8-hd replicate motion_control video   "
+  },
+  {
+    "id": "replicate/minimax/speech-2.6-turbo",
+    "name": "speech-2.6-turbo",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "speech-2.6-turbo replicate/minimax/speech-2.6-turbo replicate video_generation video   "
+  },
+  {
+    "id": "replicate/minimax/speech-2.6-hd",
+    "name": "speech-2.6-hd",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "speech-2.6-hd replicate/minimax/speech-2.6-hd replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/afiaka87/tortoise-tts",
+    "name": "tortoise-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "tortoise-tts replicate/afiaka87/tortoise-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/suno-ai/bark",
+    "name": "bark",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "bark replicate/suno-ai/bark replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/cjwbw/seamless_communication",
+    "name": "seamless_communication",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "seamless_communication replicate/cjwbw/seamless_communication replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/zsxkib/realistic-voice-cloning",
+    "name": "realistic-voice-cloning",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "realistic-voice-cloning replicate/zsxkib/realistic-voice-cloning replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/lucataco/xtts-v2",
+    "name": "xtts-v2",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "xtts-v2 replicate/lucataco/xtts-v2 replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/google/gemini-3.1-flash-tts",
+    "name": "gemini-3.1-flash-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "gemini-3.1-flash-tts replicate/google/gemini-3.1-flash-tts replicate audio_generation audio   "
+  },
+  {
+    "id": "fala/fal-ai/flux-pro",
+    "name": "Flux Pro",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux pro fala/fal-ai/flux-pro fala image_generation image 1:1 9:16 16:9 4:5 3:4 21:9  "
+  },
+  {
+    "id": "fala/fal-ai/flux-pro/v1.1",
+    "name": "Flux Pro v1.1",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux pro v1.1 fala/fal-ai/flux-pro/v1.1 fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/flux-pro/v1.1-ultra",
+    "name": "Flux Pro Ultra",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux pro ultra fala/fal-ai/flux-pro/v1.1-ultra fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/flux-dev",
+    "name": "Flux Dev",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux dev fala/fal-ai/flux-dev fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/flux-schnell",
+    "name": "Flux Schnell",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux schnell fala/fal-ai/flux-schnell fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/stable-diffusion-v3-medium",
+    "name": "SD3 Medium",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sd3 medium fala/fal-ai/stable-diffusion-v3-medium fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/stable-diffusion-xl",
+    "name": "SDXL",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "sdxl fala/fal-ai/stable-diffusion-xl fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/ideogram",
+    "name": "Ideogram",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram fala/fal-ai/ideogram fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/ideogram/v2",
+    "name": "Ideogram v2",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram v2 fala/fal-ai/ideogram/v2 fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/recraft-v3",
+    "name": "Recraft v3",
+    "provider": "fala",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft v3 fala/fal-ai/recraft-v3 fala image_generation image 1:1 9:16 16:9 4:5 3:4  "
+  },
+  {
+    "id": "fala/fal-ai/minimax-video",
+    "name": "MiniMax Video",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "minimax video fala/fal-ai/minimax-video fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/cogvideox-5b",
+    "name": "CogVideoX 5B",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "cogvideox 5b fala/fal-ai/cogvideox-5b fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/hunyuan-video",
+    "name": "Hunyuan Video",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "hunyuan video fala/fal-ai/hunyuan-video fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/kling-video",
+    "name": "Kling Video",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling video fala/fal-ai/kling-video fala video_generation video 9:16 16:9 1:1 standard pro "
+  },
+  {
+    "id": "fala/fal-ai/kling-video/v1.5",
+    "name": "Kling Video v1.5",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling video v1.5 fala/fal-ai/kling-video/v1.5 fala video_generation video 9:16 16:9 1:1 standard pro "
+  },
+  {
+    "id": "fala/fal-ai/veo-3",
+    "name": "Veo 3",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "veo 3 fala/fal-ai/veo-3 fala video_generation video 16:9 1:1 9:16  "
+  },
+  {
+    "id": "fala/fal-ai/luma-sorcerer",
+    "name": "Luma Sorcerer",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "luma sorcerer fala/fal-ai/luma-sorcerer fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/runway-gen3",
+    "name": "Runway Gen3",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "runway gen3 fala/fal-ai/runway-gen3 fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/stable-video-diffusion",
+    "name": "SVD",
+    "provider": "fala",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "svd fala/fal-ai/stable-video-diffusion fala video_generation video 9:16 16:9 1:1  "
+  },
+  {
+    "id": "fala/fal-ai/playht-text-to-speech",
+    "name": "PlayHT TTS",
+    "provider": "fala",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "playht tts fala/fal-ai/playht-text-to-speech fala audio_generation audio   mp3 wav"
+  },
+  {
+    "id": "fala/fal-ai/fish-speech",
+    "name": "Fish Speech",
+    "provider": "fala",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "fish speech fala/fal-ai/fish-speech fala audio_generation audio   mp3 wav"
+  },
+  {
+    "id": "fala/fal-ai/whisper",
+    "name": "Whisper",
+    "provider": "fala",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "whisper fala/fal-ai/whisper fala audio_transcription audio   text json srt vtt"
+  },
+  {
+    "id": "fala/fal-ai/musicgen",
+    "name": "MusicGen",
+    "provider": "fala",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "musicgen fala/fal-ai/musicgen fala audio_generation audio   mp3 wav"
+  },
+  {
+    "id": "fala/fal-ai/suno-music",
+    "name": "Suno Music",
+    "provider": "fala",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "suno music fala/fal-ai/suno-music fala audio_generation audio   mp3 wav"
+  },
+  {
+    "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
+    "name": "stabilityai/stable-diffusion-xl-base-1.0",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stabilityai/stable-diffusion-xl-base-1.0 huggingface/stabilityai/stable-diffusion-xl-base-1.0 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/stabilityai/sdxl-turbo",
+    "name": "stabilityai/sdxl-turbo",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stabilityai/sdxl-turbo huggingface/stabilityai/sdxl-turbo huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-dev",
+    "name": "black-forest-labs/FLUX.2-dev",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
+    "name": "black-forest-labs/FLUX.2-klein-4B",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
+    "name": "Qwen/Qwen-Image-Edit-2509",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+    "name": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "comfy-org/wan_2.2_comfyui_repackaged huggingface/comfy-org/wan_2.2_comfyui_repackaged huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/Lightricks/LTX-2.3",
+    "name": "Lightricks/LTX-2.3",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "lightricks/ltx-2.3 huggingface/lightricks/ltx-2.3 huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/Lightricks/LTX-2.3-fp8",
+    "name": "Lightricks/LTX-2.3-fp8",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "lightricks/ltx-2.3-fp8 huggingface/lightricks/ltx-2.3-fp8 huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
+    "name": "larryvrh/MiniMax-H3-Turbo-Lora",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "larryvrh/minimax-h3-turbo-lora huggingface/larryvrh/minimax-h3-turbo-lora huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/SulphurAI/Sulphur-2-base",
+    "name": "SulphurAI/Sulphur-2-base",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sulphurai/sulphur-2-base huggingface/sulphurai/sulphur-2-base huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "name": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-ai/wan2.2-ti2v-5b-diffusers huggingface/wan-ai/wan2.2-ti2v-5b-diffusers huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/numz/SeedVR2_comfyUI",
+    "name": "numz/SeedVR2_comfyUI",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
+    "name": "ByteDance-Seed/SeedVR2-3B",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "bytedance-seed/seedvr2-3b huggingface/bytedance-seed/seedvr2-3b huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/AInVFX/SeedVR2_comfyUI",
+    "name": "AInVFX/SeedVR2_comfyUI",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/hexgrad/Kokoro-82M",
+    "name": "hexgrad/Kokoro-82M",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "hexgrad/kokoro-82m huggingface/hexgrad/kokoro-82m huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/coqui/XTTS-v2",
+    "name": "coqui/XTTS-v2",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "coqui/xtts-v2 huggingface/coqui/xtts-v2 huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "name": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "qwen/qwen3-tts-12hz-1.7b-customvoice huggingface/qwen/qwen3-tts-12hz-1.7b-customvoice huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/facebook/musicgen-medium",
+    "name": "facebook/musicgen-medium",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "facebook/musicgen-medium huggingface/facebook/musicgen-medium huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/facebook/musicgen-small",
+    "name": "facebook/musicgen-small",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "facebook/musicgen-small huggingface/facebook/musicgen-small huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/facebook/musicgen-large",
+    "name": "facebook/musicgen-large",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "facebook/musicgen-large huggingface/facebook/musicgen-large huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
+    "name": "nvidia/bigvgan_v2_22khz_80band_256x",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "nvidia/bigvgan_v2_22khz_80band_256x huggingface/nvidia/bigvgan_v2_22khz_80band_256x huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/nvidia/bigvgan_v2_44khz_128band_512x",
+    "name": "nvidia/bigvgan_v2_44khz_128band_512x",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "nvidia/bigvgan_v2_44khz_128band_512x huggingface/nvidia/bigvgan_v2_44khz_128band_512x huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/nvidia/personaplex-7b-v1",
+    "name": "nvidia/personaplex-7b-v1",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "nvidia/personaplex-7b-v1 huggingface/nvidia/personaplex-7b-v1 huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/argmaxinc/whisperkit-coreml",
+    "name": "argmaxinc/whisperkit-coreml",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "argmaxinc/whisperkit-coreml huggingface/argmaxinc/whisperkit-coreml huggingface audio_transcription audio   "
+  },
+  {
+    "id": "huggingface/pyannote/speaker-diarization-3.1",
+    "name": "pyannote/speaker-diarization-3.1",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
+  },
+  {
+    "id": "huggingface/openai/whisper-large-v3-turbo",
+    "name": "openai/whisper-large-v3-turbo",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "openai/whisper-large-v3-turbo huggingface/openai/whisper-large-v3-turbo huggingface audio_transcription audio   "
+  },
+  {
+    "id": "huggingface/CIDAS/clipseg-rd64-refined",
+    "name": "CIDAS/clipseg-rd64-refined",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/ZhengPeng7/BiRefNet",
+    "name": "ZhengPeng7/BiRefNet",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "zhengpeng7/birefnet huggingface/zhengpeng7/birefnet huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/briaai/RMBG-2.0",
+    "name": "briaai/RMBG-2.0",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "briaai/rmbg-2.0 huggingface/briaai/rmbg-2.0 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
+    "name": "timm/mobilenetv3_small_100.lamb_in1k",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/google/vit-base-patch16-224",
+    "name": "google/vit-base-patch16-224",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/Falconsai/nsfw_image_detection",
+    "name": "Falconsai/nsfw_image_detection",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "falconsai/nsfw_image_detection huggingface/falconsai/nsfw_image_detection huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/laion/clap-htsat-fused",
+    "name": "laion/clap-htsat-fused",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "laion/clap-htsat-fused huggingface/laion/clap-htsat-fused huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
+    "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "mit/ast-finetuned-audioset-10-10-0.4593 huggingface/mit/ast-finetuned-audioset-10-10-0.4593 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+    "name": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim huggingface/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim huggingface image_generation image   "
+  }
+]

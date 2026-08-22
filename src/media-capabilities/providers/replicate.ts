@@ -1,12 +1,11 @@
 import type { MediaModelCapability } from "../schema.js";
 
 const REPLICATE_API_BASE = "https://api.replicate.com/v1";
-const REPLICATE_MODELS_URL = `${REPLICATE_API_BASE}/models`;
 
-/** Fetch all models from Replicate's public collection and extract capability
- *  metadata from their version schemas. Replicate exposes OpenAPI/JSON Schema
- *  definitions per model version that include supported inputs, enums, limits,
- *  aspect ratios, and other constraints. */
+/** Fetch all models from Replicate's public collections and extract
+ *  capability metadata from the OpenAPI schemas baked into each model's
+ *  latest_version object (the collections endpoint returns them inline —
+ *  no separate version fetch required). */
 export async function fetchReplicateCapabilities(
   apiToken?: string,
 ): Promise<MediaModelCapability[]> {
@@ -36,7 +35,7 @@ export async function fetchReplicateCapabilities(
     try {
       const response = await fetch(
         `${REPLICATE_API_BASE}/collections/${collection}`,
-        { headers, signal: AbortSignal.timeout(10000) },
+        { headers, signal: AbortSignal.timeout(15000) },
       );
       if (!response.ok) continue;
       const body = (await response.json()) as { models?: unknown[] };
@@ -52,25 +51,16 @@ export async function fetchReplicateCapabilities(
         if (!owner || !name || seen.has(id)) continue;
         seen.add(id);
 
-        // Determine modality from description, name, and collection
+        // Determine modality from collection, name, and description
         const modality = inferModality(collection, name, description);
         const capability = inferCapability(collection, modality, description);
 
-        // Try to fetch the latest version's schema for detailed capabilities
+        // The schema is already on the latest_version object — parse it inline
         const latestVersion = m.latest_version as Record<string, unknown> | undefined;
-        let schemaCapabilities: Partial<MediaModelCapability> = {};
+        const schemaCapabilities = latestVersion
+          ? parseVersionSchema(latestVersion)
+          : {};
 
-        if (latestVersion?.id) {
-          schemaCapabilities = await fetchVersionSchema(
-            owner,
-            String(name),
-            String(latestVersion.id),
-            headers,
-          );
-        }
-
-        // Build the URL to the model's page
-        const homepageUrl = m.homepage_url as string | undefined;
         const endpointUrl = `https://api.replicate.com/v1/models/${owner}/${name}/predictions`;
 
         results.push({
@@ -84,7 +74,7 @@ export async function fetchReplicateCapabilities(
           outputTypes: [modality],
           ...schemaCapabilities,
           endpointUrl,
-          schemaUrl: `${endpointUrl}/versions/${latestVersion?.id ?? ""}`,
+          schemaUrl: `https://replicate.com/${owner}/${name}`,
           source: "replicate",
           lastSyncedAt: new Date().toISOString(),
         } satisfies MediaModelCapability);
@@ -97,119 +87,183 @@ export async function fetchReplicateCapabilities(
   return results;
 }
 
-async function fetchVersionSchema(
-  owner: string,
-  name: string,
-  versionId: string,
-  headers: Record<string, string>,
-): Promise<Partial<MediaModelCapability>> {
+/** Parse the OpenAPI/JSON Schema from a version object to extract supported
+ *  aspect ratios, durations, quality options, and output formats. The schema
+ *  is already on the version object returned by the collections endpoint.
+ *  Replicate/Cog schemas declare input params as properties that reference
+ *  component schemas via $ref (e.g. {"allOf":[{"$ref":"#/components/schemas/aspect_ratio"}]}),
+ *  so we resolve $refs into the components registry before reading enums. */
+function parseVersionSchema(
+  version: Record<string, unknown>,
+): Partial<MediaModelCapability> {
+  const extracted: Partial<MediaModelCapability> = {};
+
+  // The openapi_schema may be a string or already parsed
+  const rawSchema = version.openapi_schema;
+  if (!rawSchema) return {};
+
+  let schema: Record<string, unknown>;
   try {
-    const response = await fetch(
-      `https://api.replicate.com/v1/models/${owner}/${name}/versions/${versionId}`,
-      { headers },
-    );
-    if (!response.ok) return {};
+    schema =
+      typeof rawSchema === "string"
+        ? (JSON.parse(rawSchema) as Record<string, unknown>)
+        : (rawSchema as Record<string, unknown>);
+  } catch {
+    return {};
+  }
 
-    const body = (await response.json()) as Record<string, unknown>;
-    const version = body as Record<string, unknown>;
-    const openapiSchema = version.openapi_schema as Record<string, unknown> | undefined;
-    const cogSchema = version.cog_version_schema as Record<string, unknown> | undefined;
+  // Build the component schema registry for $ref resolution
+  const components = schema.components as Record<string, unknown> | undefined;
+  const componentSchemas = (components?.schemas as Record<string, unknown>) ?? {};
 
-    // The schema has a JSON Schema definition of the model's input parameters
-    const schema = openapiSchema ?? cogSchema;
-    if (!schema) return {};
-
-    const extracted: Partial<MediaModelCapability> = {};
-
-    // Parse the input parameters from the schema
-    const inputSchema = (schema as Record<string, unknown>).input as
-      | Record<string, unknown>
-      | undefined;
-    const properties = inputSchema?.properties as Record<string, unknown> | undefined;
-    const params = (schema as Record<string, unknown>).parameters as
-      | Record<string, unknown>
-      | undefined;
-    const inputParams = (params as Record<string, unknown>)?.properties as
-      | Record<string, unknown>
-      | undefined;
-
-    const allProps = { ...(properties ?? {}), ...(inputParams ?? {}) } as Record<
-      string,
-      unknown
-    >;
-
-    for (const [paramName, paramDef] of Object.entries(allProps)) {
-      const pd = paramDef as Record<string, unknown>;
-      const normalized = paramName.toLowerCase().replace(/[_-]/g, "_");
-
-      // Aspect ratio enum
-      if (/aspect|ratio/i.test(normalized)) {
-        const enums = pd.enum as string[] | undefined;
-        if (enums?.length) {
-          extracted.aspectRatios = enums.filter(
-            (e) => !e.toLowerCase().includes("auto") || true,
-          );
-          // If they have x:y format, normalize them
-          extracted.aspectRatios = extracted.aspectRatios.map((r) => {
-            if (/^\d+x\d+$/i.test(r)) {
-              const [w, h] = r.split("x").map(Number);
-              return `${w}:${h}`;
-            }
-            // If it's a URL-like or dimension string, check if it contains ratio
-            if (/^\d+:\d+$/.test(r)) return r;
-            // If it's a raw dimension like "1024x1024", convert to ratio
-            if (/^\d+x\d+$/i.test(r)) {
-              const [w, h] = r.split("x").map(Number);
-              const gcd = findGcd(w, h);
-              return `${w / gcd}:${h / gcd}`;
-            }
-            return r;
-          });
-        }
+  /** Resolve a $ref like "#/components/schemas/aspect_ratio" against the
+   *  component registry and return the merged schema definition. */
+  function resolveRef(ref: string): Record<string, unknown> | undefined {
+    const parts = ref.replace(/^#\//, "").split("/").map(decodeURIComponent);
+    // parts = ["components", "schemas", "aspect_ratio"]
+    let current: unknown = componentSchemas;
+    for (const part of parts) {
+      if (part === "components" || part === "schemas") continue;
+      if (current && typeof current === "object" && part in (current as Record<string, unknown>)) {
+        current = (current as Record<string, unknown>)[part];
+      } else {
+        return undefined;
       }
+    }
+    return typeof current === "object" && current !== null
+      ? (current as Record<string, unknown>)
+      : undefined;
+  }
 
-      // Duration / time
-      if (/duration|time|length|seconds/i.test(normalized)) {
-        const max = pd.maximum as number | undefined;
-        const enumVals = pd.enum as (number | string)[] | undefined;
-        if (max) extracted.maxDurationSeconds = max;
-        if (enumVals?.length) {
-          extracted.durationOptions = enumVals.map(String);
+  /** Check a property definition for enum values, following $ref/allOf. */
+  function enumOf(pd: Record<string, unknown>): string[] | undefined {
+    const direct = pd.enum as unknown[] | undefined;
+    if (direct?.length) return direct.map(String);
+
+    // allOf references
+    const allOf = pd.allOf as unknown[] | undefined;
+    if (allOf?.length) {
+      const merged: string[] = [];
+      for (const item of allOf) {
+        const ref = (item as Record<string, unknown>).$ref as string | undefined;
+        if (ref) {
+          const resolved = resolveRef(ref);
+          if (resolved?.enum) {
+            return (resolved.enum as unknown[]).map(String);
+          }
+          if (resolved?.type === "string" && resolved.const) {
+            return [String(resolved.const)];
+          }
+          continue;
         }
+        // Nested allOf/anyOf resolution
+        const nested = enumOf(item as Record<string, unknown>);
+        if (nested) merged.push(...nested);
       }
+      if (merged.length) return merged;
+    }
 
-      // Quality / resolution
-      if (/quality|resolution/i.test(normalized)) {
-        const enums = pd.enum as string[] | undefined;
-        if (enums?.length) {
-          extracted.qualityOptions = enums;
-        }
-      }
-
-      // Output format
-      if (/format|output_format|response_format/i.test(normalized)) {
-        const enums = pd.enum as string[] | undefined;
-        if (enums?.length) {
-          extracted.outputFormats = enums;
-        }
-      }
-
-      // Generation mode
-      if (/mode|generation_type/i.test(normalized) && !/aspect/i.test(normalized)) {
-        const enums = pd.enum as string[] | undefined;
-        if (enums?.length) {
-          extracted.generationModes = enums;
+    // anyOf references
+    const anyOf = pd.anyOf as unknown[] | undefined;
+    if (anyOf?.length) {
+      for (const item of anyOf) {
+        const ref = (item as Record<string, unknown>).$ref as string | undefined;
+        if (ref) {
+          const resolved = resolveRef(ref);
+          if (resolved?.enum) {
+            return (resolved.enum as unknown[]).map(String);
+          }
         }
       }
     }
 
-    return extracted;
-  } catch {
-    return {};
+    return undefined;
   }
+
+  // Input properties (Cog standard: components.schemas.Input.properties)
+  const inputSchema = (componentSchemas.Input as Record<string, unknown>) ?? {};
+  const inputProps = (inputSchema.properties as Record<string, unknown>) ?? {};
+
+  // Also check the openapi top-level schemas
+  const topSchemas = (schema.schemas as Record<string, unknown>) ?? {};
+  const topInput = (topSchemas.Input as Record<string, unknown>) ?? {};
+  const topInputProps = (topInput.properties as Record<string, unknown>) ?? {};
+
+  const allProps = { ...inputProps, ...topInputProps } as Record<string, unknown>;
+
+  for (const [paramName, paramDef] of Object.entries(allProps)) {
+    const pd = paramDef as Record<string, unknown>;
+    const normalized = paramName.toLowerCase().replace(/[_-]/g, "_");
+    const enums = enumOf(pd);
+
+    // Aspect ratio / size / format / resolution
+    if (/aspect|ratio|size|dimension|resolution|format/.test(normalized)) {
+      if (enums?.length) {
+        // Extract aspect ratios (either "1:1" style or "1024x1024" resolutions)
+        const ratios = new Set<string>();
+        const resolutions: { width: number; height: number }[] = [];
+        for (const value of enums) {
+          if (/^\d+x\d+$/i.test(value)) {
+            const [w, h] = value.split("x").map(Number);
+            if (w && h) {
+              resolutions.push({ width: w, height: h });
+              const gcd = findGcd(w, h);
+              ratios.add(`${w / gcd}:${h / gcd}`);
+            }
+          } else if (/^\d+:\d+$/.test(value)) {
+            ratios.add(value);
+          } else if (/^(auto|none|custom)$/i.test(value)) {
+            ratios.add(value.toLowerCase());
+          }
+        }
+        if (ratios.size) extracted.aspectRatios = [...ratios];
+        if (resolutions.length) extracted.supportedResolutions = resolutions;
+      }
+    }
+
+    // Duration / time
+    if (/duration|time|seconds|length/.test(normalized) && !/gradient/.test(normalized)) {
+      const max = pd.maximum as number | undefined;
+      if (max) extracted.maxDurationSeconds = max;
+      if (enums?.length) {
+        // Only numeric duration options are valid
+        const numeric = enums.filter((v) => !Number.isNaN(Number(v)) && Number(v) > 0);
+        if (numeric.length) extracted.durationOptions = numeric;
+      }
+    }
+
+    // Quality / resolution
+    if (/quality|resolution|res_mode|mode$/.test(normalized) && !/aspect|ratio/.test(normalized)) {
+      if (enums?.length) {
+        const q = enums.filter((v) => !/^none$/i.test(v));
+        if (q.length) extracted.qualityOptions = q;
+      }
+    }
+
+    // Output format
+    if (/format|output_format|response_format|encode/.test(normalized) && !/aspect|ratio|resolution/.test(normalized)) {
+      if (enums?.length) {
+        extracted.outputFormats = enums;
+      }
+    }
+
+    // Mode
+    if (/mode|generation_type|style_type/.test(normalized) && !/aspect|ratio|quality|res_mode/.test(normalized)) {
+      if (enums?.length) {
+        const modes = enums.filter((v) => !/^none$/i.test(v));
+        if (modes.length) extracted.generationModes = modes;
+      }
+    }
+  }
+
+  return extracted;
 }
 
-function inferModality(collection: string, name: string, description: string): "video" | "audio" | "image" {
+function inferModality(
+  collection: string,
+  name: string,
+  description: string,
+): "video" | "audio" | "image" {
   const text = `${collection} ${name} ${description}`.toLowerCase();
   if (/video|motion|animation/i.test(text)) return "video";
   if (/audio|speech|music|voice|tts|transcription|whisper/i.test(text)) return "audio";

@@ -1,0 +1,2241 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-08-21T11:00:41.514Z",
+  "capabilities": [
+    {
+      "id": "inferencesaver/agnes-image-2.1-flash",
+      "name": "Agnes Image 2.1 Flash",
+      "provider": "inferencesaver",
+      "modelId": "agnes-image-2.1-flash",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9"
+      ],
+      "qualityOptions": [
+        "standard"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "supportsReferenceImages": true,
+      "endpointUrl": "https://api.inferencesaver.com/v1/images/generations",
+      "source": "inferencesaver"
+    },
+    {
+      "id": "inferencesaver/gpt-image-2",
+      "name": "GPT Image 2",
+      "provider": "inferencesaver",
+      "modelId": "gpt-image-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "auto",
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "qualityOptions": [
+        "standard",
+        "hd"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "supportsReferenceImages": true,
+      "endpointUrl": "https://api.inferencesaver.com/v1/images/generations",
+      "source": "inferencesaver"
+    },
+    {
+      "id": "inferencesaver/agnes-image-2.0-flash",
+      "name": "Agnes Image 2.0 Flash",
+      "provider": "inferencesaver",
+      "modelId": "agnes-image-2.0-flash",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9"
+      ],
+      "qualityOptions": [
+        "standard"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.inferencesaver.com/v1/images/generations",
+      "source": "inferencesaver"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2a",
+      "name": "ideogram-v2a",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions/versions/8b85e4363b03c25f1d248d0f7e3e118503f2b33773a51bab414603bd52f6112d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:00.639Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
+      "name": "ideogram-v2a-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions/versions/0afb968f42d1f96ab92f9c8d669c0e819fa36ccc74f02a7cd057595c9e42da01",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:00.844Z"
+    },
+    {
+      "id": "replicate/minimax/image-01",
+      "name": "image-01",
+      "provider": "replicate",
+      "modelId": "minimax/image-01",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions/versions/928f3bd6ac899108d0ab8cf7f91dfa39a03eda0175e94c9b4cd075776dececf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:01.042Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-3",
+      "name": "seedream-3",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions/versions/ed344813bc9f4996be6de4febd8b9c14c7849ad7b21ab047572e3620ee374ee7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:01.249Z"
+    },
+    {
+      "id": "replicate/luma/photon",
+      "name": "photon",
+      "provider": "replicate",
+      "modelId": "luma/photon",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon/predictions/versions/fe142c037cf359764f2058c3a42ef0dc750d908311d02868cbc7769fe800b648",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:01.449Z"
+    },
+    {
+      "id": "replicate/luma/photon-flash",
+      "name": "photon-flash",
+      "provider": "replicate",
+      "modelId": "luma/photon-flash",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions/versions/8cee7d47f81d8f4f77c1aec44ffb3d1ce09d36388db637ceaa8a6cbcf30b63e1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:01.654Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-full",
+      "name": "hidream-l1-full",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-full",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions/versions/03d58532fd29e39fd2ed80e86c3da1cebec28ef2734081cf1366710d30388f42",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:01.856Z"
+    },
+    {
+      "id": "replicate/google/imagen-4-fast",
+      "name": "imagen-4-fast",
+      "provider": "replicate",
+      "modelId": "google/imagen-4-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions/versions/efb61e33cffb69a1725083f675a44793929553f479918d01d6ce6e00efbee0d7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:02.056Z"
+    },
+    {
+      "id": "replicate/google/imagen-4-ultra",
+      "name": "imagen-4-ultra",
+      "provider": "replicate",
+      "modelId": "google/imagen-4-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions/versions/94d9d5a0e8bf7691286756bf150fa0c81e1bc3d6e2cddfc7084781f54e0199b5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:02.261Z"
+    },
+    {
+      "id": "replicate/nvidia/sana-sprint-1.6b",
+      "name": "sana-sprint-1.6b",
+      "provider": "replicate",
+      "modelId": "nvidia/sana-sprint-1.6b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions/versions/038aee6907b53a5c148780983e39a50ce7cd0747b4e2642e78387f48cf36039a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:02.463Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-dev",
+      "name": "hidream-l1-dev",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions/versions/4dfcd146c0def4812455415f55556f6bc84025dcb15193cf1977f01bd384d191",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:02.665Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-fast",
+      "name": "hidream-l1-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions/versions/a25bf35ce22aa4b948977b8e745cf666bc2b63032fc61cf039c745449a8cbe63",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:02.875Z"
+    },
+    {
+      "id": "replicate/prunaai/flux-fast",
+      "name": "flux-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/flux-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions/versions/4f22c6cd75e0f95f12f55d1616a4d163e9166087ed4979f5cecc40418a522703",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:03.088Z"
+    },
+    {
+      "id": "replicate/prunaai/sdxl-lightning",
+      "name": "sdxl-lightning",
+      "provider": "replicate",
+      "modelId": "prunaai/sdxl-lightning",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions/versions/123d4264aec4d1c81d8bf142e0d90d6fd4c346f1a869406019f6d1653882d7c3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:03.300Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-quality",
+      "name": "ideogram-v3-quality",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-quality",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions/versions/6dafa89a04b1547f0d1c1680b8dcd41ebb2f82c4e2f0c8a92d4bf5ea5250150b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:03.516Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-balanced",
+      "name": "ideogram-v3-balanced",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-balanced",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions/versions/41f9f0d4bf6c470dd0f5085dadc6c14ffb8ed4ce1f6bffbbc10b03ecf5b053fb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:03.735Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev-lora",
+      "name": "flux-dev-lora",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions/versions/ae0d7d645446924cf1871e3ca8796e8318f72465d2b5af9323a835df93bf0917",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:03.948Z"
+    },
+    {
+      "id": "replicate/bria/image-3.2",
+      "name": "image-3.2",
+      "provider": "replicate",
+      "modelId": "bria/image-3.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions/versions/cd4f78ccda1eb0983e504cfa1e58cfbd8edc8999ea9da87e1ac2ee541c205450",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:04.151Z"
+    },
+    {
+      "id": "replicate/google/imagen-4",
+      "name": "imagen-4",
+      "provider": "replicate",
+      "modelId": "google/imagen-4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions/versions/19335492dbe879d4b5983bff2149f597db8314ccc7fe374e6313af7c2b52792f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:04.353Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-pro",
+      "name": "flux-kontext-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions/versions/897a70f5a7dbd8a0611413b3b98cf417b45f266bd595c571a22947619d9ae462",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:04.553Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-max",
+      "name": "flux-kontext-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions/versions/8389ed8e4b16016c44fcdcc3ad142cf1e182e0a1ecaf0347b3e5254303f2beac",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:04.757Z"
+    },
+    {
+      "id": "replicate/prunaai/wan-2.2-image",
+      "name": "wan-2.2-image",
+      "provider": "replicate",
+      "modelId": "prunaai/wan-2.2-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions/versions/16e15e913fcc71c1a5defb335ea84739f99731fa1ee17995117c7d9adc6d176c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:04.959Z"
+    },
+    {
+      "id": "replicate/google/nano-banana",
+      "name": "nano-banana",
+      "provider": "replicate",
+      "modelId": "google/nano-banana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions/versions/5bdc2c7cd642ae33611d8c33f79615f98ff02509ab8db9d8ec1cc6c36d378fba",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:05.161Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image",
+      "name": "wan-2.7-image",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions/versions/2e9f097d4acc02be2d0d86ea8034402c9913488309db62dd8b7dbca3f810326c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:05.366Z"
+    },
+    {
+      "id": "replicate/google/imagen-3",
+      "name": "imagen-3",
+      "provider": "replicate",
+      "modelId": "google/imagen-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions/versions/dd38058a6e74c700dcd05db62896386817f3af627bbe71f869f9a43f02773fd4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:05.565Z"
+    },
+    {
+      "id": "replicate/google/imagen-3-fast",
+      "name": "imagen-3-fast",
+      "provider": "replicate",
+      "modelId": "google/imagen-3-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions/versions/2d1d7f7965a9b0b37ea8eb77f156e905631d27f0f56a234de98385703b5c380e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:05.924Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-klein-4b",
+      "name": "flux-2-klein-4b",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-klein-4b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions/versions/8e9c42d77b10a2a41af823ac4500f7545be6ebc4e745830fc3f3de10de200542",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:06.146Z"
+    },
+    {
+      "id": "replicate/bria/fibo",
+      "name": "fibo",
+      "provider": "replicate",
+      "modelId": "bria/fibo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions/versions/11d5854315b5c315a9e9335bb816e693eea668e47e347ca69e2ea1eac16acd6b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:06.368Z"
+    },
+    {
+      "id": "replicate/tencent/hunyuan-image-3",
+      "name": "hunyuan-image-3",
+      "provider": "replicate",
+      "modelId": "tencent/hunyuan-image-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions/versions/080dbbefcd1504ca5aeebaa2815fd51467d5bb793d2b1fb4eb4eb32ac22a3377",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:06.574Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4",
+      "name": "seedream-4",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions/versions/cf7d431991436f19d1c8dad83fe463c729c816d7a21056c5105e75c84a0aa7e9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:06.786Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-pro",
+      "name": "nano-banana-pro",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions/versions/93f55bfdbdfd4a62e16bf861729bcfa9e8fd9b0325fb218cbc4dd138ecc87cc7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:06.990Z"
+    },
+    {
+      "id": "replicate/prunaai/z-image-turbo",
+      "name": "z-image-turbo",
+      "provider": "replicate",
+      "modelId": "prunaai/z-image-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions/versions/e2e4026056d5b1a80fa5f9f2fa27cd3b868eab220ba99402c5321362de0ee92a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:07.204Z"
+    },
+    {
+      "id": "replicate/leonardoai/lucid-origin",
+      "name": "lucid-origin",
+      "provider": "replicate",
+      "modelId": "leonardoai/lucid-origin",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions/versions/b772951ed6ca66c93626bd27b2a0480fe392295126f39cb9e47cf6404a37def0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:07.414Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4.5",
+      "name": "seedream-4.5",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions/versions/9fe3b8282dcb9d9063b05e33210a1432801f7c5a6641db944baefcec4886761a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:07.620Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image-pro",
+      "name": "wan-2.7-image-pro",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions/versions/d880bad3fb109170221d7c233c4665bab6ba83d01936f3c9b1389de6ed2a82ed",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:07.824Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4",
+      "name": "recraft-v4",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4/predictions/versions/a8bc7377c37baeea1e01568f88b6abfb38939135071a38ca4267c8f82c3cbbf0",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:08.034Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro",
+      "name": "recraft-v4-pro",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions/versions/da14602f43a83d1a85654e8cbce5afc0d4cca59b41c0c13f73be8ca84d54d6b6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:08.247Z"
+    },
+    {
+      "id": "replicate/xai/grok-imagine-image",
+      "name": "grok-imagine-image",
+      "provider": "replicate",
+      "modelId": "xai/grok-imagine-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions/versions/3032db31147241f86351f0d7ab1ffd5150dcb482bcb873580f15d8cb8970a812",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:08.454Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-5-lite",
+      "name": "seedream-5-lite",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-5-lite",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions/versions/eeb2857d94c49a5bcbc9d6c6057416e1d3b1a2735a16e08e4def9bf7ee22ec71",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:08.660Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-2",
+      "name": "gpt-image-2",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions/versions/225c978a7f938acc350564c4548ddc2476bfb33364bec6b5422227f55ce56bd3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:08.868Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-svg",
+      "name": "recraft-v4-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions/versions/93cbef8f201b974654d36b1247314072205583f6ff489a1582126f34f2f93635",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:09.073Z"
+    },
+    {
+      "id": "replicate/sourceful/riverflow-2.0-pro",
+      "name": "riverflow-2.0-pro",
+      "provider": "replicate",
+      "modelId": "sourceful/riverflow-2.0-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions/versions/d46bdf05d249002bbf46683d9d1372860c309f8ceb41ad4fca8cce1180b91d8f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:09.293Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro-svg",
+      "name": "recraft-v4-pro-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions/versions/b31f9d3b20f09d3029aee2d983641c36e7cbc2118d2c9d2fcb7a4f248b6e3538",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:09.499Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image-lora",
+      "name": "p-image-lora",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions/versions/f69aaba63b0b2c22d2313c6219365a7344d6d51907c477f78986ee2de2e5d1a2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:09.716Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-1.5",
+      "name": "gpt-image-1.5",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-1.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions/versions/118f53498ea7319519229b2d5bd0d4a69e3d77eb60d6292d5db38125534dc1ca",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:09.931Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2",
+      "name": "kandinsky-2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions/versions/3c6374e7a9a17e01afe306a5218cc67de55b19ea536466d6ea2602cfecea40a9",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:10.143Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-pro",
+      "name": "flux-2-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions/versions/ccb5e33141097816e6fab8c895e702fe4c619e4e07500885b71214e9f6382a5c",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:10.362Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-flex",
+      "name": "flux-2-flex",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-flex",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions/versions/dbeea265fe7b67a03086ed29ddc54b55cc5387aeba8d84f9e80adbf5698a0f67",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:10.575Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-turbo",
+      "name": "ideogram-v3-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions/versions/d9b3748f95c0fe3e71f010f8cc5d80e8f5252acd0e74b1c294ee889eea52a47b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:10.800Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-2",
+      "name": "nano-banana-2",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions/versions/d1be8b5fc0931a253d417e12a484ac01ee9ccbc6daffd4792151377d5e5ff55f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:10.996Z"
+    },
+    {
+      "id": "replicate/lucataco/ssd-1b",
+      "name": "ssd-1b",
+      "provider": "replicate",
+      "modelId": "lucataco/ssd-1b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions/versions/b19e3639452c59ce8295b82aba70a231404cb062f2eb580ea894b31e8ce5bbb6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:11.204Z"
+    },
+    {
+      "id": "replicate/comfyui/any-comfyui-workflow",
+      "name": "any-comfyui-workflow",
+      "provider": "replicate",
+      "modelId": "comfyui/any-comfyui-workflow",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions/versions/16d0a881fbfc066f0471a3519a347db456fe8cbcbd53abb435a50a74efaeb427",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:11.413Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev",
+      "name": "flux-dev",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions/versions/6e4a938f85952bdabcc15aa329178c4d681c52bf25a0342403287dc26944661d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:11.628Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2-turbo",
+      "name": "ideogram-v2-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions/versions/7cef9d520d672bb802588ad0d13151bc51aee9a408c270aebf25d6530045dd29",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:11.832Z"
+    },
+    {
+      "id": "replicate/qwen/qwen-image",
+      "name": "qwen-image",
+      "provider": "replicate",
+      "modelId": "qwen/qwen-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions/versions/0bba9e70f78437359725e0989ead45ca8b09e6c12a070dfe9a09e6856b43a44d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:12.039Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image",
+      "name": "p-image",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions/versions/10b739c5e107d9684e9e7eca6f443ab0861bd526af50a03cf42d6210b36684b7",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:12.240Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.3",
+      "name": "proteus-v0.3",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions/versions/b28b79d725c8548b173b6a19ff9bffd16b9b80df5b18b8dc5cb9e1ee471bfa48",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:12.445Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2.2",
+      "name": "kandinsky-2.2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions/versions/ad9d7879fbffa2874e1d909d1d37d9bc682889cc65b31f7bb00d2362619f194a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:12.648Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-emoji",
+      "name": "sdxl-emoji",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-emoji",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions/versions/dee76b5afde21b0f01ed7925f0665b7e879c50ee718c5f78a9d38e04d523cc5e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:12.858Z"
+    },
+    {
+      "id": "replicate/bytedance/sdxl-lightning-4step",
+      "name": "sdxl-lightning-4step",
+      "provider": "replicate",
+      "modelId": "bytedance/sdxl-lightning-4step",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions/versions/6f7a773af6fc3e8de9d5a3c00be77c17308914bf67772726aff83496ba1e3bbe",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:13.061Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2",
+      "name": "ideogram-v2",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions/versions/3e6071946ab5319b3bcc37a4d00083e743dfdff5be386df6a2ff1f212fc7365b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:13.266Z"
+    },
+    {
+      "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "name": "realvisxl-v3-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions/versions/90a4a3604cd637cb9f1a2bdae1cfa9ed869362ca028814cdce310a78e27daade",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:13.490Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-pro",
+      "name": "flux-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions/versions/ce4035b99fc7bac18bc2f0384632858f126f6b4d96c88603a898a76b8e0c4ac2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:13.696Z"
+    },
+    {
+      "id": "replicate/tstramer/material-diffusion",
+      "name": "material-diffusion",
+      "provider": "replicate",
+      "modelId": "tstramer/material-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions/versions/a42692c54c0f407f803a0a8a9066160976baedb77c91171a01730f9b0d7beeff",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:13.897Z"
+    },
+    {
+      "id": "replicate/fermatresearch/sdxl-controlnet-lora",
+      "name": "sdxl-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fermatresearch/sdxl-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions/versions/3bb13fe1c33c35987b33792b01b71ed6529d03f165d1c2416375859f09ca9fef",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:14.103Z"
+    },
+    {
+      "id": "replicate/lucataco/realistic-vision-v5.1",
+      "name": "realistic-vision-v5.1",
+      "provider": "replicate",
+      "modelId": "lucataco/realistic-vision-v5.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:14.307Z"
+    },
+    {
+      "id": "replicate/stability-ai/sdxl",
+      "name": "sdxl",
+      "provider": "replicate",
+      "modelId": "stability-ai/sdxl",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:14.531Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large",
+      "name": "stable-diffusion-3.5-large",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions/versions/2fdf9488b53c1e0fd3aef7b477def1c00d1856a38466733711f9c769942598f5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:14.731Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+      "name": "flux-1.1-pro-ultra",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-1.1-pro-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions/versions/551f15a1f56b90795ed34e94f11efb17196a5145bf2ae58fbf2d7e7d8bb42aaf",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:14.934Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-max",
+      "name": "flux-2-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions/versions/9c23b0aaa98765a9676dbdda58b9c9915627751300747bad54cb1c11b135d3ca",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:15.146Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion",
+      "name": "stable-diffusion",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions/versions/ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:15.349Z"
+    },
+    {
+      "id": "replicate/fofr/sticker-maker",
+      "name": "sticker-maker",
+      "provider": "replicate",
+      "modelId": "fofr/sticker-maker",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions/versions/4acb778eb059772225ec213948f0660867b2e03f277448f18cf1800b96a65a1a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:15.560Z"
+    },
+    {
+      "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
+      "name": "playground-v2.5-1024px-aesthetic",
+      "provider": "replicate",
+      "modelId": "playgroundai/playground-v2.5-1024px-aesthetic",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions/versions/a45f82a1382bed5c7aeb861dac7c7d191b0fdf74d8d57c4a0e6ed7d4d0bf7d24",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:15.768Z"
+    },
+    {
+      "id": "replicate/jagilley/controlnet-scribble",
+      "name": "controlnet-scribble",
+      "provider": "replicate",
+      "modelId": "jagilley/controlnet-scribble",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions/versions/435061a1b5a4c1e26740464bf786efdfa9cb3a3ac488595a2de23e143fdb0117",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:16.425Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-multi-controlnet-lora",
+      "name": "sdxl-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions/versions/89eb212b3d1366a83e949c12a4b45dfe6b6b313b594cb8268e864931ac9ffb16",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:16.798Z"
+    },
+    {
+      "id": "replicate/fofr/latent-consistency-model",
+      "name": "latent-consistency-model",
+      "provider": "replicate",
+      "modelId": "fofr/latent-consistency-model",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions/versions/683d19dc312f7a9f0428b04429a9ccefd28dbf7785fef083ad5cf991b65f406f",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:17.015Z"
+    },
+    {
+      "id": "replicate/lucataco/dreamshaper-xl-turbo",
+      "name": "dreamshaper-xl-turbo",
+      "provider": "replicate",
+      "modelId": "lucataco/dreamshaper-xl-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions/versions/0a1710e0187b01a255302738ca0158ff02a22f4638679533e111082f9dd1b615",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:17.224Z"
+    },
+    {
+      "id": "replicate/lucataco/open-dalle-v1.1",
+      "name": "open-dalle-v1.1",
+      "provider": "replicate",
+      "modelId": "lucataco/open-dalle-v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions/versions/1c7d4c8dec39c7306df7794b28419078cb9d18b9213ab1c21fdc46a1deca0144",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:17.438Z"
+    },
+    {
+      "id": "replicate/adirik/realvisxl-v3.0-turbo",
+      "name": "realvisxl-v3.0-turbo",
+      "provider": "replicate",
+      "modelId": "adirik/realvisxl-v3.0-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions/versions/3dc73c805b11b4b01a60555e532fd3ab3f0e60d26f6584d9b8ba7e1b95858243",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:17.654Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.2",
+      "name": "proteus-v0.2",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions/versions/06775cd262843edbde5abab958abdbb65a0a6b58ca301c9fd78fa55c775fc019",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:17.860Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
+      "name": "stable-diffusion-3.5-medium",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions/versions/1323a3a68cbf2b58c708f38fba9557e39d68a77cb287a8d7372ba0443f6f0767",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:18.071Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-schnell",
+      "name": "flux-schnell",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions/versions/c846a69991daf4c0e5d016514849d14ee5b2e6846ce6b9d6f21369e564cfe51e",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:18.274Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
+      "name": "stable-diffusion-3.5-large-turbo",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions/versions/6ce89263555dde3393564e799f1310ee247c5339c3c665250b5dd5d26b7bcc3d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:18.487Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3",
+      "name": "recraft-v3",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions/versions/9507e61ddace8b3a238371b17a61be203747c5081ea6070fecd3c40d27318922",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:18.686Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3-svg",
+      "name": "recraft-v3-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions/versions/df041379628fa1d16bd406409930775b0904dc2bc0f3e3f38ecd2a4389e9329d",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:18.895Z"
+    },
+    {
+      "id": "replicate/nvidia/sana",
+      "name": "sana",
+      "provider": "replicate",
+      "modelId": "nvidia/sana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
+      "schemaUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions/versions/c6b5d2b7459910fec94432e9e1203c3cdce92d6db20f714f1355747990b52fa6",
+      "source": "replicate",
+      "lastSyncedAt": "2026-08-21T11:00:19.096Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro",
+      "name": "Flux Pro",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4",
+        "21:9"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1",
+      "name": "Flux Pro v1.1",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-pro/v1.1-ultra",
+      "name": "Flux Pro Ultra",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-pro/v1.1-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-dev",
+      "name": "Flux Dev",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-dev",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/flux-schnell",
+      "name": "Flux Schnell",
+      "provider": "fala",
+      "modelId": "fal-ai/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
+      "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-v3-medium",
+      "name": "SD3 Medium",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-v3-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/stable-diffusion-xl",
+      "name": "SDXL",
+      "provider": "fala",
+      "modelId": "fal-ai/stable-diffusion-xl",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
+      "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram",
+      "name": "Ideogram",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/ideogram/v2",
+      "name": "Ideogram v2",
+      "provider": "fala",
+      "modelId": "fal-ai/ideogram/v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
+      "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "fala/fal-ai/recraft-v3",
+      "name": "Recraft v3",
+      "provider": "fala",
+      "modelId": "fal-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "aspectRatios": [
+        "1:1",
+        "9:16",
+        "16:9",
+        "4:5",
+        "3:4"
+      ],
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
+      "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
+      "source": "fala",
+      "lastSyncedAt": "2026-08-21T10:59:44.396Z"
+    },
+    {
+      "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "provider": "huggingface",
+      "modelId": "stabilityai/stable-diffusion-xl-base-1.0",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:45.094Z"
+    },
+    {
+      "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "provider": "huggingface",
+      "modelId": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:45.373Z"
+    },
+    {
+      "id": "huggingface/stabilityai/sdxl-turbo",
+      "name": "stabilityai/sdxl-turbo",
+      "provider": "huggingface",
+      "modelId": "stabilityai/sdxl-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:45.647Z"
+    },
+    {
+      "id": "huggingface/black-forest-labs/FLUX.2-dev",
+      "name": "black-forest-labs/FLUX.2-dev",
+      "provider": "huggingface",
+      "modelId": "black-forest-labs/FLUX.2-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:46.183Z"
+    },
+    {
+      "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
+      "name": "black-forest-labs/FLUX.2-klein-4B",
+      "provider": "huggingface",
+      "modelId": "black-forest-labs/FLUX.2-klein-4B",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:46.459Z"
+    },
+    {
+      "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
+      "name": "Qwen/Qwen-Image-Edit-2509",
+      "provider": "huggingface",
+      "modelId": "Qwen/Qwen-Image-Edit-2509",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image",
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:46.734Z"
+    },
+    {
+      "id": "huggingface/CIDAS/clipseg-rd64-refined",
+      "name": "CIDAS/clipseg-rd64-refined",
+      "provider": "huggingface",
+      "modelId": "CIDAS/clipseg-rd64-refined",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:54.987Z"
+    },
+    {
+      "id": "huggingface/ZhengPeng7/BiRefNet",
+      "name": "ZhengPeng7/BiRefNet",
+      "provider": "huggingface",
+      "modelId": "ZhengPeng7/BiRefNet",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:55.264Z"
+    },
+    {
+      "id": "huggingface/briaai/RMBG-2.0",
+      "name": "briaai/RMBG-2.0",
+      "provider": "huggingface",
+      "modelId": "briaai/RMBG-2.0",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/briaai/RMBG-2.0",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:55.530Z"
+    },
+    {
+      "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "provider": "huggingface",
+      "modelId": "timm/mobilenetv3_small_100.lamb_in1k",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:56.078Z"
+    },
+    {
+      "id": "huggingface/google/vit-base-patch16-224",
+      "name": "google/vit-base-patch16-224",
+      "provider": "huggingface",
+      "modelId": "google/vit-base-patch16-224",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:56.347Z"
+    },
+    {
+      "id": "huggingface/Falconsai/nsfw_image_detection",
+      "name": "Falconsai/nsfw_image_detection",
+      "provider": "huggingface",
+      "modelId": "Falconsai/nsfw_image_detection",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/Falconsai/nsfw_image_detection",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:56.620Z"
+    },
+    {
+      "id": "huggingface/laion/clap-htsat-fused",
+      "name": "laion/clap-htsat-fused",
+      "provider": "huggingface",
+      "modelId": "laion/clap-htsat-fused",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:57.170Z"
+    },
+    {
+      "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
+      "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+      "provider": "huggingface",
+      "modelId": "MIT/ast-finetuned-audioset-10-10-0.4593",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:57.439Z"
+    },
+    {
+      "id": "huggingface/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "name": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "provider": "huggingface",
+      "modelId": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "audio"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+      "source": "huggingface",
+      "lastSyncedAt": "2026-08-21T10:59:57.709Z"
+    }
+  ],
+  "count": 114
+}
