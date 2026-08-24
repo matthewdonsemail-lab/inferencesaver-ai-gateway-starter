@@ -2296,12 +2296,12 @@
     "tokens": "nvidia/bigvgan_v2_44khz_128band_512x huggingface/nvidia/bigvgan_v2_44khz_128band_512x huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/nvidia/personaplex-7b-v1",
-    "name": "nvidia/personaplex-7b-v1",
+    "id": "huggingface/Qwen/Qwen3-TTS-Tokenizer-12Hz",
+    "name": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "nvidia/personaplex-7b-v1 huggingface/nvidia/personaplex-7b-v1 huggingface audio_generation audio   "
+    "tokens": "qwen/qwen3-tts-tokenizer-12hz huggingface/qwen/qwen3-tts-tokenizer-12hz huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/argmaxinc/whisperkit-coreml",
