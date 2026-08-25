@@ -2200,12 +2200,12 @@
     "tokens": "sulphurai/sulphur-2-base huggingface/sulphurai/sulphur-2-base huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Wan-AI/Wan2.2-TI2V-5B-Diffusers",
-    "name": "Wan-AI/Wan2.2-TI2V-5B-Diffusers",
+    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-ai/wan2.2-ti2v-5b-diffusers huggingface/wan-ai/wan2.2-ti2v-5b-diffusers huggingface video_generation video   "
+    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2360,20 +2360,20 @@
     "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
   },
   {
+    "id": "huggingface/timm/efficientnet_b3.ra2_in1k",
+    "name": "timm/efficientnet_b3.ra2_in1k",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "timm/efficientnet_b3.ra2_in1k huggingface/timm/efficientnet_b3.ra2_in1k huggingface image_generation image   "
+  },
+  {
     "id": "huggingface/google/vit-base-patch16-224",
     "name": "google/vit-base-patch16-224",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
-  },
-  {
-    "id": "huggingface/Falconsai/nsfw_image_detection",
-    "name": "Falconsai/nsfw_image_detection",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "falconsai/nsfw_image_detection huggingface/falconsai/nsfw_image_detection huggingface image_generation image   "
   },
   {
     "id": "huggingface/laion/clap-htsat-fused",
