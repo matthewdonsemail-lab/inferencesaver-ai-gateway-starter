@@ -928,6 +928,22 @@
     "tokens": "p-image-lora replicate/prunaai/p-image-lora replicate image_generation image 1:1 16:9 9:16 4:3 3:4 3:2 2:3 custom  "
   },
   {
+    "id": "replicate/quiverai/arrow-1.1-max",
+    "name": "arrow-1.1-max",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "arrow-1.1-max replicate/quiverai/arrow-1.1-max replicate image_generation image   "
+  },
+  {
+    "id": "replicate/quiverai/arrow-1.1",
+    "name": "arrow-1.1",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "arrow-1.1 replicate/quiverai/arrow-1.1 replicate image_generation image   "
+  },
+  {
     "id": "replicate/openai/gpt-image-1.5",
     "name": "gpt-image-1.5",
     "provider": "replicate",
