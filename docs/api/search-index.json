@@ -2400,19 +2400,19 @@
     "tokens": "laion/clap-htsat-fused huggingface/laion/clap-htsat-fused huggingface image_generation image   "
   },
   {
-    "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
-    "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "mit/ast-finetuned-audioset-10-10-0.4593 huggingface/mit/ast-finetuned-audioset-10-10-0.4593 huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender",
     "name": "audeering/wav2vec2-large-robust-24-ft-age-gender",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "audeering/wav2vec2-large-robust-24-ft-age-gender huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
+    "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "mit/ast-finetuned-audioset-10-10-0.4593 huggingface/mit/ast-finetuned-audioset-10-10-0.4593 huggingface image_generation image   "
   }
 ]
