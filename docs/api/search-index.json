@@ -2328,20 +2328,20 @@
     "tokens": "argmaxinc/whisperkit-coreml huggingface/argmaxinc/whisperkit-coreml huggingface audio_transcription audio   "
   },
   {
-    "id": "huggingface/pyannote/speaker-diarization-3.1",
-    "name": "pyannote/speaker-diarization-3.1",
-    "provider": "huggingface",
-    "modality": "audio",
-    "capability": "audio_transcription",
-    "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
-  },
-  {
     "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "name": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_transcription",
     "tokens": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface audio_transcription audio   "
+  },
+  {
+    "id": "huggingface/pyannote/speaker-diarization-3.1",
+    "name": "pyannote/speaker-diarization-3.1",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
   },
   {
     "id": "huggingface/CIDAS/clipseg-rd64-refined",
