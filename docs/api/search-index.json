@@ -2192,12 +2192,12 @@
     "tokens": "lightricks/ltx-2.3 huggingface/lightricks/ltx-2.3 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Lightricks/LTX-2.3-fp8",
-    "name": "Lightricks/LTX-2.3-fp8",
+    "id": "huggingface/Lightricks/LTX-2.5",
+    "name": "Lightricks/LTX-2.5",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "lightricks/ltx-2.3-fp8 huggingface/lightricks/ltx-2.3-fp8 huggingface video_generation video   "
+    "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
   },
   {
     "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
