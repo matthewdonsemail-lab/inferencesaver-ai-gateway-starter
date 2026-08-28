@@ -816,14 +816,6 @@
     "tokens": "seedream-4 replicate/bytedance/seedream-4 replicate image_generation image auto  "
   },
   {
-    "id": "replicate/google/nano-banana-pro",
-    "name": "nano-banana-pro",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9 1k 2k 4k jpg png"
-  },
-  {
     "id": "replicate/prunaai/z-image-turbo",
     "name": "z-image-turbo",
     "provider": "replicate",
@@ -840,28 +832,12 @@
     "tokens": "lucid-origin replicate/leonardoai/lucid-origin replicate image_generation image 1:1 16:9 9:16 3:2 2:3 4:5 5:4 3:4 4:3 2:1 1:2 3:1 1:3  "
   },
   {
-    "id": "replicate/bytedance/seedream-4.5",
-    "name": "seedream-4.5",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "seedream-4.5 replicate/bytedance/seedream-4.5 replicate image_generation image auto  "
-  },
-  {
     "id": "replicate/wan-video/wan-2.7-image-pro",
     "name": "wan-2.7-image-pro",
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "wan-2.7-image-pro replicate/wan-video/wan-2.7-image-pro replicate image_generation image   "
-  },
-  {
-    "id": "replicate/recraft-ai/recraft-v4",
-    "name": "recraft-v4",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "recraft-v4 replicate/recraft-ai/recraft-v4 replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 14:10 10:14 4:5 5:4 6:10  "
   },
   {
     "id": "replicate/recraft-ai/recraft-v4-pro",
@@ -912,12 +888,36 @@
     "tokens": "riverflow-2.0-pro replicate/sourceful/riverflow-2.0-pro replicate image_generation image auto 21:9 16:9 3:2 4:3 5:4 1:1 4:5 3:4 2:3 9:16 1k 2k 4k webp png"
   },
   {
+    "id": "replicate/bytedance/seedream-4.5",
+    "name": "seedream-4.5",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "seedream-4.5 replicate/bytedance/seedream-4.5 replicate image_generation image auto  "
+  },
+  {
+    "id": "replicate/recraft-ai/recraft-v4-styles-pro-svg",
+    "name": "recraft-v4-styles-pro-svg",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "recraft-v4-styles-pro-svg replicate/recraft-ai/recraft-v4-styles-pro-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 4:5 5:4 6:10 14:10 10:14  "
+  },
+  {
     "id": "replicate/recraft-ai/recraft-v4-pro-svg",
     "name": "recraft-v4-pro-svg",
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "recraft-v4-pro-svg replicate/recraft-ai/recraft-v4-pro-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 4:5 5:4 6:10 14:10 10:14  "
+  },
+  {
+    "id": "replicate/google/nano-banana-pro",
+    "name": "nano-banana-pro",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9 1k 2k 4k jpg png"
   },
   {
     "id": "replicate/prunaai/p-image-lora",
