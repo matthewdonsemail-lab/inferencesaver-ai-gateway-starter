@@ -1376,6 +1376,14 @@
     "tokens": "not-real replicate/fofr/not-real replicate video_generation video 16:9 9:16 1080p 720p 480p "
   },
   {
+    "id": "replicate/alibaba/wan-3",
+    "name": "wan-3",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-3 replicate/alibaba/wan-3 replicate video_generation video 16:9 9:16 1:1 4:3 3:4 480p 720p 1080p "
+  },
+  {
     "id": "replicate/wan-video/wan-2.5-t2v-fast",
     "name": "wan-2.5-t2v-fast",
     "provider": "replicate",
