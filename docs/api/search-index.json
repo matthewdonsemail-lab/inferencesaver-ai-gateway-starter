@@ -2216,20 +2216,20 @@
     "tokens": "larryvrh/minimax-h3-turbo-lora huggingface/larryvrh/minimax-h3-turbo-lora huggingface video_generation video   "
   },
   {
-    "id": "huggingface/SulphurAI/Sulphur-2-base",
-    "name": "SulphurAI/Sulphur-2-base",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "sulphurai/sulphur-2-base huggingface/sulphurai/sulphur-2-base huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/SulphurAI/Sulphur-2-base",
+    "name": "SulphurAI/Sulphur-2-base",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "sulphurai/sulphur-2-base huggingface/sulphurai/sulphur-2-base huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2240,20 +2240,20 @@
     "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
   },
   {
-    "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
-    "name": "ByteDance-Seed/SeedVR2-3B",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "bytedance-seed/seedvr2-3b huggingface/bytedance-seed/seedvr2-3b huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/AInVFX/SeedVR2_comfyUI",
     "name": "AInVFX/SeedVR2_comfyUI",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
+    "name": "ByteDance-Seed/SeedVR2-3B",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "bytedance-seed/seedvr2-3b huggingface/bytedance-seed/seedvr2-3b huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
@@ -2320,12 +2320,12 @@
     "tokens": "nvidia/bigvgan_v2_44khz_128band_512x huggingface/nvidia/bigvgan_v2_44khz_128band_512x huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/Qwen/Qwen3-TTS-Tokenizer-12Hz",
-    "name": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+    "id": "huggingface/Aratako/MioCodec-25Hz-44.1kHz-v2",
+    "name": "Aratako/MioCodec-25Hz-44.1kHz-v2",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "qwen/qwen3-tts-tokenizer-12hz huggingface/qwen/qwen3-tts-tokenizer-12hz huggingface audio_generation audio   "
+    "tokens": "aratako/miocodec-25hz-44.1khz-v2 huggingface/aratako/miocodec-25hz-44.1khz-v2 huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -2416,11 +2416,11 @@
     "tokens": "audeering/wav2vec2-large-robust-24-ft-age-gender huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender huggingface image_generation image   "
   },
   {
-    "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
-    "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
+    "id": "huggingface/mudler/ced-gguf",
+    "name": "mudler/ced-gguf",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "mit/ast-finetuned-audioset-10-10-0.4593 huggingface/mit/ast-finetuned-audioset-10-10-0.4593 huggingface image_generation image   "
+    "tokens": "mudler/ced-gguf huggingface/mudler/ced-gguf huggingface image_generation image   "
   }
 ]
