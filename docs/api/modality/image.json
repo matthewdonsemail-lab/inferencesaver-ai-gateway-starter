@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-08-30T11:34:11.482Z",
+  "generatedAt": "2026-08-30T16:21:19.747Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-image-2.1-flash",
@@ -465,7 +465,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.423Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
@@ -849,7 +849,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/minimax/image-01",
@@ -878,7 +878,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
       "schemaUrl": "https://replicate.com/minimax/image-01",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/bytedance/seedream-3",
@@ -908,7 +908,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/luma/photon",
@@ -936,7 +936,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
       "schemaUrl": "https://replicate.com/luma/photon",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/luma/photon-flash",
@@ -964,7 +964,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
       "schemaUrl": "https://replicate.com/luma/photon-flash",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.959Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-full",
@@ -1000,7 +1000,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-full",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.960Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/google/imagen-4-fast",
@@ -1030,7 +1030,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/google/imagen-4-ultra",
@@ -1060,7 +1060,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/nvidia/sana-sprint-1.6b",
@@ -1085,7 +1085,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
       "schemaUrl": "https://replicate.com/nvidia/sana-sprint-1.6b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-dev",
@@ -1121,7 +1121,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-fast",
@@ -1157,7 +1157,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/flux-fast",
@@ -1206,7 +1206,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
       "schemaUrl": "https://replicate.com/prunaai/flux-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/sdxl-lightning",
@@ -1230,7 +1230,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
       "schemaUrl": "https://replicate.com/prunaai/sdxl-lightning",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-quality",
@@ -1621,7 +1621,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-quality",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-balanced",
@@ -2012,7 +2012,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-balanced",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev-lora",
@@ -2049,7 +2049,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/bria/image-3.2",
@@ -2079,7 +2079,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
       "schemaUrl": "https://replicate.com/bria/image-3.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/google/imagen-4",
@@ -2109,7 +2109,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-pro",
@@ -2147,7 +2147,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-max",
@@ -2185,7 +2185,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.424Z"
     },
     {
       "id": "replicate/prunaai/wan-2.2-image",
@@ -2217,7 +2217,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
       "schemaUrl": "https://replicate.com/prunaai/wan-2.2-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/google/nano-banana",
@@ -2252,7 +2252,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image",
@@ -2271,7 +2271,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/google/imagen-3",
@@ -2301,7 +2301,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/google/imagen-3-fast",
@@ -2331,7 +2331,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-klein-4b",
@@ -2368,7 +2368,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-klein-4b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/bria/fibo",
@@ -2398,7 +2398,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
       "schemaUrl": "https://replicate.com/bria/fibo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/tencent/hunyuan-image-3",
@@ -2435,7 +2435,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
       "schemaUrl": "https://replicate.com/tencent/hunyuan-image-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/bytedance/seedream-4",
@@ -2457,7 +2457,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.961Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/prunaai/z-image-turbo",
@@ -2481,7 +2481,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
       "schemaUrl": "https://replicate.com/prunaai/z-image-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/leonardoai/lucid-origin",
@@ -2515,7 +2515,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
       "schemaUrl": "https://replicate.com/leonardoai/lucid-origin",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image-pro",
@@ -2534,7 +2534,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro",
@@ -2627,7 +2627,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/xai/grok-imagine-image",
@@ -2660,7 +2660,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
       "schemaUrl": "https://replicate.com/xai/grok-imagine-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/bytedance/seedream-5-lite",
@@ -2686,7 +2686,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-5-lite",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/openai/gpt-image-2",
@@ -2768,7 +2768,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
       "schemaUrl": "https://replicate.com/openai/gpt-image-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-svg",
@@ -2861,7 +2861,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/sourceful/riverflow-2.0-pro",
@@ -2902,7 +2902,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
       "schemaUrl": "https://replicate.com/sourceful/riverflow-2.0-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/bytedance/seedream-4.5",
@@ -2924,7 +2924,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-styles-pro-svg",
@@ -3017,7 +3017,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-styles-pro-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-styles-pro-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro-svg",
@@ -3110,7 +3110,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/google/nano-banana-pro",
@@ -3150,7 +3150,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/prunaai/p-image-lora",
@@ -3179,7 +3179,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-image-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/quiverai/arrow-1.1-max",
@@ -3198,7 +3198,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1-max/predictions",
       "schemaUrl": "https://replicate.com/quiverai/arrow-1.1-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/quiverai/arrow-1.1",
@@ -3217,7 +3217,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1/predictions",
       "schemaUrl": "https://replicate.com/quiverai/arrow-1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/openai/gpt-image-1.5",
@@ -3252,7 +3252,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
       "schemaUrl": "https://replicate.com/openai/gpt-image-1.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2",
@@ -3276,7 +3276,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
       "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-pro",
@@ -3319,7 +3319,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-flex",
@@ -3362,7 +3362,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-flex",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-turbo",
@@ -3753,7 +3753,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.425Z"
     },
     {
       "id": "replicate/google/nano-banana-2",
@@ -3797,7 +3797,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/lucataco/ssd-1b",
@@ -3816,7 +3816,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
       "schemaUrl": "https://replicate.com/lucataco/ssd-1b",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/comfyui/any-comfyui-workflow",
@@ -3840,7 +3840,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
       "schemaUrl": "https://replicate.com/comfyui/any-comfyui-workflow",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev",
@@ -3877,7 +3877,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2-turbo",
@@ -4261,7 +4261,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/qwen/qwen-image",
@@ -4294,7 +4294,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
       "schemaUrl": "https://replicate.com/qwen/qwen-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/prunaai/p-image",
@@ -4323,7 +4323,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.3",
@@ -4342,7 +4342,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
       "schemaUrl": "https://replicate.com/datacte/proteus-v0.3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2.2",
@@ -4366,7 +4366,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
       "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.962Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/fofr/sdxl-emoji",
@@ -4385,7 +4385,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
       "schemaUrl": "https://replicate.com/fofr/sdxl-emoji",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/bytedance/sdxl-lightning-4step",
@@ -4404,7 +4404,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
       "schemaUrl": "https://replicate.com/bytedance/sdxl-lightning-4step",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2",
@@ -4788,7 +4788,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
@@ -4807,7 +4807,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/sdxl-based/realvisxl-v3-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-pro",
@@ -4843,7 +4843,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/tstramer/material-diffusion",
@@ -4862,7 +4862,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
       "schemaUrl": "https://replicate.com/tstramer/material-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/fermatresearch/sdxl-controlnet-lora",
@@ -4881,7 +4881,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/fermatresearch/sdxl-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/lucataco/realistic-vision-v5.1",
@@ -4900,7 +4900,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
       "schemaUrl": "https://replicate.com/lucataco/realistic-vision-v5.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/stability-ai/sdxl",
@@ -4919,7 +4919,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/sdxl",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large",
@@ -4954,7 +4954,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
@@ -4990,7 +4990,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-max",
@@ -5033,7 +5033,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion",
@@ -5052,7 +5052,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/fofr/sticker-maker",
@@ -5076,7 +5076,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
       "schemaUrl": "https://replicate.com/fofr/sticker-maker",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
@@ -5095,7 +5095,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
       "schemaUrl": "https://replicate.com/playgroundai/playground-v2.5-1024px-aesthetic",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/jagilley/controlnet-scribble",
@@ -5119,7 +5119,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
       "schemaUrl": "https://replicate.com/jagilley/controlnet-scribble",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/fofr/sdxl-multi-controlnet-lora",
@@ -5138,7 +5138,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/fofr/sdxl-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/fofr/latent-consistency-model",
@@ -5157,7 +5157,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
       "schemaUrl": "https://replicate.com/fofr/latent-consistency-model",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/lucataco/dreamshaper-xl-turbo",
@@ -5176,7 +5176,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
       "schemaUrl": "https://replicate.com/lucataco/dreamshaper-xl-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/lucataco/open-dalle-v1.1",
@@ -5195,7 +5195,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
       "schemaUrl": "https://replicate.com/lucataco/open-dalle-v1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.426Z"
     },
     {
       "id": "replicate/adirik/realvisxl-v3.0-turbo",
@@ -5214,7 +5214,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
       "schemaUrl": "https://replicate.com/adirik/realvisxl-v3.0-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.427Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.2",
@@ -5233,7 +5233,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
       "schemaUrl": "https://replicate.com/datacte/proteus-v0.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.427Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
@@ -5268,7 +5268,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-medium",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.427Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-schnell",
@@ -5305,7 +5305,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-schnell",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.427Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
@@ -5340,7 +5340,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.427Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3",
@@ -5438,7 +5438,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.428Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3-svg",
@@ -5536,7 +5536,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.428Z"
     },
     {
       "id": "replicate/nvidia/sana",
@@ -5562,7 +5562,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
       "schemaUrl": "https://replicate.com/nvidia/sana",
       "source": "replicate",
-      "lastSyncedAt": "2026-08-30T11:34:08.963Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.428Z"
     },
     {
       "id": "fala/fal-ai/flux-pro",
@@ -5589,7 +5589,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1",
@@ -5615,7 +5615,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1-ultra",
@@ -5641,7 +5641,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/flux-dev",
@@ -5667,7 +5667,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-dev",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/flux-schnell",
@@ -5693,7 +5693,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-v3-medium",
@@ -5719,7 +5719,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-xl",
@@ -5745,7 +5745,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/ideogram",
@@ -5771,7 +5771,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/ideogram/v2",
@@ -5797,7 +5797,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "fala/fal-ai/recraft-v3",
@@ -5823,7 +5823,7 @@
       "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
       "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
       "source": "fala",
-      "lastSyncedAt": "2026-08-30T11:34:06.629Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.537Z"
     },
     {
       "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
@@ -5840,7 +5840,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:06.879Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.767Z"
     },
     {
       "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
@@ -5857,7 +5857,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:06.952Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.838Z"
     },
     {
       "id": "huggingface/Lykon/dreamshaper-7",
@@ -5874,7 +5874,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Lykon/dreamshaper-7",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:07.024Z"
+      "lastSyncedAt": "2026-08-30T16:21:14.905Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-dev",
@@ -5892,7 +5892,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-dev",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:07.190Z"
+      "lastSyncedAt": "2026-08-30T16:21:15.044Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
@@ -5910,7 +5910,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:07.266Z"
+      "lastSyncedAt": "2026-08-30T16:21:15.113Z"
     },
     {
       "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
@@ -5928,7 +5928,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Qwen/Qwen-Image-Edit-2509",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:07.345Z"
+      "lastSyncedAt": "2026-08-30T16:21:15.180Z"
     },
     {
       "id": "huggingface/CIDAS/clipseg-rd64-refined",
@@ -5945,7 +5945,7 @@
       ],
       "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:09.595Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.316Z"
     },
     {
       "id": "huggingface/ZhengPeng7/BiRefNet",
@@ -5962,7 +5962,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:09.668Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.384Z"
     },
     {
       "id": "huggingface/briaai/RMBG-2.0",
@@ -5979,7 +5979,7 @@
       ],
       "schemaUrl": "https://huggingface.co/briaai/RMBG-2.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:09.742Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.457Z"
     },
     {
       "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
@@ -5996,7 +5996,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:09.897Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.615Z"
     },
     {
       "id": "huggingface/timm/efficientnet_b3.ra2_in1k",
@@ -6013,7 +6013,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/efficientnet_b3.ra2_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:09.972Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.682Z"
     },
     {
       "id": "huggingface/google/vit-base-patch16-224",
@@ -6030,7 +6030,7 @@
       ],
       "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:10.042Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.756Z"
     },
     {
       "id": "huggingface/laion/clap-htsat-fused",
@@ -6047,7 +6047,7 @@
       ],
       "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:10.203Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.893Z"
     },
     {
       "id": "huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender",
@@ -6064,7 +6064,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:10.276Z"
+      "lastSyncedAt": "2026-08-30T16:21:17.958Z"
     },
     {
       "id": "huggingface/mudler/ced-gguf",
@@ -6081,7 +6081,7 @@
       ],
       "schemaUrl": "https://huggingface.co/mudler/ced-gguf",
       "source": "huggingface",
-      "lastSyncedAt": "2026-08-30T11:34:10.348Z"
+      "lastSyncedAt": "2026-08-30T16:21:18.029Z"
     }
   ],
   "count": 116
