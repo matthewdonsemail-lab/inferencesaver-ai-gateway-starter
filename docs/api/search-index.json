@@ -2152,12 +2152,12 @@
     "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/stabilityai/sdxl-turbo",
-    "name": "stabilityai/sdxl-turbo",
+    "id": "huggingface/Lykon/dreamshaper-7",
+    "name": "Lykon/dreamshaper-7",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stabilityai/sdxl-turbo huggingface/stabilityai/sdxl-turbo huggingface image_generation image   "
+    "tokens": "lykon/dreamshaper-7 huggingface/lykon/dreamshaper-7 huggingface image_generation image   "
   },
   {
     "id": "huggingface/black-forest-labs/FLUX.2-dev",
@@ -2216,20 +2216,20 @@
     "tokens": "larryvrh/minimax-h3-turbo-lora huggingface/larryvrh/minimax-h3-turbo-lora huggingface video_generation video   "
   },
   {
+    "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
+  },
+  {
     "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
-  },
-  {
-    "id": "huggingface/SulphurAI/Sulphur-2-base",
-    "name": "SulphurAI/Sulphur-2-base",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "sulphurai/sulphur-2-base huggingface/sulphurai/sulphur-2-base huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2328,20 +2328,20 @@
     "tokens": "aratako/miocodec-25hz-44.1khz-v2 huggingface/aratako/miocodec-25hz-44.1khz-v2 huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/argmaxinc/whisperkit-coreml",
-    "name": "argmaxinc/whisperkit-coreml",
-    "provider": "huggingface",
-    "modality": "audio",
-    "capability": "audio_transcription",
-    "tokens": "argmaxinc/whisperkit-coreml huggingface/argmaxinc/whisperkit-coreml huggingface audio_transcription audio   "
-  },
-  {
     "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "name": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_transcription",
     "tokens": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface audio_transcription audio   "
+  },
+  {
+    "id": "huggingface/argmaxinc/whisperkit-coreml",
+    "name": "argmaxinc/whisperkit-coreml",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_transcription",
+    "tokens": "argmaxinc/whisperkit-coreml huggingface/argmaxinc/whisperkit-coreml huggingface audio_transcription audio   "
   },
   {
     "id": "huggingface/pyannote/speaker-diarization-3.1",
