@@ -2296,12 +2296,12 @@
     "tokens": "facebook/musicgen-small huggingface/facebook/musicgen-small huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/facebook/musicgen-large",
-    "name": "facebook/musicgen-large",
+    "id": "huggingface/audio-cpp/MiniMax-Music3-GGUF",
+    "name": "audio-cpp/MiniMax-Music3-GGUF",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "facebook/musicgen-large huggingface/facebook/musicgen-large huggingface audio_generation audio   "
+    "tokens": "audio-cpp/minimax-music3-gguf huggingface/audio-cpp/minimax-music3-gguf huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
