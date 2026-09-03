@@ -2192,20 +2192,20 @@
     "tokens": "comfy-org/wan_2.2_comfyui_repackaged huggingface/comfy-org/wan_2.2_comfyui_repackaged huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Lightricks/LTX-2.3",
-    "name": "Lightricks/LTX-2.3",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "lightricks/ltx-2.3 huggingface/lightricks/ltx-2.3 huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/Lightricks/LTX-2.5",
     "name": "Lightricks/LTX-2.5",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/Lightricks/LTX-2.3",
+    "name": "Lightricks/LTX-2.3",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "lightricks/ltx-2.3 huggingface/lightricks/ltx-2.3 huggingface video_generation video   "
   },
   {
     "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
