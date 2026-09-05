@@ -6,30 +6,6 @@
       "object": "model",
       "created": 1626777600,
       "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai"
-      ],
-      "label": "Agnes 2.0 Flash",
-      "provider": "other",
-      "family": "Agnes",
-      "tier": "Fast",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 0,
-      "outputPricePerMillionUsd": 0,
-      "originalInputPricePerMillionUsd": 0,
-      "originalOutputPricePerMillionUsd": 0,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
       "available_to_key": true
     },
     {
@@ -95,6 +71,37 @@
       "available_to_key": true
     },
     {
+      "id": "agnes-image-2.5-flash",
+      "object": "model",
+      "created": 1626777600,
+      "owned_by": "custom",
+      "supported_endpoint_types": [
+        "openai"
+      ],
+      "label": "Agnes Image 2.5 Flash",
+      "provider": "other",
+      "family": "Agnes",
+      "tier": "Fast",
+      "capability": "image",
+      "supportedEndpoints": [
+        "image_generation"
+      ],
+      "contextWindow": 200000,
+      "maxOutputTokens": 16384,
+      "inputPricePerMillionUsd": 0,
+      "outputPricePerMillionUsd": 0,
+      "originalInputPricePerMillionUsd": 0,
+      "originalOutputPricePerMillionUsd": 0,
+      "savingsPercent": 70,
+      "cacheReadPricePerMillionUsd": 0,
+      "cacheWritePricePerMillionUsd": 0,
+      "enableGroups": [
+        "default"
+      ],
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "available_to_key": true
+    },
+    {
       "id": "agnes-video-v2.0",
       "object": "model",
       "created": 1626777600,
@@ -118,38 +125,6 @@
       "originalOutputPricePerMillionUsd": 0,
       "savingsPercent": 70,
       "cacheReadPricePerMillionUsd": 0,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
-      "id": "claude-fable-5",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "anthropic",
-        "openai"
-      ],
-      "label": "Claude Fable 5",
-      "provider": "anthropic",
-      "family": "Claude",
-      "tier": "Standard",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 10,
-      "outputPricePerMillionUsd": 50,
-      "originalInputPricePerMillionUsd": 20,
-      "originalOutputPricePerMillionUsd": 100,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 1,
       "cacheWritePricePerMillionUsd": 0,
       "enableGroups": [
         "default"
@@ -417,31 +392,6 @@
       "object": "model",
       "created": 1626777600,
       "owned_by": "vertex-ai",
-      "supported_endpoint_types": [
-        "gemini",
-        "openai"
-      ],
-      "label": "Gemini 3.1 Pro Preview",
-      "provider": "google",
-      "family": "Gemini",
-      "tier": "Fast",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 1000000,
-      "maxOutputTokens": 65536,
-      "inputPricePerMillionUsd": 2,
-      "outputPricePerMillionUsd": 12,
-      "originalInputPricePerMillionUsd": 4,
-      "originalOutputPricePerMillionUsd": 24,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.2,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
       "available_to_key": true
     },
     {
@@ -449,31 +399,6 @@
       "object": "model",
       "created": 1626777600,
       "owned_by": "custom",
-      "supported_endpoint_types": [
-        "gemini",
-        "openai"
-      ],
-      "label": "Gemini 3.5 Flash",
-      "provider": "google",
-      "family": "Gemini",
-      "tier": "Fast",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 1000000,
-      "maxOutputTokens": 65536,
-      "inputPricePerMillionUsd": 1.5,
-      "outputPricePerMillionUsd": 9,
-      "originalInputPricePerMillionUsd": 3,
-      "originalOutputPricePerMillionUsd": 18,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.15000000000000002,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
       "available_to_key": true
     },
     {
@@ -632,37 +557,6 @@
       "available_to_key": true
     },
     {
-      "id": "gpt-5.6-luna",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai"
-      ],
-      "label": "Gpt 5.6 Luna",
-      "provider": "openai",
-      "family": "Gpt",
-      "tier": "Powerful",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 272000,
-      "maxOutputTokens": 128000,
-      "inputPricePerMillionUsd": 1,
-      "outputPricePerMillionUsd": 8,
-      "originalInputPricePerMillionUsd": 2,
-      "originalOutputPricePerMillionUsd": 16,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.1,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
       "id": "gpt-5.6-sol",
       "object": "model",
       "created": 1626777600,
@@ -756,69 +650,6 @@
       "available_to_key": true
     },
     {
-      "id": "grok-4.5",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai",
-        "openai-response"
-      ],
-      "label": "Grok 4.5",
-      "provider": "xai",
-      "family": "Grok",
-      "tier": "Standard",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 2,
-      "outputPricePerMillionUsd": 6,
-      "originalInputPricePerMillionUsd": 4,
-      "originalOutputPricePerMillionUsd": 12,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.5,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
-      "id": "grok-imagine-video",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "xai",
-      "supported_endpoint_types": [
-        "openai-video"
-      ],
-      "label": "Grok Imagine Video",
-      "provider": "xai",
-      "family": "Grok",
-      "tier": "Standard",
-      "capability": "video",
-      "supportedEndpoints": [
-        "video_generation"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 1,
-      "outputPricePerMillionUsd": 1,
-      "originalInputPricePerMillionUsd": 2,
-      "originalOutputPricePerMillionUsd": 2,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
       "id": "Hunyuan-MT",
       "object": "model",
       "created": 1626777600,
@@ -842,38 +673,6 @@
       "originalOutputPricePerMillionUsd": 0.08,
       "savingsPercent": 70,
       "cacheReadPricePerMillionUsd": 0.002,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
-      "id": "kimi-k3",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "anthropic",
-        "openai"
-      ],
-      "label": "Kimi K3",
-      "provider": "moonshot",
-      "family": "Kimi",
-      "tier": "Standard",
-      "capability": "chat",
-      "supportedEndpoints": [
-        "chat"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 3.5,
-      "outputPricePerMillionUsd": 17.5,
-      "originalInputPricePerMillionUsd": 7,
-      "originalOutputPricePerMillionUsd": 35,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0.35000000000000003,
       "cacheWritePricePerMillionUsd": 0,
       "enableGroups": [
         "default"
@@ -909,7 +708,7 @@
       "enableGroups": [
         "default"
       ],
-      "pricingVersion": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f",
+      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
       "available_to_key": true
     },
     {
@@ -1033,7 +832,7 @@
       "enableGroups": [
         "default"
       ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
+      "pricingVersion": "5a90f2b86c08bd983a9a2e6d66c255f4eaef9c4bc934386d2b6ae84ef0ff1f1f",
       "available_to_key": true
     },
     {
@@ -1091,37 +890,6 @@
       "outputPricePerMillionUsd": 0.16,
       "originalInputPricePerMillionUsd": 0.32,
       "originalOutputPricePerMillionUsd": 0.32,
-      "savingsPercent": 70,
-      "cacheReadPricePerMillionUsd": 0,
-      "cacheWritePricePerMillionUsd": 0,
-      "enableGroups": [
-        "default"
-      ],
-      "pricingVersion": "a42d372ccf0b5dd13ecf71203521f9d2",
-      "available_to_key": true
-    },
-    {
-      "id": "veo-3.1",
-      "object": "model",
-      "created": 1626777600,
-      "owned_by": "custom",
-      "supported_endpoint_types": [
-        "openai-video"
-      ],
-      "label": "Veo 3.1",
-      "provider": "other",
-      "family": "Veo",
-      "tier": "Standard",
-      "capability": "video",
-      "supportedEndpoints": [
-        "video_generation"
-      ],
-      "contextWindow": 200000,
-      "maxOutputTokens": 16384,
-      "inputPricePerMillionUsd": 1.2,
-      "outputPricePerMillionUsd": 1.2,
-      "originalInputPricePerMillionUsd": 2.4,
-      "originalOutputPricePerMillionUsd": 2.4,
       "savingsPercent": 70,
       "cacheReadPricePerMillionUsd": 0,
       "cacheWritePricePerMillionUsd": 0,
