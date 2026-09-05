@@ -2224,12 +2224,12 @@
     "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
-    "name": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "drbaph/minimax-h3-turbo-lora-comfyui huggingface/drbaph/minimax-h3-turbo-lora-comfyui huggingface video_generation video   "
+    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
