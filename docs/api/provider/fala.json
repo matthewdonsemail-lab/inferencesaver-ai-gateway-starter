@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-09-04T20:31:37.403Z",
+  "generatedAt": "2026-09-05T03:43:08.940Z",
   "capabilities": [
     {
       "id": "fala/fal-ai/flux-pro",
@@ -27,7 +27,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.347Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1",
@@ -53,7 +53,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1-ultra",
@@ -79,7 +79,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/flux-dev",
@@ -105,7 +105,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-dev",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/flux-schnell",
@@ -131,7 +131,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-v3-medium",
@@ -157,7 +157,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-xl",
@@ -183,7 +183,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/ideogram",
@@ -209,7 +209,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/ideogram/v2",
@@ -235,7 +235,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/recraft-v3",
@@ -261,7 +261,7 @@
       "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
       "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/minimax-video",
@@ -291,7 +291,7 @@
       "endpointUrl": "https://fal.run/fal-ai/minimax-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/minimax-video",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/cogvideox-5b",
@@ -321,7 +321,7 @@
       "endpointUrl": "https://fal.run/fal-ai/cogvideox-5b",
       "schemaUrl": "https://fal.ai/models/fal-ai/cogvideox-5b",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/hunyuan-video",
@@ -351,7 +351,7 @@
       "endpointUrl": "https://fal.run/fal-ai/hunyuan-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/hunyuan-video",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/kling-video",
@@ -383,7 +383,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/kling-video/v1.5",
@@ -416,7 +416,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video/v1.5",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video/v1.5",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/veo-3",
@@ -446,7 +446,7 @@
       "endpointUrl": "https://fal.run/fal-ai/veo-3",
       "schemaUrl": "https://fal.ai/models/fal-ai/veo-3",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/luma-sorcerer",
@@ -471,7 +471,7 @@
       "endpointUrl": "https://fal.run/fal-ai/luma-sorcerer",
       "schemaUrl": "https://fal.ai/models/fal-ai/luma-sorcerer",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/runway-gen3",
@@ -496,7 +496,7 @@
       "endpointUrl": "https://fal.run/fal-ai/runway-gen3",
       "schemaUrl": "https://fal.ai/models/fal-ai/runway-gen3",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/stable-video-diffusion",
@@ -521,7 +521,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-video-diffusion",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-video-diffusion",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/playht-text-to-speech",
@@ -545,7 +545,7 @@
       "endpointUrl": "https://fal.run/fal-ai/playht-text-to-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/playht-text-to-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/fish-speech",
@@ -570,7 +570,7 @@
       "endpointUrl": "https://fal.run/fal-ai/fish-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/fish-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/whisper",
@@ -596,7 +596,7 @@
       "endpointUrl": "https://fal.run/fal-ai/whisper",
       "schemaUrl": "https://fal.ai/models/fal-ai/whisper",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/musicgen",
@@ -620,7 +620,7 @@
       "endpointUrl": "https://fal.run/fal-ai/musicgen",
       "schemaUrl": "https://fal.ai/models/fal-ai/musicgen",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     },
     {
       "id": "fala/fal-ai/suno-music",
@@ -644,7 +644,7 @@
       "endpointUrl": "https://fal.run/fal-ai/suno-music",
       "schemaUrl": "https://fal.ai/models/fal-ai/suno-music",
       "source": "fala",
-      "lastSyncedAt": "2026-09-04T20:31:33.348Z"
+      "lastSyncedAt": "2026-09-05T03:43:03.816Z"
     }
   ],
   "count": 24
