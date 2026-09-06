@@ -2160,20 +2160,20 @@
     "tokens": "lykon/dreamshaper-7 huggingface/lykon/dreamshaper-7 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-dev",
-    "name": "black-forest-labs/FLUX.2-dev",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
     "name": "black-forest-labs/FLUX.2-klein-4B",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-dev",
+    "name": "black-forest-labs/FLUX.2-dev",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
   },
   {
     "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
@@ -2200,12 +2200,12 @@
     "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Lightricks/LTX-2.3",
-    "name": "Lightricks/LTX-2.3",
+    "id": "huggingface/lightx2v/Minimax-h3-Turbo",
+    "name": "lightx2v/Minimax-h3-Turbo",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "lightricks/ltx-2.3 huggingface/lightricks/ltx-2.3 huggingface video_generation video   "
+    "tokens": "lightx2v/minimax-h3-turbo huggingface/lightx2v/minimax-h3-turbo huggingface video_generation video   "
   },
   {
     "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
@@ -2288,20 +2288,20 @@
     "tokens": "facebook/musicgen-medium huggingface/facebook/musicgen-medium huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/facebook/musicgen-small",
-    "name": "facebook/musicgen-small",
-    "provider": "huggingface",
-    "modality": "audio",
-    "capability": "audio_generation",
-    "tokens": "facebook/musicgen-small huggingface/facebook/musicgen-small huggingface audio_generation audio   "
-  },
-  {
     "id": "huggingface/audio-cpp/MiniMax-Music3-GGUF",
     "name": "audio-cpp/MiniMax-Music3-GGUF",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
     "tokens": "audio-cpp/minimax-music3-gguf huggingface/audio-cpp/minimax-music3-gguf huggingface audio_generation audio   "
+  },
+  {
+    "id": "huggingface/facebook/musicgen-small",
+    "name": "facebook/musicgen-small",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "facebook/musicgen-small huggingface/facebook/musicgen-small huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
