@@ -2224,12 +2224,12 @@
     "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
   },
   {
-    "id": "huggingface/larryvrh/MiniMax-H3-Turbo-Lora",
-    "name": "larryvrh/MiniMax-H3-Turbo-Lora",
+    "id": "huggingface/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
+    "name": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "larryvrh/minimax-h3-turbo-lora huggingface/larryvrh/minimax-h3-turbo-lora huggingface video_generation video   "
+    "tokens": "fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface/fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2272,12 +2272,12 @@
     "tokens": "coqui/xtts-v2 huggingface/coqui/xtts-v2 huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-    "name": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "id": "huggingface/audio-cpp/audio.cpp-gguf",
+    "name": "audio-cpp/audio.cpp-gguf",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "qwen/qwen3-tts-12hz-1.7b-customvoice huggingface/qwen/qwen3-tts-12hz-1.7b-customvoice huggingface audio_generation audio   "
+    "tokens": "audio-cpp/audio.cpp-gguf huggingface/audio-cpp/audio.cpp-gguf huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/facebook/musicgen-medium",
