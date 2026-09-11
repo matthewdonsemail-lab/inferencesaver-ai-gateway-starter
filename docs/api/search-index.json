@@ -2248,12 +2248,12 @@
     "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
   },
   {
-    "id": "huggingface/ByteDance-Seed/SeedVR2-3B",
-    "name": "ByteDance-Seed/SeedVR2-3B",
+    "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
+    "name": "QuantStack/Wan2.2-Animate-14B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "bytedance-seed/seedvr2-3b huggingface/bytedance-seed/seedvr2-3b huggingface video_generation video   "
+    "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
