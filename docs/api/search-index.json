@@ -2176,12 +2176,12 @@
     "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-dev",
-    "name": "black-forest-labs/FLUX.2-dev",
+    "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
+    "name": "unsloth/Qwen-Image-Edit-2511-GGUF",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
+    "tokens": "unsloth/qwen-image-edit-2511-gguf huggingface/unsloth/qwen-image-edit-2511-gguf huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
