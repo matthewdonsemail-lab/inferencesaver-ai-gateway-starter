@@ -2160,20 +2160,20 @@
     "tokens": "lykon/dreamshaper-7 huggingface/lykon/dreamshaper-7 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
-    "name": "black-forest-labs/FLUX.2-klein-4B",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
     "name": "Qwen/Qwen-Image-Edit-2509",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
+    "name": "black-forest-labs/FLUX.2-klein-4B",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
   },
   {
     "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
@@ -2216,20 +2216,20 @@
     "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
-    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
     "name": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface/fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
