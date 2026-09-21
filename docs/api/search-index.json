@@ -2152,12 +2152,12 @@
     "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/Lykon/dreamshaper-7",
-    "name": "Lykon/dreamshaper-7",
+    "id": "huggingface/stabilityai/sdxl-turbo",
+    "name": "stabilityai/sdxl-turbo",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "lykon/dreamshaper-7 huggingface/lykon/dreamshaper-7 huggingface image_generation image   "
+    "tokens": "stabilityai/sdxl-turbo huggingface/stabilityai/sdxl-turbo huggingface image_generation image   "
   },
   {
     "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
