@@ -2384,20 +2384,20 @@
     "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
   },
   {
-    "id": "huggingface/timm/efficientnet_b3.ra2_in1k",
-    "name": "timm/efficientnet_b3.ra2_in1k",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "timm/efficientnet_b3.ra2_in1k huggingface/timm/efficientnet_b3.ra2_in1k huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/google/vit-base-patch16-224",
     "name": "google/vit-base-patch16-224",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/Falconsai/nsfw_image_detection",
+    "name": "Falconsai/nsfw_image_detection",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "falconsai/nsfw_image_detection huggingface/falconsai/nsfw_image_detection huggingface image_generation image   "
   },
   {
     "id": "huggingface/laion/clap-htsat-fused",
@@ -2416,11 +2416,11 @@
     "tokens": "audeering/wav2vec2-large-robust-24-ft-age-gender huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender huggingface image_generation image   "
   },
   {
-    "id": "huggingface/mudler/ced-gguf",
-    "name": "mudler/ced-gguf",
+    "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
+    "name": "MIT/ast-finetuned-audioset-10-10-0.4593",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "mudler/ced-gguf huggingface/mudler/ced-gguf huggingface image_generation image   "
+    "tokens": "mit/ast-finetuned-audioset-10-10-0.4593 huggingface/mit/ast-finetuned-audioset-10-10-0.4593 huggingface image_generation image   "
   }
 ]
