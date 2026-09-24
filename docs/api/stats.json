@@ -1,20 +1,20 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-09-23T21:18:10.200Z",
-  "total": 303,
+  "generatedAt": "2026-09-24T03:57:23.390Z",
+  "total": 301,
   "byModality": {
-    "video": 133,
+    "video": 131,
     "image": 116,
     "audio": 54
   },
   "byProvider": {
     "inferencesaver": 17,
-    "replicate": 226,
+    "replicate": 224,
     "fala": 24,
     "huggingface": 36
   },
   "byCapability": {
-    "video_generation": 127,
+    "video_generation": 125,
     "image_generation": 116,
     "audio_generation": 49,
     "motion_control": 6,

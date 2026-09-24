@@ -376,22 +376,6 @@
     "tokens": "motion-2.0 replicate/leonardoai/motion-2.0 replicate video_generation video 9:16 16:9 2:3 4:5  "
   },
   {
-    "id": "replicate/kwaivgi/kling-v1.6-standard",
-    "name": "kling-v1.6-standard",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "kling-v1.6-standard replicate/kwaivgi/kling-v1.6-standard replicate video_generation video 16:9 9:16 1:1  "
-  },
-  {
-    "id": "replicate/kwaivgi/kling-v1.6-pro",
-    "name": "kling-v1.6-pro",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "kling-v1.6-pro replicate/kwaivgi/kling-v1.6-pro replicate video_generation video 16:9 9:16 1:1  "
-  },
-  {
     "id": "replicate/kwaivgi/kling-v2.0",
     "name": "kling-v2.0",
     "provider": "replicate",
