@@ -1,23 +1,23 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-09-24T16:48:28.812Z",
-  "total": 301,
+  "generatedAt": "2026-09-24T21:20:31.059Z",
+  "total": 262,
   "byModality": {
-    "video": 131,
+    "video": 123,
     "image": 116,
-    "audio": 54
+    "audio": 23
   },
   "byProvider": {
     "inferencesaver": 17,
-    "replicate": 224,
+    "replicate": 185,
     "fala": 24,
     "huggingface": 36
   },
   "byCapability": {
-    "video_generation": 125,
+    "video_generation": 122,
     "image_generation": 116,
-    "audio_generation": 49,
-    "motion_control": 6,
+    "audio_generation": 18,
+    "motion_control": 1,
     "audio_transcription": 5
   }
 }

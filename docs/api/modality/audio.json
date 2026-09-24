@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-09-24T16:48:28.812Z",
+  "generatedAt": "2026-09-24T21:20:31.059Z",
   "capabilities": [
     {
       "id": "inferencesaver/mimo-v2.5-tts",
@@ -144,653 +144,6 @@
       "source": "inferencesaver"
     },
     {
-      "id": "replicate/minimax/voice-cloning",
-      "name": "voice-cloning",
-      "provider": "replicate",
-      "modelId": "minimax/voice-cloning",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "generationModes": [
-        "speech-2.6-turbo",
-        "speech-2.6-hd",
-        "speech-02-turbo",
-        "speech-02-hd"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/minimax/voice-cloning/predictions",
-      "schemaUrl": "https://replicate.com/minimax/voice-cloning",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/resemble-ai/chatterbox-pro",
-      "name": "chatterbox-pro",
-      "provider": "replicate",
-      "modelId": "resemble-ai/chatterbox-pro",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-pro/predictions",
-      "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-pro",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/chenxwh/openvoice",
-      "name": "openvoice",
-      "provider": "replicate",
-      "modelId": "chenxwh/openvoice",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/chenxwh/openvoice/predictions",
-      "schemaUrl": "https://replicate.com/chenxwh/openvoice",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/fermatresearch/spanish-f5-tts",
-      "name": "spanish-f5-tts",
-      "provider": "replicate",
-      "modelId": "fermatresearch/spanish-f5-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/spanish-f5-tts/predictions",
-      "schemaUrl": "https://replicate.com/fermatresearch/spanish-f5-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/x-lance/f5-tts",
-      "name": "f5-tts",
-      "provider": "replicate",
-      "modelId": "x-lance/f5-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/x-lance/f5-tts/predictions",
-      "schemaUrl": "https://replicate.com/x-lance/f5-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/platform-kit/mars5-tts",
-      "name": "mars5-tts",
-      "provider": "replicate",
-      "modelId": "platform-kit/mars5-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/platform-kit/mars5-tts/predictions",
-      "schemaUrl": "https://replicate.com/platform-kit/mars5-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/lucataco/pheme",
-      "name": "pheme",
-      "provider": "replicate",
-      "modelId": "lucataco/pheme",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/pheme/predictions",
-      "schemaUrl": "https://replicate.com/lucataco/pheme",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/awerks/neon-tts",
-      "name": "neon-tts",
-      "provider": "replicate",
-      "modelId": "awerks/neon-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/awerks/neon-tts/predictions",
-      "schemaUrl": "https://replicate.com/awerks/neon-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/cjwbw/parler-tts",
-      "name": "parler-tts",
-      "provider": "replicate",
-      "modelId": "cjwbw/parler-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/parler-tts/predictions",
-      "schemaUrl": "https://replicate.com/cjwbw/parler-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/cjwbw/voicecraft",
-      "name": "voicecraft",
-      "provider": "replicate",
-      "modelId": "cjwbw/voicecraft",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "generationModes": [
-        "giga830M.pth",
-        "giga330M.pth",
-        "giga330M_TTSEnhanced.pth"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/voicecraft/predictions",
-      "schemaUrl": "https://replicate.com/cjwbw/voicecraft",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/camenduru/metavoice",
-      "name": "metavoice",
-      "provider": "replicate",
-      "modelId": "camenduru/metavoice",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/camenduru/metavoice/predictions",
-      "schemaUrl": "https://replicate.com/camenduru/metavoice",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/zsxkib/dia",
-      "name": "dia",
-      "provider": "replicate",
-      "modelId": "zsxkib/dia",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "maxDurationSeconds": 120,
-      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/dia/predictions",
-      "schemaUrl": "https://replicate.com/zsxkib/dia",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/adirik/styletts2",
-      "name": "styletts2",
-      "provider": "replicate",
-      "modelId": "adirik/styletts2",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/adirik/styletts2/predictions",
-      "schemaUrl": "https://replicate.com/adirik/styletts2",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/lucataco/csm-1b",
-      "name": "csm-1b",
-      "provider": "replicate",
-      "modelId": "lucataco/csm-1b",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "maxDurationSeconds": 30000,
-      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/csm-1b/predictions",
-      "schemaUrl": "https://replicate.com/lucataco/csm-1b",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/inworld/realtime-tts-2",
-      "name": "realtime-tts-2",
-      "provider": "replicate",
-      "modelId": "inworld/realtime-tts-2",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "outputFormats": [
-        "mp3",
-        "wav",
-        "ogg_opus",
-        "flac"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-2/predictions",
-      "schemaUrl": "https://replicate.com/inworld/realtime-tts-2",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/lucataco/orpheus-3b-0.1-ft",
-      "name": "orpheus-3b-0.1-ft",
-      "provider": "replicate",
-      "modelId": "lucataco/orpheus-3b-0.1-ft",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/orpheus-3b-0.1-ft/predictions",
-      "schemaUrl": "https://replicate.com/lucataco/orpheus-3b-0.1-ft",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/jaaari/kokoro-82m",
-      "name": "kokoro-82m",
-      "provider": "replicate",
-      "modelId": "jaaari/kokoro-82m",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/jaaari/kokoro-82m/predictions",
-      "schemaUrl": "https://replicate.com/jaaari/kokoro-82m",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/resemble-ai/chatterbox-turbo",
-      "name": "chatterbox-turbo",
-      "provider": "replicate",
-      "modelId": "resemble-ai/chatterbox-turbo",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-turbo/predictions",
-      "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-turbo",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/inworld/realtime-tts-1.5-mini",
-      "name": "realtime-tts-1.5-mini",
-      "provider": "replicate",
-      "modelId": "inworld/realtime-tts-1.5-mini",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "outputFormats": [
-        "mp3",
-        "wav",
-        "ogg_opus",
-        "flac"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-mini/predictions",
-      "schemaUrl": "https://replicate.com/inworld/realtime-tts-1.5-mini",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/elevenlabs/v3",
-      "name": "v3",
-      "provider": "replicate",
-      "modelId": "elevenlabs/v3",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v3/predictions",
-      "schemaUrl": "https://replicate.com/elevenlabs/v3",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/elevenlabs/turbo-v2.5",
-      "name": "turbo-v2.5",
-      "provider": "replicate",
-      "modelId": "elevenlabs/turbo-v2.5",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/turbo-v2.5/predictions",
-      "schemaUrl": "https://replicate.com/elevenlabs/turbo-v2.5",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/elevenlabs/flash-v2.5",
-      "name": "flash-v2.5",
-      "provider": "replicate",
-      "modelId": "elevenlabs/flash-v2.5",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/flash-v2.5/predictions",
-      "schemaUrl": "https://replicate.com/elevenlabs/flash-v2.5",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/elevenlabs/v2-multilingual",
-      "name": "v2-multilingual",
-      "provider": "replicate",
-      "modelId": "elevenlabs/v2-multilingual",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v2-multilingual/predictions",
-      "schemaUrl": "https://replicate.com/elevenlabs/v2-multilingual",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/qwen/qwen3-tts",
-      "name": "qwen3-tts",
-      "provider": "replicate",
-      "modelId": "qwen/qwen3-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "qualityOptions": [
-        "custom_voice",
-        "voice_clone",
-        "voice_design"
-      ],
-      "generationModes": [
-        "custom_voice",
-        "voice_clone",
-        "voice_design"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen3-tts/predictions",
-      "schemaUrl": "https://replicate.com/qwen/qwen3-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/minimax/speech-2.6-hd",
-      "name": "speech-2.6-hd",
-      "provider": "replicate",
-      "modelId": "minimax/speech-2.6-hd",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "outputFormats": [
-        "mp3",
-        "wav",
-        "flac",
-        "pcm"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-hd/predictions",
-      "schemaUrl": "https://replicate.com/minimax/speech-2.6-hd",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/afiaka87/tortoise-tts",
-      "name": "tortoise-tts",
-      "provider": "replicate",
-      "modelId": "afiaka87/tortoise-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/afiaka87/tortoise-tts/predictions",
-      "schemaUrl": "https://replicate.com/afiaka87/tortoise-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.684Z"
-    },
-    {
-      "id": "replicate/suno-ai/bark",
-      "name": "bark",
-      "provider": "replicate",
-      "modelId": "suno-ai/bark",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/suno-ai/bark/predictions",
-      "schemaUrl": "https://replicate.com/suno-ai/bark",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.685Z"
-    },
-    {
-      "id": "replicate/cjwbw/seamless_communication",
-      "name": "seamless_communication",
-      "provider": "replicate",
-      "modelId": "cjwbw/seamless_communication",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/seamless_communication/predictions",
-      "schemaUrl": "https://replicate.com/cjwbw/seamless_communication",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.685Z"
-    },
-    {
-      "id": "replicate/zsxkib/realistic-voice-cloning",
-      "name": "realistic-voice-cloning",
-      "provider": "replicate",
-      "modelId": "zsxkib/realistic-voice-cloning",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "generationModes": [
-        "Squidward",
-        "MrKrabs",
-        "Plankton",
-        "Drake",
-        "Vader",
-        "Trump",
-        "Biden",
-        "Obama",
-        "Guitar",
-        "Voilin",
-        "CUSTOM"
-      ],
-      "outputFormats": [
-        "mp3",
-        "wav"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/realistic-voice-cloning/predictions",
-      "schemaUrl": "https://replicate.com/zsxkib/realistic-voice-cloning",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.685Z"
-    },
-    {
-      "id": "replicate/lucataco/xtts-v2",
-      "name": "xtts-v2",
-      "provider": "replicate",
-      "modelId": "lucataco/xtts-v2",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/xtts-v2/predictions",
-      "schemaUrl": "https://replicate.com/lucataco/xtts-v2",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.685Z"
-    },
-    {
-      "id": "replicate/google/gemini-3.1-flash-tts",
-      "name": "gemini-3.1-flash-tts",
-      "provider": "replicate",
-      "modelId": "google/gemini-3.1-flash-tts",
-      "modality": "audio",
-      "capability": "audio_generation",
-      "inputTypes": [
-        "text",
-        "audio"
-      ],
-      "outputTypes": [
-        "audio"
-      ],
-      "endpointUrl": "https://api.replicate.com/v1/models/google/gemini-3.1-flash-tts/predictions",
-      "schemaUrl": "https://replicate.com/google/gemini-3.1-flash-tts",
-      "source": "replicate",
-      "lastSyncedAt": "2026-09-24T16:48:28.685Z"
-    },
-    {
       "id": "fala/fal-ai/playht-text-to-speech",
       "name": "PlayHT TTS",
       "provider": "fala",
@@ -812,7 +165,7 @@
       "endpointUrl": "https://fal.run/fal-ai/playht-text-to-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/playht-text-to-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-09-24T16:48:24.213Z"
+      "lastSyncedAt": "2026-09-24T21:19:16.563Z"
     },
     {
       "id": "fala/fal-ai/fish-speech",
@@ -837,7 +190,7 @@
       "endpointUrl": "https://fal.run/fal-ai/fish-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/fish-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-09-24T16:48:24.213Z"
+      "lastSyncedAt": "2026-09-24T21:19:16.563Z"
     },
     {
       "id": "fala/fal-ai/whisper",
@@ -863,7 +216,7 @@
       "endpointUrl": "https://fal.run/fal-ai/whisper",
       "schemaUrl": "https://fal.ai/models/fal-ai/whisper",
       "source": "fala",
-      "lastSyncedAt": "2026-09-24T16:48:24.213Z"
+      "lastSyncedAt": "2026-09-24T21:19:16.563Z"
     },
     {
       "id": "fala/fal-ai/musicgen",
@@ -887,7 +240,7 @@
       "endpointUrl": "https://fal.run/fal-ai/musicgen",
       "schemaUrl": "https://fal.ai/models/fal-ai/musicgen",
       "source": "fala",
-      "lastSyncedAt": "2026-09-24T16:48:24.213Z"
+      "lastSyncedAt": "2026-09-24T21:19:16.563Z"
     },
     {
       "id": "fala/fal-ai/suno-music",
@@ -911,7 +264,7 @@
       "endpointUrl": "https://fal.run/fal-ai/suno-music",
       "schemaUrl": "https://fal.ai/models/fal-ai/suno-music",
       "source": "fala",
-      "lastSyncedAt": "2026-09-24T16:48:24.213Z"
+      "lastSyncedAt": "2026-09-24T21:19:16.563Z"
     },
     {
       "id": "huggingface/hexgrad/Kokoro-82M",
@@ -928,7 +281,7 @@
       ],
       "schemaUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.389Z"
+      "lastSyncedAt": "2026-09-24T21:19:17.712Z"
     },
     {
       "id": "huggingface/coqui/XTTS-v2",
@@ -945,7 +298,7 @@
       ],
       "schemaUrl": "https://huggingface.co/coqui/XTTS-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.439Z"
+      "lastSyncedAt": "2026-09-24T21:19:17.761Z"
     },
     {
       "id": "huggingface/audio-cpp/audio.cpp-gguf",
@@ -962,7 +315,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/audio.cpp-gguf",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.484Z"
+      "lastSyncedAt": "2026-09-24T21:19:17.810Z"
     },
     {
       "id": "huggingface/facebook/musicgen-medium",
@@ -979,7 +332,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/musicgen-medium",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.580Z"
+      "lastSyncedAt": "2026-09-24T21:19:17.916Z"
     },
     {
       "id": "huggingface/audio-cpp/MiniMax-Music3-GGUF",
@@ -996,7 +349,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/MiniMax-Music3-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.626Z"
+      "lastSyncedAt": "2026-09-24T21:19:17.965Z"
     },
     {
       "id": "huggingface/facebook/musicgen-small",
@@ -1013,7 +366,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/musicgen-small",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.669Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.013Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
@@ -1030,7 +383,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.767Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.115Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_44khz_128band_512x",
@@ -1047,7 +400,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.811Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.164Z"
     },
     {
       "id": "huggingface/Aratako/MioCodec-25Hz-44.1kHz-v2",
@@ -1064,7 +417,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Aratako/MioCodec-25Hz-44.1kHz-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.856Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.215Z"
     },
     {
       "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
@@ -1081,7 +434,7 @@
       ],
       "schemaUrl": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:25.967Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.322Z"
     },
     {
       "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -1098,7 +451,7 @@
       ],
       "schemaUrl": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:26.015Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.368Z"
     },
     {
       "id": "huggingface/pyannote/speaker-diarization-3.1",
@@ -1115,8 +468,8 @@
       ],
       "schemaUrl": "https://huggingface.co/pyannote/speaker-diarization-3.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-09-24T16:48:26.060Z"
+      "lastSyncedAt": "2026-09-24T21:19:18.419Z"
     }
   ],
-  "count": 54
+  "count": 23
 }
