@@ -2,10 +2,11 @@
   "providers": [
     {
       "name": "replicate",
-      "count": 185,
+      "count": 224,
       "modalities": {
-        "video": 97,
-        "image": 88
+        "video": 105,
+        "image": 88,
+        "audio": 31
       }
     },
     {
