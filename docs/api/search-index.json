@@ -2160,12 +2160,12 @@
     "tokens": "unsloth/qwen-image-edit-2511-gguf huggingface/unsloth/qwen-image-edit-2511-gguf huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
-    "name": "black-forest-labs/FLUX.2-klein-4B",
+    "id": "huggingface/black-forest-labs/FLUX.2-dev",
+    "name": "black-forest-labs/FLUX.2-dev",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
+    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
