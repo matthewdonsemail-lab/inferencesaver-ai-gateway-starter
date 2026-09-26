@@ -2192,20 +2192,20 @@
     "tokens": "lightx2v/minimax-h3-turbo huggingface/lightx2v/minimax-h3-turbo huggingface video_generation video   "
   },
   {
-    "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
-    "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
     "name": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface/fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
