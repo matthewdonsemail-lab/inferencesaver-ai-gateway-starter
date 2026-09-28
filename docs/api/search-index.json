@@ -2136,12 +2136,12 @@
     "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/stabilityai/sdxl-turbo",
-    "name": "stabilityai/sdxl-turbo",
+    "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stabilityai/sdxl-turbo huggingface/stabilityai/sdxl-turbo huggingface image_generation image   "
+    "tokens": "abenzerps/qwen-image-2.1-uncensored-gguf huggingface/abenzerps/qwen-image-2.1-uncensored-gguf huggingface image_generation image   "
   },
   {
     "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
@@ -2224,20 +2224,20 @@
     "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
   },
   {
-    "id": "huggingface/AInVFX/SeedVR2_comfyUI",
-    "name": "AInVFX/SeedVR2_comfyUI",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
     "name": "QuantStack/Wan2.2-Animate-14B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/AInVFX/SeedVR2_comfyUI",
+    "name": "AInVFX/SeedVR2_comfyUI",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
