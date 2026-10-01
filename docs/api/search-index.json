@@ -2144,14 +2144,6 @@
     "tokens": "abenzerps/qwen-image-2.1-uncensored-gguf huggingface/abenzerps/qwen-image-2.1-uncensored-gguf huggingface image_generation image   "
   },
   {
-    "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
-    "name": "Qwen/Qwen-Image-Edit-2509",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
     "name": "unsloth/Qwen-Image-Edit-2511-GGUF",
     "provider": "huggingface",
@@ -2160,12 +2152,20 @@
     "tokens": "unsloth/qwen-image-edit-2511-gguf huggingface/unsloth/qwen-image-edit-2511-gguf huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
-    "name": "black-forest-labs/FLUX.2-klein-4B",
+    "id": "huggingface/Qwen/Qwen-Image-Edit-2509",
+    "name": "Qwen/Qwen-Image-Edit-2509",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
+    "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-dev",
+    "name": "black-forest-labs/FLUX.2-dev",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
@@ -2232,12 +2232,12 @@
     "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/AInVFX/SeedVR2_comfyUI",
-    "name": "AInVFX/SeedVR2_comfyUI",
+    "id": "huggingface/Wan-AI/Wan2.2-Animate-14B",
+    "name": "Wan-AI/Wan2.2-Animate-14B",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "ainvfx/seedvr2_comfyui huggingface/ainvfx/seedvr2_comfyui huggingface video_generation video   "
+    "tokens": "wan-ai/wan2.2-animate-14b huggingface/wan-ai/wan2.2-animate-14b huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
@@ -2352,12 +2352,12 @@
     "tokens": "zhengpeng7/birefnet huggingface/zhengpeng7/birefnet huggingface image_generation image   "
   },
   {
-    "id": "huggingface/briaai/RMBG-2.0",
-    "name": "briaai/RMBG-2.0",
+    "id": "huggingface/facebook/mask2former-swin-large-cityscapes-semantic",
+    "name": "facebook/mask2former-swin-large-cityscapes-semantic",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "briaai/rmbg-2.0 huggingface/briaai/rmbg-2.0 huggingface image_generation image   "
+    "tokens": "facebook/mask2former-swin-large-cityscapes-semantic huggingface/facebook/mask2former-swin-large-cityscapes-semantic huggingface image_generation image   "
   },
   {
     "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
