@@ -2376,12 +2376,12 @@
     "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/Falconsai/nsfw_image_detection",
-    "name": "Falconsai/nsfw_image_detection",
+    "id": "huggingface/timm/resnet18.a1_in1k",
+    "name": "timm/resnet18.a1_in1k",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "falconsai/nsfw_image_detection huggingface/falconsai/nsfw_image_detection huggingface image_generation image   "
+    "tokens": "timm/resnet18.a1_in1k huggingface/timm/resnet18.a1_in1k huggingface image_generation image   "
   },
   {
     "id": "huggingface/laion/clap-htsat-fused",
