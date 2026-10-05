@@ -2128,20 +2128,20 @@
     "tokens": "stabilityai/stable-diffusion-xl-base-1.0 huggingface/stabilityai/stable-diffusion-xl-base-1.0 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
-    "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "abenzerps/qwen-image-2.1-uncensored-gguf huggingface/abenzerps/qwen-image-2.1-uncensored-gguf huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5 huggingface image_generation image   "
   },
   {
     "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
