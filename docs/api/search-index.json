@@ -2200,12 +2200,12 @@
     "tokens": "fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface/fastvideo/fastvideo-fasth3-4-step-preview-v1-vsa-datafree huggingface video_generation video   "
   },
   {
-    "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
-    "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "id": "huggingface/unsloth/Wan2.2-TI2V-5B-GGUF",
+    "name": "unsloth/Wan2.2-TI2V-5B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
+    "tokens": "unsloth/wan2.2-ti2v-5b-gguf huggingface/unsloth/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
