@@ -2336,20 +2336,20 @@
     "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
   },
   {
-    "id": "huggingface/CIDAS/clipseg-rd64-refined",
-    "name": "CIDAS/clipseg-rd64-refined",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/ZhengPeng7/BiRefNet",
     "name": "ZhengPeng7/BiRefNet",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "zhengpeng7/birefnet huggingface/zhengpeng7/birefnet huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/CIDAS/clipseg-rd64-refined",
+    "name": "CIDAS/clipseg-rd64-refined",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
   },
   {
     "id": "huggingface/facebook/mask2former-swin-large-cityscapes-semantic",
@@ -2376,12 +2376,12 @@
     "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/timm/resnet18.a1_in1k",
-    "name": "timm/resnet18.a1_in1k",
+    "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
+    "name": "prithivMLmods/Gender-Classifier-Mini",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "timm/resnet18.a1_in1k huggingface/timm/resnet18.a1_in1k huggingface image_generation image   "
+    "tokens": "prithivmlmods/gender-classifier-mini huggingface/prithivmlmods/gender-classifier-mini huggingface image_generation image   "
   },
   {
     "id": "huggingface/laion/clap-htsat-fused",
