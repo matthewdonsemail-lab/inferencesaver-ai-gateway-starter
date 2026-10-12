@@ -2128,12 +2128,12 @@
     "tokens": "stabilityai/stable-diffusion-xl-base-1.0 huggingface/stabilityai/stable-diffusion-xl-base-1.0 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-    "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "abenzerps/qwen-image-2.1-uncensored-gguf huggingface/abenzerps/qwen-image-2.1-uncensored-gguf huggingface image_generation image   "
+    "tokens": "abenzerps/qwen-image-2.1-uncensored-quantized huggingface/abenzerps/qwen-image-2.1-uncensored-quantized huggingface image_generation image   "
   },
   {
     "id": "huggingface/stable-diffusion-v1-5/stable-diffusion-v1-5",
@@ -2160,12 +2160,12 @@
     "tokens": "qwen/qwen-image-edit-2509 huggingface/qwen/qwen-image-edit-2509 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-dev",
-    "name": "black-forest-labs/FLUX.2-dev",
+    "id": "huggingface/black-forest-labs/FLUX.2-klein-4B",
+    "name": "black-forest-labs/FLUX.2-klein-4B",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-dev huggingface/black-forest-labs/flux.2-dev huggingface image_generation image   "
+    "tokens": "black-forest-labs/flux.2-klein-4b huggingface/black-forest-labs/flux.2-klein-4b huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
@@ -2208,12 +2208,12 @@
     "tokens": "unsloth/wan2.2-ti2v-5b-gguf huggingface/unsloth/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
-    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "id": "huggingface/QuantStack/Wan2.2-TI2V-5B-GGUF",
+    "name": "QuantStack/Wan2.2-TI2V-5B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
+    "tokens": "quantstack/wan2.2-ti2v-5b-gguf huggingface/quantstack/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
