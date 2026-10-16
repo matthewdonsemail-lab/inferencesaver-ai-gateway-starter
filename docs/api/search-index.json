@@ -2192,12 +2192,12 @@
     "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/lightx2v/Minimax-h3-Turbo",
-    "name": "lightx2v/Minimax-h3-Turbo",
+    "id": "huggingface/comfyicu/LTX-2.5",
+    "name": "comfyicu/LTX-2.5",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "lightx2v/minimax-h3-turbo huggingface/lightx2v/minimax-h3-turbo huggingface video_generation video   "
+    "tokens": "comfyicu/ltx-2.5 huggingface/comfyicu/ltx-2.5 huggingface video_generation video   "
   },
   {
     "id": "huggingface/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
