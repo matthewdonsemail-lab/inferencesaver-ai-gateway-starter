@@ -792,6 +792,14 @@
     "tokens": "hunyuan-image-3 replicate/tencent/hunyuan-image-3 replicate image_generation image 1:1 16:9 21:9 3:2 2:3 4:5 5:4 3:4 4:3 9:16 9:21  webp jpg png"
   },
   {
+    "id": "replicate/krea/krea-3",
+    "name": "krea-3",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "krea-3 replicate/krea/krea-3 replicate image_generation image auto 1:1 4:5 3:4 2:3 9:16 5:4 4:3 3:2 16:9 21:9 fast high "
+  },
+  {
     "id": "replicate/bytedance/seedream-4",
     "name": "seedream-4",
     "provider": "replicate",
