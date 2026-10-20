@@ -472,44 +472,12 @@
     "tokens": "grok-imagine-video replicate/xai/grok-imagine-video replicate video_generation video auto 16:9 4:3 1:1 9:16 3:4 3:2 2:3 720p 480p "
   },
   {
-    "id": "replicate/luma/ray-flash-2-540p",
-    "name": "ray-flash-2-540p",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "ray-flash-2-540p replicate/luma/ray-flash-2-540p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
-  },
-  {
     "id": "replicate/bytedance/seedance-1.5-pro",
     "name": "seedance-1.5-pro",
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21  "
-  },
-  {
-    "id": "replicate/luma/ray-flash-2-720p",
-    "name": "ray-flash-2-720p",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "ray-flash-2-720p replicate/luma/ray-flash-2-720p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
-  },
-  {
-    "id": "replicate/luma/ray-2-720p",
-    "name": "ray-2-720p",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "ray-2-720p replicate/luma/ray-2-720p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
-  },
-  {
-    "id": "replicate/luma/ray-2-540p",
-    "name": "ray-2-540p",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "ray-2-540p replicate/luma/ray-2-540p replicate video_generation video 1:1 3:4 4:3 9:16 16:9 9:21 21:9  "
   },
   {
     "id": "replicate/bytedance/seedance-1-lite",
