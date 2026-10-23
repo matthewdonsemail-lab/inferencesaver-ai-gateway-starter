@@ -2144,12 +2144,12 @@
     "tokens": "black-forest-labs/flux-3-image-klein-comfy huggingface/black-forest-labs/flux-3-image-klein-comfy huggingface image_generation image   "
   },
   {
-    "id": "huggingface/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
-    "name": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+    "id": "huggingface/Comfy-Org/Wan-2.2",
+    "name": "Comfy-Org/Wan-2.2",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "comfy-org/wan_2.2_comfyui_repackaged huggingface/comfy-org/wan_2.2_comfyui_repackaged huggingface video_generation video   "
+    "tokens": "comfy-org/wan-2.2 huggingface/comfy-org/wan-2.2 huggingface video_generation video   "
   },
   {
     "id": "huggingface/Lightricks/LTX-2.5",
