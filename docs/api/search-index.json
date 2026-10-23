@@ -2128,20 +2128,20 @@
     "tokens": "unsloth/qwen-image-edit-2511-gguf huggingface/unsloth/qwen-image-edit-2511-gguf huggingface image_generation image   "
   },
   {
-    "id": "huggingface/black-forest-labs/FLUX.2-klein-base-4B",
-    "name": "black-forest-labs/FLUX.2-klein-base-4B",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "black-forest-labs/flux.2-klein-base-4b huggingface/black-forest-labs/flux.2-klein-base-4b huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
     "name": "black-forest-labs/flux-3-image-klein-comfy",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "black-forest-labs/flux-3-image-klein-comfy huggingface/black-forest-labs/flux-3-image-klein-comfy huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/black-forest-labs/FLUX.2-klein-base-4B",
+    "name": "black-forest-labs/FLUX.2-klein-base-4B",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "black-forest-labs/flux.2-klein-base-4b huggingface/black-forest-labs/flux.2-klein-base-4b huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Wan-2.2",
