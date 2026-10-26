@@ -1592,6 +1592,14 @@
     "tokens": "cogvideox-5b replicate/cuuupid/cogvideox-5b replicate video_generation video   "
   },
   {
+    "id": "replicate/google/gemini-3.8-flash-tts",
+    "name": "gemini-3.8-flash-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "gemini-3.8-flash-tts replicate/google/gemini-3.8-flash-tts replicate audio_generation audio   wav mp3"
+  },
+  {
     "id": "replicate/minimax/voice-cloning",
     "name": "voice-cloning",
     "provider": "replicate",
@@ -1702,6 +1710,14 @@
     "modality": "audio",
     "capability": "audio_generation",
     "tokens": "csm-1b replicate/lucataco/csm-1b replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/google/gemini-3.8-flash-lite-tts",
+    "name": "gemini-3.8-flash-lite-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "gemini-3.8-flash-lite-tts replicate/google/gemini-3.8-flash-lite-tts replicate audio_generation audio   wav mp3"
   },
   {
     "id": "replicate/inworld/realtime-tts-2",
