@@ -376,12 +376,28 @@
     "tokens": "motion-2.0 replicate/leonardoai/motion-2.0 replicate video_generation video 9:16 16:9 2:3 4:5  "
   },
   {
+    "id": "replicate/pixverse/pixverse-v6-max",
+    "name": "pixverse-v6-max",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "pixverse-v6-max replicate/pixverse/pixverse-v6-max replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
+  },
+  {
     "id": "replicate/kwaivgi/kling-v2.0",
     "name": "kling-v2.0",
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "kling-v2.0 replicate/kwaivgi/kling-v2.0 replicate video_generation video 16:9 9:16 1:1  "
+  },
+  {
+    "id": "replicate/prunaai/p-video-2-pro-reference",
+    "name": "p-video-2-pro-reference",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "p-video-2-pro-reference replicate/prunaai/p-video-2-pro-reference replicate video_generation video 16:9 9:16 4:3 3:4 3:2 2:3 1:1 768p 480p 1080p 2k 4k "
   },
   {
     "id": "replicate/kwaivgi/kling-v2.1",
@@ -424,6 +440,14 @@
     "tokens": "gen-4.5 replicate/runwayml/gen-4.5 replicate video_generation video 16:9 9:16 4:3 3:4 1:1 21:9  "
   },
   {
+    "id": "replicate/prunaai/p-video-2-pro-avatar",
+    "name": "p-video-2-pro-avatar",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "p-video-2-pro-avatar replicate/prunaai/p-video-2-pro-avatar replicate video_generation video  480p 768p 1080p 2k 4k "
+  },
+  {
     "id": "replicate/kwaivgi/kling-v2.1-master",
     "name": "kling-v2.1-master",
     "provider": "replicate",
@@ -438,6 +462,14 @@
     "modality": "video",
     "capability": "video_generation",
     "tokens": "kling-v3-video replicate/kwaivgi/kling-v3-video replicate video_generation video 16:9 9:16 1:1 standard pro 4k "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v4.0",
+    "name": "kling-v4.0",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v4.0 replicate/kwaivgi/kling-v4.0 replicate video_generation video 16:9 9:16 1:1 21:9 720p 1080p "
   },
   {
     "id": "replicate/pixverse/pixverse-v4",
@@ -864,6 +896,14 @@
     "tokens": "recraft-v4-styles-pro-svg replicate/recraft-ai/recraft-v4-styles-pro-svg replicate image_generation image 1:1 4:3 3:4 3:2 2:3 16:9 9:16 1:2 2:1 4:5 5:4 6:10 14:10 10:14  "
   },
   {
+    "id": "replicate/ideogram-ai/ideogram-4-5",
+    "name": "ideogram-4-5",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "ideogram-4-5 replicate/ideogram-ai/ideogram-4-5 replicate image_generation image 1:1 10:7 7:10 7:4 4:7 12:5 5:12 very_low low medium high "
+  },
+  {
     "id": "replicate/recraft-ai/recraft-v4-pro-svg",
     "name": "recraft-v4-pro-svg",
     "provider": "replicate",
@@ -902,6 +942,22 @@
     "modality": "image",
     "capability": "image_generation",
     "tokens": "arrow-1.1 replicate/quiverai/arrow-1.1 replicate image_generation image   "
+  },
+  {
+    "id": "replicate/black-forest-labs/flux-3-image",
+    "name": "flux-3-image",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "flux-3-image replicate/black-forest-labs/flux-3-image replicate image_generation image auto 21:9 2:1 16:9 3:2 7:5 4:3 5:4 1:1 4:5 3:4 5:7 2:3 9:16 1:2 9:21 768sq 1k 1.5k 2k 4k webp jpg png"
+  },
+  {
+    "id": "replicate/google/nano-banana-2.1",
+    "name": "nano-banana-2.1",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "nano-banana-2.1 replicate/google/nano-banana-2.1 replicate image_generation image 1:1 1:4 1:8 2:3 3:2 3:4 4:1 4:3 4:5 5:4 8:1 9:16 16:9 21:9 1k 2k 4k jpg png"
   },
   {
     "id": "replicate/openai/gpt-image-1.5",
