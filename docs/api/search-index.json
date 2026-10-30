@@ -2256,12 +2256,12 @@
     "tokens": "unsloth/wan2.2-ti2v-5b-gguf huggingface/unsloth/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
-    "name": "Wan-AI/Wan2.1-T2V-1.3B-Diffusers",
+    "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
+    "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-ai/wan2.1-t2v-1.3b-diffusers huggingface/wan-ai/wan2.1-t2v-1.3b-diffusers huggingface video_generation video   "
+    "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -2408,20 +2408,20 @@
     "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
   },
   {
-    "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
-    "name": "timm/mobilenetv3_small_100.lamb_in1k",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/google/vit-base-patch16-224",
     "name": "google/vit-base-patch16-224",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "google/vit-base-patch16-224 huggingface/google/vit-base-patch16-224 huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
+    "name": "timm/mobilenetv3_small_100.lamb_in1k",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
   },
   {
     "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
