@@ -2168,6 +2168,14 @@
     "tokens": "suno music fala/fal-ai/suno-music fala audio_generation audio   mp3 wav"
   },
   {
+    "id": "huggingface/Comfy-Org/Qwen-Image-2.1",
+    "name": "Comfy-Org/Qwen-Image-2.1",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "comfy-org/qwen-image-2.1 huggingface/comfy-org/qwen-image-2.1 huggingface image_generation image   "
+  },
+  {
     "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
     "name": "stabilityai/stable-diffusion-xl-base-1.0",
     "provider": "huggingface",
@@ -2182,14 +2190,6 @@
     "modality": "image",
     "capability": "image_generation",
     "tokens": "abenzerps/qwen-image-2.1-uncensored-quantized huggingface/abenzerps/qwen-image-2.1-uncensored-quantized huggingface image_generation image   "
-  },
-  {
-    "id": "huggingface/unsloth/Qwen-Image-2.1-GGUF",
-    "name": "unsloth/Qwen-Image-2.1-GGUF",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "unsloth/qwen-image-2.1-gguf huggingface/unsloth/qwen-image-2.1-gguf huggingface image_generation image   "
   },
   {
     "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
