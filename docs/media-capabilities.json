@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-10-30T12:25:37.531Z",
+  "generatedAt": "2026-10-30T22:03:56.548Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-video-v2.0",
@@ -467,7 +467,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-i2v/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-i2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.292Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.846Z"
     },
     {
       "id": "replicate/google/veo-3-fast",
@@ -499,7 +499,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3-fast/predictions",
       "schemaUrl": "https://replicate.com/google/veo-3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.292Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.846Z"
     },
     {
       "id": "replicate/google/veo-3",
@@ -531,7 +531,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3/predictions",
       "schemaUrl": "https://replicate.com/google/veo-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.292Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.846Z"
     },
     {
       "id": "replicate/open-mmlab/pia",
@@ -551,7 +551,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/open-mmlab/pia/predictions",
       "schemaUrl": "https://replicate.com/open-mmlab/pia",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.846Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-r2v",
@@ -582,7 +582,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-r2v/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-r2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/veed/fabric-1.0",
@@ -605,7 +605,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/veed/fabric-1.0/predictions",
       "schemaUrl": "https://replicate.com/veed/fabric-1.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/fofr/tooncrafter",
@@ -624,7 +624,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/tooncrafter/predictions",
       "schemaUrl": "https://replicate.com/fofr/tooncrafter",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/hailuo-2.3",
@@ -651,7 +651,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3/predictions",
       "schemaUrl": "https://replicate.com/minimax/hailuo-2.3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/lightricks/ltx-video",
@@ -697,7 +697,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video/predictions",
       "schemaUrl": "https://replicate.com/lightricks/ltx-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-2.0",
@@ -732,7 +732,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-i2v-fast",
@@ -759,7 +759,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v-fast/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.5-i2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-i2v",
@@ -787,7 +787,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-i2v/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.5-i2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.5-turbo-pro",
@@ -815,7 +815,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.5-turbo-pro/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.5-turbo-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-pro-fast",
@@ -849,7 +849,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro-fast/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-1-pro-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/alibaba/happyhorse-1.0",
@@ -894,7 +894,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.0/predictions",
       "schemaUrl": "https://replicate.com/alibaba/happyhorse-1.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-i2v-720p",
@@ -927,7 +927,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-720p/predictions",
       "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-i2v-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/hailuo-2.3-fast",
@@ -954,7 +954,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-2.3-fast/predictions",
       "schemaUrl": "https://replicate.com/minimax/hailuo-2.3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/prunaai/p-video-animate",
@@ -977,7 +977,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-animate/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-video-animate",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/luma/ray-3.2",
@@ -1013,7 +1013,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/ray-3.2/predictions",
       "schemaUrl": "https://replicate.com/luma/ray-3.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-i2v-480p",
@@ -1046,7 +1046,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-i2v-480p/predictions",
       "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-i2v-480p",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/alibaba/happyhorse-1.1",
@@ -1091,7 +1091,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/alibaba/happyhorse-1.1/predictions",
       "schemaUrl": "https://replicate.com/alibaba/happyhorse-1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/lightricks/ltx-video-0.9.7",
@@ -1110,7 +1110,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7/predictions",
       "schemaUrl": "https://replicate.com/lightricks/ltx-video-0.9.7",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/google/veo-3.1",
@@ -1142,7 +1142,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1/predictions",
       "schemaUrl": "https://replicate.com/google/veo-3.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/google/veo-3.1-fast",
@@ -1174,7 +1174,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-3.1-fast/predictions",
       "schemaUrl": "https://replicate.com/google/veo-3.1-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.293Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/prunaai/p-video",
@@ -1207,7 +1207,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/prunaai/p-video-avatar",
@@ -1230,7 +1230,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-avatar/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-video-avatar",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/lightricks/ltx-video-0.9.7-distilled",
@@ -1258,7 +1258,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lightricks/ltx-video-0.9.7-distilled/predictions",
       "schemaUrl": "https://replicate.com/lightricks/ltx-video-0.9.7-distilled",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-2.0-fast",
@@ -1291,7 +1291,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-2.0-fast/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-2.0-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/google/veo-2",
@@ -1320,7 +1320,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/veo-2/predictions",
       "schemaUrl": "https://replicate.com/google/veo-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/leonardoai/motion-2.0",
@@ -1345,7 +1345,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/motion-2.0/predictions",
       "schemaUrl": "https://replicate.com/leonardoai/motion-2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v6-max",
@@ -1381,7 +1381,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6-max/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v6-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.0",
@@ -1409,7 +1409,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.0/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/prunaai/p-video-2-pro-reference",
@@ -1449,7 +1449,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-2-pro-reference/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-video-2-pro-reference",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.1",
@@ -1480,7 +1480,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/video-01-live",
@@ -1499,7 +1499,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-live/predictions",
       "schemaUrl": "https://replicate.com/minimax/video-01-live",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/video-01-director",
@@ -1518,7 +1518,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01-director/predictions",
       "schemaUrl": "https://replicate.com/minimax/video-01-director",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/video-01",
@@ -1537,7 +1537,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/video-01/predictions",
       "schemaUrl": "https://replicate.com/minimax/video-01",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/runwayml/gen-4.5",
@@ -1568,7 +1568,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/runwayml/gen-4.5/predictions",
       "schemaUrl": "https://replicate.com/runwayml/gen-4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/prunaai/p-video-2-pro-avatar",
@@ -1594,7 +1594,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-video-2-pro-avatar/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-video-2-pro-avatar",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.1-master",
@@ -1622,7 +1622,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.1-master/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.1-master",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v3-video",
@@ -1657,7 +1657,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-video/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v3-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v4.0",
@@ -1687,7 +1687,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v4.0/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v4.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v4",
@@ -1723,7 +1723,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v4",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v3-omni-video",
@@ -1758,7 +1758,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v3-omni-video/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v3-omni-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/vidu/q3-pro",
@@ -1790,7 +1790,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/vidu/q3-pro/predictions",
       "schemaUrl": "https://replicate.com/vidu/q3-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/xai/grok-imagine-video",
@@ -1824,7 +1824,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video/predictions",
       "schemaUrl": "https://replicate.com/xai/grok-imagine-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-1.5-pro",
@@ -1853,7 +1853,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1.5-pro/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-1.5-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-lite",
@@ -1887,7 +1887,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-lite/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-1-lite",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/bytedance/seedance-1-pro",
@@ -1921,7 +1921,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedance-1-pro/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedance-1-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/minimax/hailuo-02",
@@ -1949,7 +1949,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/hailuo-02/predictions",
       "schemaUrl": "https://replicate.com/minimax/hailuo-02",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-i2v-a14b",
@@ -1972,7 +1972,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-a14b/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.2-i2v-a14b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-i2v-fast",
@@ -1995,7 +1995,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-i2v-fast/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.2-i2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/luma/modify-video",
@@ -2036,7 +2036,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/modify-video/predictions",
       "schemaUrl": "https://replicate.com/luma/modify-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:34.294Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.847Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2a",
@@ -2420,7 +2420,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
@@ -2804,7 +2804,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/minimax/image-01",
@@ -2833,7 +2833,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
       "schemaUrl": "https://replicate.com/minimax/image-01",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/bytedance/seedream-3",
@@ -2863,7 +2863,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/luma/photon",
@@ -2891,7 +2891,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
       "schemaUrl": "https://replicate.com/luma/photon",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/luma/photon-flash",
@@ -2919,7 +2919,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
       "schemaUrl": "https://replicate.com/luma/photon-flash",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-full",
@@ -2955,7 +2955,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-full",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/google/imagen-4-fast",
@@ -2985,7 +2985,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-fast/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/google/imagen-4-ultra",
@@ -3015,7 +3015,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4-ultra/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/nvidia/sana-sprint-1.6b",
@@ -3040,7 +3040,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
       "schemaUrl": "https://replicate.com/nvidia/sana-sprint-1.6b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-dev",
@@ -3076,7 +3076,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/prunaai/hidream-l1-fast",
@@ -3112,7 +3112,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
       "schemaUrl": "https://replicate.com/prunaai/hidream-l1-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/prunaai/flux-fast",
@@ -3161,7 +3161,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
       "schemaUrl": "https://replicate.com/prunaai/flux-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/prunaai/sdxl-lightning",
@@ -3185,7 +3185,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
       "schemaUrl": "https://replicate.com/prunaai/sdxl-lightning",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.397Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-quality",
@@ -3576,7 +3576,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-quality",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-balanced",
@@ -3967,7 +3967,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-balanced",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev-lora",
@@ -4004,7 +4004,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bria/image-3.2",
@@ -4034,7 +4034,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
       "schemaUrl": "https://replicate.com/bria/image-3.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/imagen-4",
@@ -4064,7 +4064,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-4/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-pro",
@@ -4102,7 +4102,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-kontext-max",
@@ -4140,7 +4140,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/prunaai/wan-2.2-image",
@@ -4172,7 +4172,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
       "schemaUrl": "https://replicate.com/prunaai/wan-2.2-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/nano-banana",
@@ -4207,7 +4207,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image",
@@ -4226,7 +4226,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/imagen-3",
@@ -4256,7 +4256,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.412Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/imagen-3-fast",
@@ -4286,7 +4286,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/imagen-3-fast/predictions",
       "schemaUrl": "https://replicate.com/google/imagen-3-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-klein-4b",
@@ -4323,7 +4323,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-klein-4b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bria/fibo",
@@ -4353,7 +4353,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
       "schemaUrl": "https://replicate.com/bria/fibo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/tencent/hunyuan-image-3",
@@ -4390,7 +4390,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
       "schemaUrl": "https://replicate.com/tencent/hunyuan-image-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/krea/krea-3",
@@ -4430,7 +4430,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/krea/krea-3/predictions",
       "schemaUrl": "https://replicate.com/krea/krea-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bytedance/seedream-4",
@@ -4452,7 +4452,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-4",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/prunaai/z-image-turbo",
@@ -4476,7 +4476,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
       "schemaUrl": "https://replicate.com/prunaai/z-image-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/leonardoai/lucid-origin",
@@ -4510,7 +4510,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
       "schemaUrl": "https://replicate.com/leonardoai/lucid-origin",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/wan-video/wan-2.7-image-pro",
@@ -4529,7 +4529,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro",
@@ -4622,7 +4622,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/xai/grok-imagine-image",
@@ -4655,7 +4655,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
       "schemaUrl": "https://replicate.com/xai/grok-imagine-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bytedance/seedream-5-lite",
@@ -4681,7 +4681,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-5-lite",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/openai/gpt-image-2",
@@ -4763,7 +4763,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
       "schemaUrl": "https://replicate.com/openai/gpt-image-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-svg",
@@ -4856,7 +4856,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/sourceful/riverflow-2.0-pro",
@@ -4897,7 +4897,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
       "schemaUrl": "https://replicate.com/sourceful/riverflow-2.0-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bytedance/seedream-4.5",
@@ -4919,7 +4919,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
       "schemaUrl": "https://replicate.com/bytedance/seedream-4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-styles-pro-svg",
@@ -5012,7 +5012,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-styles-pro-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-styles-pro-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-4-5",
@@ -5076,7 +5076,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-4-5/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-4-5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v4-pro-svg",
@@ -5169,7 +5169,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/nano-banana-pro",
@@ -5209,7 +5209,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/prunaai/p-image-lora",
@@ -5238,7 +5238,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-image-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/quiverai/arrow-1.1-max",
@@ -5257,7 +5257,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1-max/predictions",
       "schemaUrl": "https://replicate.com/quiverai/arrow-1.1-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/quiverai/arrow-1.1",
@@ -5276,7 +5276,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1/predictions",
       "schemaUrl": "https://replicate.com/quiverai/arrow-1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-3-image",
@@ -5325,7 +5325,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-3-image/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-3-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/nano-banana-2.1",
@@ -5369,7 +5369,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2.1/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana-2.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/openai/gpt-image-1.5",
@@ -5404,7 +5404,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
       "schemaUrl": "https://replicate.com/openai/gpt-image-1.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2",
@@ -5428,7 +5428,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
       "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-pro",
@@ -5471,7 +5471,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-flex",
@@ -5514,7 +5514,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-flex",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v3-turbo",
@@ -5905,7 +5905,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/google/nano-banana-2",
@@ -5949,7 +5949,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
       "schemaUrl": "https://replicate.com/google/nano-banana-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/lucataco/ssd-1b",
@@ -5968,7 +5968,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
       "schemaUrl": "https://replicate.com/lucataco/ssd-1b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/comfyui/any-comfyui-workflow",
@@ -5992,7 +5992,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
       "schemaUrl": "https://replicate.com/comfyui/any-comfyui-workflow",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-dev",
@@ -6029,7 +6029,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.413Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2-turbo",
@@ -6413,7 +6413,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/qwen/qwen-image",
@@ -6446,7 +6446,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
       "schemaUrl": "https://replicate.com/qwen/qwen-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/prunaai/p-image",
@@ -6475,7 +6475,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
       "schemaUrl": "https://replicate.com/prunaai/p-image",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.3",
@@ -6494,7 +6494,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
       "schemaUrl": "https://replicate.com/datacte/proteus-v0.3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ai-forever/kandinsky-2.2",
@@ -6518,7 +6518,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
       "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/fofr/sdxl-emoji",
@@ -6537,7 +6537,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
       "schemaUrl": "https://replicate.com/fofr/sdxl-emoji",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/bytedance/sdxl-lightning-4step",
@@ -6556,7 +6556,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
       "schemaUrl": "https://replicate.com/bytedance/sdxl-lightning-4step",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/ideogram-ai/ideogram-v2",
@@ -6940,7 +6940,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
       "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
@@ -6959,7 +6959,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/sdxl-based/realvisxl-v3-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-pro",
@@ -6995,7 +6995,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/tstramer/material-diffusion",
@@ -7014,7 +7014,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
       "schemaUrl": "https://replicate.com/tstramer/material-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/fermatresearch/sdxl-controlnet-lora",
@@ -7033,7 +7033,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/fermatresearch/sdxl-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/lucataco/realistic-vision-v5.1",
@@ -7052,7 +7052,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
       "schemaUrl": "https://replicate.com/lucataco/realistic-vision-v5.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/stability-ai/sdxl",
@@ -7071,7 +7071,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/sdxl",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large",
@@ -7106,7 +7106,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
@@ -7142,7 +7142,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-2-max",
@@ -7185,7 +7185,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion",
@@ -7204,7 +7204,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.398Z"
     },
     {
       "id": "replicate/fofr/sticker-maker",
@@ -7228,7 +7228,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
       "schemaUrl": "https://replicate.com/fofr/sticker-maker",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
@@ -7247,7 +7247,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
       "schemaUrl": "https://replicate.com/playgroundai/playground-v2.5-1024px-aesthetic",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/jagilley/controlnet-scribble",
@@ -7271,7 +7271,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
       "schemaUrl": "https://replicate.com/jagilley/controlnet-scribble",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/fofr/sdxl-multi-controlnet-lora",
@@ -7290,7 +7290,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
       "schemaUrl": "https://replicate.com/fofr/sdxl-multi-controlnet-lora",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/fofr/latent-consistency-model",
@@ -7309,7 +7309,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
       "schemaUrl": "https://replicate.com/fofr/latent-consistency-model",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/lucataco/dreamshaper-xl-turbo",
@@ -7328,7 +7328,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
       "schemaUrl": "https://replicate.com/lucataco/dreamshaper-xl-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/lucataco/open-dalle-v1.1",
@@ -7347,7 +7347,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
       "schemaUrl": "https://replicate.com/lucataco/open-dalle-v1.1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/adirik/realvisxl-v3.0-turbo",
@@ -7366,7 +7366,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
       "schemaUrl": "https://replicate.com/adirik/realvisxl-v3.0-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/datacte/proteus-v0.2",
@@ -7385,7 +7385,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
       "schemaUrl": "https://replicate.com/datacte/proteus-v0.2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
@@ -7420,7 +7420,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-medium",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/black-forest-labs/flux-schnell",
@@ -7457,7 +7457,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
       "schemaUrl": "https://replicate.com/black-forest-labs/flux-schnell",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
@@ -7492,7 +7492,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
       "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3",
@@ -7590,7 +7590,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/recraft-ai/recraft-v3-svg",
@@ -7688,7 +7688,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
       "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3-svg",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/nvidia/sana",
@@ -7714,7 +7714,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
       "schemaUrl": "https://replicate.com/nvidia/sana",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:35.414Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.399Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-t2v-480p",
@@ -7747,7 +7747,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-480p/predictions",
       "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-t2v-480p",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.536Z"
     },
     {
       "id": "replicate/wavespeedai/hunyuan-video-fast",
@@ -7766,7 +7766,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/hunyuan-video-fast/predictions",
       "schemaUrl": "https://replicate.com/wavespeedai/hunyuan-video-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.536Z"
     },
     {
       "id": "replicate/meta/sam-2-video",
@@ -7790,7 +7790,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/meta/sam-2-video/predictions",
       "schemaUrl": "https://replicate.com/meta/sam-2-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.536Z"
     },
     {
       "id": "replicate/wan-video/wan-2.1-1.3b",
@@ -7816,7 +7816,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.1-1.3b/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.1-1.3b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.536Z"
     },
     {
       "id": "replicate/andreasjansson/tile-morph",
@@ -7835,7 +7835,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/tile-morph/predictions",
       "schemaUrl": "https://replicate.com/andreasjansson/tile-morph",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.536Z"
     },
     {
       "id": "replicate/fofr/video-morpher",
@@ -7875,7 +7875,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/video-morpher/predictions",
       "schemaUrl": "https://replicate.com/fofr/video-morpher",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/zsxkib/hunyuan-video2video",
@@ -7894,7 +7894,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/hunyuan-video2video/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/hunyuan-video2video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v4.5",
@@ -7930,7 +7930,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v4.5/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v4.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/wavespeedai/wan-2.1-t2v-720p",
@@ -7963,7 +7963,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wavespeedai/wan-2.1-t2v-720p/predictions",
       "schemaUrl": "https://replicate.com/wavespeedai/wan-2.1-t2v-720p",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v5.6",
@@ -7998,7 +7998,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5.6/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v5.6",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/wan-video/wan-2.2-t2v-fast",
@@ -8025,7 +8025,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.2-t2v-fast/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.2-t2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/fofr/not-real",
@@ -8053,7 +8053,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fofr/not-real/predictions",
       "schemaUrl": "https://replicate.com/fofr/not-real",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/alibaba/wan-3",
@@ -8085,7 +8085,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/alibaba/wan-3/predictions",
       "schemaUrl": "https://replicate.com/alibaba/wan-3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-t2v-fast",
@@ -8108,7 +8108,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v-fast/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.5-t2v-fast",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/kwaivgi/kling-v2.6",
@@ -8136,7 +8136,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-v2.6/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-v2.6",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v6",
@@ -8172,7 +8172,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v6/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v6",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/openai/sora-2",
@@ -8196,7 +8196,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2/predictions",
       "schemaUrl": "https://replicate.com/openai/sora-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/openai/sora-2-pro",
@@ -8224,7 +8224,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/openai/sora-2-pro/predictions",
       "schemaUrl": "https://replicate.com/openai/sora-2-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/pixverse/pixverse-v5",
@@ -8258,7 +8258,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pixverse/pixverse-v5/predictions",
       "schemaUrl": "https://replicate.com/pixverse/pixverse-v5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/wan-video/wan-2.5-t2v",
@@ -8281,7 +8281,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.5-t2v/predictions",
       "schemaUrl": "https://replicate.com/wan-video/wan-2.5-t2v",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/xai/grok-imagine-video-1.5",
@@ -8315,7 +8315,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-video-1.5/predictions",
       "schemaUrl": "https://replicate.com/xai/grok-imagine-video-1.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/kwaivgi/kling-o1",
@@ -8357,7 +8357,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/kwaivgi/kling-o1/predictions",
       "schemaUrl": "https://replicate.com/kwaivgi/kling-o1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/bytedance/dreamactor-m2.0",
@@ -8376,7 +8376,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/bytedance/dreamactor-m2.0/predictions",
       "schemaUrl": "https://replicate.com/bytedance/dreamactor-m2.0",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/lucataco/hotshot-xl",
@@ -8395,7 +8395,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/hotshot-xl/predictions",
       "schemaUrl": "https://replicate.com/lucataco/hotshot-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/arielreplicate/deoldify_video",
@@ -8414,7 +8414,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/deoldify_video/predictions",
       "schemaUrl": "https://replicate.com/arielreplicate/deoldify_video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/cjwbw/text2video-zero",
@@ -8433,7 +8433,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/text2video-zero/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/text2video-zero",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/zsxkib/pyramid-flow",
@@ -8453,7 +8453,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/pyramid-flow/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/pyramid-flow",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/anotherjesse/zeroscope-v2-xl",
@@ -8478,7 +8478,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/anotherjesse/zeroscope-v2-xl/predictions",
       "schemaUrl": "https://replicate.com/anotherjesse/zeroscope-v2-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/deforum/deforum_stable_diffusion",
@@ -8497,7 +8497,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/deforum/deforum_stable_diffusion/predictions",
       "schemaUrl": "https://replicate.com/deforum/deforum_stable_diffusion",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/ali-vilab/i2vgen-xl",
@@ -8516,7 +8516,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/ali-vilab/i2vgen-xl/predictions",
       "schemaUrl": "https://replicate.com/ali-vilab/i2vgen-xl",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/andreasjansson/stable-diffusion-animation",
@@ -8539,7 +8539,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/andreasjansson/stable-diffusion-animation/predictions",
       "schemaUrl": "https://replicate.com/andreasjansson/stable-diffusion-animation",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/zsxkib/animatediff-prompt-travel",
@@ -8570,7 +8570,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-prompt-travel/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/animatediff-prompt-travel",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/cjwbw/controlvideo",
@@ -8589,7 +8589,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/controlvideo/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/controlvideo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/cjwbw/damo-text-to-video",
@@ -8608,7 +8608,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/damo-text-to-video/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/damo-text-to-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/lucataco/animate-diff",
@@ -8627,7 +8627,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/animate-diff/predictions",
       "schemaUrl": "https://replicate.com/lucataco/animate-diff",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/zsxkib/animatediff-illusions",
@@ -8658,7 +8658,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animatediff-illusions/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/animatediff-illusions",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/arielreplicate/stable_diffusion_infinite_zoom",
@@ -8681,7 +8681,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/stable_diffusion_infinite_zoom/predictions",
       "schemaUrl": "https://replicate.com/arielreplicate/stable_diffusion_infinite_zoom",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/arielreplicate/robust_video_matting",
@@ -8700,7 +8700,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/arielreplicate/robust_video_matting/predictions",
       "schemaUrl": "https://replicate.com/arielreplicate/robust_video_matting",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/genmoai/mochi-1",
@@ -8719,7 +8719,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/genmoai/mochi-1/predictions",
       "schemaUrl": "https://replicate.com/genmoai/mochi-1",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/pollinations/real-basicvsr-video-superresolution",
@@ -8738,7 +8738,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/pollinations/real-basicvsr-video-superresolution/predictions",
       "schemaUrl": "https://replicate.com/pollinations/real-basicvsr-video-superresolution",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/cjwbw/videocrafter",
@@ -8757,7 +8757,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/videocrafter/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/videocrafter",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/zsxkib/animate-diff",
@@ -8787,7 +8787,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/animate-diff/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/animate-diff",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/tencent/hunyuan-video",
@@ -8807,7 +8807,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-video/predictions",
       "schemaUrl": "https://replicate.com/tencent/hunyuan-video",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/cuuupid/cogvideox-5b",
@@ -8826,7 +8826,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cuuupid/cogvideox-5b/predictions",
       "schemaUrl": "https://replicate.com/cuuupid/cogvideox-5b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:36.619Z"
+      "lastSyncedAt": "2026-10-30T22:03:55.537Z"
     },
     {
       "id": "replicate/google/gemini-3.8-flash-tts",
@@ -8849,7 +8849,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/gemini-3.8-flash-tts/predictions",
       "schemaUrl": "https://replicate.com/google/gemini-3.8-flash-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/minimax/voice-cloning",
@@ -8874,7 +8874,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/voice-cloning/predictions",
       "schemaUrl": "https://replicate.com/minimax/voice-cloning",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox-pro",
@@ -8893,7 +8893,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-pro/predictions",
       "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-pro",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/chenxwh/openvoice",
@@ -8912,7 +8912,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/chenxwh/openvoice/predictions",
       "schemaUrl": "https://replicate.com/chenxwh/openvoice",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/fermatresearch/spanish-f5-tts",
@@ -8931,7 +8931,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/spanish-f5-tts/predictions",
       "schemaUrl": "https://replicate.com/fermatresearch/spanish-f5-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/x-lance/f5-tts",
@@ -8950,7 +8950,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/x-lance/f5-tts/predictions",
       "schemaUrl": "https://replicate.com/x-lance/f5-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/platform-kit/mars5-tts",
@@ -8969,7 +8969,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/platform-kit/mars5-tts/predictions",
       "schemaUrl": "https://replicate.com/platform-kit/mars5-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/lucataco/pheme",
@@ -8988,7 +8988,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/pheme/predictions",
       "schemaUrl": "https://replicate.com/lucataco/pheme",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/awerks/neon-tts",
@@ -9007,7 +9007,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/awerks/neon-tts/predictions",
       "schemaUrl": "https://replicate.com/awerks/neon-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/cjwbw/parler-tts",
@@ -9026,7 +9026,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/parler-tts/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/parler-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/cjwbw/voicecraft",
@@ -9050,7 +9050,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/voicecraft/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/voicecraft",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/camenduru/metavoice",
@@ -9069,7 +9069,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/camenduru/metavoice/predictions",
       "schemaUrl": "https://replicate.com/camenduru/metavoice",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/zsxkib/dia",
@@ -9089,7 +9089,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/dia/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/dia",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/adirik/styletts2",
@@ -9108,7 +9108,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/adirik/styletts2/predictions",
       "schemaUrl": "https://replicate.com/adirik/styletts2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/lucataco/csm-1b",
@@ -9128,7 +9128,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/csm-1b/predictions",
       "schemaUrl": "https://replicate.com/lucataco/csm-1b",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/google/gemini-3.8-flash-lite-tts",
@@ -9151,7 +9151,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/gemini-3.8-flash-lite-tts/predictions",
       "schemaUrl": "https://replicate.com/google/gemini-3.8-flash-lite-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/inworld/realtime-tts-2",
@@ -9176,7 +9176,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-2/predictions",
       "schemaUrl": "https://replicate.com/inworld/realtime-tts-2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/lucataco/orpheus-3b-0.1-ft",
@@ -9195,7 +9195,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/orpheus-3b-0.1-ft/predictions",
       "schemaUrl": "https://replicate.com/lucataco/orpheus-3b-0.1-ft",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/jaaari/kokoro-82m",
@@ -9214,7 +9214,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/jaaari/kokoro-82m/predictions",
       "schemaUrl": "https://replicate.com/jaaari/kokoro-82m",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.419Z"
     },
     {
       "id": "replicate/minimax/speech-02-turbo",
@@ -9239,7 +9239,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-turbo/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-02-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/minimax/speech-02-hd",
@@ -9264,7 +9264,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-02-hd/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-02-hd",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox-multilingual",
@@ -9283,7 +9283,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-multilingual/predictions",
       "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-multilingual",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox-turbo",
@@ -9302,7 +9302,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox-turbo/predictions",
       "schemaUrl": "https://replicate.com/resemble-ai/chatterbox-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/resemble-ai/chatterbox",
@@ -9321,7 +9321,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/resemble-ai/chatterbox/predictions",
       "schemaUrl": "https://replicate.com/resemble-ai/chatterbox",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/minimax/speech-2.8-turbo",
@@ -9346,7 +9346,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-turbo/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-2.8-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/inworld/realtime-tts-1.5-mini",
@@ -9371,7 +9371,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-mini/predictions",
       "schemaUrl": "https://replicate.com/inworld/realtime-tts-1.5-mini",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/inworld/realtime-tts-1.5-max",
@@ -9396,7 +9396,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/inworld/realtime-tts-1.5-max/predictions",
       "schemaUrl": "https://replicate.com/inworld/realtime-tts-1.5-max",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/elevenlabs/v3",
@@ -9415,7 +9415,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v3/predictions",
       "schemaUrl": "https://replicate.com/elevenlabs/v3",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/elevenlabs/turbo-v2.5",
@@ -9434,7 +9434,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/turbo-v2.5/predictions",
       "schemaUrl": "https://replicate.com/elevenlabs/turbo-v2.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/elevenlabs/flash-v2.5",
@@ -9453,7 +9453,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/flash-v2.5/predictions",
       "schemaUrl": "https://replicate.com/elevenlabs/flash-v2.5",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/elevenlabs/v2-multilingual",
@@ -9472,7 +9472,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/elevenlabs/v2-multilingual/predictions",
       "schemaUrl": "https://replicate.com/elevenlabs/v2-multilingual",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/qwen/qwen3-tts",
@@ -9501,7 +9501,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen3-tts/predictions",
       "schemaUrl": "https://replicate.com/qwen/qwen3-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.436Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/minimax/speech-2.8-hd",
@@ -9526,7 +9526,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.8-hd/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-2.8-hd",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/minimax/speech-2.6-turbo",
@@ -9551,7 +9551,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-turbo/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-2.6-turbo",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/minimax/speech-2.6-hd",
@@ -9576,7 +9576,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/minimax/speech-2.6-hd/predictions",
       "schemaUrl": "https://replicate.com/minimax/speech-2.6-hd",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/afiaka87/tortoise-tts",
@@ -9595,7 +9595,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/afiaka87/tortoise-tts/predictions",
       "schemaUrl": "https://replicate.com/afiaka87/tortoise-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/suno-ai/bark",
@@ -9614,7 +9614,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/suno-ai/bark/predictions",
       "schemaUrl": "https://replicate.com/suno-ai/bark",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/cjwbw/seamless_communication",
@@ -9633,7 +9633,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/cjwbw/seamless_communication/predictions",
       "schemaUrl": "https://replicate.com/cjwbw/seamless_communication",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/zsxkib/realistic-voice-cloning",
@@ -9669,7 +9669,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/zsxkib/realistic-voice-cloning/predictions",
       "schemaUrl": "https://replicate.com/zsxkib/realistic-voice-cloning",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/lucataco/xtts-v2",
@@ -9688,7 +9688,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/lucataco/xtts-v2/predictions",
       "schemaUrl": "https://replicate.com/lucataco/xtts-v2",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "replicate/google/gemini-3.1-flash-tts",
@@ -9707,7 +9707,7 @@
       "endpointUrl": "https://api.replicate.com/v1/models/google/gemini-3.1-flash-tts/predictions",
       "schemaUrl": "https://replicate.com/google/gemini-3.1-flash-tts",
       "source": "replicate",
-      "lastSyncedAt": "2026-10-30T12:25:37.437Z"
+      "lastSyncedAt": "2026-10-30T22:03:56.420Z"
     },
     {
       "id": "fala/fal-ai/flux-pro",
@@ -9734,7 +9734,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1",
@@ -9760,7 +9760,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1-ultra",
@@ -9786,7 +9786,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/flux-dev",
@@ -9812,7 +9812,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-dev",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/flux-schnell",
@@ -9838,7 +9838,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-v3-medium",
@@ -9864,7 +9864,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-xl",
@@ -9890,7 +9890,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/ideogram",
@@ -9916,7 +9916,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/ideogram/v2",
@@ -9942,7 +9942,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/recraft-v3",
@@ -9968,7 +9968,7 @@
       "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
       "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/minimax-video",
@@ -9998,7 +9998,7 @@
       "endpointUrl": "https://fal.run/fal-ai/minimax-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/minimax-video",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/cogvideox-5b",
@@ -10028,7 +10028,7 @@
       "endpointUrl": "https://fal.run/fal-ai/cogvideox-5b",
       "schemaUrl": "https://fal.ai/models/fal-ai/cogvideox-5b",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/hunyuan-video",
@@ -10058,7 +10058,7 @@
       "endpointUrl": "https://fal.run/fal-ai/hunyuan-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/hunyuan-video",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/kling-video",
@@ -10090,7 +10090,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/kling-video/v1.5",
@@ -10123,7 +10123,7 @@
       "endpointUrl": "https://fal.run/fal-ai/kling-video/v1.5",
       "schemaUrl": "https://fal.ai/models/fal-ai/kling-video/v1.5",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/veo-3",
@@ -10153,7 +10153,7 @@
       "endpointUrl": "https://fal.run/fal-ai/veo-3",
       "schemaUrl": "https://fal.ai/models/fal-ai/veo-3",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/luma-sorcerer",
@@ -10178,7 +10178,7 @@
       "endpointUrl": "https://fal.run/fal-ai/luma-sorcerer",
       "schemaUrl": "https://fal.ai/models/fal-ai/luma-sorcerer",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/runway-gen3",
@@ -10203,7 +10203,7 @@
       "endpointUrl": "https://fal.run/fal-ai/runway-gen3",
       "schemaUrl": "https://fal.ai/models/fal-ai/runway-gen3",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/stable-video-diffusion",
@@ -10228,7 +10228,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-video-diffusion",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-video-diffusion",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.353Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/playht-text-to-speech",
@@ -10252,7 +10252,7 @@
       "endpointUrl": "https://fal.run/fal-ai/playht-text-to-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/playht-text-to-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.354Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/fish-speech",
@@ -10277,7 +10277,7 @@
       "endpointUrl": "https://fal.run/fal-ai/fish-speech",
       "schemaUrl": "https://fal.ai/models/fal-ai/fish-speech",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.354Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/whisper",
@@ -10303,7 +10303,7 @@
       "endpointUrl": "https://fal.run/fal-ai/whisper",
       "schemaUrl": "https://fal.ai/models/fal-ai/whisper",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.354Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/musicgen",
@@ -10327,7 +10327,7 @@
       "endpointUrl": "https://fal.run/fal-ai/musicgen",
       "schemaUrl": "https://fal.ai/models/fal-ai/musicgen",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.354Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "fala/fal-ai/suno-music",
@@ -10351,7 +10351,7 @@
       "endpointUrl": "https://fal.run/fal-ai/suno-music",
       "schemaUrl": "https://fal.ai/models/fal-ai/suno-music",
       "source": "fala",
-      "lastSyncedAt": "2026-10-30T12:25:33.354Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.721Z"
     },
     {
       "id": "huggingface/Comfy-Org/Qwen-Image-2.1",
@@ -10368,7 +10368,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.511Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.882Z"
     },
     {
       "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
@@ -10385,7 +10385,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.549Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.928Z"
     },
     {
       "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
@@ -10402,7 +10402,7 @@
       ],
       "schemaUrl": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.588Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.971Z"
     },
     {
       "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
@@ -10420,7 +10420,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.677Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.081Z"
     },
     {
       "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
@@ -10438,7 +10438,7 @@
       ],
       "schemaUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.717Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.131Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-klein-base-4B",
@@ -10456,7 +10456,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.756Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.176Z"
     },
     {
       "id": "huggingface/Comfy-Org/Wan-2.2",
@@ -10474,7 +10474,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Wan-2.2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.832Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.268Z"
     },
     {
       "id": "huggingface/Lightricks/LTX-2.5",
@@ -10492,7 +10492,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.870Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.318Z"
     },
     {
       "id": "huggingface/comfyicu/LTX-2.5",
@@ -10510,7 +10510,7 @@
       ],
       "schemaUrl": "https://huggingface.co/comfyicu/LTX-2.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.908Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.362Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-TI2V-5B-GGUF",
@@ -10527,7 +10527,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.996Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.455Z"
     },
     {
       "id": "huggingface/unsloth/Wan2.2-TI2V-5B-GGUF",
@@ -10544,7 +10544,7 @@
       ],
       "schemaUrl": "https://huggingface.co/unsloth/Wan2.2-TI2V-5B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.034Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.501Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
@@ -10561,7 +10561,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.074Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.544Z"
     },
     {
       "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -10579,7 +10579,7 @@
       ],
       "schemaUrl": "https://huggingface.co/numz/SeedVR2_comfyUI",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.150Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.634Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
@@ -10597,7 +10597,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.189Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.677Z"
     },
     {
       "id": "huggingface/Wan-AI/Wan2.2-Animate-14B",
@@ -10615,7 +10615,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.230Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.727Z"
     },
     {
       "id": "huggingface/hexgrad/Kokoro-82M",
@@ -10632,7 +10632,7 @@
       ],
       "schemaUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.313Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.825Z"
     },
     {
       "id": "huggingface/audio-cpp/audio.cpp-gguf",
@@ -10649,7 +10649,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/audio.cpp-gguf",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.350Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.869Z"
     },
     {
       "id": "huggingface/coqui/XTTS-v2",
@@ -10666,7 +10666,7 @@
       ],
       "schemaUrl": "https://huggingface.co/coqui/XTTS-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.387Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.913Z"
     },
     {
       "id": "huggingface/facebook/musicgen-medium",
@@ -10683,7 +10683,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/musicgen-medium",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.469Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.006Z"
     },
     {
       "id": "huggingface/Comfy-Org/ACE-Step-1.5",
@@ -10700,7 +10700,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/ACE-Step-1.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.542Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.047Z"
     },
     {
       "id": "huggingface/audio-cpp/MiniMax-Music3-GGUF",
@@ -10717,7 +10717,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/MiniMax-Music3-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.581Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.087Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
@@ -10734,7 +10734,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.673Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.187Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_44khz_128band_512x",
@@ -10751,7 +10751,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.712Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.233Z"
     },
     {
       "id": "huggingface/Aratako/MioCodec-25Hz-44.1kHz-v2",
@@ -10768,7 +10768,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Aratako/MioCodec-25Hz-44.1kHz-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.750Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.282Z"
     },
     {
       "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
@@ -10785,7 +10785,7 @@
       ],
       "schemaUrl": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.834Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.412Z"
     },
     {
       "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -10802,7 +10802,7 @@
       ],
       "schemaUrl": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.873Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.458Z"
     },
     {
       "id": "huggingface/pyannote/speaker-diarization-3.1",
@@ -10819,7 +10819,7 @@
       ],
       "schemaUrl": "https://huggingface.co/pyannote/speaker-diarization-3.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.912Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.509Z"
     },
     {
       "id": "huggingface/ZhengPeng7/BiRefNet",
@@ -10836,7 +10836,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.991Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.610Z"
     },
     {
       "id": "huggingface/CIDAS/clipseg-rd64-refined",
@@ -10853,7 +10853,7 @@
       ],
       "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.038Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.655Z"
     },
     {
       "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
@@ -10870,7 +10870,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/mask2former-swin-large-ade-semantic",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.072Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.700Z"
     },
     {
       "id": "huggingface/google/vit-base-patch16-224",
@@ -10887,7 +10887,7 @@
       ],
       "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.157Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.804Z"
     },
     {
       "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
@@ -10904,7 +10904,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.199Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.851Z"
     },
     {
       "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
@@ -10921,7 +10921,7 @@
       ],
       "schemaUrl": "https://huggingface.co/prithivMLmods/Gender-Classifier-Mini",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.240Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.898Z"
     },
     {
       "id": "huggingface/laion/clap-htsat-fused",
@@ -10938,7 +10938,7 @@
       ],
       "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.326Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.998Z"
     },
     {
       "id": "huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender",
@@ -10955,7 +10955,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.361Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.041Z"
     },
     {
       "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
@@ -10972,7 +10972,7 @@
       ],
       "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.400Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.084Z"
     }
   ]
 }

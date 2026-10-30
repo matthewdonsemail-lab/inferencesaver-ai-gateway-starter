@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-10-30T12:25:37.531Z",
+  "generatedAt": "2026-10-30T22:03:56.548Z",
   "capabilities": [
     {
       "id": "huggingface/Comfy-Org/Qwen-Image-2.1",
@@ -17,7 +17,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.511Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.882Z"
     },
     {
       "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
@@ -34,7 +34,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.549Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.928Z"
     },
     {
       "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
@@ -51,7 +51,7 @@
       ],
       "schemaUrl": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.588Z"
+      "lastSyncedAt": "2026-10-30T22:03:51.971Z"
     },
     {
       "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
@@ -69,7 +69,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.677Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.081Z"
     },
     {
       "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
@@ -87,7 +87,7 @@
       ],
       "schemaUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.717Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.131Z"
     },
     {
       "id": "huggingface/black-forest-labs/FLUX.2-klein-base-4B",
@@ -105,7 +105,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.756Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.176Z"
     },
     {
       "id": "huggingface/Comfy-Org/Wan-2.2",
@@ -123,7 +123,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Wan-2.2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.832Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.268Z"
     },
     {
       "id": "huggingface/Lightricks/LTX-2.5",
@@ -141,7 +141,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Lightricks/LTX-2.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.870Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.318Z"
     },
     {
       "id": "huggingface/comfyicu/LTX-2.5",
@@ -159,7 +159,7 @@
       ],
       "schemaUrl": "https://huggingface.co/comfyicu/LTX-2.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.908Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.362Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-TI2V-5B-GGUF",
@@ -176,7 +176,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:33.996Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.455Z"
     },
     {
       "id": "huggingface/unsloth/Wan2.2-TI2V-5B-GGUF",
@@ -193,7 +193,7 @@
       ],
       "schemaUrl": "https://huggingface.co/unsloth/Wan2.2-TI2V-5B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.034Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.501Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
@@ -210,7 +210,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.074Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.544Z"
     },
     {
       "id": "huggingface/numz/SeedVR2_comfyUI",
@@ -228,7 +228,7 @@
       ],
       "schemaUrl": "https://huggingface.co/numz/SeedVR2_comfyUI",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.150Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.634Z"
     },
     {
       "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
@@ -246,7 +246,7 @@
       ],
       "schemaUrl": "https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.189Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.677Z"
     },
     {
       "id": "huggingface/Wan-AI/Wan2.2-Animate-14B",
@@ -264,7 +264,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.230Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.727Z"
     },
     {
       "id": "huggingface/hexgrad/Kokoro-82M",
@@ -281,7 +281,7 @@
       ],
       "schemaUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.313Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.825Z"
     },
     {
       "id": "huggingface/audio-cpp/audio.cpp-gguf",
@@ -298,7 +298,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/audio.cpp-gguf",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.350Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.869Z"
     },
     {
       "id": "huggingface/coqui/XTTS-v2",
@@ -315,7 +315,7 @@
       ],
       "schemaUrl": "https://huggingface.co/coqui/XTTS-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.387Z"
+      "lastSyncedAt": "2026-10-30T22:03:52.913Z"
     },
     {
       "id": "huggingface/facebook/musicgen-medium",
@@ -332,7 +332,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/musicgen-medium",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.469Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.006Z"
     },
     {
       "id": "huggingface/Comfy-Org/ACE-Step-1.5",
@@ -349,7 +349,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/ACE-Step-1.5",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.542Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.047Z"
     },
     {
       "id": "huggingface/audio-cpp/MiniMax-Music3-GGUF",
@@ -366,7 +366,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audio-cpp/MiniMax-Music3-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.581Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.087Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
@@ -383,7 +383,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_22khz_80band_256x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.673Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.187Z"
     },
     {
       "id": "huggingface/nvidia/bigvgan_v2_44khz_128band_512x",
@@ -400,7 +400,7 @@
       ],
       "schemaUrl": "https://huggingface.co/nvidia/bigvgan_v2_44khz_128band_512x",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.712Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.233Z"
     },
     {
       "id": "huggingface/Aratako/MioCodec-25Hz-44.1kHz-v2",
@@ -417,7 +417,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Aratako/MioCodec-25Hz-44.1kHz-v2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.750Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.282Z"
     },
     {
       "id": "huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
@@ -434,7 +434,7 @@
       ],
       "schemaUrl": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.834Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.412Z"
     },
     {
       "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -451,7 +451,7 @@
       ],
       "schemaUrl": "https://huggingface.co/argmaxinc/whisperkit-coreml",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.873Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.458Z"
     },
     {
       "id": "huggingface/pyannote/speaker-diarization-3.1",
@@ -468,7 +468,7 @@
       ],
       "schemaUrl": "https://huggingface.co/pyannote/speaker-diarization-3.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.912Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.509Z"
     },
     {
       "id": "huggingface/ZhengPeng7/BiRefNet",
@@ -485,7 +485,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:34.991Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.610Z"
     },
     {
       "id": "huggingface/CIDAS/clipseg-rd64-refined",
@@ -502,7 +502,7 @@
       ],
       "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.038Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.655Z"
     },
     {
       "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
@@ -519,7 +519,7 @@
       ],
       "schemaUrl": "https://huggingface.co/facebook/mask2former-swin-large-ade-semantic",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.072Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.700Z"
     },
     {
       "id": "huggingface/google/vit-base-patch16-224",
@@ -536,7 +536,7 @@
       ],
       "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.157Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.804Z"
     },
     {
       "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
@@ -553,7 +553,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.199Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.851Z"
     },
     {
       "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
@@ -570,7 +570,7 @@
       ],
       "schemaUrl": "https://huggingface.co/prithivMLmods/Gender-Classifier-Mini",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.240Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.898Z"
     },
     {
       "id": "huggingface/laion/clap-htsat-fused",
@@ -587,7 +587,7 @@
       ],
       "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.326Z"
+      "lastSyncedAt": "2026-10-30T22:03:53.998Z"
     },
     {
       "id": "huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender",
@@ -604,7 +604,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.361Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.041Z"
     },
     {
       "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
@@ -621,7 +621,7 @@
       ],
       "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
       "source": "huggingface",
-      "lastSyncedAt": "2026-10-30T12:25:35.400Z"
+      "lastSyncedAt": "2026-10-30T22:03:54.084Z"
     }
   ],
   "count": 36
