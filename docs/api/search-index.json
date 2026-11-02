@@ -2184,12 +2184,12 @@
     "tokens": "stabilityai/stable-diffusion-xl-base-1.0 huggingface/stabilityai/stable-diffusion-xl-base-1.0 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-    "name": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "id": "huggingface/Comfy-Org/Krea-2",
+    "name": "Comfy-Org/Krea-2",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "abenzerps/qwen-image-2.1-uncensored-quantized huggingface/abenzerps/qwen-image-2.1-uncensored-quantized huggingface image_generation image   "
+    "tokens": "comfy-org/krea-2 huggingface/comfy-org/krea-2 huggingface image_generation image   "
   },
   {
     "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
@@ -2280,12 +2280,12 @@
     "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/Wan-AI/Wan2.2-Animate-14B",
-    "name": "Wan-AI/Wan2.2-Animate-14B",
+    "id": "huggingface/Efficient-Large-Model/Open-H3-Regenerate-2K",
+    "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "wan-ai/wan2.2-animate-14b huggingface/wan-ai/wan2.2-animate-14b huggingface video_generation video   "
+    "tokens": "efficient-large-model/open-h3-regenerate-2k huggingface/efficient-large-model/open-h3-regenerate-2k huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
