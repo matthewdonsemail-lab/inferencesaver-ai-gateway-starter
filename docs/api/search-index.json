@@ -1520,12 +1520,12 @@
     "tokens": "zeroscope-v2-xl replicate/anotherjesse/zeroscope-v2-xl replicate video_generation video   "
   },
   {
-    "id": "replicate/deforum/deforum_stable_diffusion",
-    "name": "deforum_stable_diffusion",
+    "id": "replicate/minimax/h3-highspeed",
+    "name": "h3-highspeed",
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "deforum_stable_diffusion replicate/deforum/deforum_stable_diffusion replicate video_generation video   "
+    "tokens": "h3-highspeed replicate/minimax/h3-highspeed replicate video_generation video 21:9 16:9 4:3 1:1 3:4 9:16  "
   },
   {
     "id": "replicate/ali-vilab/i2vgen-xl",
@@ -1536,12 +1536,12 @@
     "tokens": "i2vgen-xl replicate/ali-vilab/i2vgen-xl replicate video_generation video   "
   },
   {
-    "id": "replicate/andreasjansson/stable-diffusion-animation",
-    "name": "stable-diffusion-animation",
+    "id": "replicate/minimax/h3-lite",
+    "name": "h3-lite",
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "stable-diffusion-animation replicate/andreasjansson/stable-diffusion-animation replicate video_generation video   gif mp4"
+    "tokens": "h3-lite replicate/minimax/h3-lite replicate video_generation video 21:9 16:9 4:3 1:1 3:4 9:16 480p 768p "
   },
   {
     "id": "replicate/zsxkib/animatediff-prompt-travel",
