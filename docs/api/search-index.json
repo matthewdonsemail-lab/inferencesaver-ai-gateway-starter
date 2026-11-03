@@ -2240,20 +2240,20 @@
     "tokens": "comfyicu/ltx-2.5 huggingface/comfyicu/ltx-2.5 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/QuantStack/Wan2.2-TI2V-5B-GGUF",
-    "name": "QuantStack/Wan2.2-TI2V-5B-GGUF",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "quantstack/wan2.2-ti2v-5b-gguf huggingface/quantstack/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
     "name": "QuantStack/Wan2.2-T2V-A14B-GGUF",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "quantstack/wan2.2-t2v-a14b-gguf huggingface/quantstack/wan2.2-t2v-a14b-gguf huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/QuantStack/Wan2.2-TI2V-5B-GGUF",
+    "name": "QuantStack/Wan2.2-TI2V-5B-GGUF",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "quantstack/wan2.2-ti2v-5b-gguf huggingface/quantstack/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/unsloth/Wan2.2-TI2V-5B-GGUF",
@@ -2272,20 +2272,20 @@
     "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
   },
   {
-    "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
-    "name": "QuantStack/Wan2.2-Animate-14B-GGUF",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/Efficient-Large-Model/Open-H3-Regenerate-2K",
     "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "efficient-large-model/open-h3-regenerate-2k huggingface/efficient-large-model/open-h3-regenerate-2k huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
+    "name": "QuantStack/Wan2.2-Animate-14B-GGUF",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "quantstack/wan2.2-animate-14b-gguf huggingface/quantstack/wan2.2-animate-14b-gguf huggingface video_generation video   "
   },
   {
     "id": "huggingface/hexgrad/Kokoro-82M",
@@ -2392,20 +2392,20 @@
     "tokens": "zhengpeng7/birefnet huggingface/zhengpeng7/birefnet huggingface image_generation image   "
   },
   {
-    "id": "huggingface/CIDAS/clipseg-rd64-refined",
-    "name": "CIDAS/clipseg-rd64-refined",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
     "name": "facebook/mask2former-swin-large-ade-semantic",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/CIDAS/clipseg-rd64-refined",
+    "name": "CIDAS/clipseg-rd64-refined",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
   },
   {
     "id": "huggingface/google/vit-base-patch16-224",
