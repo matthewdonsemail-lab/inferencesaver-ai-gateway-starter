@@ -2400,12 +2400,12 @@
     "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
   },
   {
-    "id": "huggingface/CIDAS/clipseg-rd64-refined",
-    "name": "CIDAS/clipseg-rd64-refined",
+    "id": "huggingface/mattmdjaga/segformer_b2_clothes",
+    "name": "mattmdjaga/segformer_b2_clothes",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
+    "tokens": "mattmdjaga/segformer_b2_clothes huggingface/mattmdjaga/segformer_b2_clothes huggingface image_generation image   "
   },
   {
     "id": "huggingface/google/vit-base-patch16-224",
