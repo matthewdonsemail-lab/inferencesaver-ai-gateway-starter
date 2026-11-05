@@ -509,7 +509,7 @@
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21  "
+    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p "
   },
   {
     "id": "replicate/bytedance/seedance-1-lite",
@@ -904,6 +904,14 @@
     "tokens": "ideogram-4-5 replicate/ideogram-ai/ideogram-4-5 replicate image_generation image 1:1 10:7 7:10 7:4 4:7 12:5 5:12 very_low low medium high "
   },
   {
+    "id": "replicate/openai/gpt-image-2.6-flare",
+    "name": "gpt-image-2.6-flare",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "gpt-image-2.6-flare replicate/openai/gpt-image-2.6-flare replicate image_generation image 1:1 3:2 2:3 4:3 3:4 16:9 9:16 auto low medium high xhigh max auto png jpeg webp gif svg"
+  },
+  {
     "id": "replicate/recraft-ai/recraft-v4-pro-svg",
     "name": "recraft-v4-pro-svg",
     "provider": "replicate",
@@ -918,6 +926,14 @@
     "modality": "image",
     "capability": "image_generation",
     "tokens": "nano-banana-pro replicate/google/nano-banana-pro replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9 1k 2k 4k jpg png"
+  },
+  {
+    "id": "replicate/openai/gpt-image-2.6-sunburst",
+    "name": "gpt-image-2.6-sunburst",
+    "provider": "replicate",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "gpt-image-2.6-sunburst replicate/openai/gpt-image-2.6-sunburst replicate image_generation image 1:1 3:2 2:3 4:3 3:4 16:9 9:16 auto low medium high xhigh max auto png jpeg webp gif svg"
   },
   {
     "id": "replicate/prunaai/p-image-lora",
