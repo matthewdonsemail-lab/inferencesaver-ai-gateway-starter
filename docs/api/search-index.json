@@ -2416,12 +2416,12 @@
     "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
   },
   {
-    "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
-    "name": "facebook/mask2former-swin-large-ade-semantic",
+    "id": "huggingface/mattmdjaga/segformer_b2_clothes",
+    "name": "mattmdjaga/segformer_b2_clothes",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
+    "tokens": "mattmdjaga/segformer_b2_clothes huggingface/mattmdjaga/segformer_b2_clothes huggingface image_generation image   "
   },
   {
     "id": "huggingface/google/vit-base-patch16-224",
