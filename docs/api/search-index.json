@@ -144,22 +144,6 @@
     "tokens": "wan-2.7-i2v replicate/wan-video/wan-2.7-i2v replicate video_generation video  720p 1080p "
   },
   {
-    "id": "replicate/google/veo-3-fast",
-    "name": "veo-3-fast",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "veo-3-fast replicate/google/veo-3-fast replicate video_generation video 16:9 9:16 720p 1080p "
-  },
-  {
-    "id": "replicate/google/veo-3",
-    "name": "veo-3",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "veo-3 replicate/google/veo-3 replicate video_generation video 16:9 9:16 720p 1080p "
-  },
-  {
     "id": "replicate/open-mmlab/pia",
     "name": "pia",
     "provider": "replicate",
@@ -360,14 +344,6 @@
     "tokens": "seedance-2.0-fast replicate/bytedance/seedance-2.0-fast replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p "
   },
   {
-    "id": "replicate/google/veo-2",
-    "name": "veo-2",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "veo-2 replicate/google/veo-2 replicate video_generation video 16:9 9:16  "
-  },
-  {
     "id": "replicate/leonardoai/motion-2.0",
     "name": "motion-2.0",
     "provider": "replicate",
@@ -384,28 +360,12 @@
     "tokens": "pixverse-v6-max replicate/pixverse/pixverse-v6-max replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
   },
   {
-    "id": "replicate/kwaivgi/kling-v2.0",
-    "name": "kling-v2.0",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "kling-v2.0 replicate/kwaivgi/kling-v2.0 replicate video_generation video 16:9 9:16 1:1  "
-  },
-  {
     "id": "replicate/prunaai/p-video-2-pro-reference",
     "name": "p-video-2-pro-reference",
     "provider": "replicate",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "p-video-2-pro-reference replicate/prunaai/p-video-2-pro-reference replicate video_generation video 16:9 9:16 4:3 3:4 3:2 2:3 1:1 768p 480p 1080p 2k 4k "
-  },
-  {
-    "id": "replicate/kwaivgi/kling-v2.1",
-    "name": "kling-v2.1",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "kling-v2.1 replicate/kwaivgi/kling-v2.1 replicate video_generation video  standard pro "
   },
   {
     "id": "replicate/minimax/video-01-live",
@@ -616,22 +576,6 @@
     "tokens": "hidream-l1-full replicate/prunaai/hidream-l1-full replicate image_generation image  unsqueezed 🍋 (highest quality) lightly juiced 🍊 (more consistent) juiced 🔥 (more speed) extra juiced 🚀 (even more speed) png jpg webp"
   },
   {
-    "id": "replicate/google/imagen-4-fast",
-    "name": "imagen-4-fast",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "imagen-4-fast replicate/google/imagen-4-fast replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
-  },
-  {
-    "id": "replicate/google/imagen-4-ultra",
-    "name": "imagen-4-ultra",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "imagen-4-ultra replicate/google/imagen-4-ultra replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
-  },
-  {
     "id": "replicate/nvidia/sana-sprint-1.6b",
     "name": "sana-sprint-1.6b",
     "provider": "replicate",
@@ -704,14 +648,6 @@
     "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9  "
   },
   {
-    "id": "replicate/google/imagen-4",
-    "name": "imagen-4",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "imagen-4 replicate/google/imagen-4 replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
-  },
-  {
     "id": "replicate/black-forest-labs/flux-kontext-pro",
     "name": "flux-kontext-pro",
     "provider": "replicate",
@@ -750,22 +686,6 @@
     "modality": "image",
     "capability": "image_generation",
     "tokens": "wan-2.7-image replicate/wan-video/wan-2.7-image replicate image_generation image   "
-  },
-  {
-    "id": "replicate/google/imagen-3",
-    "name": "imagen-3",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "imagen-3 replicate/google/imagen-3 replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
-  },
-  {
-    "id": "replicate/google/imagen-3-fast",
-    "name": "imagen-3-fast",
-    "provider": "replicate",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "imagen-3-fast replicate/google/imagen-3-fast replicate image_generation image 1:1 9:16 16:9 3:4 4:3  jpg png"
   },
   {
     "id": "replicate/black-forest-labs/flux-2-klein-4b",
@@ -1320,14 +1240,6 @@
     "tokens": "wan-2.1-t2v-480p replicate/wavespeedai/wan-2.1-t2v-480p replicate video_generation video 16:9 9:16 off balanced fast "
   },
   {
-    "id": "replicate/wavespeedai/hunyuan-video-fast",
-    "name": "hunyuan-video-fast",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "hunyuan-video-fast replicate/wavespeedai/hunyuan-video-fast replicate video_generation video   "
-  },
-  {
     "id": "replicate/meta/sam-2-video",
     "name": "sam-2-video",
     "provider": "replicate",
@@ -1350,14 +1262,6 @@
     "modality": "video",
     "capability": "video_generation",
     "tokens": "tile-morph replicate/andreasjansson/tile-morph replicate video_generation video   "
-  },
-  {
-    "id": "replicate/fofr/video-morpher",
-    "name": "video-morpher",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "video-morpher replicate/fofr/video-morpher replicate video_generation video 16:9 4:3 3:2 1:1 2:3 3:4 9:16 small medium upscaled upscaled-and-interpolated "
   },
   {
     "id": "replicate/zsxkib/hunyuan-video2video",
@@ -1438,22 +1342,6 @@
     "modality": "video",
     "capability": "video_generation",
     "tokens": "pixverse-v6 replicate/pixverse/pixverse-v6 replicate video_generation video 16:9 9:16 1:1 360p 540p 720p 1080p "
-  },
-  {
-    "id": "replicate/openai/sora-2",
-    "name": "sora-2",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "sora-2 replicate/openai/sora-2 replicate video_generation video   "
-  },
-  {
-    "id": "replicate/openai/sora-2-pro",
-    "name": "sora-2-pro",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "sora-2-pro replicate/openai/sora-2-pro replicate video_generation video  standard high "
   },
   {
     "id": "replicate/pixverse/pixverse-v5",
@@ -1664,6 +1552,14 @@
     "tokens": "cogvideox-5b replicate/cuuupid/cogvideox-5b replicate video_generation video   "
   },
   {
+    "id": "replicate/fofr/video-morpher",
+    "name": "video-morpher",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "video-morpher replicate/fofr/video-morpher replicate video_generation video 16:9 4:3 3:2 1:1 2:3 3:4 9:16 small medium upscaled upscaled-and-interpolated "
+  },
+  {
     "id": "replicate/google/gemini-3.8-flash-tts",
     "name": "gemini-3.8-flash-tts",
     "provider": "replicate",
@@ -1728,14 +1624,6 @@
     "tokens": "pheme replicate/lucataco/pheme replicate audio_generation audio   "
   },
   {
-    "id": "replicate/awerks/neon-tts",
-    "name": "neon-tts",
-    "provider": "replicate",
-    "modality": "audio",
-    "capability": "audio_generation",
-    "tokens": "neon-tts replicate/awerks/neon-tts replicate audio_generation audio   "
-  },
-  {
     "id": "replicate/cjwbw/parler-tts",
     "name": "parler-tts",
     "provider": "replicate",
@@ -1750,14 +1638,6 @@
     "modality": "audio",
     "capability": "audio_generation",
     "tokens": "voicecraft replicate/cjwbw/voicecraft replicate audio_generation audio   "
-  },
-  {
-    "id": "replicate/camenduru/metavoice",
-    "name": "metavoice",
-    "provider": "replicate",
-    "modality": "audio",
-    "capability": "audio_generation",
-    "tokens": "metavoice replicate/camenduru/metavoice replicate audio_generation audio   "
   },
   {
     "id": "replicate/zsxkib/dia",
@@ -1958,6 +1838,14 @@
     "modality": "audio",
     "capability": "audio_generation",
     "tokens": "bark replicate/suno-ai/bark replicate audio_generation audio   "
+  },
+  {
+    "id": "replicate/awerks/neon-tts",
+    "name": "neon-tts",
+    "provider": "replicate",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "neon-tts replicate/awerks/neon-tts replicate audio_generation audio   "
   },
   {
     "id": "replicate/cjwbw/seamless_communication",
