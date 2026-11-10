@@ -661,7 +661,7 @@
     "provider": "replicate",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9  "
+    "tokens": "image-3.2 replicate/bria/image-3.2 replicate image_generation image none 1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9  "
   },
   {
     "id": "replicate/black-forest-labs/flux-kontext-pro",
