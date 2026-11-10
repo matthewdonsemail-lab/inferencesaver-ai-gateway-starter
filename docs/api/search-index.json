@@ -2184,20 +2184,20 @@
     "tokens": "unsloth/wan2.2-ti2v-5b-gguf huggingface/unsloth/wan2.2-ti2v-5b-gguf huggingface video_generation video   "
   },
   {
-    "id": "huggingface/numz/SeedVR2_comfyUI",
-    "name": "numz/SeedVR2_comfyUI",
-    "provider": "huggingface",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
-  },
-  {
     "id": "huggingface/Efficient-Large-Model/Open-H3-Regenerate-2K",
     "name": "Efficient-Large-Model/Open-H3-Regenerate-2K",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
     "tokens": "efficient-large-model/open-h3-regenerate-2k huggingface/efficient-large-model/open-h3-regenerate-2k huggingface video_generation video   "
+  },
+  {
+    "id": "huggingface/numz/SeedVR2_comfyUI",
+    "name": "numz/SeedVR2_comfyUI",
+    "provider": "huggingface",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "numz/seedvr2_comfyui huggingface/numz/seedvr2_comfyui huggingface video_generation video   "
   },
   {
     "id": "huggingface/QuantStack/Wan2.2-Animate-14B-GGUF",
