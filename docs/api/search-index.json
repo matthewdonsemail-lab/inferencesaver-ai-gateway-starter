@@ -136,6 +136,22 @@
     "tokens": "gpt-4o mini tts voice inferencesaver/gpt-4o-mini-tts-voice inferencesaver audio_generation audio  standard hd mp3 wav"
   },
   {
+    "id": "replicate/google/gemini-omni-1.2-flash",
+    "name": "gemini-omni-1.2-flash",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "gemini-omni-1.2-flash replicate/google/gemini-omni-1.2-flash replicate video_generation video 16:9 9:16 360p 720p 1080p 4k "
+  },
+  {
+    "id": "replicate/kwaivgi/kling-v4-flash",
+    "name": "kling-v4-flash",
+    "provider": "replicate",
+    "modality": "video",
+    "capability": "video_generation",
+    "tokens": "kling-v4-flash replicate/kwaivgi/kling-v4-flash replicate video_generation video 16:9 9:16 1:1 21:9  "
+  },
+  {
     "id": "replicate/wan-video/wan-2.7-i2v",
     "name": "wan-2.7-i2v",
     "provider": "replicate",
