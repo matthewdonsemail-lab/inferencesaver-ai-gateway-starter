@@ -424,14 +424,6 @@
     "tokens": "p-video-2-pro-avatar replicate/prunaai/p-video-2-pro-avatar replicate video_generation video  480p 768p 1080p 2k 4k "
   },
   {
-    "id": "replicate/kwaivgi/kling-v2.1-master",
-    "name": "kling-v2.1-master",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "kling-v2.1-master replicate/kwaivgi/kling-v2.1-master replicate video_generation video 16:9 9:16 1:1  "
-  },
-  {
     "id": "replicate/kwaivgi/kling-v3-video",
     "name": "kling-v3-video",
     "provider": "replicate",
@@ -478,14 +470,6 @@
     "modality": "video",
     "capability": "video_generation",
     "tokens": "grok-imagine-video replicate/xai/grok-imagine-video replicate video_generation video auto 16:9 4:3 1:1 9:16 3:4 3:2 2:3 720p 480p "
-  },
-  {
-    "id": "replicate/bytedance/seedance-1.5-pro",
-    "name": "seedance-1.5-pro",
-    "provider": "replicate",
-    "modality": "video",
-    "capability": "video_generation",
-    "tokens": "seedance-1.5-pro replicate/bytedance/seedance-1.5-pro replicate video_generation video 16:9 4:3 1:1 3:4 9:16 21:9 9:21 480p 720p 1080p "
   },
   {
     "id": "replicate/bytedance/seedance-1-lite",
