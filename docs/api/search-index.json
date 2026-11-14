@@ -2136,12 +2136,12 @@
     "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/comfyicu/LTX-2.5",
-    "name": "comfyicu/LTX-2.5",
+    "id": "huggingface/WarmBloodAban/Minimax-h3_Singularity",
+    "name": "WarmBloodAban/Minimax-h3_Singularity",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "comfyicu/ltx-2.5 huggingface/comfyicu/ltx-2.5 huggingface video_generation video   "
+    "tokens": "warmbloodaban/minimax-h3_singularity huggingface/warmbloodaban/minimax-h3_singularity huggingface video_generation video   "
   },
   {
     "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
