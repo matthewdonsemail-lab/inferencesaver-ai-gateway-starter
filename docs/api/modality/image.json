@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-11-15T13:41:35.175Z",
+  "generatedAt": "2026-11-15T22:37:54.997Z",
   "capabilities": [
     {
       "id": "inferencesaver/agnes-image-2.1-flash",
@@ -84,6 +84,5723 @@
       "source": "inferencesaver"
     },
     {
+      "id": "replicate/ideogram-ai/ideogram-v2a",
+      "name": "ideogram-v2a",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2a-turbo",
+      "name": "ideogram-v2a-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2a-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2a-turbo/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2a-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/minimax/image-01",
+      "name": "image-01",
+      "provider": "replicate",
+      "modelId": "minimax/image-01",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "4:3",
+        "3:2",
+        "2:3",
+        "3:4",
+        "9:16",
+        "21:9"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/minimax/image-01/predictions",
+      "schemaUrl": "https://replicate.com/minimax/image-01",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-3",
+      "name": "seedream-3",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "16:9",
+        "9:16",
+        "2:3",
+        "3:2",
+        "21:9",
+        "custom"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-3/predictions",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/luma/photon",
+      "name": "photon",
+      "provider": "replicate",
+      "modelId": "luma/photon",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon/predictions",
+      "schemaUrl": "https://replicate.com/luma/photon",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/luma/photon-flash",
+      "name": "photon-flash",
+      "provider": "replicate",
+      "modelId": "luma/photon-flash",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "9:21",
+        "21:9"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/luma/photon-flash/predictions",
+      "schemaUrl": "https://replicate.com/luma/photon-flash",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-full",
+      "name": "hidream-l1-full",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-full",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-full/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-full",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/nvidia/sana-sprint-1.6b",
+      "name": "sana-sprint-1.6b",
+      "provider": "replicate",
+      "modelId": "nvidia/sana-sprint-1.6b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "maxDurationSeconds": 1.5,
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana-sprint-1.6b/predictions",
+      "schemaUrl": "https://replicate.com/nvidia/sana-sprint-1.6b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-dev",
+      "name": "hidream-l1-dev",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-dev/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-dev",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.247Z"
+    },
+    {
+      "id": "replicate/prunaai/hidream-l1-fast",
+      "name": "hidream-l1-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/hidream-l1-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "generationModes": [
+        "Unsqueezed 🍋 (highest quality)",
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (more speed)",
+        "Extra Juiced 🚀 (even more speed)"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/hidream-l1-fast/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/hidream-l1-fast",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/prunaai/flux-fast",
+      "name": "flux-fast",
+      "provider": "replicate",
+      "modelId": "prunaai/flux-fast",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (default)",
+        "Extra Juiced 🔥 (more speed)",
+        "Blink of an eye 👁️"
+      ],
+      "generationModes": [
+        "Lightly Juiced 🍊 (more consistent)",
+        "Juiced 🔥 (default)",
+        "Extra Juiced 🔥 (more speed)",
+        "Blink of an eye 👁️"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/flux-fast/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/flux-fast",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/prunaai/sdxl-lightning",
+      "name": "sdxl-lightning",
+      "provider": "replicate",
+      "modelId": "prunaai/sdxl-lightning",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/sdxl-lightning/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/sdxl-lightning",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-quality",
+      "name": "ideogram-v3-quality",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-quality",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-quality/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-quality",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-balanced",
+      "name": "ideogram-v3-balanced",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-balanced",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-balanced/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-balanced",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev-lora",
+      "name": "flux-dev-lora",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev-lora/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev-lora",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/bria/image-3.2",
+      "name": "image-3.2",
+      "provider": "replicate",
+      "modelId": "bria/image-3.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "none",
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/image-3.2/predictions",
+      "schemaUrl": "https://replicate.com/bria/image-3.2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-pro",
+      "name": "flux-kontext-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-pro/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-kontext-max",
+      "name": "flux-kontext-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-kontext-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-kontext-max/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-kontext-max",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/prunaai/wan-2.2-image",
+      "name": "wan-2.2-image",
+      "provider": "replicate",
+      "modelId": "prunaai/wan-2.2-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "21:9"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/wan-2.2-image/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/wan-2.2-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/google/nano-banana",
+      "name": "nano-banana",
+      "provider": "replicate",
+      "modelId": "google/nano-banana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana/predictions",
+      "schemaUrl": "https://replicate.com/google/nano-banana",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image",
+      "name": "wan-2.7-image",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image/predictions",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-klein-4b",
+      "name": "flux-2-klein-4b",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-klein-4b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "5:4",
+        "4:5",
+        "21:9",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-klein-4b/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-klein-4b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/bria/fibo",
+      "name": "fibo",
+      "provider": "replicate",
+      "modelId": "bria/fibo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bria/fibo/predictions",
+      "schemaUrl": "https://replicate.com/bria/fibo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/tencent/hunyuan-image-3",
+      "name": "hunyuan-image-3",
+      "provider": "replicate",
+      "modelId": "tencent/hunyuan-image-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tencent/hunyuan-image-3/predictions",
+      "schemaUrl": "https://replicate.com/tencent/hunyuan-image-3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/krea/krea-3",
+      "name": "krea-3",
+      "provider": "replicate",
+      "modelId": "krea/krea-3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "fast",
+        "high"
+      ],
+      "aspectRatios": [
+        "auto",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16",
+        "5:4",
+        "4:3",
+        "3:2",
+        "16:9",
+        "21:9"
+      ],
+      "generationModes": [
+        "fast",
+        "high"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/krea/krea-3/predictions",
+      "schemaUrl": "https://replicate.com/krea/krea-3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4",
+      "name": "seedream-4",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "auto"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4/predictions",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-4",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/prunaai/z-image-turbo",
+      "name": "z-image-turbo",
+      "provider": "replicate",
+      "modelId": "prunaai/z-image-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "png",
+        "jpg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/z-image-turbo/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/z-image-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/leonardoai/lucid-origin",
+      "name": "lucid-origin",
+      "provider": "replicate",
+      "modelId": "leonardoai/lucid-origin",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "2:1",
+        "1:2",
+        "3:1",
+        "1:3"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/leonardoai/lucid-origin/predictions",
+      "schemaUrl": "https://replicate.com/leonardoai/lucid-origin",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/wan-video/wan-2.7-image-pro",
+      "name": "wan-2.7-image-pro",
+      "provider": "replicate",
+      "modelId": "wan-video/wan-2.7-image-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/wan-video/wan-2.7-image-pro/predictions",
+      "schemaUrl": "https://replicate.com/wan-video/wan-2.7-image-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro",
+      "name": "recraft-v4-pro",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "4:5",
+        "5:4",
+        "6:10",
+        "14:10",
+        "10:14"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 3072,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 3072
+        },
+        {
+          "width": 2560,
+          "height": 1664
+        },
+        {
+          "width": 1664,
+          "height": 2560
+        },
+        {
+          "width": 2432,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2432
+        },
+        {
+          "width": 2304,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2304
+        },
+        {
+          "width": 1664,
+          "height": 2688
+        },
+        {
+          "width": 2560,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2560
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.248Z"
+    },
+    {
+      "id": "replicate/xai/grok-imagine-image",
+      "name": "grok-imagine-image",
+      "provider": "replicate",
+      "modelId": "xai/grok-imagine-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "2:1",
+        "1:2",
+        "20:9",
+        "9:20",
+        "auto"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/xai/grok-imagine-image/predictions",
+      "schemaUrl": "https://replicate.com/xai/grok-imagine-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-5-lite",
+      "name": "seedream-5-lite",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-5-lite",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "auto"
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-5-lite/predictions",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-5-lite",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-2",
+      "name": "gpt-image-2",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "auto"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "auto"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "width": 2160,
+          "height": 3840
+        }
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2/predictions",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-svg",
+      "name": "recraft-v4-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "14:10",
+        "10:14",
+        "4:5",
+        "5:4",
+        "6:10"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1536
+        },
+        {
+          "width": 1280,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 1280
+        },
+        {
+          "width": 1216,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1216
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1344
+        },
+        {
+          "width": 1280,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1280
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1344
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-svg/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-svg",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/sourceful/riverflow-2.0-pro",
+      "name": "riverflow-2.0-pro",
+      "provider": "replicate",
+      "modelId": "sourceful/riverflow-2.0-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "auto",
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16"
+      ],
+      "outputFormats": [
+        "webp",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sourceful/riverflow-2.0-pro/predictions",
+      "schemaUrl": "https://replicate.com/sourceful/riverflow-2.0-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/bytedance/seedream-4.5",
+      "name": "seedream-4.5",
+      "provider": "replicate",
+      "modelId": "bytedance/seedream-4.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "auto"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/seedream-4.5/predictions",
+      "schemaUrl": "https://replicate.com/bytedance/seedream-4.5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-styles-pro-svg",
+      "name": "recraft-v4-styles-pro-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-styles-pro-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "4:5",
+        "5:4",
+        "6:10",
+        "14:10",
+        "10:14"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 3072,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 3072
+        },
+        {
+          "width": 2560,
+          "height": 1664
+        },
+        {
+          "width": 1664,
+          "height": 2560
+        },
+        {
+          "width": 2432,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2432
+        },
+        {
+          "width": 2304,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2304
+        },
+        {
+          "width": 1664,
+          "height": 2688
+        },
+        {
+          "width": 2560,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2560
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-styles-pro-svg/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-styles-pro-svg",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-4-5",
+      "name": "ideogram-4-5",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-4-5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "10:7",
+        "7:10",
+        "7:4",
+        "4:7",
+        "12:5",
+        "5:12"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1280,
+          "height": 896
+        },
+        {
+          "width": 896,
+          "height": 1280
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 1536,
+          "height": 640
+        },
+        {
+          "width": 640,
+          "height": 1536
+        }
+      ],
+      "qualityOptions": [
+        "very_low",
+        "low",
+        "medium",
+        "high"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-4-5/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-4-5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-2.6-flare",
+      "name": "gpt-image-2.6-flare",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-2.6-flare",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max",
+        "auto"
+      ],
+      "generationModes": [
+        "gpt-5.6-terra",
+        "gpt-6-astra",
+        "gpt-5.5",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "auto"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "width": 2160,
+          "height": 3840
+        }
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp",
+        "gif",
+        "svg"
+      ],
+      "maxDurationSeconds": 2000,
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2.6-flare/predictions",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-2.6-flare",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v4-pro-svg",
+      "name": "recraft-v4-pro-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v4-pro-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "4:5",
+        "5:4",
+        "6:10",
+        "14:10",
+        "10:14"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 3072,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 3072
+        },
+        {
+          "width": 2560,
+          "height": 1664
+        },
+        {
+          "width": 1664,
+          "height": 2560
+        },
+        {
+          "width": 2432,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2432
+        },
+        {
+          "width": 2304,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2304
+        },
+        {
+          "width": 1664,
+          "height": 2688
+        },
+        {
+          "width": 2560,
+          "height": 1792
+        },
+        {
+          "width": 1792,
+          "height": 2560
+        },
+        {
+          "width": 2688,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 2688
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v4-pro-svg/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v4-pro-svg",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-pro",
+      "name": "nano-banana-pro",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-pro/predictions",
+      "schemaUrl": "https://replicate.com/google/nano-banana-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-2.6-sunburst",
+      "name": "gpt-image-2.6-sunburst",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-2.6-sunburst",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max",
+        "auto"
+      ],
+      "generationModes": [
+        "gpt-5.6-terra",
+        "gpt-6-astra",
+        "gpt-5.5",
+        "gpt-5.4",
+        "gpt-6-luna"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "auto"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1536,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "width": 1152,
+          "height": 2048
+        },
+        {
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "width": 2160,
+          "height": 3840
+        }
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp",
+        "gif",
+        "svg"
+      ],
+      "maxDurationSeconds": 2000,
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-2.6-sunburst/predictions",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-2.6-sunburst",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image-lora",
+      "name": "p-image-lora",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "custom"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image-lora/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/p-image-lora",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/quiverai/arrow-1.1-max",
+      "name": "arrow-1.1-max",
+      "provider": "replicate",
+      "modelId": "quiverai/arrow-1.1-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1-max/predictions",
+      "schemaUrl": "https://replicate.com/quiverai/arrow-1.1-max",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/quiverai/arrow-1.1",
+      "name": "arrow-1.1",
+      "provider": "replicate",
+      "modelId": "quiverai/arrow-1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/quiverai/arrow-1.1/predictions",
+      "schemaUrl": "https://replicate.com/quiverai/arrow-1.1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-3-image",
+      "name": "flux-3-image",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-3-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "768sq",
+        "1k",
+        "1.5k",
+        "2k",
+        "4k"
+      ],
+      "aspectRatios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "3:2",
+        "7:5",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "5:7",
+        "2:3",
+        "9:16",
+        "1:2",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-3-image/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-3-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-2.1",
+      "name": "nano-banana-2.1",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-2.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "1:4",
+        "1:8",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:1",
+        "4:3",
+        "4:5",
+        "5:4",
+        "8:1",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2.1/predictions",
+      "schemaUrl": "https://replicate.com/google/nano-banana-2.1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/openai/gpt-image-1.5",
+      "name": "gpt-image-1.5",
+      "provider": "replicate",
+      "modelId": "openai/gpt-image-1.5",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "low",
+        "medium",
+        "high",
+        "auto"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "3:2",
+        "2:3"
+      ],
+      "outputFormats": [
+        "png",
+        "jpeg",
+        "webp"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/openai/gpt-image-1.5/predictions",
+      "schemaUrl": "https://replicate.com/openai/gpt-image-1.5",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2",
+      "name": "kandinsky-2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2/predictions",
+      "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-pro",
+      "name": "flux-2-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-pro/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-flex",
+      "name": "flux-2-flex",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-flex",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-flex/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-flex",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.249Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v3-turbo",
+      "name": "ideogram-v3-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v3-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:3",
+        "3:1",
+        "1:2",
+        "2:1",
+        "9:16",
+        "16:9",
+        "10:16",
+        "16:10",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "1:1"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 800,
+          "height": 1280
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "800x1280",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v3-turbo/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v3-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/google/nano-banana-2",
+      "name": "nano-banana-2",
+      "provider": "replicate",
+      "modelId": "google/nano-banana-2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "1:4",
+        "1:8",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:1",
+        "4:3",
+        "4:5",
+        "5:4",
+        "8:1",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/google/nano-banana-2/predictions",
+      "schemaUrl": "https://replicate.com/google/nano-banana-2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/lucataco/ssd-1b",
+      "name": "ssd-1b",
+      "provider": "replicate",
+      "modelId": "lucataco/ssd-1b",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/ssd-1b/predictions",
+      "schemaUrl": "https://replicate.com/lucataco/ssd-1b",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/comfyui/any-comfyui-workflow",
+      "name": "any-comfyui-workflow",
+      "provider": "replicate",
+      "modelId": "comfyui/any-comfyui-workflow",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/comfyui/any-comfyui-workflow/predictions",
+      "schemaUrl": "https://replicate.com/comfyui/any-comfyui-workflow",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-dev",
+      "name": "flux-dev",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-dev",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-dev/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-dev",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2-turbo",
+      "name": "ideogram-v2-turbo",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2-turbo/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/qwen/qwen-image",
+      "name": "qwen-image",
+      "provider": "replicate",
+      "modelId": "qwen/qwen-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/qwen/qwen-image/predictions",
+      "schemaUrl": "https://replicate.com/qwen/qwen-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/prunaai/p-image",
+      "name": "p-image",
+      "provider": "replicate",
+      "modelId": "prunaai/p-image",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "custom"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/prunaai/p-image/predictions",
+      "schemaUrl": "https://replicate.com/prunaai/p-image",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.3",
+      "name": "proteus-v0.3",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.3/predictions",
+      "schemaUrl": "https://replicate.com/datacte/proteus-v0.3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/ai-forever/kandinsky-2.2",
+      "name": "kandinsky-2.2",
+      "provider": "replicate",
+      "modelId": "ai-forever/kandinsky-2.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpeg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ai-forever/kandinsky-2.2/predictions",
+      "schemaUrl": "https://replicate.com/ai-forever/kandinsky-2.2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-emoji",
+      "name": "sdxl-emoji",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-emoji",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-emoji/predictions",
+      "schemaUrl": "https://replicate.com/fofr/sdxl-emoji",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/bytedance/sdxl-lightning-4step",
+      "name": "sdxl-lightning-4step",
+      "provider": "replicate",
+      "modelId": "bytedance/sdxl-lightning-4step",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/bytedance/sdxl-lightning-4step/predictions",
+      "schemaUrl": "https://replicate.com/bytedance/sdxl-lightning-4step",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/ideogram-ai/ideogram-v2",
+      "name": "ideogram-v2",
+      "provider": "replicate",
+      "modelId": "ideogram-ai/ideogram-v2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:10",
+        "10:16",
+        "3:1",
+        "1:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 1536
+        },
+        {
+          "width": 576,
+          "height": 1408
+        },
+        {
+          "width": 576,
+          "height": 1472
+        },
+        {
+          "width": 576,
+          "height": 1536
+        },
+        {
+          "width": 640,
+          "height": 1344
+        },
+        {
+          "width": 640,
+          "height": 1408
+        },
+        {
+          "width": 640,
+          "height": 1472
+        },
+        {
+          "width": 640,
+          "height": 1536
+        },
+        {
+          "width": 704,
+          "height": 1152
+        },
+        {
+          "width": 704,
+          "height": 1216
+        },
+        {
+          "width": 704,
+          "height": 1280
+        },
+        {
+          "width": 704,
+          "height": 1344
+        },
+        {
+          "width": 704,
+          "height": 1408
+        },
+        {
+          "width": 704,
+          "height": 1472
+        },
+        {
+          "width": 736,
+          "height": 1312
+        },
+        {
+          "width": 768,
+          "height": 1088
+        },
+        {
+          "width": 768,
+          "height": 1216
+        },
+        {
+          "width": 768,
+          "height": 1280
+        },
+        {
+          "width": 768,
+          "height": 1344
+        },
+        {
+          "width": 832,
+          "height": 960
+        },
+        {
+          "width": 832,
+          "height": 1024
+        },
+        {
+          "width": 832,
+          "height": 1088
+        },
+        {
+          "width": 832,
+          "height": 1152
+        },
+        {
+          "width": 832,
+          "height": 1216
+        },
+        {
+          "width": 832,
+          "height": 1248
+        },
+        {
+          "width": 864,
+          "height": 1152
+        },
+        {
+          "width": 896,
+          "height": 960
+        },
+        {
+          "width": 896,
+          "height": 1024
+        },
+        {
+          "width": 896,
+          "height": 1088
+        },
+        {
+          "width": 896,
+          "height": 1120
+        },
+        {
+          "width": 896,
+          "height": 1152
+        },
+        {
+          "width": 960,
+          "height": 832
+        },
+        {
+          "width": 960,
+          "height": 896
+        },
+        {
+          "width": 960,
+          "height": 1024
+        },
+        {
+          "width": 960,
+          "height": 1088
+        },
+        {
+          "width": 1024,
+          "height": 832
+        },
+        {
+          "width": 1024,
+          "height": 896
+        },
+        {
+          "width": 1024,
+          "height": 960
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1088,
+          "height": 768
+        },
+        {
+          "width": 1088,
+          "height": 832
+        },
+        {
+          "width": 1088,
+          "height": 896
+        },
+        {
+          "width": 1088,
+          "height": 960
+        },
+        {
+          "width": 1120,
+          "height": 896
+        },
+        {
+          "width": 1152,
+          "height": 704
+        },
+        {
+          "width": 1152,
+          "height": 832
+        },
+        {
+          "width": 1152,
+          "height": 864
+        },
+        {
+          "width": 1152,
+          "height": 896
+        },
+        {
+          "width": 1216,
+          "height": 704
+        },
+        {
+          "width": 1216,
+          "height": 768
+        },
+        {
+          "width": 1216,
+          "height": 832
+        },
+        {
+          "width": 1248,
+          "height": 832
+        },
+        {
+          "width": 1280,
+          "height": 704
+        },
+        {
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "width": 1312,
+          "height": 736
+        },
+        {
+          "width": 1344,
+          "height": 640
+        },
+        {
+          "width": 1344,
+          "height": 704
+        },
+        {
+          "width": 1344,
+          "height": 768
+        },
+        {
+          "width": 1408,
+          "height": 576
+        },
+        {
+          "width": 1408,
+          "height": 640
+        },
+        {
+          "width": 1408,
+          "height": 704
+        },
+        {
+          "width": 1472,
+          "height": 576
+        },
+        {
+          "width": 1472,
+          "height": 640
+        },
+        {
+          "width": 1472,
+          "height": 704
+        },
+        {
+          "width": 1536,
+          "height": 512
+        },
+        {
+          "width": 1536,
+          "height": 576
+        },
+        {
+          "width": 1536,
+          "height": 640
+        }
+      ],
+      "qualityOptions": [
+        "512x1536",
+        "576x1408",
+        "576x1472",
+        "576x1536",
+        "640x1344",
+        "640x1408",
+        "640x1472",
+        "640x1536",
+        "704x1152",
+        "704x1216",
+        "704x1280",
+        "704x1344",
+        "704x1408",
+        "704x1472",
+        "736x1312",
+        "768x1088",
+        "768x1216",
+        "768x1280",
+        "768x1344",
+        "832x960",
+        "832x1024",
+        "832x1088",
+        "832x1152",
+        "832x1216",
+        "832x1248",
+        "864x1152",
+        "896x960",
+        "896x1024",
+        "896x1088",
+        "896x1120",
+        "896x1152",
+        "960x832",
+        "960x896",
+        "960x1024",
+        "960x1088",
+        "1024x832",
+        "1024x896",
+        "1024x960",
+        "1024x1024",
+        "1088x768",
+        "1088x832",
+        "1088x896",
+        "1088x960",
+        "1120x896",
+        "1152x704",
+        "1152x832",
+        "1152x864",
+        "1152x896",
+        "1216x704",
+        "1216x768",
+        "1216x832",
+        "1248x832",
+        "1280x704",
+        "1280x768",
+        "1280x800",
+        "1312x736",
+        "1344x640",
+        "1344x704",
+        "1344x768",
+        "1408x576",
+        "1408x640",
+        "1408x704",
+        "1472x576",
+        "1472x640",
+        "1472x704",
+        "1536x512",
+        "1536x576",
+        "1536x640"
+      ],
+      "generationModes": [
+        "Auto",
+        "General",
+        "Realistic",
+        "Design",
+        "Render 3D",
+        "Anime"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/ideogram-ai/ideogram-v2/predictions",
+      "schemaUrl": "https://replicate.com/ideogram-ai/ideogram-v2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "name": "realvisxl-v3-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/sdxl-based/realvisxl-v3-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://replicate.com/sdxl-based/realvisxl-v3-multi-controlnet-lora",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.250Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-pro",
+      "name": "flux-pro",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-pro",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-pro/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-pro",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/tstramer/material-diffusion",
+      "name": "material-diffusion",
+      "provider": "replicate",
+      "modelId": "tstramer/material-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/tstramer/material-diffusion/predictions",
+      "schemaUrl": "https://replicate.com/tstramer/material-diffusion",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/fermatresearch/sdxl-controlnet-lora",
+      "name": "sdxl-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fermatresearch/sdxl-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fermatresearch/sdxl-controlnet-lora/predictions",
+      "schemaUrl": "https://replicate.com/fermatresearch/sdxl-controlnet-lora",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/lucataco/realistic-vision-v5.1",
+      "name": "realistic-vision-v5.1",
+      "provider": "replicate",
+      "modelId": "lucataco/realistic-vision-v5.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/predictions",
+      "schemaUrl": "https://replicate.com/lucataco/realistic-vision-v5.1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/stability-ai/sdxl",
+      "name": "sdxl",
+      "provider": "replicate",
+      "modelId": "stability-ai/sdxl",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/sdxl/predictions",
+      "schemaUrl": "https://replicate.com/stability-ai/sdxl",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large",
+      "name": "stable-diffusion-3.5-large",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large/predictions",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-1.1-pro-ultra",
+      "name": "flux-1.1-pro-ultra",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-1.1-pro-ultra",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro-ultra/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-1.1-pro-ultra",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-2-max",
+      "name": "flux-2-max",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-2-max",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "aspectRatios": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-2-max/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-2-max",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion",
+      "name": "stable-diffusion",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion/predictions",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/fofr/sticker-maker",
+      "name": "sticker-maker",
+      "provider": "replicate",
+      "modelId": "fofr/sticker-maker",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sticker-maker/predictions",
+      "schemaUrl": "https://replicate.com/fofr/sticker-maker",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/playgroundai/playground-v2.5-1024px-aesthetic",
+      "name": "playground-v2.5-1024px-aesthetic",
+      "provider": "replicate",
+      "modelId": "playgroundai/playground-v2.5-1024px-aesthetic",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/playgroundai/playground-v2.5-1024px-aesthetic/predictions",
+      "schemaUrl": "https://replicate.com/playgroundai/playground-v2.5-1024px-aesthetic",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/jagilley/controlnet-scribble",
+      "name": "controlnet-scribble",
+      "provider": "replicate",
+      "modelId": "jagilley/controlnet-scribble",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "qualityOptions": [
+        "256",
+        "512",
+        "768"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/jagilley/controlnet-scribble/predictions",
+      "schemaUrl": "https://replicate.com/jagilley/controlnet-scribble",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/fofr/sdxl-multi-controlnet-lora",
+      "name": "sdxl-multi-controlnet-lora",
+      "provider": "replicate",
+      "modelId": "fofr/sdxl-multi-controlnet-lora",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/sdxl-multi-controlnet-lora/predictions",
+      "schemaUrl": "https://replicate.com/fofr/sdxl-multi-controlnet-lora",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/fofr/latent-consistency-model",
+      "name": "latent-consistency-model",
+      "provider": "replicate",
+      "modelId": "fofr/latent-consistency-model",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/fofr/latent-consistency-model/predictions",
+      "schemaUrl": "https://replicate.com/fofr/latent-consistency-model",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/lucataco/dreamshaper-xl-turbo",
+      "name": "dreamshaper-xl-turbo",
+      "provider": "replicate",
+      "modelId": "lucataco/dreamshaper-xl-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/dreamshaper-xl-turbo/predictions",
+      "schemaUrl": "https://replicate.com/lucataco/dreamshaper-xl-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/lucataco/open-dalle-v1.1",
+      "name": "open-dalle-v1.1",
+      "provider": "replicate",
+      "modelId": "lucataco/open-dalle-v1.1",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/lucataco/open-dalle-v1.1/predictions",
+      "schemaUrl": "https://replicate.com/lucataco/open-dalle-v1.1",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/adirik/realvisxl-v3.0-turbo",
+      "name": "realvisxl-v3.0-turbo",
+      "provider": "replicate",
+      "modelId": "adirik/realvisxl-v3.0-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/adirik/realvisxl-v3.0-turbo/predictions",
+      "schemaUrl": "https://replicate.com/adirik/realvisxl-v3.0-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/datacte/proteus-v0.2",
+      "name": "proteus-v0.2",
+      "provider": "replicate",
+      "modelId": "datacte/proteus-v0.2",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/datacte/proteus-v0.2/predictions",
+      "schemaUrl": "https://replicate.com/datacte/proteus-v0.2",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-medium",
+      "name": "stable-diffusion-3.5-medium",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-medium",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-medium/predictions",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-medium",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/black-forest-labs/flux-schnell",
+      "name": "flux-schnell",
+      "provider": "replicate",
+      "modelId": "black-forest-labs/flux-schnell",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "16:9",
+        "21:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "3:4",
+        "4:3",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions",
+      "schemaUrl": "https://replicate.com/black-forest-labs/flux-schnell",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/stability-ai/stable-diffusion-3.5-large-turbo",
+      "name": "stable-diffusion-3.5-large-turbo",
+      "provider": "replicate",
+      "modelId": "stability-ai/stable-diffusion-3.5-large-turbo",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "16:9",
+        "1:1",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4",
+        "9:16",
+        "9:21"
+      ],
+      "outputFormats": [
+        "webp",
+        "jpg",
+        "png"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/stability-ai/stable-diffusion-3.5-large-turbo/predictions",
+      "schemaUrl": "https://replicate.com/stability-ai/stable-diffusion-3.5-large-turbo",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3",
+      "name": "recraft-v3",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "7:5",
+        "5:7",
+        "4:5",
+        "5:4",
+        "3:5",
+        "5:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1365,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1365
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1820,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1820
+        },
+        {
+          "width": 1024,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1024
+        },
+        {
+          "width": 1434,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1434
+        },
+        {
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1707
+        },
+        {
+          "width": 1707,
+          "height": 1024
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/recraft-ai/recraft-v3-svg",
+      "name": "recraft-v3-svg",
+      "provider": "replicate",
+      "modelId": "recraft-ai/recraft-v3-svg",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "aspectRatios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "16:9",
+        "9:16",
+        "1:2",
+        "2:1",
+        "7:5",
+        "5:7",
+        "4:5",
+        "5:4",
+        "3:5",
+        "5:3"
+      ],
+      "supportedResolutions": [
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 1365,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1365
+        },
+        {
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "width": 1820,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1820
+        },
+        {
+          "width": 1024,
+          "height": 2048
+        },
+        {
+          "width": 2048,
+          "height": 1024
+        },
+        {
+          "width": 1434,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1434
+        },
+        {
+          "width": 1024,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 1707
+        },
+        {
+          "width": 1707,
+          "height": 1024
+        }
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/recraft-ai/recraft-v3-svg/predictions",
+      "schemaUrl": "https://replicate.com/recraft-ai/recraft-v3-svg",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
+      "id": "replicate/nvidia/sana",
+      "name": "sana",
+      "provider": "replicate",
+      "modelId": "nvidia/sana",
+      "modality": "image",
+      "capability": "image_generation",
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "generationModes": [
+        "1600M-1024px",
+        "1600M-1024px-multilang",
+        "1600M-512px",
+        "600M-1024px-multilang",
+        "600M-512px-multilang"
+      ],
+      "endpointUrl": "https://api.replicate.com/v1/models/nvidia/sana/predictions",
+      "schemaUrl": "https://replicate.com/nvidia/sana",
+      "source": "replicate",
+      "lastSyncedAt": "2026-11-15T22:37:53.252Z"
+    },
+    {
       "id": "fala/fal-ai/flux-pro",
       "name": "Flux Pro",
       "provider": "fala",
@@ -108,7 +5825,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1",
@@ -134,7 +5851,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/flux-pro/v1.1-ultra",
@@ -160,7 +5877,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-pro/v1.1-ultra",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/flux-dev",
@@ -186,7 +5903,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-dev",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-dev",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/flux-schnell",
@@ -212,7 +5929,7 @@
       "endpointUrl": "https://fal.run/fal-ai/flux-schnell",
       "schemaUrl": "https://fal.ai/models/fal-ai/flux-schnell",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-v3-medium",
@@ -238,7 +5955,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-v3-medium",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-v3-medium",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/stable-diffusion-xl",
@@ -264,7 +5981,7 @@
       "endpointUrl": "https://fal.run/fal-ai/stable-diffusion-xl",
       "schemaUrl": "https://fal.ai/models/fal-ai/stable-diffusion-xl",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/ideogram",
@@ -290,7 +6007,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/ideogram/v2",
@@ -316,7 +6033,7 @@
       "endpointUrl": "https://fal.run/fal-ai/ideogram/v2",
       "schemaUrl": "https://fal.ai/models/fal-ai/ideogram/v2",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.667Z"
     },
     {
       "id": "fala/fal-ai/recraft-v3",
@@ -342,7 +6059,7 @@
       "endpointUrl": "https://fal.run/fal-ai/recraft-v3",
       "schemaUrl": "https://fal.ai/models/fal-ai/recraft-v3",
       "source": "fala",
-      "lastSyncedAt": "2026-11-15T13:41:30.927Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.668Z"
     },
     {
       "id": "huggingface/Comfy-Org/Qwen-Image-2.1",
@@ -359,7 +6076,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:30.995Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.757Z"
     },
     {
       "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
@@ -376,7 +6093,7 @@
       ],
       "schemaUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.013Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.782Z"
     },
     {
       "id": "huggingface/Comfy-Org/Krea-2",
@@ -393,7 +6110,7 @@
       ],
       "schemaUrl": "https://huggingface.co/Comfy-Org/Krea-2",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.032Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.799Z"
     },
     {
       "id": "huggingface/black-forest-labs/flux-3-image-klein-comfy",
@@ -411,7 +6128,7 @@
       ],
       "schemaUrl": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.071Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.914Z"
     },
     {
       "id": "huggingface/unsloth/Qwen-Image-Edit-2511-GGUF",
@@ -429,7 +6146,7 @@
       ],
       "schemaUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.089Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.933Z"
     },
     {
       "id": "huggingface/lightx2v/Qwen-Image-Edit-2511-Lightning",
@@ -447,7 +6164,7 @@
       ],
       "schemaUrl": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.107Z"
+      "lastSyncedAt": "2026-11-15T22:37:51.953Z"
     },
     {
       "id": "huggingface/ZhengPeng7/BiRefNet",
@@ -464,7 +6181,7 @@
       ],
       "schemaUrl": "https://huggingface.co/ZhengPeng7/BiRefNet",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.691Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.619Z"
     },
     {
       "id": "huggingface/CIDAS/clipseg-rd64-refined",
@@ -481,7 +6198,7 @@
       ],
       "schemaUrl": "https://huggingface.co/CIDAS/clipseg-rd64-refined",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.712Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.636Z"
     },
     {
       "id": "huggingface/briaai/RMBG-2.0",
@@ -498,7 +6215,7 @@
       ],
       "schemaUrl": "https://huggingface.co/briaai/RMBG-2.0",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.737Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.657Z"
     },
     {
       "id": "huggingface/google/vit-base-patch16-224",
@@ -515,7 +6232,7 @@
       ],
       "schemaUrl": "https://huggingface.co/google/vit-base-patch16-224",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.777Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.705Z"
     },
     {
       "id": "huggingface/timm/mobilenetv3_small_100.lamb_in1k",
@@ -532,7 +6249,7 @@
       ],
       "schemaUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.795Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.723Z"
     },
     {
       "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
@@ -549,7 +6266,7 @@
       ],
       "schemaUrl": "https://huggingface.co/prithivMLmods/Gender-Classifier-Mini",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.814Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.740Z"
     },
     {
       "id": "huggingface/laion/clap-htsat-fused",
@@ -566,7 +6283,7 @@
       ],
       "schemaUrl": "https://huggingface.co/laion/clap-htsat-fused",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.850Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.781Z"
     },
     {
       "id": "huggingface/audeering/wav2vec2-large-robust-24-ft-age-gender",
@@ -583,7 +6300,7 @@
       ],
       "schemaUrl": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.866Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.800Z"
     },
     {
       "id": "huggingface/MIT/ast-finetuned-audioset-10-10-0.4593",
@@ -600,8 +6317,8 @@
       ],
       "schemaUrl": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
       "source": "huggingface",
-      "lastSyncedAt": "2026-11-15T13:41:31.880Z"
+      "lastSyncedAt": "2026-11-15T22:37:52.818Z"
     }
   ],
-  "count": 28
+  "count": 117
 }
