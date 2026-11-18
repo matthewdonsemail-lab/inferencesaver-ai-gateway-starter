@@ -2256,12 +2256,12 @@
     "tokens": "nvidia/bigvgan_v2_44khz_128band_512x huggingface/nvidia/bigvgan_v2_44khz_128band_512x huggingface audio_generation audio   "
   },
   {
-    "id": "huggingface/Aratako/MioCodec-25Hz-44.1kHz-v2",
-    "name": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+    "id": "huggingface/ai-coustics/quail-voice-focus",
+    "name": "ai-coustics/quail-voice-focus",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_generation",
-    "tokens": "aratako/miocodec-25hz-44.1khz-v2 huggingface/aratako/miocodec-25hz-44.1khz-v2 huggingface audio_generation audio   "
+    "tokens": "ai-coustics/quail-voice-focus huggingface/ai-coustics/quail-voice-focus huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -2280,12 +2280,12 @@
     "tokens": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface/jonatasgrosman/wav2vec2-large-xlsr-53-japanese huggingface audio_transcription audio   "
   },
   {
-    "id": "huggingface/pyannote/speaker-diarization-3.1",
-    "name": "pyannote/speaker-diarization-3.1",
+    "id": "huggingface/Systran/faster-whisper-small",
+    "name": "Systran/faster-whisper-small",
     "provider": "huggingface",
     "modality": "audio",
     "capability": "audio_transcription",
-    "tokens": "pyannote/speaker-diarization-3.1 huggingface/pyannote/speaker-diarization-3.1 huggingface audio_transcription audio   "
+    "tokens": "systran/faster-whisper-small huggingface/systran/faster-whisper-small huggingface audio_transcription audio   "
   },
   {
     "id": "huggingface/ZhengPeng7/BiRefNet",
