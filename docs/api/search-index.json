@@ -2136,12 +2136,12 @@
     "tokens": "lightricks/ltx-2.5 huggingface/lightricks/ltx-2.5 huggingface video_generation video   "
   },
   {
-    "id": "huggingface/WarmBloodAban/Minimax-h3_Singularity",
-    "name": "WarmBloodAban/Minimax-h3_Singularity",
+    "id": "huggingface/Lightricks/LTX-Video",
+    "name": "Lightricks/LTX-Video",
     "provider": "huggingface",
     "modality": "video",
     "capability": "video_generation",
-    "tokens": "warmbloodaban/minimax-h3_singularity huggingface/warmbloodaban/minimax-h3_singularity huggingface video_generation video   "
+    "tokens": "lightricks/ltx-video huggingface/lightricks/ltx-video huggingface video_generation video   "
   },
   {
     "id": "huggingface/QuantStack/Wan2.2-T2V-A14B-GGUF",
@@ -2240,6 +2240,14 @@
     "tokens": "audio-cpp/minimax-music3-gguf huggingface/audio-cpp/minimax-music3-gguf huggingface audio_generation audio   "
   },
   {
+    "id": "huggingface/ai-coustics/quail-voice-focus",
+    "name": "ai-coustics/quail-voice-focus",
+    "provider": "huggingface",
+    "modality": "audio",
+    "capability": "audio_generation",
+    "tokens": "ai-coustics/quail-voice-focus huggingface/ai-coustics/quail-voice-focus huggingface audio_generation audio   "
+  },
+  {
     "id": "huggingface/nvidia/bigvgan_v2_22khz_80band_256x",
     "name": "nvidia/bigvgan_v2_22khz_80band_256x",
     "provider": "huggingface",
@@ -2254,14 +2262,6 @@
     "modality": "audio",
     "capability": "audio_generation",
     "tokens": "nvidia/bigvgan_v2_44khz_128band_512x huggingface/nvidia/bigvgan_v2_44khz_128band_512x huggingface audio_generation audio   "
-  },
-  {
-    "id": "huggingface/ai-coustics/quail-voice-focus",
-    "name": "ai-coustics/quail-voice-focus",
-    "provider": "huggingface",
-    "modality": "audio",
-    "capability": "audio_generation",
-    "tokens": "ai-coustics/quail-voice-focus huggingface/ai-coustics/quail-voice-focus huggingface audio_generation audio   "
   },
   {
     "id": "huggingface/argmaxinc/whisperkit-coreml",
@@ -2304,12 +2304,12 @@
     "tokens": "briaai/rmbg-2.0 huggingface/briaai/rmbg-2.0 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/CIDAS/clipseg-rd64-refined",
-    "name": "CIDAS/clipseg-rd64-refined",
+    "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
+    "name": "facebook/mask2former-swin-large-ade-semantic",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "cidas/clipseg-rd64-refined huggingface/cidas/clipseg-rd64-refined huggingface image_generation image   "
+    "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
   },
   {
     "id": "huggingface/google/vit-base-patch16-224",
