@@ -2328,12 +2328,12 @@
     "tokens": "timm/mobilenetv3_small_100.lamb_in1k huggingface/timm/mobilenetv3_small_100.lamb_in1k huggingface image_generation image   "
   },
   {
-    "id": "huggingface/prithivMLmods/Gender-Classifier-Mini",
-    "name": "prithivMLmods/Gender-Classifier-Mini",
+    "id": "huggingface/timm/tf_efficientnetv2_s.in21k_ft_in1k",
+    "name": "timm/tf_efficientnetv2_s.in21k_ft_in1k",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "prithivmlmods/gender-classifier-mini huggingface/prithivmlmods/gender-classifier-mini huggingface image_generation image   "
+    "tokens": "timm/tf_efficientnetv2_s.in21k_ft_in1k huggingface/timm/tf_efficientnetv2_s.in21k_ft_in1k huggingface image_generation image   "
   },
   {
     "id": "huggingface/laion/clap-htsat-fused",
