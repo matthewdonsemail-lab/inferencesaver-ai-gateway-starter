@@ -2080,12 +2080,12 @@
     "tokens": "comfy-org/qwen-image-2.1 huggingface/comfy-org/qwen-image-2.1 huggingface image_generation image   "
   },
   {
-    "id": "huggingface/stabilityai/stable-diffusion-xl-base-1.0",
-    "name": "stabilityai/stable-diffusion-xl-base-1.0",
+    "id": "huggingface/Comfy-Org/MiniMax-H3-Image",
+    "name": "Comfy-Org/MiniMax-H3-Image",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
-    "tokens": "stabilityai/stable-diffusion-xl-base-1.0 huggingface/stabilityai/stable-diffusion-xl-base-1.0 huggingface image_generation image   "
+    "tokens": "comfy-org/minimax-h3-image huggingface/comfy-org/minimax-h3-image huggingface image_generation image   "
   },
   {
     "id": "huggingface/Comfy-Org/Krea-2",
@@ -2296,20 +2296,20 @@
     "tokens": "zhengpeng7/birefnet huggingface/zhengpeng7/birefnet huggingface image_generation image   "
   },
   {
-    "id": "huggingface/briaai/RMBG-2.0",
-    "name": "briaai/RMBG-2.0",
-    "provider": "huggingface",
-    "modality": "image",
-    "capability": "image_generation",
-    "tokens": "briaai/rmbg-2.0 huggingface/briaai/rmbg-2.0 huggingface image_generation image   "
-  },
-  {
     "id": "huggingface/facebook/mask2former-swin-large-ade-semantic",
     "name": "facebook/mask2former-swin-large-ade-semantic",
     "provider": "huggingface",
     "modality": "image",
     "capability": "image_generation",
     "tokens": "facebook/mask2former-swin-large-ade-semantic huggingface/facebook/mask2former-swin-large-ade-semantic huggingface image_generation image   "
+  },
+  {
+    "id": "huggingface/briaai/RMBG-2.0",
+    "name": "briaai/RMBG-2.0",
+    "provider": "huggingface",
+    "modality": "image",
+    "capability": "image_generation",
+    "tokens": "briaai/rmbg-2.0 huggingface/briaai/rmbg-2.0 huggingface image_generation image   "
   },
   {
     "id": "huggingface/google/vit-base-patch16-224",
